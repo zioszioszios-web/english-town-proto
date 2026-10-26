@@ -76,3 +76,26 @@ test('Lv3 matches pinned NAWL minus lower levels and loads independently', async
   assert.equal(wordsReady(3),true);
   assert.equal((await loadWords(3))?.length,374);
 });
+
+
+test('Lv4 matches numbered TSL source, excludes lower words and keeps canonical input accessible', async () => {
+  const {default: entries}=await import('../src/data/words/lv4.json');
+  const {default: source}=await import('../data/sources/tsl-lv4-raw.json');
+  const {createHash}=await import('node:crypto');
+  const {readFile}=await import('node:fs/promises');
+  const {loadWords,wordBankInfo}=await import('../src/data/words/catalog');
+  validateWords(entries);
+  assert.equal(source.sourceWordCount,1250);
+  assert.equal(source.excludedCount,887);
+  assert.equal(source.uniqueWordCount,363);
+  assert.equal(entries.length,363);
+  assert.equal(createHash('sha256').update(await readFile('data/sources/tsl-1.2-alphabetized.txt')).digest('hex'),source.sha256);
+  const lower=new Set<string>();
+  for(const level of [1,2,3] as const)for(const w of await loadWords(level)??[])lower.add(normalizeWord(w.word));
+  const official=new Set(source.words.map(w=>w.word));
+  for(const w of entries){assert.ok(official.has(w.word));assert.ok(!lower.has(normalizeWord(w.word)),w.word);assert.match(w.word,/^[a-z-]+$/);}
+  assert.ok(source.words.some(w=>w.word==='entree'&&w.original==='entr'+String.fromCharCode(233)+'e'));
+  assert.ok(!entries.some(w=>['cafe','resume','advisor','donut','sock'].includes(w.word)));
+  assert.equal((await loadWords(4))?.length,363);
+  assert.equal(wordBankInfo(4).reviewCount,22);
+});

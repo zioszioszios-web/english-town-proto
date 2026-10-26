@@ -1,0 +1,6391 @@
+[
+  {
+    "id": "lv4-0001",
+    "word": "adapter",
+    "pos": "n.",
+    "zh": [
+      "轉接器",
+      "變壓器"
+    ],
+    "example": "Do you have a travel adapter?",
+    "exampleZh": "你有旅行用轉接器嗎？",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "daily_life",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0002",
+    "word": "additionally",
+    "pos": "adv.",
+    "zh": [
+      "此外"
+    ],
+    "example": "Additionally, breakfast is included.",
+    "exampleZh": "此外，費用包含早餐。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0003",
+    "word": "adhere",
+    "pos": "v.",
+    "zh": [
+      "遵守",
+      "黏附"
+    ],
+    "example": "Please adhere to the safety rules.",
+    "exampleZh": "請遵守安全規則。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0004",
+    "word": "advancement",
+    "pos": "n.",
+    "zh": [
+      "進展",
+      "升遷"
+    ],
+    "example": "The job offers career advancement.",
+    "exampleZh": "這份工作有升遷機會。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0005",
+    "word": "advertiser",
+    "pos": "n.",
+    "zh": [
+      "廣告主"
+    ],
+    "example": "The advertiser approved the design.",
+    "exampleZh": "廣告主核准了設計。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0006",
+    "word": "advisable",
+    "pos": "adj.",
+    "zh": [
+      "明智的",
+      "可取的"
+    ],
+    "example": "Booking early is advisable.",
+    "exampleZh": "建議提早預訂。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0007",
+    "word": "affirmative",
+    "pos": "adj.;n.",
+    "zh": [
+      "肯定的",
+      "贊同"
+    ],
+    "example": "We received an affirmative reply.",
+    "exampleZh": "我們收到肯定答覆。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0008",
+    "word": "affordable",
+    "pos": "adj.",
+    "zh": [
+      "負擔得起的"
+    ],
+    "example": "We need affordable housing.",
+    "exampleZh": "我們需要負擔得起的住宅。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0009",
+    "word": "airfare",
+    "pos": "n.",
+    "zh": [
+      "機票費"
+    ],
+    "example": "Does the price include airfare?",
+    "exampleZh": "價格包含機票費嗎？",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0010",
+    "word": "alternatively",
+    "pos": "adv.",
+    "zh": [
+      "或者",
+      "作為替代"
+    ],
+    "example": "Alternatively, you can take the train.",
+    "exampleZh": "或者，你可以搭火車。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0011",
+    "word": "amenity",
+    "pos": "n.",
+    "zh": [
+      "便利設施"
+    ],
+    "example": "The pool is a popular hotel amenity.",
+    "exampleZh": "泳池是飯店受歡迎的設施。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0012",
+    "word": "anew",
+    "pos": "adv.",
+    "zh": [
+      "重新"
+    ],
+    "example": "We decided to start anew.",
+    "exampleZh": "我們決定重新開始。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0013",
+    "word": "announcer",
+    "pos": "n.",
+    "zh": [
+      "廣播員",
+      "播報員"
+    ],
+    "example": "The announcer read the results.",
+    "exampleZh": "播報員宣讀了結果。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0014",
+    "word": "annually",
+    "pos": "adv.",
+    "zh": [
+      "每年"
+    ],
+    "example": "The fee is paid annually.",
+    "exampleZh": "這筆費用每年繳一次。",
+    "level": 4,
+    "topics": [
+      "time_numbers",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0015",
+    "word": "appetizer",
+    "pos": "n.",
+    "zh": [
+      "開胃菜"
+    ],
+    "example": "We shared an appetizer.",
+    "exampleZh": "我們分著吃一道開胃菜。",
+    "level": 4,
+    "topics": [
+      "food_drink"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0016",
+    "word": "appraisal",
+    "pos": "n.",
+    "zh": [
+      "評估",
+      "考核"
+    ],
+    "example": "My performance appraisal is tomorrow.",
+    "exampleZh": "我的績效考核在明天。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0017",
+    "word": "apprehensive",
+    "pos": "adj.",
+    "zh": [
+      "憂慮的"
+    ],
+    "example": "She felt apprehensive about the interview.",
+    "exampleZh": "她對面試感到憂慮。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0018",
+    "word": "arc",
+    "pos": "n.;v.",
+    "zh": [
+      "弧線",
+      "呈弧線移動"
+    ],
+    "example": "The bridge forms a gentle arc.",
+    "exampleZh": "這座橋形成平緩的弧線。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0019",
+    "word": "architectural",
+    "pos": "adj.",
+    "zh": [
+      "建築的"
+    ],
+    "example": "The city has architectural charm.",
+    "exampleZh": "這座城市有建築之美。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0020",
+    "word": "attendee",
+    "pos": "n.",
+    "zh": [
+      "出席者"
+    ],
+    "example": "Each attendee received a badge.",
+    "exampleZh": "每位出席者都拿到名牌。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0021",
+    "word": "attire",
+    "pos": "n.",
+    "zh": [
+      "服裝"
+    ],
+    "example": "Business attire is required.",
+    "exampleZh": "請穿商務服裝。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0022",
+    "word": "audition",
+    "pos": "n.;v.",
+    "zh": [
+      "試鏡",
+      "試演"
+    ],
+    "example": "She has an audition tomorrow.",
+    "exampleZh": "她明天要試鏡。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0023",
+    "word": "auditor",
+    "pos": "n.",
+    "zh": [
+      "稽核人員",
+      "旁聽生"
+    ],
+    "example": "The auditor checked the accounts.",
+    "exampleZh": "稽核人員檢查了帳目。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0024",
+    "word": "authorization",
+    "pos": "n.",
+    "zh": [
+      "授權",
+      "核准"
+    ],
+    "example": "You need authorization to enter.",
+    "exampleZh": "你需要獲得核准才能進入。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0025",
+    "word": "auto",
+    "pos": "n.;adj.",
+    "zh": [
+      "汽車",
+      "汽車的"
+    ],
+    "example": "He works in auto repair.",
+    "exampleZh": "他從事汽車修理。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0026",
+    "word": "automate",
+    "pos": "v.",
+    "zh": [
+      "自動化"
+    ],
+    "example": "We plan to automate the process.",
+    "exampleZh": "我們計畫將流程自動化。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0027",
+    "word": "automotive",
+    "pos": "adj.",
+    "zh": [
+      "汽車的"
+    ],
+    "example": "She works in the automotive industry.",
+    "exampleZh": "她在汽車業工作。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0028",
+    "word": "baker",
+    "pos": "n.",
+    "zh": [
+      "烘焙師"
+    ],
+    "example": "The baker made fresh bread.",
+    "exampleZh": "烘焙師做了新鮮麵包。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0029",
+    "word": "ballroom",
+    "pos": "n.",
+    "zh": [
+      "宴會廳",
+      "舞廳"
+    ],
+    "example": "The wedding is in the ballroom.",
+    "exampleZh": "婚禮在宴會廳舉行。",
+    "level": 4,
+    "topics": [
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0030",
+    "word": "bankruptcy",
+    "pos": "n.",
+    "zh": [
+      "破產"
+    ],
+    "example": "The company filed for bankruptcy.",
+    "exampleZh": "這家公司聲請破產。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0031",
+    "word": "blueprint",
+    "pos": "n.",
+    "zh": [
+      "藍圖",
+      "計畫"
+    ],
+    "example": "The architect showed us the blueprint.",
+    "exampleZh": "建築師向我們展示藍圖。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0032",
+    "word": "boardroom",
+    "pos": "n.",
+    "zh": [
+      "董事會議室"
+    ],
+    "example": "The boardroom is on the third floor.",
+    "exampleZh": "董事會議室在三樓。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0033",
+    "word": "brainstorm",
+    "pos": "v.;n.",
+    "zh": [
+      "腦力激盪",
+      "靈感"
+    ],
+    "example": "Let us brainstorm some ideas.",
+    "exampleZh": "我們來腦力激盪一些點子。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0034",
+    "word": "broker",
+    "pos": "n.",
+    "zh": [
+      "經紀人",
+      "仲介"
+    ],
+    "example": "The broker arranged the sale.",
+    "exampleZh": "經紀人安排了這筆交易。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0035",
+    "word": "businessperson",
+    "pos": "n.",
+    "zh": [
+      "商務人士",
+      "企業家"
+    ],
+    "example": "A businessperson needs clear communication skills.",
+    "exampleZh": "商務人士需要清楚溝通的能力。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0036",
+    "word": "bye",
+    "pos": "interj.",
+    "zh": [
+      "再見"
+    ],
+    "example": "Bye, see you tomorrow!",
+    "exampleZh": "再見，明天見！",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0037",
+    "word": "by-law",
+    "pos": "n.",
+    "zh": [
+      "自治條例",
+      "組織章程"
+    ],
+    "example": "The council approved a new by-law.",
+    "exampleZh": "地方議會通過一項新的自治條例。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0038",
+    "word": "cab",
+    "pos": "n.",
+    "zh": [
+      "計程車",
+      "駕駛室"
+    ],
+    "example": "Could you call me a cab?",
+    "exampleZh": "可以幫我叫計程車嗎？",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0039",
+    "word": "caller",
+    "pos": "n.",
+    "zh": [
+      "來電者"
+    ],
+    "example": "The caller asked for the manager.",
+    "exampleZh": "來電者要求找經理。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0040",
+    "word": "cancellation",
+    "pos": "n.",
+    "zh": [
+      "取消"
+    ],
+    "example": "Is there a cancellation fee?",
+    "exampleZh": "取消需要付費嗎？",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0041",
+    "word": "cartridge",
+    "pos": "n.",
+    "zh": [
+      "匣",
+      "墨水匣"
+    ],
+    "example": "Replace the printer cartridge.",
+    "exampleZh": "更換印表機墨水匣。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0042",
+    "word": "caterer",
+    "pos": "n.",
+    "zh": [
+      "餐飲承辦業者"
+    ],
+    "example": "The caterer will provide lunch.",
+    "exampleZh": "餐飲承辦業者會提供午餐。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0043",
+    "word": "certification",
+    "pos": "n.",
+    "zh": [
+      "認證",
+      "證照"
+    ],
+    "example": "This job requires certification.",
+    "exampleZh": "這份工作需要證照。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0044",
+    "word": "checkout",
+    "pos": "n.",
+    "zh": [
+      "結帳處",
+      "退房"
+    ],
+    "example": "What time is checkout?",
+    "exampleZh": "退房時間是幾點？",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0045",
+    "word": "cheeseburger",
+    "pos": "n.",
+    "zh": [
+      "起司漢堡"
+    ],
+    "example": "I ordered a cheeseburger.",
+    "exampleZh": "我點了起司漢堡。",
+    "level": 4,
+    "topics": [
+      "food_drink"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0046",
+    "word": "cleanliness",
+    "pos": "n.",
+    "zh": [
+      "清潔",
+      "乾淨程度"
+    ],
+    "example": "Guests value cleanliness.",
+    "exampleZh": "住客重視清潔。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0047",
+    "word": "comfortably",
+    "pos": "adv.",
+    "zh": [
+      "舒適地"
+    ],
+    "example": "The room seats six comfortably.",
+    "exampleZh": "這個房間能讓六個人舒適就座。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0048",
+    "word": "compartment",
+    "pos": "n.",
+    "zh": [
+      "隔間",
+      "置物空間"
+    ],
+    "example": "Store your bag in the overhead compartment.",
+    "exampleZh": "把包包放進上方置物空間。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0049",
+    "word": "completion",
+    "pos": "n.",
+    "zh": [
+      "完成"
+    ],
+    "example": "The project is near completion.",
+    "exampleZh": "這個專案即將完成。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0050",
+    "word": "complimentary",
+    "pos": "adj.",
+    "zh": [
+      "免費贈送的",
+      "讚美的"
+    ],
+    "example": "We offer complimentary coffee.",
+    "exampleZh": "我們提供免費咖啡。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0051",
+    "word": "concierge",
+    "pos": "n.",
+    "zh": [
+      "禮賓人員"
+    ],
+    "example": "Ask the concierge about local tours.",
+    "exampleZh": "向禮賓人員詢問當地行程。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0052",
+    "word": "conditioner",
+    "pos": "n.",
+    "zh": [
+      "潤髮乳",
+      "調節裝置"
+    ],
+    "example": "Is conditioner provided in the room?",
+    "exampleZh": "房內有提供潤髮乳嗎？",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "travel_lodging",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0053",
+    "word": "condominium",
+    "pos": "n.",
+    "zh": [
+      "公寓住宅",
+      "共管公寓"
+    ],
+    "example": "She owns a condominium.",
+    "exampleZh": "她擁有一戶公寓。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0054",
+    "word": "confirmation",
+    "pos": "n.",
+    "zh": [
+      "確認",
+      "確認通知"
+    ],
+    "example": "Please send a booking confirmation.",
+    "exampleZh": "請寄送訂房確認通知。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0055",
+    "word": "congestion",
+    "pos": "n.",
+    "zh": [
+      "壅塞",
+      "充血",
+      "鼻塞"
+    ],
+    "example": "Traffic congestion delayed us.",
+    "exampleZh": "交通壅塞讓我們延誤了。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0056",
+    "word": "considerably",
+    "pos": "adv.",
+    "zh": [
+      "相當大程度地"
+    ],
+    "example": "The new route is considerably shorter.",
+    "exampleZh": "新路線短了很多。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0057",
+    "word": "consignment",
+    "pos": "n.",
+    "zh": [
+      "託運貨物",
+      "寄售"
+    ],
+    "example": "The consignment arrived today.",
+    "exampleZh": "這批託運貨物今天抵達。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0058",
+    "word": "consistently",
+    "pos": "adv.",
+    "zh": [
+      "一貫地",
+      "持續地"
+    ],
+    "example": "The hotel consistently receives good reviews.",
+    "exampleZh": "這間飯店一向獲得好評。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0059",
+    "word": "contraction",
+    "pos": "n.",
+    "zh": [
+      "收縮",
+      "縮寫"
+    ],
+    "example": "This contraction combines two words.",
+    "exampleZh": "這個縮寫結合了兩個字。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0060",
+    "word": "conveniently",
+    "pos": "adv.",
+    "zh": [
+      "方便地"
+    ],
+    "example": "The hotel is conveniently located.",
+    "exampleZh": "這間飯店的位置很方便。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0061",
+    "word": "cookbook",
+    "pos": "n.",
+    "zh": [
+      "食譜書"
+    ],
+    "example": "She published a cookbook.",
+    "exampleZh": "她出版了一本食譜書。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0062",
+    "word": "cooler",
+    "pos": "n.",
+    "zh": [
+      "保冷箱",
+      "冷卻器"
+    ],
+    "example": "Keep the drinks in the cooler.",
+    "exampleZh": "把飲料放在保冷箱裡。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "travel_lodging",
+      "nature_outdoor"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0063",
+    "word": "coordinator",
+    "pos": "n.",
+    "zh": [
+      "協調人員"
+    ],
+    "example": "The coordinator confirmed the schedule.",
+    "exampleZh": "協調人員確認了行程。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0064",
+    "word": "copier",
+    "pos": "n.",
+    "zh": [
+      "影印機"
+    ],
+    "example": "The copier needs paper.",
+    "exampleZh": "影印機需要補紙。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0065",
+    "word": "cordless",
+    "pos": "adj.",
+    "zh": [
+      "無線的"
+    ],
+    "example": "We bought a cordless phone.",
+    "exampleZh": "我們買了無線電話。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0066",
+    "word": "courier",
+    "pos": "n.",
+    "zh": [
+      "快遞員",
+      "快遞公司"
+    ],
+    "example": "The courier delivered the package.",
+    "exampleZh": "快遞員送來包裹。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0067",
+    "word": "coworker",
+    "pos": "n.",
+    "zh": [
+      "同事"
+    ],
+    "example": "My coworker helped me.",
+    "exampleZh": "同事幫了我。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0068",
+    "word": "culinary",
+    "pos": "adj.",
+    "zh": [
+      "烹飪的"
+    ],
+    "example": "She takes culinary classes.",
+    "exampleZh": "她上烹飪課。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0069",
+    "word": "customize",
+    "pos": "v.",
+    "zh": [
+      "客製化"
+    ],
+    "example": "Can we customize the menu?",
+    "exampleZh": "我們可以客製化菜單嗎？",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0070",
+    "word": "daytime",
+    "pos": "n.;adj.",
+    "zh": [
+      "白天",
+      "白天的"
+    ],
+    "example": "The street is busy in the daytime.",
+    "exampleZh": "這條街白天很熱鬧。",
+    "level": 4,
+    "topics": [
+      "time_numbers",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0071",
+    "word": "dealership",
+    "pos": "n.",
+    "zh": [
+      "經銷商",
+      "經銷店"
+    ],
+    "example": "The car dealership opens at nine.",
+    "exampleZh": "汽車經銷店九點開門。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0072",
+    "word": "debit",
+    "pos": "n.;v.",
+    "zh": [
+      "借記",
+      "扣款",
+      "扣除"
+    ],
+    "example": "There is a debit on my account.",
+    "exampleZh": "我的帳戶有一筆扣款。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0073",
+    "word": "deduction",
+    "pos": "n.",
+    "zh": [
+      "扣除額",
+      "推論"
+    ],
+    "example": "The payslip shows a tax deduction.",
+    "exampleZh": "薪資單列出一筆稅款扣除額。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0074",
+    "word": "defective",
+    "pos": "adj.",
+    "zh": [
+      "有瑕疵的"
+    ],
+    "example": "The product is defective.",
+    "exampleZh": "這項產品有瑕疵。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0075",
+    "word": "delete",
+    "pos": "v.",
+    "zh": [
+      "刪除"
+    ],
+    "example": "Please delete the old file.",
+    "exampleZh": "請刪除舊檔。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0076",
+    "word": "deluxe",
+    "pos": "adj.",
+    "zh": [
+      "豪華的"
+    ],
+    "example": "We booked a deluxe room.",
+    "exampleZh": "我們訂了豪華客房。",
+    "level": 4,
+    "topics": [
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0077",
+    "word": "demolish",
+    "pos": "v.",
+    "zh": [
+      "拆除"
+    ],
+    "example": "They plan to demolish the old warehouse.",
+    "exampleZh": "他們計畫拆除舊倉庫。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0078",
+    "word": "departmental",
+    "pos": "adj.",
+    "zh": [
+      "部門的"
+    ],
+    "example": "The departmental meeting starts now.",
+    "exampleZh": "部門會議現在開始。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0079",
+    "word": "dependable",
+    "pos": "adj.",
+    "zh": [
+      "可靠的"
+    ],
+    "example": "We need a dependable supplier.",
+    "exampleZh": "我們需要可靠的供應商。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0080",
+    "word": "designate",
+    "pos": "v.",
+    "zh": [
+      "指定"
+    ],
+    "example": "Please designate a team leader.",
+    "exampleZh": "請指定一位組長。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0081",
+    "word": "desktop",
+    "pos": "n.;adj.",
+    "zh": [
+      "桌面",
+      "桌上型電腦",
+      "桌上型的"
+    ],
+    "example": "Save the file on your desktop.",
+    "exampleZh": "把檔案存到桌面。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0082",
+    "word": "deteriorate",
+    "pos": "v.",
+    "zh": [
+      "惡化",
+      "變差"
+    ],
+    "example": "Road conditions may deteriorate.",
+    "exampleZh": "路況可能惡化。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0083",
+    "word": "devastate",
+    "pos": "v.",
+    "zh": [
+      "摧毀",
+      "使悲痛"
+    ],
+    "example": "The storm could devastate the coast.",
+    "exampleZh": "暴風雨可能重創海岸。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "transport_city",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0084",
+    "word": "developer",
+    "pos": "n.",
+    "zh": [
+      "開發者",
+      "開發商"
+    ],
+    "example": "The developer presented a housing plan.",
+    "exampleZh": "開發商提出住宅計畫。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0085",
+    "word": "diner",
+    "pos": "n.",
+    "zh": [
+      "用餐者",
+      "美式餐館"
+    ],
+    "example": "The diner asked for the bill.",
+    "exampleZh": "那位用餐者要求結帳。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0086",
+    "word": "discontinue",
+    "pos": "v.",
+    "zh": [
+      "停止",
+      "停產"
+    ],
+    "example": "We will discontinue this service.",
+    "exampleZh": "我們將停止這項服務。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0087",
+    "word": "discrepancy",
+    "pos": "n.",
+    "zh": [
+      "差異",
+      "不一致"
+    ],
+    "example": "There is a discrepancy in the bill.",
+    "exampleZh": "帳單上有不一致的地方。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0088",
+    "word": "dishwasher",
+    "pos": "n.",
+    "zh": [
+      "洗碗機",
+      "洗碗人員"
+    ],
+    "example": "The dishwasher is broken.",
+    "exampleZh": "洗碗機壞了。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "food_drink",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0089",
+    "word": "dispatch",
+    "pos": "v.;n.",
+    "zh": [
+      "派遣",
+      "發送",
+      "派遣通知"
+    ],
+    "example": "We will dispatch your order today.",
+    "exampleZh": "我們今天會寄出你的訂單。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0090",
+    "word": "disruption",
+    "pos": "n.",
+    "zh": [
+      "中斷",
+      "干擾"
+    ],
+    "example": "The repairs caused a service disruption.",
+    "exampleZh": "維修造成服務中斷。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0091",
+    "word": "dissatisfy",
+    "pos": "v.",
+    "zh": [
+      "使不滿意"
+    ],
+    "example": "Long delays can dissatisfy customers.",
+    "exampleZh": "長時間延誤可能讓顧客不滿。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0092",
+    "word": "distractor",
+    "pos": "n.",
+    "zh": [
+      "干擾選項",
+      "分心的事物"
+    ],
+    "example": "The test includes a plausible distractor.",
+    "exampleZh": "這題測驗包含看似合理的干擾選項。",
+    "level": 4,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0093",
+    "word": "distributor",
+    "pos": "n.",
+    "zh": [
+      "經銷商",
+      "分銷商"
+    ],
+    "example": "Contact the local distributor.",
+    "exampleZh": "聯絡當地經銷商。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0094",
+    "word": "documentation",
+    "pos": "n.",
+    "zh": [
+      "文件資料",
+      "說明文件"
+    ],
+    "example": "Please read the documentation.",
+    "exampleZh": "請閱讀說明文件。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0095",
+    "word": "doorman",
+    "pos": "n.",
+    "zh": [
+      "門僮",
+      "門房"
+    ],
+    "example": "The doorman called a taxi.",
+    "exampleZh": "門房叫了計程車。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0096",
+    "word": "downsize",
+    "pos": "v.",
+    "zh": [
+      "縮編",
+      "縮小規模"
+    ],
+    "example": "The company plans to downsize.",
+    "exampleZh": "這家公司計畫縮編。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0097",
+    "word": "downturn",
+    "pos": "n.",
+    "zh": [
+      "衰退",
+      "下滑"
+    ],
+    "example": "The downturn affected sales.",
+    "exampleZh": "景氣衰退影響銷售。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0098",
+    "word": "drastically",
+    "pos": "adv.",
+    "zh": [
+      "大幅地",
+      "徹底地"
+    ],
+    "example": "Prices changed drastically.",
+    "exampleZh": "價格大幅變動。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0099",
+    "word": "drawback",
+    "pos": "n.",
+    "zh": [
+      "缺點",
+      "不利條件"
+    ],
+    "example": "The main drawback is the cost.",
+    "exampleZh": "主要缺點是成本。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0100",
+    "word": "duplicate",
+    "pos": "v.;n.;adj.",
+    "zh": [
+      "複製",
+      "副本",
+      "重複的"
+    ],
+    "example": "Please keep a duplicate of the receipt.",
+    "exampleZh": "請保留收據副本。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0101",
+    "word": "e-book",
+    "pos": "n.",
+    "zh": [
+      "電子書"
+    ],
+    "example": "I borrowed an e-book.",
+    "exampleZh": "我借了一本電子書。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0102",
+    "word": "economize",
+    "pos": "v.",
+    "zh": [
+      "節約",
+      "節省"
+    ],
+    "example": "We need to economize on travel costs.",
+    "exampleZh": "我們需要節省差旅費。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0103",
+    "word": "efficiently",
+    "pos": "adv.",
+    "zh": [
+      "有效率地"
+    ],
+    "example": "The team works efficiently.",
+    "exampleZh": "團隊工作很有效率。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0104",
+    "word": "electronically",
+    "pos": "adv.",
+    "zh": [
+      "以電子方式"
+    ],
+    "example": "Please submit the form electronically.",
+    "exampleZh": "請以電子方式提交表格。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0105",
+    "word": "enthusiast",
+    "pos": "n.",
+    "zh": [
+      "愛好者"
+    ],
+    "example": "She is a hiking enthusiast.",
+    "exampleZh": "她是健行愛好者。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0106",
+    "word": "enthusiastically",
+    "pos": "adv.",
+    "zh": [
+      "熱情地"
+    ],
+    "example": "The staff welcomed us enthusiastically.",
+    "exampleZh": "員工熱情歡迎我們。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0107",
+    "word": "entree",
+    "pos": "n.",
+    "zh": [
+      "主餐（美式用法）"
+    ],
+    "example": "Which entree would you like?",
+    "exampleZh": "你想要哪一道主餐？",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0108",
+    "word": "environmentally",
+    "pos": "adv.",
+    "zh": [
+      "在環境方面"
+    ],
+    "example": "We choose environmentally friendly products.",
+    "exampleZh": "我們選擇環境友善產品。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0109",
+    "word": "euro",
+    "pos": "n.",
+    "zh": [
+      "歐元"
+    ],
+    "example": "The ticket costs one euro.",
+    "exampleZh": "這張票一歐元。",
+    "level": 4,
+    "topics": [
+      "time_numbers",
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0110",
+    "word": "evenly",
+    "pos": "adv.",
+    "zh": [
+      "均勻地",
+      "平均地"
+    ],
+    "example": "Divide the work evenly.",
+    "exampleZh": "平均分配工作。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0111",
+    "word": "exclusively",
+    "pos": "adv.",
+    "zh": [
+      "專門地",
+      "僅限地"
+    ],
+    "example": "The lounge is exclusively for guests.",
+    "exampleZh": "這間休息室僅供住客使用。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0112",
+    "word": "excursion",
+    "pos": "n.",
+    "zh": [
+      "短途旅行"
+    ],
+    "example": "We booked a day excursion.",
+    "exampleZh": "我們預訂了一日遊。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "nature_outdoor"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0113",
+    "word": "exemption",
+    "pos": "n.",
+    "zh": [
+      "豁免",
+      "免除"
+    ],
+    "example": "She applied for a fee exemption.",
+    "exampleZh": "她申請費用減免。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0114",
+    "word": "expedite",
+    "pos": "v.",
+    "zh": [
+      "加快處理"
+    ],
+    "example": "Can you expedite the shipment?",
+    "exampleZh": "你能加快這批貨的運送嗎？",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0115",
+    "word": "explanatory",
+    "pos": "adj.",
+    "zh": [
+      "解釋性的"
+    ],
+    "example": "The guide includes explanatory notes.",
+    "exampleZh": "這份指南包含解釋性註記。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0116",
+    "word": "explorer",
+    "pos": "n.",
+    "zh": [
+      "探險家",
+      "探索者"
+    ],
+    "example": "The explorer crossed the desert.",
+    "exampleZh": "探險家穿越沙漠。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0117",
+    "word": "extinguisher",
+    "pos": "n.",
+    "zh": [
+      "滅火器"
+    ],
+    "example": "Where is the fire extinguisher?",
+    "exampleZh": "滅火器在哪裡？",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0118",
+    "word": "factual",
+    "pos": "adj.",
+    "zh": [
+      "基於事實的"
+    ],
+    "example": "The report should be factual.",
+    "exampleZh": "報告應以事實為依據。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0119",
+    "word": "familiarize",
+    "pos": "v.",
+    "zh": [
+      "使熟悉"
+    ],
+    "example": "Please familiarize yourself with the route.",
+    "exampleZh": "請先熟悉路線。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0120",
+    "word": "faulty",
+    "pos": "adj.",
+    "zh": [
+      "有故障的",
+      "有缺陷的"
+    ],
+    "example": "The air conditioner is faulty.",
+    "exampleZh": "冷氣有故障。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "daily_life",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0121",
+    "word": "finalize",
+    "pos": "v.",
+    "zh": [
+      "完成最後確認",
+      "定案"
+    ],
+    "example": "We will finalize the schedule today.",
+    "exampleZh": "我們今天會敲定行程。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0122",
+    "word": "firefighter",
+    "pos": "n.",
+    "zh": [
+      "消防員"
+    ],
+    "example": "The firefighter rescued the cat.",
+    "exampleZh": "消防員救出了那隻貓。",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0123",
+    "word": "fitness",
+    "pos": "n.",
+    "zh": [
+      "體適能",
+      "健康狀態"
+    ],
+    "example": "The hotel has a fitness center.",
+    "exampleZh": "飯店設有健身中心。",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "school_sports",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0124",
+    "word": "fixture",
+    "pos": "n.",
+    "zh": [
+      "固定裝置",
+      "固定賽程"
+    ],
+    "example": "This light fixture is broken.",
+    "exampleZh": "這盞固定燈具壞了。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "travel_lodging",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0125",
+    "word": "flextime",
+    "pos": "n.",
+    "zh": [
+      "彈性工時"
+    ],
+    "example": "Our company offers flextime.",
+    "exampleZh": "我們公司提供彈性工時。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0126",
+    "word": "fluctuate",
+    "pos": "v.",
+    "zh": [
+      "波動"
+    ],
+    "example": "Hotel prices fluctuate by season.",
+    "exampleZh": "房價隨季節波動。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0127",
+    "word": "flyer",
+    "pos": "n.",
+    "zh": [
+      "傳單",
+      "飛行者"
+    ],
+    "example": "A flyer lists the event details.",
+    "exampleZh": "傳單列出活動詳情。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0128",
+    "word": "folder",
+    "pos": "n.",
+    "zh": [
+      "資料夾"
+    ],
+    "example": "Save the file in this folder.",
+    "exampleZh": "把檔案存進這個資料夾。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0129",
+    "word": "footwear",
+    "pos": "n.",
+    "zh": [
+      "鞋類"
+    ],
+    "example": "Suitable footwear is required.",
+    "exampleZh": "請穿合適的鞋子。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0130",
+    "word": "foreman",
+    "pos": "n.",
+    "zh": [
+      "工頭",
+      "領班"
+    ],
+    "example": "The foreman checked the site.",
+    "exampleZh": "工頭檢查了工地。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0131",
+    "word": "fortunately",
+    "pos": "adv.",
+    "zh": [
+      "幸好"
+    ],
+    "example": "Fortunately, no one was hurt.",
+    "exampleZh": "幸好沒有人受傷。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0132",
+    "word": "freelance",
+    "pos": "adj.;adv.;v.",
+    "zh": [
+      "自由接案的",
+      "以接案方式",
+      "接案"
+    ],
+    "example": "She does freelance design work.",
+    "exampleZh": "她接設計案。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0133",
+    "word": "freighter",
+    "pos": "n.",
+    "zh": [
+      "貨輪",
+      "貨機"
+    ],
+    "example": "The freighter arrived at the port.",
+    "exampleZh": "貨輪抵達港口。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0134",
+    "word": "fundraise",
+    "pos": "v.",
+    "zh": [
+      "募款"
+    ],
+    "example": "We plan to fundraise for the library.",
+    "exampleZh": "我們計畫為圖書館募款。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0135",
+    "word": "generic",
+    "pos": "adj.;n.",
+    "zh": [
+      "通用的",
+      "學名藥的",
+      "學名藥"
+    ],
+    "example": "Ask the pharmacist about a generic option.",
+    "exampleZh": "向藥師詢問學名藥選項。",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0136",
+    "word": "getaway",
+    "pos": "n.",
+    "zh": [
+      "短期度假",
+      "逃離"
+    ],
+    "example": "We planned a weekend getaway.",
+    "exampleZh": "我們安排了週末小旅行。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "nature_outdoor"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0137",
+    "word": "graphics",
+    "pos": "n.",
+    "zh": [
+      "圖像",
+      "圖形設計"
+    ],
+    "example": "The report includes clear graphics.",
+    "exampleZh": "這份報告包含清楚的圖像。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0138",
+    "word": "handbook",
+    "pos": "n.",
+    "zh": [
+      "手冊"
+    ],
+    "example": "Read the employee handbook.",
+    "exampleZh": "閱讀員工手冊。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0139",
+    "word": "hazardous",
+    "pos": "adj.",
+    "zh": [
+      "危險的"
+    ],
+    "example": "The material is hazardous.",
+    "exampleZh": "這種材料很危險。",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "nature_outdoor",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0140",
+    "word": "healthcare",
+    "pos": "n.",
+    "zh": [
+      "醫療照護"
+    ],
+    "example": "She works in healthcare.",
+    "exampleZh": "她從事醫療照護工作。",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0141",
+    "word": "hereby",
+    "pos": "adv.",
+    "zh": [
+      "特此",
+      "藉此"
+    ],
+    "example": "We hereby confirm your reservation.",
+    "exampleZh": "我們特此確認你的預訂。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0142",
+    "word": "hesitant",
+    "pos": "adj.",
+    "zh": [
+      "猶豫的"
+    ],
+    "example": "She seemed hesitant to agree.",
+    "exampleZh": "她似乎猶豫是否同意。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0143",
+    "word": "hiker",
+    "pos": "n.",
+    "zh": [
+      "健行者"
+    ],
+    "example": "The hiker carried enough water.",
+    "exampleZh": "健行者帶了足夠的水。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "travel_lodging",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0144",
+    "word": "homeless",
+    "pos": "adj.",
+    "zh": [
+      "無家可歸的"
+    ],
+    "example": "The shelter supports homeless people.",
+    "exampleZh": "這個收容所協助無家可歸的人。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0145",
+    "word": "homemade",
+    "pos": "adj.",
+    "zh": [
+      "自製的"
+    ],
+    "example": "Try our homemade cake.",
+    "exampleZh": "試試我們的自製蛋糕。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0146",
+    "word": "homeowner",
+    "pos": "n.",
+    "zh": [
+      "屋主"
+    ],
+    "example": "The homeowner approved the repairs.",
+    "exampleZh": "屋主同意修繕。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0147",
+    "word": "honestly",
+    "pos": "adv.",
+    "zh": [
+      "誠實地",
+      "老實說"
+    ],
+    "example": "Please answer honestly.",
+    "exampleZh": "請誠實回答。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0148",
+    "word": "hotline",
+    "pos": "n.",
+    "zh": [
+      "專線",
+      "熱線"
+    ],
+    "example": "Call the customer service hotline.",
+    "exampleZh": "請撥打客服專線。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0149",
+    "word": "housekeep",
+    "pos": "v.",
+    "zh": [
+      "管理家務",
+      "清理維護"
+    ],
+    "example": "The verb housekeep refers to managing a home.",
+    "exampleZh": "動詞 housekeep 指管理家務。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0150",
+    "word": "ideally",
+    "pos": "adv.",
+    "zh": [
+      "理想上"
+    ],
+    "example": "Ideally, we should arrive before noon.",
+    "exampleZh": "理想上，我們應在中午前抵達。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0151",
+    "word": "illogical",
+    "pos": "adj.",
+    "zh": [
+      "不合邏輯的"
+    ],
+    "example": "That conclusion seems illogical.",
+    "exampleZh": "那個結論似乎不合邏輯。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0152",
+    "word": "impatient",
+    "pos": "adj.",
+    "zh": [
+      "不耐煩的"
+    ],
+    "example": "The delay made him impatient.",
+    "exampleZh": "延誤讓他不耐煩。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0153",
+    "word": "inappropriate",
+    "pos": "adj.",
+    "zh": [
+      "不恰當的"
+    ],
+    "example": "That remark was inappropriate.",
+    "exampleZh": "那句話不恰當。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0154",
+    "word": "incoming",
+    "pos": "adj.",
+    "zh": [
+      "進來的",
+      "即將就任的"
+    ],
+    "example": "Please check the incoming mail.",
+    "exampleZh": "請檢查收到的郵件。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0155",
+    "word": "incomplete",
+    "pos": "adj.",
+    "zh": [
+      "未完成的",
+      "不完整的"
+    ],
+    "example": "Your application is incomplete.",
+    "exampleZh": "你的申請資料不完整。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0156",
+    "word": "inconvenience",
+    "pos": "n.;v.",
+    "zh": [
+      "不便",
+      "使不便"
+    ],
+    "example": "We apologize for the inconvenience.",
+    "exampleZh": "造成不便，我們深感抱歉。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0157",
+    "word": "inefficient",
+    "pos": "adj.",
+    "zh": [
+      "沒效率的"
+    ],
+    "example": "The old system is inefficient.",
+    "exampleZh": "舊系統沒有效率。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0158",
+    "word": "inexpensive",
+    "pos": "adj.",
+    "zh": [
+      "便宜的"
+    ],
+    "example": "We found an inexpensive restaurant.",
+    "exampleZh": "我們找到一家平價餐廳。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0159",
+    "word": "inexperience",
+    "pos": "n.",
+    "zh": [
+      "缺乏經驗"
+    ],
+    "example": "His inexperience caused a few mistakes.",
+    "exampleZh": "他因缺乏經驗而犯了幾個錯。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0160",
+    "word": "inflate",
+    "pos": "v.",
+    "zh": [
+      "充氣",
+      "使膨脹"
+    ],
+    "example": "Inflate the bicycle tire.",
+    "exampleZh": "替腳踏車輪胎打氣。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0161",
+    "word": "insufficient",
+    "pos": "adj.",
+    "zh": [
+      "不足的"
+    ],
+    "example": "The room has insufficient lighting.",
+    "exampleZh": "這間房的照明不足。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0162",
+    "word": "intently",
+    "pos": "adv.",
+    "zh": [
+      "專注地"
+    ],
+    "example": "She listened intently.",
+    "exampleZh": "她專注地聽。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0163",
+    "word": "interactive",
+    "pos": "adj.",
+    "zh": [
+      "互動的"
+    ],
+    "example": "The museum has an interactive display.",
+    "exampleZh": "博物館有互動展示。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0164",
+    "word": "intern",
+    "pos": "n.;v.",
+    "zh": [
+      "實習生",
+      "實習"
+    ],
+    "example": "The intern joined our meeting.",
+    "exampleZh": "實習生加入了我們的會議。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0165",
+    "word": "internationally",
+    "pos": "adv.",
+    "zh": [
+      "在國際上",
+      "跨國地"
+    ],
+    "example": "The company operates internationally.",
+    "exampleZh": "這家公司跨國營運。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0166",
+    "word": "internship",
+    "pos": "n.",
+    "zh": [
+      "實習"
+    ],
+    "example": "She applied for a summer internship.",
+    "exampleZh": "她申請暑期實習。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0167",
+    "word": "introductory",
+    "pos": "adj.",
+    "zh": [
+      "入門的",
+      "介紹性的"
+    ],
+    "example": "This is an introductory course.",
+    "exampleZh": "這是一門入門課。",
+    "level": 4,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0168",
+    "word": "invoice",
+    "pos": "n.;v.",
+    "zh": [
+      "發票",
+      "請款單",
+      "開立請款單"
+    ],
+    "example": "Please send the invoice by email.",
+    "exampleZh": "請透過電子郵件寄送請款單。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0169",
+    "word": "irregular",
+    "pos": "adj.",
+    "zh": [
+      "不規則的",
+      "異常的"
+    ],
+    "example": "The bus runs at irregular intervals.",
+    "exampleZh": "這班公車的班距不固定。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "time_numbers",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0170",
+    "word": "itinerary",
+    "pos": "n.",
+    "zh": [
+      "行程表"
+    ],
+    "example": "Please check the itinerary.",
+    "exampleZh": "請查看行程表。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0171",
+    "word": "laptop",
+    "pos": "n.",
+    "zh": [
+      "筆記型電腦"
+    ],
+    "example": "My laptop needs charging.",
+    "exampleZh": "我的筆記型電腦需要充電。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0172",
+    "word": "layoff",
+    "pos": "n.",
+    "zh": [
+      "裁員"
+    ],
+    "example": "The layoff affected many employees.",
+    "exampleZh": "這次裁員影響許多員工。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0173",
+    "word": "letterhead",
+    "pos": "n.",
+    "zh": [
+      "信紙抬頭",
+      "印有抬頭的信紙"
+    ],
+    "example": "Use paper with the company letterhead.",
+    "exampleZh": "使用印有公司抬頭的信紙。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0174",
+    "word": "lighter",
+    "pos": "n.",
+    "zh": [
+      "打火機"
+    ],
+    "example": "Do you have a lighter?",
+    "exampleZh": "你有打火機嗎？",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "nature_outdoor"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0175",
+    "word": "lightweight",
+    "pos": "adj.",
+    "zh": [
+      "輕量的"
+    ],
+    "example": "This suitcase is lightweight.",
+    "exampleZh": "這個行李箱很輕。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0176",
+    "word": "login",
+    "pos": "n.",
+    "zh": [
+      "登入",
+      "登入資料"
+    ],
+    "example": "Your login has expired.",
+    "exampleZh": "你的登入已過期。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0177",
+    "word": "loudly",
+    "pos": "adv.",
+    "zh": [
+      "大聲地"
+    ],
+    "example": "Please do not speak loudly here.",
+    "exampleZh": "請不要在這裡大聲說話。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0178",
+    "word": "luncheon",
+    "pos": "n.",
+    "zh": [
+      "午宴"
+    ],
+    "example": "The business luncheon starts at noon.",
+    "exampleZh": "商務午宴中午開始。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0179",
+    "word": "lunchtime",
+    "pos": "n.",
+    "zh": [
+      "午餐時間"
+    ],
+    "example": "We can meet at lunchtime.",
+    "exampleZh": "我們可以在午餐時間碰面。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "time_numbers",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0180",
+    "word": "malfunction",
+    "pos": "n.;v.",
+    "zh": [
+      "故障"
+    ],
+    "example": "A malfunction delayed the train.",
+    "exampleZh": "故障讓火車延誤。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0181",
+    "word": "managerial",
+    "pos": "adj.",
+    "zh": [
+      "管理的"
+    ],
+    "example": "She has managerial experience.",
+    "exampleZh": "她有管理經驗。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0182",
+    "word": "mandatory",
+    "pos": "adj.",
+    "zh": [
+      "強制的",
+      "必須的"
+    ],
+    "example": "Attendance is mandatory.",
+    "exampleZh": "必須出席。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0183",
+    "word": "memo",
+    "pos": "n.",
+    "zh": [
+      "備忘錄"
+    ],
+    "example": "Please read the office memo.",
+    "exampleZh": "請閱讀辦公室備忘錄。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0184",
+    "word": "memorandum",
+    "pos": "n.",
+    "zh": [
+      "備忘錄",
+      "備忘文件"
+    ],
+    "example": "We received a memorandum about the policy.",
+    "exampleZh": "我們收到一份關於政策的備忘錄。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0185",
+    "word": "merger",
+    "pos": "n.",
+    "zh": [
+      "合併"
+    ],
+    "example": "The merger created a larger company.",
+    "exampleZh": "合併產生了一家更大的公司。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0186",
+    "word": "mileage",
+    "pos": "n.",
+    "zh": [
+      "里程",
+      "油耗表現"
+    ],
+    "example": "Record the car's mileage.",
+    "exampleZh": "記錄汽車里程。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0187",
+    "word": "mini",
+    "pos": "adj.;prefix",
+    "zh": [
+      "迷你的",
+      "小型"
+    ],
+    "example": "The room has a mini fridge.",
+    "exampleZh": "房內有迷你冰箱。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0188",
+    "word": "misidentify",
+    "pos": "v.",
+    "zh": [
+      "誤認"
+    ],
+    "example": "It is easy to misidentify the bird.",
+    "exampleZh": "這種鳥很容易被認錯。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0189",
+    "word": "misplace",
+    "pos": "v.",
+    "zh": [
+      "放錯地方"
+    ],
+    "example": "Try not to misplace your ticket.",
+    "exampleZh": "盡量不要把票放錯地方。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0190",
+    "word": "mister",
+    "pos": "n.",
+    "zh": [
+      "先生"
+    ],
+    "example": "The title mister comes before a man's surname.",
+    "exampleZh": "先生這個稱謂放在男性姓氏之前。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0191",
+    "word": "modem",
+    "pos": "n.",
+    "zh": [
+      "數據機"
+    ],
+    "example": "Restart the modem.",
+    "exampleZh": "重新啟動數據機。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0192",
+    "word": "mower",
+    "pos": "n.",
+    "zh": [
+      "割草機"
+    ],
+    "example": "The mower is in the shed.",
+    "exampleZh": "割草機在棚屋裡。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "daily_life",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0193",
+    "word": "nationwide",
+    "pos": "adj.;adv.",
+    "zh": [
+      "全國的",
+      "全國地"
+    ],
+    "example": "The company offers nationwide delivery.",
+    "exampleZh": "這家公司提供全國配送。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0194",
+    "word": "newsletter",
+    "pos": "n.",
+    "zh": [
+      "電子報",
+      "通訊刊物"
+    ],
+    "example": "Subscribe to our newsletter.",
+    "exampleZh": "訂閱我們的電子報。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0195",
+    "word": "newsstand",
+    "pos": "n.",
+    "zh": [
+      "報攤"
+    ],
+    "example": "I bought a paper at the newsstand.",
+    "exampleZh": "我在報攤買報紙。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0196",
+    "word": "obligate",
+    "pos": "v.",
+    "zh": [
+      "使有義務"
+    ],
+    "example": "The agreement does not obligate you to buy.",
+    "exampleZh": "這份協議不要求你一定要購買。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0197",
+    "word": "occupancy",
+    "pos": "n.",
+    "zh": [
+      "入住",
+      "使用",
+      "入住率"
+    ],
+    "example": "The hotel tracks room occupancy.",
+    "exampleZh": "飯店追蹤客房入住情況。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0198",
+    "word": "occupant",
+    "pos": "n.",
+    "zh": [
+      "居住者",
+      "使用者"
+    ],
+    "example": "Each occupant has a key.",
+    "exampleZh": "每位住戶都有鑰匙。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0199",
+    "word": "officially",
+    "pos": "adv.",
+    "zh": [
+      "正式地"
+    ],
+    "example": "The office officially opens tomorrow.",
+    "exampleZh": "辦公室明天正式啟用。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0200",
+    "word": "organizational",
+    "pos": "adj.",
+    "zh": [
+      "組織的"
+    ],
+    "example": "We discussed organizational changes.",
+    "exampleZh": "我們討論組織變革。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0201",
+    "word": "outage",
+    "pos": "n.",
+    "zh": [
+      "停電",
+      "服務中斷"
+    ],
+    "example": "The power outage lasted an hour.",
+    "exampleZh": "停電持續了一小時。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0202",
+    "word": "outdate",
+    "pos": "v.",
+    "zh": [
+      "使過時"
+    ],
+    "example": "The verb outdate means to make something obsolete.",
+    "exampleZh": "動詞 outdate 指使某物過時。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0203",
+    "word": "overcharge",
+    "pos": "v.;n.",
+    "zh": [
+      "多收費用",
+      "超收的費用"
+    ],
+    "example": "Please do not overcharge the customer.",
+    "exampleZh": "請不要向顧客多收費用。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0204",
+    "word": "overcrowd",
+    "pos": "v.",
+    "zh": [
+      "使過度擁擠"
+    ],
+    "example": "Too many visitors can overcrowd the park.",
+    "exampleZh": "太多遊客會讓公園過度擁擠。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0205",
+    "word": "overdue",
+    "pos": "adj.",
+    "zh": [
+      "逾期的",
+      "早該發生的"
+    ],
+    "example": "Your payment is overdue.",
+    "exampleZh": "你的款項逾期了。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0206",
+    "word": "overpay",
+    "pos": "v.",
+    "zh": [
+      "付太多錢"
+    ],
+    "example": "We do not want to overpay.",
+    "exampleZh": "我們不想多付錢。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0207",
+    "word": "overtime",
+    "pos": "n.;adv.",
+    "zh": [
+      "加班",
+      "加班地"
+    ],
+    "example": "I worked overtime yesterday.",
+    "exampleZh": "我昨天加班。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0208",
+    "word": "pamphlet",
+    "pos": "n.",
+    "zh": [
+      "小冊子"
+    ],
+    "example": "The pamphlet includes a city map.",
+    "exampleZh": "這本小冊子附有城市地圖。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0209",
+    "word": "pant",
+    "pos": "v.;n.",
+    "zh": [
+      "喘氣",
+      "喘息"
+    ],
+    "example": "Dogs pant when they are hot.",
+    "exampleZh": "狗覺得熱時會喘氣。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0210",
+    "word": "paperwork",
+    "pos": "n.",
+    "zh": [
+      "文書工作",
+      "文件"
+    ],
+    "example": "Please complete the paperwork.",
+    "exampleZh": "請完成文書作業。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0211",
+    "word": "paralegal",
+    "pos": "n.",
+    "zh": [
+      "法律助理"
+    ],
+    "example": "The paralegal prepared the documents.",
+    "exampleZh": "法律助理準備了文件。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0212",
+    "word": "paraphrase",
+    "pos": "v.;n.",
+    "zh": [
+      "改述",
+      "改寫的文字"
+    ],
+    "example": "Please paraphrase the passage.",
+    "exampleZh": "請用自己的話改寫這段文章。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0213",
+    "word": "payable",
+    "pos": "adj.",
+    "zh": [
+      "應付的"
+    ],
+    "example": "The fee is payable on arrival.",
+    "exampleZh": "這筆費用在抵達時繳付。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0214",
+    "word": "paycheck",
+    "pos": "n.",
+    "zh": [
+      "薪資",
+      "薪資支票"
+    ],
+    "example": "My first paycheck arrived today.",
+    "exampleZh": "我今天領到第一份薪水。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0215",
+    "word": "payroll",
+    "pos": "n.",
+    "zh": [
+      "薪資名冊",
+      "薪資總額"
+    ],
+    "example": "She manages payroll.",
+    "exampleZh": "她負責薪資作業。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0216",
+    "word": "penalize",
+    "pos": "v.",
+    "zh": [
+      "處罰",
+      "使不利"
+    ],
+    "example": "The rules penalize late submissions.",
+    "exampleZh": "規定會處罰逾期繳交。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0217",
+    "word": "periodical",
+    "pos": "n.;adj.",
+    "zh": [
+      "期刊",
+      "定期的"
+    ],
+    "example": "The library subscribes to this periodical.",
+    "exampleZh": "圖書館訂閱這本期刊。",
+    "level": 4,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0218",
+    "word": "periodically",
+    "pos": "adv.",
+    "zh": [
+      "定期地"
+    ],
+    "example": "Check the equipment periodically.",
+    "exampleZh": "定期檢查設備。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0219",
+    "word": "permanently",
+    "pos": "adv.",
+    "zh": [
+      "永久地"
+    ],
+    "example": "The shop has closed permanently.",
+    "exampleZh": "這家店已永久歇業。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0220",
+    "word": "personalize",
+    "pos": "v.",
+    "zh": [
+      "個人化",
+      "客製化"
+    ],
+    "example": "We can personalize the gift.",
+    "exampleZh": "我們可以客製化這份禮物。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0221",
+    "word": "pharmaceutical",
+    "pos": "adj.;n.",
+    "zh": [
+      "製藥的",
+      "藥品"
+    ],
+    "example": "She works for a pharmaceutical company.",
+    "exampleZh": "她在製藥公司工作。",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0222",
+    "word": "photocopier",
+    "pos": "n.",
+    "zh": [
+      "影印機"
+    ],
+    "example": "The photocopier is next door.",
+    "exampleZh": "影印機在隔壁。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0223",
+    "word": "photocopy",
+    "pos": "n.;v.",
+    "zh": [
+      "影本",
+      "影印"
+    ],
+    "example": "Please photocopy this form.",
+    "exampleZh": "請影印這張表格。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0224",
+    "word": "poorly",
+    "pos": "adv.;adj.",
+    "zh": [
+      "不好地",
+      "身體不適的"
+    ],
+    "example": "The room is poorly lit.",
+    "exampleZh": "這個房間光線不佳。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0225",
+    "word": "postal",
+    "pos": "adj.",
+    "zh": [
+      "郵政的"
+    ],
+    "example": "Please check the postal address.",
+    "exampleZh": "請確認郵寄地址。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0226",
+    "word": "presenter",
+    "pos": "n.",
+    "zh": [
+      "簡報者",
+      "主持人"
+    ],
+    "example": "The presenter answered our questions.",
+    "exampleZh": "簡報者回答了我們的問題。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0227",
+    "word": "prestigious",
+    "pos": "adj.",
+    "zh": [
+      "享有聲望的"
+    ],
+    "example": "She received a prestigious award.",
+    "exampleZh": "她獲得一項享有盛名的獎。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0228",
+    "word": "professionally",
+    "pos": "adv.",
+    "zh": [
+      "專業地"
+    ],
+    "example": "The staff handled it professionally.",
+    "exampleZh": "員工專業地處理了這件事。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0229",
+    "word": "programmer",
+    "pos": "n.",
+    "zh": [
+      "程式設計師"
+    ],
+    "example": "The programmer fixed the error.",
+    "exampleZh": "程式設計師修正了錯誤。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0230",
+    "word": "projector",
+    "pos": "n.",
+    "zh": [
+      "投影機"
+    ],
+    "example": "Connect your laptop to the projector.",
+    "exampleZh": "把筆電接到投影機。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0231",
+    "word": "promotional",
+    "pos": "adj.",
+    "zh": [
+      "促銷的",
+      "宣傳的"
+    ],
+    "example": "We offer a promotional rate.",
+    "exampleZh": "我們提供促銷價格。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0232",
+    "word": "promptly",
+    "pos": "adv.",
+    "zh": [
+      "迅速地",
+      "準時地"
+    ],
+    "example": "Please reply promptly.",
+    "exampleZh": "請盡快回覆。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0233",
+    "word": "proofread",
+    "pos": "v.",
+    "zh": [
+      "校對"
+    ],
+    "example": "Please proofread the email.",
+    "exampleZh": "請校對這封電子郵件。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0234",
+    "word": "provider",
+    "pos": "n.",
+    "zh": [
+      "提供者",
+      "供應商"
+    ],
+    "example": "Contact your internet provider.",
+    "exampleZh": "聯絡你的網路服務業者。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0235",
+    "word": "purchaser",
+    "pos": "n.",
+    "zh": [
+      "購買者"
+    ],
+    "example": "Each purchaser receives a receipt.",
+    "exampleZh": "每位購買者都會收到收據。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0236",
+    "word": "purser",
+    "pos": "n.",
+    "zh": [
+      "客艙事務長",
+      "船務長"
+    ],
+    "example": "The purser welcomed us aboard.",
+    "exampleZh": "客艙事務長歡迎我們登機。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0237",
+    "word": "quarterly",
+    "pos": "adj.;adv.;n.",
+    "zh": [
+      "每季的",
+      "每季",
+      "季刊"
+    ],
+    "example": "We publish a quarterly report.",
+    "exampleZh": "我們每季發布報告。",
+    "level": 4,
+    "topics": [
+      "time_numbers",
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0238",
+    "word": "query",
+    "pos": "n.;v.",
+    "zh": [
+      "詢問",
+      "查詢"
+    ],
+    "example": "Please send your query by email.",
+    "exampleZh": "請透過電子郵件提出詢問。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0239",
+    "word": "realtor",
+    "pos": "n.",
+    "zh": [
+      "房地產經紀人"
+    ],
+    "example": "The realtor showed us the apartment.",
+    "exampleZh": "房地產經紀人帶我們看公寓。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0240",
+    "word": "rearrange",
+    "pos": "v.",
+    "zh": [
+      "重新安排"
+    ],
+    "example": "Can we rearrange the chairs?",
+    "exampleZh": "我們可以重新擺放椅子嗎？",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0241",
+    "word": "rebate",
+    "pos": "n.",
+    "zh": [
+      "退還款",
+      "折讓"
+    ],
+    "example": "The offer includes a cash rebate.",
+    "exampleZh": "這項優惠包含現金回饋。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0242",
+    "word": "receptionist",
+    "pos": "n.",
+    "zh": [
+      "接待人員",
+      "櫃檯人員"
+    ],
+    "example": "The receptionist gave us a key.",
+    "exampleZh": "櫃檯人員給了我們鑰匙。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0243",
+    "word": "reconsider",
+    "pos": "v.",
+    "zh": [
+      "重新考慮"
+    ],
+    "example": "Please reconsider the proposal.",
+    "exampleZh": "請重新考慮這個提案。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0244",
+    "word": "recruiter",
+    "pos": "n.",
+    "zh": [
+      "招募人員"
+    ],
+    "example": "The recruiter called me.",
+    "exampleZh": "招募人員打電話給我。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0245",
+    "word": "recruitment",
+    "pos": "n.",
+    "zh": [
+      "招募"
+    ],
+    "example": "The company announced a recruitment event.",
+    "exampleZh": "公司宣布一場徵才活動。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0246",
+    "word": "recur",
+    "pos": "v.",
+    "zh": [
+      "再次發生"
+    ],
+    "example": "The problem may recur.",
+    "exampleZh": "這個問題可能再次發生。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0247",
+    "word": "redecorate",
+    "pos": "v.",
+    "zh": [
+      "重新裝潢",
+      "重新布置"
+    ],
+    "example": "We plan to redecorate the lobby.",
+    "exampleZh": "我們計畫重新布置大廳。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "daily_life",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0248",
+    "word": "redesign",
+    "pos": "v.;n.",
+    "zh": [
+      "重新設計",
+      "改版設計"
+    ],
+    "example": "We will redesign the website.",
+    "exampleZh": "我們會重新設計網站。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0249",
+    "word": "referral",
+    "pos": "n.",
+    "zh": [
+      "轉介",
+      "推薦"
+    ],
+    "example": "Do I need a referral?",
+    "exampleZh": "我需要轉介嗎？",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0250",
+    "word": "refinery",
+    "pos": "n.",
+    "zh": [
+      "煉油廠",
+      "精煉廠"
+    ],
+    "example": "The refinery is near the port.",
+    "exampleZh": "煉油廠在港口附近。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business",
+      "nature_outdoor"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0251",
+    "word": "reflexive",
+    "pos": "adj.;n.",
+    "zh": [
+      "反身的",
+      "反身代名詞"
+    ],
+    "example": "The lesson explains reflexive pronouns.",
+    "exampleZh": "這堂課解釋反身代名詞。",
+    "level": 4,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0252",
+    "word": "refundable",
+    "pos": "adj.",
+    "zh": [
+      "可退款的"
+    ],
+    "example": "Is the deposit refundable?",
+    "exampleZh": "訂金可以退嗎？",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0253",
+    "word": "reimburse",
+    "pos": "v.",
+    "zh": [
+      "報銷",
+      "償付"
+    ],
+    "example": "The company will reimburse your travel costs.",
+    "exampleZh": "公司會報銷你的差旅費。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0254",
+    "word": "reimbursement",
+    "pos": "n.",
+    "zh": [
+      "報銷",
+      "償付"
+    ],
+    "example": "Submit the receipts for reimbursement.",
+    "exampleZh": "請提交收據辦理報銷。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0255",
+    "word": "relocate",
+    "pos": "v.",
+    "zh": [
+      "搬遷",
+      "調任"
+    ],
+    "example": "The office will relocate next month.",
+    "exampleZh": "辦公室下個月會搬遷。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0256",
+    "word": "relocation",
+    "pos": "n.",
+    "zh": [
+      "搬遷",
+      "調動"
+    ],
+    "example": "The job includes relocation support.",
+    "exampleZh": "這份工作提供搬遷協助。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0257",
+    "word": "remodel",
+    "pos": "v.",
+    "zh": [
+      "改建",
+      "改裝"
+    ],
+    "example": "They will remodel the kitchen.",
+    "exampleZh": "他們會改裝廚房。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "food_drink",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0258",
+    "word": "renewal",
+    "pos": "n.",
+    "zh": [
+      "更新",
+      "續約"
+    ],
+    "example": "Your membership is due for renewal.",
+    "exampleZh": "你的會員資格該續約了。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0259",
+    "word": "renovate",
+    "pos": "v.",
+    "zh": [
+      "翻修"
+    ],
+    "example": "We will renovate the guest rooms.",
+    "exampleZh": "我們會翻修客房。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0260",
+    "word": "renovation",
+    "pos": "n.",
+    "zh": [
+      "翻修",
+      "整修"
+    ],
+    "example": "The hotel is closed for renovation.",
+    "exampleZh": "飯店因整修暫停營業。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0261",
+    "word": "renown",
+    "pos": "n.",
+    "zh": [
+      "名聲",
+      "聲望"
+    ],
+    "example": "The chef gained international renown.",
+    "exampleZh": "這位主廚享有國際聲譽。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0262",
+    "word": "renter",
+    "pos": "n.",
+    "zh": [
+      "租用者",
+      "房客"
+    ],
+    "example": "The renter returned the car.",
+    "exampleZh": "租車者歸還了汽車。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "transport_city",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0263",
+    "word": "reopen",
+    "pos": "v.",
+    "zh": [
+      "重新開放",
+      "重新營業"
+    ],
+    "example": "The museum will reopen tomorrow.",
+    "exampleZh": "博物館明天重新開放。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0264",
+    "word": "repairperson",
+    "pos": "n.",
+    "zh": [
+      "維修人員"
+    ],
+    "example": "A repairperson checked the heater.",
+    "exampleZh": "維修人員檢查了暖氣。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0265",
+    "word": "repeatedly",
+    "pos": "adv.",
+    "zh": [
+      "反覆地"
+    ],
+    "example": "We tested the system repeatedly.",
+    "exampleZh": "我們反覆測試系統。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0266",
+    "word": "reschedule",
+    "pos": "v.",
+    "zh": [
+      "重新排定時間"
+    ],
+    "example": "Can we reschedule the meeting?",
+    "exampleZh": "我們可以重新安排會議時間嗎？",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0267",
+    "word": "restatement",
+    "pos": "n.",
+    "zh": [
+      "重述",
+      "重新表達"
+    ],
+    "example": "The summary is a restatement of the main idea.",
+    "exampleZh": "摘要是對主旨的重述。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0268",
+    "word": "retailer",
+    "pos": "n.",
+    "zh": [
+      "零售商"
+    ],
+    "example": "Contact the retailer for a refund.",
+    "exampleZh": "請聯絡零售商退款。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0269",
+    "word": "reviewer",
+    "pos": "n.",
+    "zh": [
+      "評論者",
+      "審查人員"
+    ],
+    "example": "The reviewer praised the service.",
+    "exampleZh": "評論者讚揚了服務。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0270",
+    "word": "revolutionize",
+    "pos": "v.",
+    "zh": [
+      "徹底改變"
+    ],
+    "example": "The tool could revolutionize our work.",
+    "exampleZh": "這個工具可能徹底改變我們的工作。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0271",
+    "word": "rider",
+    "pos": "n.",
+    "zh": [
+      "騎乘者"
+    ],
+    "example": "The rider wore a helmet.",
+    "exampleZh": "騎士戴著安全帽。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "school_sports",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0272",
+    "word": "safely",
+    "pos": "adv.",
+    "zh": [
+      "安全地"
+    ],
+    "example": "We arrived safely.",
+    "exampleZh": "我們平安抵達。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "transport_city",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0273",
+    "word": "salespeople",
+    "pos": "n.",
+    "zh": [
+      "銷售人員（複數）"
+    ],
+    "example": "The salespeople answered our questions.",
+    "exampleZh": "銷售人員回答了我們的問題。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0274",
+    "word": "sauna",
+    "pos": "n.",
+    "zh": [
+      "三溫暖",
+      "桑拿浴室"
+    ],
+    "example": "Does the hotel have a sauna?",
+    "exampleZh": "飯店有三溫暖嗎？",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0275",
+    "word": "seaside",
+    "pos": "n.;adj.",
+    "zh": [
+      "海邊",
+      "海邊的"
+    ],
+    "example": "We stayed at a seaside hotel.",
+    "exampleZh": "我們住在海邊飯店。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0276",
+    "word": "seasonal",
+    "pos": "adj.",
+    "zh": [
+      "季節性的"
+    ],
+    "example": "We serve seasonal vegetables.",
+    "exampleZh": "我們供應當季蔬菜。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "nature_outdoor",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0277",
+    "word": "sedan",
+    "pos": "n.",
+    "zh": [
+      "轎車"
+    ],
+    "example": "We rented a small sedan.",
+    "exampleZh": "我們租了一輛小轎車。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0278",
+    "word": "seeker",
+    "pos": "n.",
+    "zh": [
+      "尋求者"
+    ],
+    "example": "The event welcomes every job seeker.",
+    "exampleZh": "這個活動歡迎每位求職者。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0279",
+    "word": "seller",
+    "pos": "n.",
+    "zh": [
+      "賣家"
+    ],
+    "example": "The seller sent the package.",
+    "exampleZh": "賣家寄出了包裹。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0280",
+    "word": "sender",
+    "pos": "n.",
+    "zh": [
+      "寄件人"
+    ],
+    "example": "Check the sender's address.",
+    "exampleZh": "確認寄件人的地址。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0281",
+    "word": "sewer",
+    "pos": "n.",
+    "zh": [
+      "下水道",
+      "縫紉者"
+    ],
+    "example": "The city repaired the sewer.",
+    "exampleZh": "市府修理了下水道。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0282",
+    "word": "sharply",
+    "pos": "adv.",
+    "zh": [
+      "急遽地",
+      "尖銳地"
+    ],
+    "example": "Prices rose sharply.",
+    "exampleZh": "價格急遽上漲。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0283",
+    "word": "shipment",
+    "pos": "n.",
+    "zh": [
+      "貨運",
+      "一批貨物"
+    ],
+    "example": "Your shipment arrives tomorrow.",
+    "exampleZh": "你的貨物明天抵達。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0284",
+    "word": "shopper",
+    "pos": "n.",
+    "zh": [
+      "購物者"
+    ],
+    "example": "Each shopper received a bag.",
+    "exampleZh": "每位購物者都拿到袋子。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0285",
+    "word": "showroom",
+    "pos": "n.",
+    "zh": [
+      "展示間"
+    ],
+    "example": "The showroom displays new cars.",
+    "exampleZh": "展示間陳列新車。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0286",
+    "word": "sightsee",
+    "pos": "v.",
+    "zh": [
+      "觀光"
+    ],
+    "example": "We plan to sightsee before dinner.",
+    "exampleZh": "我們打算晚餐前去觀光。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0287",
+    "word": "signify",
+    "pos": "v.",
+    "zh": [
+      "表示",
+      "代表"
+    ],
+    "example": "What does this symbol signify?",
+    "exampleZh": "這個符號代表什麼？",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0288",
+    "word": "silently",
+    "pos": "adv.",
+    "zh": [
+      "安靜地",
+      "默默地"
+    ],
+    "example": "The students read silently.",
+    "exampleZh": "學生安靜地閱讀。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0289",
+    "word": "sincerely",
+    "pos": "adv.",
+    "zh": [
+      "真誠地",
+      "謹上"
+    ],
+    "example": "We sincerely apologize for the delay.",
+    "exampleZh": "我們誠摯為延誤致歉。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0290",
+    "word": "skateboard",
+    "pos": "n.;v.",
+    "zh": [
+      "滑板",
+      "玩滑板"
+    ],
+    "example": "He rides a skateboard to school.",
+    "exampleZh": "他滑滑板上學。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0291",
+    "word": "smartphone",
+    "pos": "n.",
+    "zh": [
+      "智慧型手機"
+    ],
+    "example": "Please silence your smartphone.",
+    "exampleZh": "請把智慧型手機設為靜音。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0292",
+    "word": "smoothly",
+    "pos": "adv.",
+    "zh": [
+      "順利地",
+      "平穩地"
+    ],
+    "example": "The event went smoothly.",
+    "exampleZh": "活動進行順利。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0293",
+    "word": "spa",
+    "pos": "n.",
+    "zh": [
+      "水療中心",
+      "溫泉度假地"
+    ],
+    "example": "The hotel has a spa.",
+    "exampleZh": "飯店設有水療中心。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0294",
+    "word": "spam",
+    "pos": "n.;v.",
+    "zh": [
+      "垃圾郵件",
+      "寄垃圾訊息"
+    ],
+    "example": "This email looks like spam.",
+    "exampleZh": "這封信看起來像垃圾郵件。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0295",
+    "word": "specially",
+    "pos": "adv.",
+    "zh": [
+      "特別地",
+      "專門地"
+    ],
+    "example": "This room was specially designed for meetings.",
+    "exampleZh": "這個房間專為會議設計。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0296",
+    "word": "spreadsheet",
+    "pos": "n.",
+    "zh": [
+      "試算表"
+    ],
+    "example": "Enter the figures in the spreadsheet.",
+    "exampleZh": "把數字輸入試算表。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0297",
+    "word": "stapler",
+    "pos": "n.",
+    "zh": [
+      "釘書機"
+    ],
+    "example": "Can I borrow your stapler?",
+    "exampleZh": "我可以借你的釘書機嗎？",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0298",
+    "word": "steadily",
+    "pos": "adv.",
+    "zh": [
+      "穩定地",
+      "持續地"
+    ],
+    "example": "Sales are rising steadily.",
+    "exampleZh": "銷售持續穩定成長。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0299",
+    "word": "sticker",
+    "pos": "n.",
+    "zh": [
+      "貼紙"
+    ],
+    "example": "Put a sticker on the box.",
+    "exampleZh": "在盒子上貼一張貼紙。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0300",
+    "word": "stockbroker",
+    "pos": "n.",
+    "zh": [
+      "股票經紀人"
+    ],
+    "example": "The stockbroker answered her questions.",
+    "exampleZh": "股票經紀人回答了她的問題。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0301",
+    "word": "stockholder",
+    "pos": "n.",
+    "zh": [
+      "股東"
+    ],
+    "example": "Each stockholder received a notice.",
+    "exampleZh": "每位股東都收到通知。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0302",
+    "word": "storeroom",
+    "pos": "n.",
+    "zh": [
+      "儲藏室"
+    ],
+    "example": "The supplies are in the storeroom.",
+    "exampleZh": "用品在儲藏室裡。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0303",
+    "word": "streamline",
+    "pos": "v.",
+    "zh": [
+      "簡化",
+      "使有效率"
+    ],
+    "example": "We want to streamline the process.",
+    "exampleZh": "我們想簡化流程以提高效率。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0304",
+    "word": "submission",
+    "pos": "n.",
+    "zh": [
+      "提交",
+      "提交的作品"
+    ],
+    "example": "The submission deadline is Friday.",
+    "exampleZh": "繳交截止日在星期五。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0305",
+    "word": "subscriber",
+    "pos": "n.",
+    "zh": [
+      "訂閱者"
+    ],
+    "example": "Each subscriber receives an email.",
+    "exampleZh": "每位訂閱者都會收到電子郵件。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0306",
+    "word": "substantially",
+    "pos": "adv.",
+    "zh": [
+      "大幅地",
+      "實質上"
+    ],
+    "example": "Costs have fallen substantially.",
+    "exampleZh": "成本大幅下降了。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0307",
+    "word": "sunscreen",
+    "pos": "n.",
+    "zh": [
+      "防曬乳"
+    ],
+    "example": "Did you pack sunscreen?",
+    "exampleZh": "你有帶防曬乳嗎？",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "travel_lodging",
+      "nature_outdoor"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0308",
+    "word": "sunshine",
+    "pos": "n.",
+    "zh": [
+      "陽光"
+    ],
+    "example": "We enjoyed the sunshine.",
+    "exampleZh": "我們享受陽光。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0309",
+    "word": "tablecloth",
+    "pos": "n.",
+    "zh": [
+      "桌巾"
+    ],
+    "example": "Please change the tablecloth.",
+    "exampleZh": "請更換桌巾。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "daily_life",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0310",
+    "word": "takeover",
+    "pos": "n.",
+    "zh": [
+      "接管",
+      "收購"
+    ],
+    "example": "The company announced a takeover.",
+    "exampleZh": "公司宣布了一項收購案。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0311",
+    "word": "taker",
+    "pos": "n.",
+    "zh": [
+      "接受者",
+      "應試者"
+    ],
+    "example": "Each test taker needs identification.",
+    "exampleZh": "每位應試者都需要身分證明。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0312",
+    "word": "teen",
+    "pos": "n.;adj.",
+    "zh": [
+      "青少年",
+      "青少年的"
+    ],
+    "example": "The club welcomes every teen.",
+    "exampleZh": "這個社團歡迎每位青少年。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0313",
+    "word": "telecommunication",
+    "pos": "n.",
+    "zh": [
+      "電信",
+      "遠距通訊"
+    ],
+    "example": "The course covers telecommunication systems.",
+    "exampleZh": "這門課涵蓋電信系統。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0314",
+    "word": "temporarily",
+    "pos": "adv.",
+    "zh": [
+      "暫時地"
+    ],
+    "example": "The road is temporarily closed.",
+    "exampleZh": "這條路暫時封閉。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0315",
+    "word": "terminate",
+    "pos": "v.",
+    "zh": [
+      "終止"
+    ],
+    "example": "We may terminate the agreement.",
+    "exampleZh": "我們可能終止協議。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0316",
+    "word": "termination",
+    "pos": "n.",
+    "zh": [
+      "終止",
+      "解約"
+    ],
+    "example": "The letter confirms contract termination.",
+    "exampleZh": "這封信確認合約終止。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0317",
+    "word": "thoroughly",
+    "pos": "adv.",
+    "zh": [
+      "徹底地"
+    ],
+    "example": "Please clean the room thoroughly.",
+    "exampleZh": "請徹底清潔房間。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0318",
+    "word": "thunderstorm",
+    "pos": "n.",
+    "zh": [
+      "雷雨"
+    ],
+    "example": "A thunderstorm delayed the flight.",
+    "exampleZh": "雷雨延誤了航班。",
+    "level": 4,
+    "topics": [
+      "nature_outdoor",
+      "travel_lodging",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0319",
+    "word": "timeline",
+    "pos": "n.",
+    "zh": [
+      "時間軸",
+      "時程表"
+    ],
+    "example": "Please review the project timeline.",
+    "exampleZh": "請查看專案時程表。",
+    "level": 4,
+    "topics": [
+      "time_numbers",
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0320",
+    "word": "timely",
+    "pos": "adj.",
+    "zh": [
+      "及時的"
+    ],
+    "example": "Thank you for the timely update.",
+    "exampleZh": "謝謝你及時更新消息。",
+    "level": 4,
+    "topics": [
+      "time_numbers",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0321",
+    "word": "timer",
+    "pos": "n.",
+    "zh": [
+      "計時器"
+    ],
+    "example": "Set the timer for ten minutes.",
+    "exampleZh": "把計時器設為十分鐘。",
+    "level": 4,
+    "topics": [
+      "time_numbers",
+      "daily_life",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0322",
+    "word": "toiletry",
+    "pos": "n.",
+    "zh": [
+      "盥洗用品"
+    ],
+    "example": "Shampoo is a common toiletry.",
+    "exampleZh": "洗髮精是常見的盥洗用品。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "travel_lodging",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0323",
+    "word": "toner",
+    "pos": "n.",
+    "zh": [
+      "碳粉",
+      "化妝水"
+    ],
+    "example": "The printer needs toner.",
+    "exampleZh": "印表機需要碳粉。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0324",
+    "word": "trainee",
+    "pos": "n.",
+    "zh": [
+      "受訓者"
+    ],
+    "example": "Each trainee has a mentor.",
+    "exampleZh": "每位受訓者都有指導者。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0325",
+    "word": "trainer",
+    "pos": "n.",
+    "zh": [
+      "訓練員",
+      "教練"
+    ],
+    "example": "The trainer explained the exercise.",
+    "exampleZh": "教練解釋了這項運動。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "health_body",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0326",
+    "word": "turnover",
+    "pos": "n.",
+    "zh": [
+      "營業額",
+      "人員流動率",
+      "翻面"
+    ],
+    "example": "The company reduced staff turnover.",
+    "exampleZh": "公司降低了員工流動率。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0327",
+    "word": "unattended",
+    "pos": "adj.",
+    "zh": [
+      "無人看管的"
+    ],
+    "example": "Do not leave bags unattended.",
+    "exampleZh": "請勿讓行李無人看管。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0328",
+    "word": "unauthorize",
+    "pos": "v.",
+    "zh": [
+      "撤銷授權"
+    ],
+    "example": "The rare verb unauthorize refers to removing authorization.",
+    "exampleZh": "少見動詞 unauthorize 指撤銷授權。",
+    "level": 4,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0329",
+    "word": "unavailable",
+    "pos": "adj.",
+    "zh": [
+      "無法取得的",
+      "沒空的"
+    ],
+    "example": "The manager is unavailable now.",
+    "exampleZh": "經理現在沒空。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0330",
+    "word": "uncomfortable",
+    "pos": "adj.",
+    "zh": [
+      "不舒服的",
+      "不自在的"
+    ],
+    "example": "This chair is uncomfortable.",
+    "exampleZh": "這張椅子坐起來不舒服。",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "travel_lodging",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0331",
+    "word": "underground",
+    "pos": "adj.;adv.;n.",
+    "zh": [
+      "地下的",
+      "在地下",
+      "地下鐵"
+    ],
+    "example": "The hotel has underground parking.",
+    "exampleZh": "飯店有地下停車場。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0332",
+    "word": "unexpected",
+    "pos": "adj.",
+    "zh": [
+      "意料之外的"
+    ],
+    "example": "We faced an unexpected delay.",
+    "exampleZh": "我們遇到意料之外的延誤。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0333",
+    "word": "unfamiliar",
+    "pos": "adj.",
+    "zh": [
+      "不熟悉的"
+    ],
+    "example": "I am unfamiliar with this area.",
+    "exampleZh": "我不熟悉這個地區。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0334",
+    "word": "unlimited",
+    "pos": "adj.",
+    "zh": [
+      "無限制的"
+    ],
+    "example": "The ticket includes unlimited rides.",
+    "exampleZh": "這張票可以不限次數搭乘。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0335",
+    "word": "unload",
+    "pos": "v.",
+    "zh": [
+      "卸貨",
+      "卸下"
+    ],
+    "example": "Please unload the bags carefully.",
+    "exampleZh": "請小心卸下行李。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0336",
+    "word": "unnecessary",
+    "pos": "adj.",
+    "zh": [
+      "不必要的"
+    ],
+    "example": "Avoid unnecessary expenses.",
+    "exampleZh": "避免不必要的開支。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0337",
+    "word": "unpaid",
+    "pos": "adj.",
+    "zh": [
+      "未付款的",
+      "無薪的"
+    ],
+    "example": "This invoice is unpaid.",
+    "exampleZh": "這張請款單尚未付款。",
+    "level": 4,
+    "topics": [
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0338",
+    "word": "unpleasant",
+    "pos": "adj.",
+    "zh": [
+      "令人不舒服的"
+    ],
+    "example": "There is an unpleasant smell.",
+    "exampleZh": "有一股難聞的氣味。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "health_body",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0339",
+    "word": "unplug",
+    "pos": "v.",
+    "zh": [
+      "拔掉插頭"
+    ],
+    "example": "Please unplug the charger.",
+    "exampleZh": "請拔掉充電器插頭。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0340",
+    "word": "unreal",
+    "pos": "adj.",
+    "zh": [
+      "不真實的"
+    ],
+    "example": "The scene looks unreal.",
+    "exampleZh": "這個景象看起來不真實。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0341",
+    "word": "unreliable",
+    "pos": "adj.",
+    "zh": [
+      "不可靠的"
+    ],
+    "example": "The connection is unreliable.",
+    "exampleZh": "這個連線不穩定。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0342",
+    "word": "unspecified",
+    "pos": "adj.",
+    "zh": [
+      "未指明的"
+    ],
+    "example": "The delivery date is unspecified.",
+    "exampleZh": "送貨日期尚未指明。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0343",
+    "word": "unsure",
+    "pos": "adj.",
+    "zh": [
+      "不確定的"
+    ],
+    "example": "I am unsure which route to take.",
+    "exampleZh": "我不確定該走哪條路。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0344",
+    "word": "unused",
+    "pos": "adj.",
+    "zh": [
+      "未使用的",
+      "不習慣的"
+    ],
+    "example": "Return any unused supplies.",
+    "exampleZh": "歸還任何未使用的用品。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0345",
+    "word": "unusually",
+    "pos": "adv.",
+    "zh": [
+      "異常地",
+      "不尋常地"
+    ],
+    "example": "The cafe is unusually quiet.",
+    "exampleZh": "這家咖啡廳今天特別安靜。",
+    "level": 4,
+    "topics": [
+      "food_drink",
+      "people_feelings"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0346",
+    "word": "upcoming",
+    "pos": "adj.",
+    "zh": [
+      "即將到來的"
+    ],
+    "example": "Please prepare for the upcoming meeting.",
+    "exampleZh": "請為即將到來的會議做準備。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0347",
+    "word": "urgently",
+    "pos": "adv.",
+    "zh": [
+      "緊急地",
+      "迫切地"
+    ],
+    "example": "We urgently need assistance.",
+    "exampleZh": "我們急需協助。",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0348",
+    "word": "vacate",
+    "pos": "v.",
+    "zh": [
+      "騰空",
+      "離開"
+    ],
+    "example": "Please vacate the room by eleven.",
+    "exampleZh": "請在十一點前退房離開。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0349",
+    "word": "validate",
+    "pos": "v.",
+    "zh": [
+      "確認有效",
+      "驗證"
+    ],
+    "example": "Please validate your parking ticket.",
+    "exampleZh": "請辦理停車票認證。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0350",
+    "word": "vend",
+    "pos": "v.",
+    "zh": [
+      "販賣"
+    ],
+    "example": "The license allows them to vend food.",
+    "exampleZh": "這張執照允許他們販賣食物。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "food_drink"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0351",
+    "word": "verify",
+    "pos": "v.",
+    "zh": [
+      "查證",
+      "核實"
+    ],
+    "example": "Please verify your booking details.",
+    "exampleZh": "請核實訂房資料。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0352",
+    "word": "videoconference",
+    "pos": "n.;v.",
+    "zh": [
+      "視訊會議",
+      "進行視訊會議"
+    ],
+    "example": "We arranged a videoconference.",
+    "exampleZh": "我們安排了一場視訊會議。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0353",
+    "word": "waive",
+    "pos": "v.",
+    "zh": [
+      "免除",
+      "放棄"
+    ],
+    "example": "Can you waive the cancellation fee?",
+    "exampleZh": "可以免收取消費嗎？",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0354",
+    "word": "walkway",
+    "pos": "n.",
+    "zh": [
+      "步道",
+      "人行通道"
+    ],
+    "example": "Follow the walkway to the station.",
+    "exampleZh": "沿著人行通道走到車站。",
+    "level": 4,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "nature_outdoor"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0355",
+    "word": "webpage",
+    "pos": "n.",
+    "zh": [
+      "網頁"
+    ],
+    "example": "The webpage lists room prices.",
+    "exampleZh": "網頁列出房價。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0356",
+    "word": "wellness",
+    "pos": "n.",
+    "zh": [
+      "身心健康"
+    ],
+    "example": "The hotel offers wellness activities.",
+    "exampleZh": "飯店提供身心健康活動。",
+    "level": 4,
+    "topics": [
+      "health_body",
+      "travel_lodging"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0357",
+    "word": "willingness",
+    "pos": "n.",
+    "zh": [
+      "意願"
+    ],
+    "example": "We appreciate your willingness to help.",
+    "exampleZh": "我們感謝你願意幫忙。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0358",
+    "word": "wireless",
+    "pos": "adj.;n.",
+    "zh": [
+      "無線的",
+      "無線通訊"
+    ],
+    "example": "Is wireless internet available?",
+    "exampleZh": "有提供無線網路嗎？",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "travel_lodging",
+      "daily_life"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0359",
+    "word": "wisely",
+    "pos": "adv.",
+    "zh": [
+      "明智地"
+    ],
+    "example": "Use your time wisely.",
+    "exampleZh": "明智運用時間。",
+    "level": 4,
+    "topics": [
+      "people_feelings",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0360",
+    "word": "withdrawal",
+    "pos": "n.",
+    "zh": [
+      "提款",
+      "撤回",
+      "戒斷"
+    ],
+    "example": "The bank charges a withdrawal fee.",
+    "exampleZh": "銀行收取提款手續費。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "health_body"
+    ],
+    "source": "TSL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv4-0361",
+    "word": "worldwide",
+    "pos": "adj.;adv.",
+    "zh": [
+      "全球的",
+      "全世界地"
+    ],
+    "example": "The company ships worldwide.",
+    "exampleZh": "這家公司提供全球配送。",
+    "level": 4,
+    "topics": [
+      "work_business",
+      "transport_city"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0362",
+    "word": "wristwatch",
+    "pos": "n.",
+    "zh": [
+      "腕錶"
+    ],
+    "example": "My wristwatch stopped.",
+    "exampleZh": "我的手錶停了。",
+    "level": 4,
+    "topics": [
+      "daily_life",
+      "time_numbers"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv4-0363",
+    "word": "yen",
+    "pos": "n.",
+    "zh": [
+      "日圓",
+      "渴望"
+    ],
+    "example": "The ticket costs five hundred yen.",
+    "exampleZh": "這張票五百日圓。",
+    "level": 4,
+    "topics": [
+      "travel_lodging",
+      "time_numbers",
+      "work_business"
+    ],
+    "source": "TSL-1.2",
+    "review": false
+  }
+]

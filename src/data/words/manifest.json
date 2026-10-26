@@ -18,6 +18,9 @@
     "reviewCount": 59
   },
   "4": {
-    "ready": false
+    "ready": true,
+    "expectedCount": 363,
+    "wordCount": 363,
+    "reviewCount": 22
   }
 }

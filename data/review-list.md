@@ -459,3 +459,25 @@
 | Lv3 | trans | 跨；越過；轉變 | The prefix trans can mean across. |
 | Lv3 | vector | 向量；傳播媒介 | The diagram shows a velocity vector. |
 | Lv3 | volition | 意志；自願 | She acted of her own volition. |
+| Lv4 | by-law | 自治條例；組織章程 | The council approved a new by-law. |
+| Lv4 | condominium | 公寓住宅；共管公寓 | She owns a condominium. |
+| Lv4 | debit | 借記；扣款；扣除 | There is a debit on my account. |
+| Lv4 | dissatisfy | 使不滿意 | Long delays can dissatisfy customers. |
+| Lv4 | distractor | 干擾選項；分心的事物 | The test includes a plausible distractor. |
+| Lv4 | entree | 主餐（美式用法） | Which entree would you like? |
+| Lv4 | fixture | 固定裝置；固定賽程 | This light fixture is broken. |
+| Lv4 | generic | 通用的；學名藥的；學名藥 | Ask the pharmacist about a generic option. |
+| Lv4 | housekeep | 管理家務；清理維護 | The verb housekeep refers to managing a home. |
+| Lv4 | mister | 先生 | The title mister comes before a man's surname. |
+| Lv4 | obligate | 使有義務 | The agreement does not obligate you to buy. |
+| Lv4 | outdate | 使過時 | The verb outdate means to make something obsolete. |
+| Lv4 | purser | 客艙事務長；船務長 | The purser welcomed us aboard. |
+| Lv4 | realtor | 房地產經紀人 | The realtor showed us the apartment. |
+| Lv4 | salespeople | 銷售人員（複數） | The salespeople answered our questions. |
+| Lv4 | sewer | 下水道；縫紉者 | The city repaired the sewer. |
+| Lv4 | taker | 接受者；應試者 | Each test taker needs identification. |
+| Lv4 | toiletry | 盥洗用品 | Shampoo is a common toiletry. |
+| Lv4 | turnover | 營業額；人員流動率；翻面 | The company reduced staff turnover. |
+| Lv4 | unauthorize | 撤銷授權 | The rare verb unauthorize refers to removing authorization. |
+| Lv4 | vend | 販賣 | The license allows them to vend food. |
+| Lv4 | withdrawal | 提款；撤回；戒斷 | The bank charges a withdrawal fee. |

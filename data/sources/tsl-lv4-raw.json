@@ -1,0 +1,5375 @@
+{
+  "source": "TSL-1.2",
+  "sha256": "935b89bdad27755b91f5b1b49b755af3dd7ee60c50d7b899f36520691c88eea8",
+  "sourceWordCount": 1250,
+  "excludedCount": 887,
+  "uniqueWordCount": 363,
+  "normalization": "Case/hyphen/accent equivalence; explicit adviser/advisor, doughnut/donut and CEEC optional plural spellings; synonyms remain distinct. Accentless canonical spelling retains original text.",
+  "excluded": [
+    {
+      "number": 1,
+      "original": "abide"
+    },
+    {
+      "number": 2,
+      "original": "aboard"
+    },
+    {
+      "number": 3,
+      "original": "absent"
+    },
+    {
+      "number": 4,
+      "original": "absorb"
+    },
+    {
+      "number": 5,
+      "original": "accent"
+    },
+    {
+      "number": 6,
+      "original": "acceptance"
+    },
+    {
+      "number": 7,
+      "original": "accessible"
+    },
+    {
+      "number": 8,
+      "original": "accessory"
+    },
+    {
+      "number": 9,
+      "original": "acclaim"
+    },
+    {
+      "number": 10,
+      "original": "accommodate"
+    },
+    {
+      "number": 11,
+      "original": "accomplishment"
+    },
+    {
+      "number": 12,
+      "original": "accordingly"
+    },
+    {
+      "number": 13,
+      "original": "accountant"
+    },
+    {
+      "number": 14,
+      "original": "accumulate"
+    },
+    {
+      "number": 15,
+      "original": "accuracy"
+    },
+    {
+      "number": 16,
+      "original": "accurately"
+    },
+    {
+      "number": 17,
+      "original": "accustom"
+    },
+    {
+      "number": 18,
+      "original": "activate"
+    },
+    {
+      "number": 19,
+      "original": "actively"
+    },
+    {
+      "number": 20,
+      "original": "actress"
+    },
+    {
+      "number": 24,
+      "original": "adjacent"
+    },
+    {
+      "number": 25,
+      "original": "administer"
+    },
+    {
+      "number": 26,
+      "original": "administrative"
+    },
+    {
+      "number": 27,
+      "original": "administrator"
+    },
+    {
+      "number": 28,
+      "original": "admission"
+    },
+    {
+      "number": 32,
+      "original": "advisor"
+    },
+    {
+      "number": 33,
+      "original": "advisory"
+    },
+    {
+      "number": 36,
+      "original": "afterward"
+    },
+    {
+      "number": 38,
+      "original": "airplane"
+    },
+    {
+      "number": 39,
+      "original": "airport"
+    },
+    {
+      "number": 40,
+      "original": "aisle"
+    },
+    {
+      "number": 41,
+      "original": "alert"
+    },
+    {
+      "number": 42,
+      "original": "alike"
+    },
+    {
+      "number": 43,
+      "original": "allergy"
+    },
+    {
+      "number": 44,
+      "original": "allocate"
+    },
+    {
+      "number": 45,
+      "original": "alternate"
+    },
+    {
+      "number": 47,
+      "original": "amateur"
+    },
+    {
+      "number": 48,
+      "original": "ambassador"
+    },
+    {
+      "number": 49,
+      "original": "ambitious"
+    },
+    {
+      "number": 51,
+      "original": "ample"
+    },
+    {
+      "number": 52,
+      "original": "amuse"
+    },
+    {
+      "number": 54,
+      "original": "anniversary"
+    },
+    {
+      "number": 56,
+      "original": "annoy"
+    },
+    {
+      "number": 58,
+      "original": "antique"
+    },
+    {
+      "number": 59,
+      "original": "anyhow"
+    },
+    {
+      "number": 60,
+      "original": "anytime"
+    },
+    {
+      "number": 61,
+      "original": "apology"
+    },
+    {
+      "number": 62,
+      "original": "appendix"
+    },
+    {
+      "number": 64,
+      "original": "apple"
+    },
+    {
+      "number": 65,
+      "original": "appliance"
+    },
+    {
+      "number": 66,
+      "original": "applicable"
+    },
+    {
+      "number": 67,
+      "original": "applicant"
+    },
+    {
+      "number": 69,
+      "original": "appreciation"
+    },
+    {
+      "number": 71,
+      "original": "apprentice"
+    },
+    {
+      "number": 72,
+      "original": "approximate"
+    },
+    {
+      "number": 74,
+      "original": "architect"
+    },
+    {
+      "number": 76,
+      "original": "archive"
+    },
+    {
+      "number": 77,
+      "original": "artistic"
+    },
+    {
+      "number": 78,
+      "original": "asleep"
+    },
+    {
+      "number": 79,
+      "original": "aspect"
+    },
+    {
+      "number": 80,
+      "original": "assemble"
+    },
+    {
+      "number": 81,
+      "original": "assembly"
+    },
+    {
+      "number": 82,
+      "original": "assignment"
+    },
+    {
+      "number": 83,
+      "original": "assurance"
+    },
+    {
+      "number": 84,
+      "original": "athletic"
+    },
+    {
+      "number": 85,
+      "original": "attain"
+    },
+    {
+      "number": 86,
+      "original": "attendant"
+    },
+    {
+      "number": 89,
+      "original": "attorney"
+    },
+    {
+      "number": 90,
+      "original": "auction"
+    },
+    {
+      "number": 91,
+      "original": "audit"
+    },
+    {
+      "number": 94,
+      "original": "auditorium"
+    },
+    {
+      "number": 95,
+      "original": "authentic"
+    },
+    {
+      "number": 96,
+      "original": "authority"
+    },
+    {
+      "number": 98,
+      "original": "authorize"
+    },
+    {
+      "number": 101,
+      "original": "automatic"
+    },
+    {
+      "number": 102,
+      "original": "automobile"
+    },
+    {
+      "number": 104,
+      "original": "availability"
+    },
+    {
+      "number": 105,
+      "original": "await"
+    },
+    {
+      "number": 106,
+      "original": "backpack"
+    },
+    {
+      "number": 107,
+      "original": "bacteria"
+    },
+    {
+      "number": 108,
+      "original": "badge"
+    },
+    {
+      "number": 109,
+      "original": "baggage"
+    },
+    {
+      "number": 110,
+      "original": "bake"
+    },
+    {
+      "number": 112,
+      "original": "bakery"
+    },
+    {
+      "number": 113,
+      "original": "balcony"
+    },
+    {
+      "number": 114,
+      "original": "balloon"
+    },
+    {
+      "number": 116,
+      "original": "banker"
+    },
+    {
+      "number": 117,
+      "original": "bankrupt"
+    },
+    {
+      "number": 119,
+      "original": "banquet"
+    },
+    {
+      "number": 120,
+      "original": "barbecue"
+    },
+    {
+      "number": 121,
+      "original": "bargain"
+    },
+    {
+      "number": 122,
+      "original": "baseball"
+    },
+    {
+      "number": 123,
+      "original": "basement"
+    },
+    {
+      "number": 124,
+      "original": "basket"
+    },
+    {
+      "number": 125,
+      "original": "basketball"
+    },
+    {
+      "number": 126,
+      "original": "bathroom"
+    },
+    {
+      "number": 127,
+      "original": "battery"
+    },
+    {
+      "number": 128,
+      "original": "bean"
+    },
+    {
+      "number": 129,
+      "original": "beforehand"
+    },
+    {
+      "number": 130,
+      "original": "beginner"
+    },
+    {
+      "number": 131,
+      "original": "behalf"
+    },
+    {
+      "number": 132,
+      "original": "bench"
+    },
+    {
+      "number": 133,
+      "original": "beneficial"
+    },
+    {
+      "number": 134,
+      "original": "beverage"
+    },
+    {
+      "number": 135,
+      "original": "bicycle"
+    },
+    {
+      "number": 136,
+      "original": "biography"
+    },
+    {
+      "number": 137,
+      "original": "biology"
+    },
+    {
+      "number": 138,
+      "original": "birthday"
+    },
+    {
+      "number": 139,
+      "original": "blanket"
+    },
+    {
+      "number": 142,
+      "original": "bonus"
+    },
+    {
+      "number": 143,
+      "original": "bookcase"
+    },
+    {
+      "number": 144,
+      "original": "booklet"
+    },
+    {
+      "number": 145,
+      "original": "bookstore"
+    },
+    {
+      "number": 146,
+      "original": "booth"
+    },
+    {
+      "number": 147,
+      "original": "bound"
+    },
+    {
+      "number": 149,
+      "original": "brake"
+    },
+    {
+      "number": 150,
+      "original": "briefcase"
+    },
+    {
+      "number": 151,
+      "original": "broaden"
+    },
+    {
+      "number": 152,
+      "original": "brochure"
+    },
+    {
+      "number": 154,
+      "original": "broom"
+    },
+    {
+      "number": 155,
+      "original": "browse"
+    },
+    {
+      "number": 156,
+      "original": "buffet"
+    },
+    {
+      "number": 157,
+      "original": "bug"
+    },
+    {
+      "number": 158,
+      "original": "bulb"
+    },
+    {
+      "number": 159,
+      "original": "bulk"
+    },
+    {
+      "number": 160,
+      "original": "bulletin"
+    },
+    {
+      "number": 161,
+      "original": "businessman"
+    },
+    {
+      "number": 163,
+      "original": "butter"
+    },
+    {
+      "number": 167,
+      "original": "cabin"
+    },
+    {
+      "number": 168,
+      "original": "cabinet"
+    },
+    {
+      "number": 169,
+      "original": "café"
+    },
+    {
+      "number": 170,
+      "original": "cafeteria"
+    },
+    {
+      "number": 171,
+      "original": "cage"
+    },
+    {
+      "number": 172,
+      "original": "calculation"
+    },
+    {
+      "number": 173,
+      "original": "calculator"
+    },
+    {
+      "number": 174,
+      "original": "calendar"
+    },
+    {
+      "number": 176,
+      "original": "campus"
+    },
+    {
+      "number": 178,
+      "original": "candy"
+    },
+    {
+      "number": 179,
+      "original": "captain"
+    },
+    {
+      "number": 180,
+      "original": "careless"
+    },
+    {
+      "number": 181,
+      "original": "cargo"
+    },
+    {
+      "number": 182,
+      "original": "carpenter"
+    },
+    {
+      "number": 183,
+      "original": "carrier"
+    },
+    {
+      "number": 184,
+      "original": "cart"
+    },
+    {
+      "number": 185,
+      "original": "carton"
+    },
+    {
+      "number": 187,
+      "original": "cashier"
+    },
+    {
+      "number": 188,
+      "original": "casual"
+    },
+    {
+      "number": 189,
+      "original": "cater"
+    },
+    {
+      "number": 191,
+      "original": "caution"
+    },
+    {
+      "number": 192,
+      "original": "cautious"
+    },
+    {
+      "number": 193,
+      "original": "ceiling"
+    },
+    {
+      "number": 194,
+      "original": "celebrity"
+    },
+    {
+      "number": 195,
+      "original": "cellphone"
+    },
+    {
+      "number": 196,
+      "original": "centimeter"
+    },
+    {
+      "number": 197,
+      "original": "certificate"
+    },
+    {
+      "number": 199,
+      "original": "certify"
+    },
+    {
+      "number": 200,
+      "original": "chairperson"
+    },
+    {
+      "number": 201,
+      "original": "charitable"
+    },
+    {
+      "number": 203,
+      "original": "checkup"
+    },
+    {
+      "number": 204,
+      "original": "cheer"
+    },
+    {
+      "number": 206,
+      "original": "chef"
+    },
+    {
+      "number": 207,
+      "original": "chemistry"
+    },
+    {
+      "number": 208,
+      "original": "chilly"
+    },
+    {
+      "number": 209,
+      "original": "chronic"
+    },
+    {
+      "number": 210,
+      "original": "cinema"
+    },
+    {
+      "number": 211,
+      "original": "circuit"
+    },
+    {
+      "number": 212,
+      "original": "circulate"
+    },
+    {
+      "number": 213,
+      "original": "circulation"
+    },
+    {
+      "number": 214,
+      "original": "circus"
+    },
+    {
+      "number": 215,
+      "original": "clap"
+    },
+    {
+      "number": 216,
+      "original": "clarify"
+    },
+    {
+      "number": 217,
+      "original": "classify"
+    },
+    {
+      "number": 218,
+      "original": "classmate"
+    },
+    {
+      "number": 219,
+      "original": "cleaner"
+    },
+    {
+      "number": 221,
+      "original": "clerk"
+    },
+    {
+      "number": 222,
+      "original": "client"
+    },
+    {
+      "number": 223,
+      "original": "clinic"
+    },
+    {
+      "number": 224,
+      "original": "clip"
+    },
+    {
+      "number": 225,
+      "original": "closet"
+    },
+    {
+      "number": 226,
+      "original": "closure"
+    },
+    {
+      "number": 227,
+      "original": "cloth"
+    },
+    {
+      "number": 228,
+      "original": "cloudy"
+    },
+    {
+      "number": 229,
+      "original": "clue"
+    },
+    {
+      "number": 230,
+      "original": "collaboration"
+    },
+    {
+      "number": 231,
+      "original": "collector"
+    },
+    {
+      "number": 232,
+      "original": "colorful"
+    },
+    {
+      "number": 233,
+      "original": "comb"
+    },
+    {
+      "number": 235,
+      "original": "commerce"
+    },
+    {
+      "number": 236,
+      "original": "commonly"
+    },
+    {
+      "number": 237,
+      "original": "commute"
+    },
+    {
+      "number": 238,
+      "original": "commuter"
+    },
+    {
+      "number": 239,
+      "original": "compact"
+    },
+    {
+      "number": 241,
+      "original": "compatible"
+    },
+    {
+      "number": 242,
+      "original": "compensate"
+    },
+    {
+      "number": 243,
+      "original": "compile"
+    },
+    {
+      "number": 245,
+      "original": "compliance"
+    },
+    {
+      "number": 246,
+      "original": "complication"
+    },
+    {
+      "number": 247,
+      "original": "compliment"
+    },
+    {
+      "number": 249,
+      "original": "comply"
+    },
+    {
+      "number": 250,
+      "original": "comprehension"
+    },
+    {
+      "number": 254,
+      "original": "conductor"
+    },
+    {
+      "number": 255,
+      "original": "confidential"
+    },
+    {
+      "number": 257,
+      "original": "conform"
+    },
+    {
+      "number": 259,
+      "original": "congratulate"
+    },
+    {
+      "number": 260,
+      "original": "congratulation"
+    },
+    {
+      "number": 261,
+      "original": "consecutive"
+    },
+    {
+      "number": 262,
+      "original": "consent"
+    },
+    {
+      "number": 264,
+      "original": "considerate"
+    },
+    {
+      "number": 267,
+      "original": "consultation"
+    },
+    {
+      "number": 268,
+      "original": "consumption"
+    },
+    {
+      "number": 269,
+      "original": "container"
+    },
+    {
+      "number": 270,
+      "original": "contestant"
+    },
+    {
+      "number": 271,
+      "original": "continental"
+    },
+    {
+      "number": 273,
+      "original": "contractor"
+    },
+    {
+      "number": 274,
+      "original": "contradict"
+    },
+    {
+      "number": 275,
+      "original": "contradiction"
+    },
+    {
+      "number": 276,
+      "original": "contrary"
+    },
+    {
+      "number": 277,
+      "original": "convenience"
+    },
+    {
+      "number": 278,
+      "original": "convenient"
+    },
+    {
+      "number": 280,
+      "original": "convey"
+    },
+    {
+      "number": 282,
+      "original": "cookie"
+    },
+    {
+      "number": 284,
+      "original": "cooperate"
+    },
+    {
+      "number": 285,
+      "original": "coordinate"
+    },
+    {
+      "number": 288,
+      "original": "copyright"
+    },
+    {
+      "number": 289,
+      "original": "cord"
+    },
+    {
+      "number": 291,
+      "original": "correction"
+    },
+    {
+      "number": 292,
+      "original": "correctly"
+    },
+    {
+      "number": 293,
+      "original": "correspondence"
+    },
+    {
+      "number": 294,
+      "original": "cosmetic"
+    },
+    {
+      "number": 295,
+      "original": "costly"
+    },
+    {
+      "number": 296,
+      "original": "costume"
+    },
+    {
+      "number": 297,
+      "original": "counselor"
+    },
+    {
+      "number": 298,
+      "original": "countryside"
+    },
+    {
+      "number": 299,
+      "original": "coupon"
+    },
+    {
+      "number": 301,
+      "original": "courtesy"
+    },
+    {
+      "number": 303,
+      "original": "crane"
+    },
+    {
+      "number": 304,
+      "original": "creativity"
+    },
+    {
+      "number": 305,
+      "original": "cruise"
+    },
+    {
+      "number": 307,
+      "original": "cumulative"
+    },
+    {
+      "number": 308,
+      "original": "cushion"
+    },
+    {
+      "number": 311,
+      "original": "deadline"
+    },
+    {
+      "number": 314,
+      "original": "deck"
+    },
+    {
+      "number": 315,
+      "original": "decorate"
+    },
+    {
+      "number": 316,
+      "original": "decoration"
+    },
+    {
+      "number": 317,
+      "original": "dedication"
+    },
+    {
+      "number": 318,
+      "original": "deduct"
+    },
+    {
+      "number": 320,
+      "original": "defect"
+    },
+    {
+      "number": 322,
+      "original": "definite"
+    },
+    {
+      "number": 323,
+      "original": "delegate"
+    },
+    {
+      "number": 325,
+      "original": "delicate"
+    },
+    {
+      "number": 326,
+      "original": "delicious"
+    },
+    {
+      "number": 329,
+      "original": "dental"
+    },
+    {
+      "number": 330,
+      "original": "dentist"
+    },
+    {
+      "number": 331,
+      "original": "depart"
+    },
+    {
+      "number": 333,
+      "original": "departure"
+    },
+    {
+      "number": 335,
+      "original": "dependence"
+    },
+    {
+      "number": 336,
+      "original": "descriptive"
+    },
+    {
+      "number": 338,
+      "original": "desirable"
+    },
+    {
+      "number": 340,
+      "original": "desperate"
+    },
+    {
+      "number": 341,
+      "original": "dessert"
+    },
+    {
+      "number": 342,
+      "original": "destination"
+    },
+    {
+      "number": 343,
+      "original": "detach"
+    },
+    {
+      "number": 347,
+      "original": "diagnose"
+    },
+    {
+      "number": 348,
+      "original": "diagnostic"
+    },
+    {
+      "number": 349,
+      "original": "diagram"
+    },
+    {
+      "number": 350,
+      "original": "dial"
+    },
+    {
+      "number": 351,
+      "original": "diamond"
+    },
+    {
+      "number": 352,
+      "original": "dine"
+    },
+    {
+      "number": 354,
+      "original": "diploma"
+    },
+    {
+      "number": 355,
+      "original": "directory"
+    },
+    {
+      "number": 356,
+      "original": "disable"
+    },
+    {
+      "number": 357,
+      "original": "disagreement"
+    },
+    {
+      "number": 358,
+      "original": "disappointment"
+    },
+    {
+      "number": 359,
+      "original": "discard"
+    },
+    {
+      "number": 360,
+      "original": "disconnect"
+    },
+    {
+      "number": 363,
+      "original": "disgust"
+    },
+    {
+      "number": 365,
+      "original": "dislike"
+    },
+    {
+      "number": 367,
+      "original": "disposal"
+    },
+    {
+      "number": 368,
+      "original": "dispose"
+    },
+    {
+      "number": 369,
+      "original": "disrupt"
+    },
+    {
+      "number": 372,
+      "original": "distract"
+    },
+    {
+      "number": 373,
+      "original": "distraction"
+    },
+    {
+      "number": 375,
+      "original": "distribution"
+    },
+    {
+      "number": 377,
+      "original": "dive"
+    },
+    {
+      "number": 378,
+      "original": "dividend"
+    },
+    {
+      "number": 379,
+      "original": "dock"
+    },
+    {
+      "number": 380,
+      "original": "documentary"
+    },
+    {
+      "number": 382,
+      "original": "donate"
+    },
+    {
+      "number": 383,
+      "original": "donation"
+    },
+    {
+      "number": 384,
+      "original": "donut"
+    },
+    {
+      "number": 386,
+      "original": "dose"
+    },
+    {
+      "number": 387,
+      "original": "download"
+    },
+    {
+      "number": 389,
+      "original": "downstairs"
+    },
+    {
+      "number": 390,
+      "original": "downtown"
+    },
+    {
+      "number": 394,
+      "original": "drawer"
+    },
+    {
+      "number": 395,
+      "original": "drill"
+    },
+    {
+      "number": 396,
+      "original": "drought"
+    },
+    {
+      "number": 397,
+      "original": "drum"
+    },
+    {
+      "number": 398,
+      "original": "dull"
+    },
+    {
+      "number": 400,
+      "original": "durable"
+    },
+    {
+      "number": 401,
+      "original": "duration"
+    },
+    {
+      "number": 402,
+      "original": "dynamic"
+    },
+    {
+      "number": 403,
+      "original": "eager"
+    },
+    {
+      "number": 404,
+      "original": "earthquake"
+    },
+    {
+      "number": 406,
+      "original": "economical"
+    },
+    {
+      "number": 407,
+      "original": "economically"
+    },
+    {
+      "number": 408,
+      "original": "economist"
+    },
+    {
+      "number": 410,
+      "original": "editorial"
+    },
+    {
+      "number": 411,
+      "original": "effectiveness"
+    },
+    {
+      "number": 413,
+      "original": "electrical"
+    },
+    {
+      "number": 414,
+      "original": "electrician"
+    },
+    {
+      "number": 416,
+      "original": "elegant"
+    },
+    {
+      "number": 417,
+      "original": "elephant"
+    },
+    {
+      "number": 418,
+      "original": "elevate"
+    },
+    {
+      "number": 419,
+      "original": "elevator"
+    },
+    {
+      "number": 420,
+      "original": "eligible"
+    },
+    {
+      "number": 421,
+      "original": "embassy"
+    },
+    {
+      "number": 422,
+      "original": "embed"
+    },
+    {
+      "number": 423,
+      "original": "enclose"
+    },
+    {
+      "number": 424,
+      "original": "energetic"
+    },
+    {
+      "number": 425,
+      "original": "engagement"
+    },
+    {
+      "number": 426,
+      "original": "enjoyable"
+    },
+    {
+      "number": 427,
+      "original": "enroll"
+    },
+    {
+      "number": 428,
+      "original": "enrollment"
+    },
+    {
+      "number": 429,
+      "original": "enthusiasm"
+    },
+    {
+      "number": 431,
+      "original": "enthusiastic"
+    },
+    {
+      "number": 434,
+      "original": "entrepreneur"
+    },
+    {
+      "number": 436,
+      "original": "equip"
+    },
+    {
+      "number": 437,
+      "original": "erase"
+    },
+    {
+      "number": 438,
+      "original": "escalator"
+    },
+    {
+      "number": 439,
+      "original": "escort"
+    },
+    {
+      "number": 440,
+      "original": "ethics"
+    },
+    {
+      "number": 442,
+      "original": "evacuate"
+    },
+    {
+      "number": 444,
+      "original": "evident"
+    },
+    {
+      "number": 445,
+      "original": "excellence"
+    },
+    {
+      "number": 446,
+      "original": "exceptional"
+    },
+    {
+      "number": 447,
+      "original": "excessive"
+    },
+    {
+      "number": 448,
+      "original": "exclusive"
+    },
+    {
+      "number": 452,
+      "original": "exit"
+    },
+    {
+      "number": 453,
+      "original": "exotic"
+    },
+    {
+      "number": 455,
+      "original": "expertise"
+    },
+    {
+      "number": 456,
+      "original": "expiration"
+    },
+    {
+      "number": 457,
+      "original": "expire"
+    },
+    {
+      "number": 461,
+      "original": "fabric"
+    },
+    {
+      "number": 462,
+      "original": "facilitate"
+    },
+    {
+      "number": 464,
+      "original": "faculty"
+    },
+    {
+      "number": 465,
+      "original": "familiarity"
+    },
+    {
+      "number": 467,
+      "original": "fare"
+    },
+    {
+      "number": 468,
+      "original": "farewell"
+    },
+    {
+      "number": 469,
+      "original": "fasten"
+    },
+    {
+      "number": 470,
+      "original": "fatigue"
+    },
+    {
+      "number": 472,
+      "original": "favorable"
+    },
+    {
+      "number": 473,
+      "original": "fax"
+    },
+    {
+      "number": 474,
+      "original": "feedback"
+    },
+    {
+      "number": 475,
+      "original": "ferry"
+    },
+    {
+      "number": 478,
+      "original": "firework"
+    },
+    {
+      "number": 479,
+      "original": "fiscal"
+    },
+    {
+      "number": 482,
+      "original": "flavor"
+    },
+    {
+      "number": 483,
+      "original": "flaw"
+    },
+    {
+      "number": 484,
+      "original": "fleet"
+    },
+    {
+      "number": 485,
+      "original": "flexibility"
+    },
+    {
+      "number": 487,
+      "original": "flour"
+    },
+    {
+      "number": 488,
+      "original": "flu"
+    },
+    {
+      "number": 490,
+      "original": "fluent"
+    },
+    {
+      "number": 492,
+      "original": "fog"
+    },
+    {
+      "number": 495,
+      "original": "forbid"
+    },
+    {
+      "number": 497,
+      "original": "fork"
+    },
+    {
+      "number": 498,
+      "original": "formally"
+    },
+    {
+      "number": 500,
+      "original": "forum"
+    },
+    {
+      "number": 501,
+      "original": "foster"
+    },
+    {
+      "number": 502,
+      "original": "founder"
+    },
+    {
+      "number": 503,
+      "original": "fountain"
+    },
+    {
+      "number": 504,
+      "original": "franchise"
+    },
+    {
+      "number": 506,
+      "original": "freight"
+    },
+    {
+      "number": 508,
+      "original": "frustrate"
+    },
+    {
+      "number": 509,
+      "original": "fry"
+    },
+    {
+      "number": 511,
+      "original": "furnish"
+    },
+    {
+      "number": 512,
+      "original": "gallon"
+    },
+    {
+      "number": 513,
+      "original": "garage"
+    },
+    {
+      "number": 514,
+      "original": "garbage"
+    },
+    {
+      "number": 515,
+      "original": "gardener"
+    },
+    {
+      "number": 516,
+      "original": "garment"
+    },
+    {
+      "number": 517,
+      "original": "gasoline"
+    },
+    {
+      "number": 518,
+      "original": "generalization"
+    },
+    {
+      "number": 519,
+      "original": "generator"
+    },
+    {
+      "number": 521,
+      "original": "generous"
+    },
+    {
+      "number": 522,
+      "original": "genre"
+    },
+    {
+      "number": 524,
+      "original": "glove"
+    },
+    {
+      "number": 525,
+      "original": "goods"
+    },
+    {
+      "number": 526,
+      "original": "gossip"
+    },
+    {
+      "number": 527,
+      "original": "graduation"
+    },
+    {
+      "number": 528,
+      "original": "gram"
+    },
+    {
+      "number": 529,
+      "original": "graph"
+    },
+    {
+      "number": 530,
+      "original": "graphic"
+    },
+    {
+      "number": 532,
+      "original": "grill"
+    },
+    {
+      "number": 533,
+      "original": "grocery"
+    },
+    {
+      "number": 534,
+      "original": "guidance"
+    },
+    {
+      "number": 535,
+      "original": "gum"
+    },
+    {
+      "number": 536,
+      "original": "gym"
+    },
+    {
+      "number": 537,
+      "original": "gymnasium"
+    },
+    {
+      "number": 538,
+      "original": "habitual"
+    },
+    {
+      "number": 539,
+      "original": "hacker"
+    },
+    {
+      "number": 540,
+      "original": "hallway"
+    },
+    {
+      "number": 541,
+      "original": "hamburger"
+    },
+    {
+      "number": 543,
+      "original": "handy"
+    },
+    {
+      "number": 544,
+      "original": "hardware"
+    },
+    {
+      "number": 545,
+      "original": "hardworking"
+    },
+    {
+      "number": 546,
+      "original": "harmful"
+    },
+    {
+      "number": 547,
+      "original": "hazard"
+    },
+    {
+      "number": 549,
+      "original": "headache"
+    },
+    {
+      "number": 550,
+      "original": "headphone"
+    },
+    {
+      "number": 551,
+      "original": "headquarter"
+    },
+    {
+      "number": 553,
+      "original": "healthful"
+    },
+    {
+      "number": 554,
+      "original": "heater"
+    },
+    {
+      "number": 555,
+      "original": "helmet"
+    },
+    {
+      "number": 558,
+      "original": "hesitation"
+    },
+    {
+      "number": 559,
+      "original": "highway"
+    },
+    {
+      "number": 560,
+      "original": "hike"
+    },
+    {
+      "number": 562,
+      "original": "hobby"
+    },
+    {
+      "number": 566,
+      "original": "homework"
+    },
+    {
+      "number": 568,
+      "original": "hospitality"
+    },
+    {
+      "number": 570,
+      "original": "hourly"
+    },
+    {
+      "number": 572,
+      "original": "housekeeper"
+    },
+    {
+      "number": 573,
+      "original": "humidity"
+    },
+    {
+      "number": 574,
+      "original": "hungry"
+    },
+    {
+      "number": 575,
+      "original": "hurricane"
+    },
+    {
+      "number": 576,
+      "original": "hygiene"
+    },
+    {
+      "number": 577,
+      "original": "ice cream"
+    },
+    {
+      "number": 578,
+      "original": "icy"
+    },
+    {
+      "number": 580,
+      "original": "identification"
+    },
+    {
+      "number": 582,
+      "original": "impact"
+    },
+    {
+      "number": 584,
+      "original": "imperative"
+    },
+    {
+      "number": 586,
+      "original": "inclusive"
+    },
+    {
+      "number": 590,
+      "original": "incur"
+    },
+    {
+      "number": 591,
+      "original": "indicator"
+    },
+    {
+      "number": 592,
+      "original": "indirect"
+    },
+    {
+      "number": 593,
+      "original": "individually"
+    },
+    {
+      "number": 594,
+      "original": "indoor"
+    },
+    {
+      "number": 595,
+      "original": "induction"
+    },
+    {
+      "number": 599,
+      "original": "infer"
+    },
+    {
+      "number": 600,
+      "original": "inference"
+    },
+    {
+      "number": 602,
+      "original": "influential"
+    },
+    {
+      "number": 603,
+      "original": "informal"
+    },
+    {
+      "number": 604,
+      "original": "informative"
+    },
+    {
+      "number": 605,
+      "original": "ingredient"
+    },
+    {
+      "number": 606,
+      "original": "ink"
+    },
+    {
+      "number": 607,
+      "original": "innovative"
+    },
+    {
+      "number": 608,
+      "original": "inquire"
+    },
+    {
+      "number": 609,
+      "original": "insert"
+    },
+    {
+      "number": 610,
+      "original": "inspect"
+    },
+    {
+      "number": 611,
+      "original": "inspection"
+    },
+    {
+      "number": 612,
+      "original": "inspector"
+    },
+    {
+      "number": 613,
+      "original": "inspiration"
+    },
+    {
+      "number": 614,
+      "original": "installation"
+    },
+    {
+      "number": 615,
+      "original": "institute"
+    },
+    {
+      "number": 616,
+      "original": "instruct"
+    },
+    {
+      "number": 617,
+      "original": "instructor"
+    },
+    {
+      "number": 619,
+      "original": "integral"
+    },
+    {
+      "number": 622,
+      "original": "interfere"
+    },
+    {
+      "number": 625,
+      "original": "internet"
+    },
+    {
+      "number": 627,
+      "original": "interpreter"
+    },
+    {
+      "number": 628,
+      "original": "interrupt"
+    },
+    {
+      "number": 629,
+      "original": "intersection"
+    },
+    {
+      "number": 630,
+      "original": "intonation"
+    },
+    {
+      "number": 632,
+      "original": "invaluable"
+    },
+    {
+      "number": 633,
+      "original": "invention"
+    },
+    {
+      "number": 634,
+      "original": "inventory"
+    },
+    {
+      "number": 637,
+      "original": "irrelevant"
+    },
+    {
+      "number": 638,
+      "original": "irritate"
+    },
+    {
+      "number": 640,
+      "original": "jam"
+    },
+    {
+      "number": 641,
+      "original": "jazz"
+    },
+    {
+      "number": 642,
+      "original": "jeans"
+    },
+    {
+      "number": 643,
+      "original": "jet"
+    },
+    {
+      "number": 644,
+      "original": "jewelry"
+    },
+    {
+      "number": 645,
+      "original": "jog"
+    },
+    {
+      "number": 646,
+      "original": "journalism"
+    },
+    {
+      "number": 647,
+      "original": "juice"
+    },
+    {
+      "number": 648,
+      "original": "junior"
+    },
+    {
+      "number": 649,
+      "original": "junk"
+    },
+    {
+      "number": 650,
+      "original": "keyboard"
+    },
+    {
+      "number": 651,
+      "original": "kilogram"
+    },
+    {
+      "number": 652,
+      "original": "kilometer"
+    },
+    {
+      "number": 653,
+      "original": "kit"
+    },
+    {
+      "number": 654,
+      "original": "knowledgeable"
+    },
+    {
+      "number": 655,
+      "original": "lab"
+    },
+    {
+      "number": 656,
+      "original": "ladder"
+    },
+    {
+      "number": 657,
+      "original": "lamp"
+    },
+    {
+      "number": 658,
+      "original": "landlord"
+    },
+    {
+      "number": 659,
+      "original": "lane"
+    },
+    {
+      "number": 661,
+      "original": "lately"
+    },
+    {
+      "number": 662,
+      "original": "laundry"
+    },
+    {
+      "number": 663,
+      "original": "lawn"
+    },
+    {
+      "number": 665,
+      "original": "layout"
+    },
+    {
+      "number": 666,
+      "original": "leak"
+    },
+    {
+      "number": 667,
+      "original": "lease"
+    },
+    {
+      "number": 668,
+      "original": "lecturer"
+    },
+    {
+      "number": 669,
+      "original": "leisure"
+    },
+    {
+      "number": 670,
+      "original": "lengthy"
+    },
+    {
+      "number": 672,
+      "original": "librarian"
+    },
+    {
+      "number": 673,
+      "original": "lifeguard"
+    },
+    {
+      "number": 674,
+      "original": "lifestyle"
+    },
+    {
+      "number": 675,
+      "original": "lifetime"
+    },
+    {
+      "number": 678,
+      "original": "likewise"
+    },
+    {
+      "number": 679,
+      "original": "liter"
+    },
+    {
+      "number": 680,
+      "original": "lobby"
+    },
+    {
+      "number": 681,
+      "original": "locally"
+    },
+    {
+      "number": 682,
+      "original": "locker"
+    },
+    {
+      "number": 683,
+      "original": "logical"
+    },
+    {
+      "number": 685,
+      "original": "logo"
+    },
+    {
+      "number": 687,
+      "original": "lounge"
+    },
+    {
+      "number": 688,
+      "original": "loyal"
+    },
+    {
+      "number": 689,
+      "original": "loyalty"
+    },
+    {
+      "number": 690,
+      "original": "luggage"
+    },
+    {
+      "number": 693,
+      "original": "ma'am"
+    },
+    {
+      "number": 694,
+      "original": "machinery"
+    },
+    {
+      "number": 696,
+      "original": "mall"
+    },
+    {
+      "number": 699,
+      "original": "manual"
+    },
+    {
+      "number": 700,
+      "original": "mask"
+    },
+    {
+      "number": 701,
+      "original": "massage"
+    },
+    {
+      "number": 702,
+      "original": "maximize"
+    },
+    {
+      "number": 703,
+      "original": "meaningful"
+    },
+    {
+      "number": 704,
+      "original": "meantime"
+    },
+    {
+      "number": 705,
+      "original": "mechanic"
+    },
+    {
+      "number": 706,
+      "original": "mechanical"
+    },
+    {
+      "number": 707,
+      "original": "media"
+    },
+    {
+      "number": 708,
+      "original": "medication"
+    },
+    {
+      "number": 711,
+      "original": "memorize"
+    },
+    {
+      "number": 712,
+      "original": "mentor"
+    },
+    {
+      "number": 713,
+      "original": "merchandise"
+    },
+    {
+      "number": 714,
+      "original": "merchant"
+    },
+    {
+      "number": 715,
+      "original": "merge"
+    },
+    {
+      "number": 717,
+      "original": "merit"
+    },
+    {
+      "number": 718,
+      "original": "messenger"
+    },
+    {
+      "number": 719,
+      "original": "microphone"
+    },
+    {
+      "number": 720,
+      "original": "microscope"
+    },
+    {
+      "number": 721,
+      "original": "microwave"
+    },
+    {
+      "number": 722,
+      "original": "midnight"
+    },
+    {
+      "number": 723,
+      "original": "mild"
+    },
+    {
+      "number": 725,
+      "original": "mineral"
+    },
+    {
+      "number": 727,
+      "original": "minimize"
+    },
+    {
+      "number": 729,
+      "original": "mislead"
+    },
+    {
+      "number": 733,
+      "original": "modification"
+    },
+    {
+      "number": 734,
+      "original": "monument"
+    },
+    {
+      "number": 735,
+      "original": "morale"
+    },
+    {
+      "number": 736,
+      "original": "mosquito"
+    },
+    {
+      "number": 737,
+      "original": "motorcycle"
+    },
+    {
+      "number": 739,
+      "original": "nail"
+    },
+    {
+      "number": 740,
+      "original": "nap"
+    },
+    {
+      "number": 742,
+      "original": "neat"
+    },
+    {
+      "number": 743,
+      "original": "necessity"
+    },
+    {
+      "number": 744,
+      "original": "necklace"
+    },
+    {
+      "number": 745,
+      "original": "needy"
+    },
+    {
+      "number": 748,
+      "original": "noisy"
+    },
+    {
+      "number": 749,
+      "original": "nominate"
+    },
+    {
+      "number": 750,
+      "original": "nomination"
+    },
+    {
+      "number": 751,
+      "original": "noon"
+    },
+    {
+      "number": 752,
+      "original": "notify"
+    },
+    {
+      "number": 753,
+      "original": "nutrition"
+    },
+    {
+      "number": 755,
+      "original": "oblige"
+    },
+    {
+      "number": 756,
+      "original": "obtain"
+    },
+    {
+      "number": 759,
+      "original": "occupation"
+    },
+    {
+      "number": 760,
+      "original": "occurrence"
+    },
+    {
+      "number": 761,
+      "original": "o'clock"
+    },
+    {
+      "number": 763,
+      "original": "omit"
+    },
+    {
+      "number": 764,
+      "original": "ongoing"
+    },
+    {
+      "number": 765,
+      "original": "operational"
+    },
+    {
+      "number": 766,
+      "original": "opt"
+    },
+    {
+      "number": 767,
+      "original": "optimistic"
+    },
+    {
+      "number": 768,
+      "original": "optional"
+    },
+    {
+      "number": 769,
+      "original": "orchestra"
+    },
+    {
+      "number": 771,
+      "original": "organizer"
+    },
+    {
+      "number": 772,
+      "original": "orientation"
+    },
+    {
+      "number": 775,
+      "original": "outdoor"
+    },
+    {
+      "number": 776,
+      "original": "outfit"
+    },
+    {
+      "number": 777,
+      "original": "outlet"
+    },
+    {
+      "number": 778,
+      "original": "outlook"
+    },
+    {
+      "number": 779,
+      "original": "outstanding"
+    },
+    {
+      "number": 780,
+      "original": "oval"
+    },
+    {
+      "number": 781,
+      "original": "oven"
+    },
+    {
+      "number": 785,
+      "original": "overhead"
+    },
+    {
+      "number": 786,
+      "original": "overlook"
+    },
+    {
+      "number": 787,
+      "original": "overnight"
+    },
+    {
+      "number": 789,
+      "original": "oversee"
+    },
+    {
+      "number": 791,
+      "original": "overview"
+    },
+    {
+      "number": 792,
+      "original": "packet"
+    },
+    {
+      "number": 793,
+      "original": "pad"
+    },
+    {
+      "number": 794,
+      "original": "painter"
+    },
+    {
+      "number": 796,
+      "original": "pan"
+    },
+    {
+      "number": 798,
+      "original": "paperback"
+    },
+    {
+      "number": 800,
+      "original": "parade"
+    },
+    {
+      "number": 803,
+      "original": "parcel"
+    },
+    {
+      "number": 804,
+      "original": "partial"
+    },
+    {
+      "number": 805,
+      "original": "partially"
+    },
+    {
+      "number": 806,
+      "original": "passport"
+    },
+    {
+      "number": 807,
+      "original": "password"
+    },
+    {
+      "number": 808,
+      "original": "pasta"
+    },
+    {
+      "number": 809,
+      "original": "pastry"
+    },
+    {
+      "number": 810,
+      "original": "patent"
+    },
+    {
+      "number": 811,
+      "original": "patience"
+    },
+    {
+      "number": 812,
+      "original": "patron"
+    },
+    {
+      "number": 816,
+      "original": "pedestrian"
+    },
+    {
+      "number": 818,
+      "original": "pepper"
+    },
+    {
+      "number": 819,
+      "original": "performer"
+    },
+    {
+      "number": 824,
+      "original": "pet"
+    },
+    {
+      "number": 825,
+      "original": "petition"
+    },
+    {
+      "number": 827,
+      "original": "pharmacist"
+    },
+    {
+      "number": 828,
+      "original": "pharmacy"
+    },
+    {
+      "number": 831,
+      "original": "photographer"
+    },
+    {
+      "number": 832,
+      "original": "photography"
+    },
+    {
+      "number": 833,
+      "original": "physician"
+    },
+    {
+      "number": 834,
+      "original": "physics"
+    },
+    {
+      "number": 835,
+      "original": "picnic"
+    },
+    {
+      "number": 836,
+      "original": "pie"
+    },
+    {
+      "number": 837,
+      "original": "pill"
+    },
+    {
+      "number": 838,
+      "original": "pillow"
+    },
+    {
+      "number": 839,
+      "original": "pizza"
+    },
+    {
+      "number": 840,
+      "original": "placement"
+    },
+    {
+      "number": 841,
+      "original": "planner"
+    },
+    {
+      "number": 842,
+      "original": "plausible"
+    },
+    {
+      "number": 843,
+      "original": "plow"
+    },
+    {
+      "number": 844,
+      "original": "plug"
+    },
+    {
+      "number": 845,
+      "original": "plumber"
+    },
+    {
+      "number": 846,
+      "original": "pole"
+    },
+    {
+      "number": 847,
+      "original": "polish"
+    },
+    {
+      "number": 848,
+      "original": "polite"
+    },
+    {
+      "number": 849,
+      "original": "pollute"
+    },
+    {
+      "number": 851,
+      "original": "popcorn"
+    },
+    {
+      "number": 852,
+      "original": "popularity"
+    },
+    {
+      "number": 853,
+      "original": "portable"
+    },
+    {
+      "number": 854,
+      "original": "portfolio"
+    },
+    {
+      "number": 855,
+      "original": "postage"
+    },
+    {
+      "number": 857,
+      "original": "postcard"
+    },
+    {
+      "number": 858,
+      "original": "poster"
+    },
+    {
+      "number": 859,
+      "original": "postpone"
+    },
+    {
+      "number": 860,
+      "original": "pottery"
+    },
+    {
+      "number": 861,
+      "original": "precede"
+    },
+    {
+      "number": 862,
+      "original": "prediction"
+    },
+    {
+      "number": 863,
+      "original": "preliminary"
+    },
+    {
+      "number": 864,
+      "original": "premium"
+    },
+    {
+      "number": 865,
+      "original": "prescribe"
+    },
+    {
+      "number": 866,
+      "original": "prescription"
+    },
+    {
+      "number": 869,
+      "original": "preview"
+    },
+    {
+      "number": 870,
+      "original": "probable"
+    },
+    {
+      "number": 871,
+      "original": "productive"
+    },
+    {
+      "number": 872,
+      "original": "productivity"
+    },
+    {
+      "number": 874,
+      "original": "proficiency"
+    },
+    {
+      "number": 875,
+      "original": "profitable"
+    },
+    {
+      "number": 877,
+      "original": "prohibit"
+    },
+    {
+      "number": 878,
+      "original": "projection"
+    },
+    {
+      "number": 880,
+      "original": "prominent"
+    },
+    {
+      "number": 884,
+      "original": "prospective"
+    },
+    {
+      "number": 885,
+      "original": "protective"
+    },
+    {
+      "number": 887,
+      "original": "publicity"
+    },
+    {
+      "number": 888,
+      "original": "publicize"
+    },
+    {
+      "number": 889,
+      "original": "publish"
+    },
+    {
+      "number": 890,
+      "original": "punctual"
+    },
+    {
+      "number": 892,
+      "original": "purse"
+    },
+    {
+      "number": 894,
+      "original": "puzzle"
+    },
+    {
+      "number": 897,
+      "original": "questionnaire"
+    },
+    {
+      "number": 898,
+      "original": "quit"
+    },
+    {
+      "number": 899,
+      "original": "rack"
+    },
+    {
+      "number": 900,
+      "original": "railway"
+    },
+    {
+      "number": 901,
+      "original": "raincoat"
+    },
+    {
+      "number": 902,
+      "original": "rainfall"
+    },
+    {
+      "number": 903,
+      "original": "rainy"
+    },
+    {
+      "number": 904,
+      "original": "ray"
+    },
+    {
+      "number": 905,
+      "original": "realistic"
+    },
+    {
+      "number": 908,
+      "original": "reassure"
+    },
+    {
+      "number": 910,
+      "original": "receipt"
+    },
+    {
+      "number": 911,
+      "original": "reception"
+    },
+    {
+      "number": 913,
+      "original": "recession"
+    },
+    {
+      "number": 914,
+      "original": "recipe"
+    },
+    {
+      "number": 915,
+      "original": "recipient"
+    },
+    {
+      "number": 917,
+      "original": "recreation"
+    },
+    {
+      "number": 918,
+      "original": "recreational"
+    },
+    {
+      "number": 922,
+      "original": "recycle"
+    },
+    {
+      "number": 925,
+      "original": "referee"
+    },
+    {
+      "number": 929,
+      "original": "refresh"
+    },
+    {
+      "number": 930,
+      "original": "refreshment"
+    },
+    {
+      "number": 931,
+      "original": "refrigerator"
+    },
+    {
+      "number": 932,
+      "original": "refund"
+    },
+    {
+      "number": 934,
+      "original": "rehearsal"
+    },
+    {
+      "number": 935,
+      "original": "rehearse"
+    },
+    {
+      "number": 938,
+      "original": "reinforce"
+    },
+    {
+      "number": 939,
+      "original": "relaxation"
+    },
+    {
+      "number": 940,
+      "original": "reliability"
+    },
+    {
+      "number": 941,
+      "original": "relieve"
+    },
+    {
+      "number": 944,
+      "original": "reluctant"
+    },
+    {
+      "number": 945,
+      "original": "remainder"
+    },
+    {
+      "number": 946,
+      "original": "reminder"
+    },
+    {
+      "number": 948,
+      "original": "removal"
+    },
+    {
+      "number": 949,
+      "original": "renew"
+    },
+    {
+      "number": 954,
+      "original": "rental"
+    },
+    {
+      "number": 959,
+      "original": "repetition"
+    },
+    {
+      "number": 960,
+      "original": "replacement"
+    },
+    {
+      "number": 961,
+      "original": "reproduce"
+    },
+    {
+      "number": 963,
+      "original": "resemble"
+    },
+    {
+      "number": 964,
+      "original": "reservation"
+    },
+    {
+      "number": 965,
+      "original": "residence"
+    },
+    {
+      "number": 966,
+      "original": "residential"
+    },
+    {
+      "number": 967,
+      "original": "resignation"
+    },
+    {
+      "number": 968,
+      "original": "respondent"
+    },
+    {
+      "number": 970,
+      "original": "restroom"
+    },
+    {
+      "number": 971,
+      "original": "résumé"
+    },
+    {
+      "number": 972,
+      "original": "resume"
+    },
+    {
+      "number": 974,
+      "original": "retreat"
+    },
+    {
+      "number": 975,
+      "original": "retrieve"
+    },
+    {
+      "number": 976,
+      "original": "reunion"
+    },
+    {
+      "number": 978,
+      "original": "revision"
+    },
+    {
+      "number": 980,
+      "original": "rewrite"
+    },
+    {
+      "number": 982,
+      "original": "rubber"
+    },
+    {
+      "number": 983,
+      "original": "rug"
+    },
+    {
+      "number": 984,
+      "original": "rumor"
+    },
+    {
+      "number": 985,
+      "original": "runner"
+    },
+    {
+      "number": 987,
+      "original": "salad"
+    },
+    {
+      "number": 988,
+      "original": "salesman"
+    },
+    {
+      "number": 990,
+      "original": "salesperson"
+    },
+    {
+      "number": 991,
+      "original": "salon"
+    },
+    {
+      "number": 992,
+      "original": "sandwich"
+    },
+    {
+      "number": 993,
+      "original": "satellite"
+    },
+    {
+      "number": 994,
+      "original": "satisfactory"
+    },
+    {
+      "number": 996,
+      "original": "scarf"
+    },
+    {
+      "number": 997,
+      "original": "scenery"
+    },
+    {
+      "number": 998,
+      "original": "scholarship"
+    },
+    {
+      "number": 999,
+      "original": "sculpture"
+    },
+    {
+      "number": 1000,
+      "original": "seafood"
+    },
+    {
+      "number": 1005,
+      "original": "seldom"
+    },
+    {
+      "number": 1007,
+      "original": "semester"
+    },
+    {
+      "number": 1008,
+      "original": "seminar"
+    },
+    {
+      "number": 1010,
+      "original": "separately"
+    },
+    {
+      "number": 1011,
+      "original": "serial"
+    },
+    {
+      "number": 1012,
+      "original": "sew"
+    },
+    {
+      "number": 1017,
+      "original": "shortage"
+    },
+    {
+      "number": 1018,
+      "original": "shorten"
+    },
+    {
+      "number": 1019,
+      "original": "shortly"
+    },
+    {
+      "number": 1021,
+      "original": "shuttle"
+    },
+    {
+      "number": 1022,
+      "original": "sidewalk"
+    },
+    {
+      "number": 1024,
+      "original": "signature"
+    },
+    {
+      "number": 1027,
+      "original": "similarity"
+    },
+    {
+      "number": 1028,
+      "original": "simplify"
+    },
+    {
+      "number": 1030,
+      "original": "skate"
+    },
+    {
+      "number": 1032,
+      "original": "sketch"
+    },
+    {
+      "number": 1033,
+      "original": "skim"
+    },
+    {
+      "number": 1034,
+      "original": "sleepy"
+    },
+    {
+      "number": 1035,
+      "original": "sleeve"
+    },
+    {
+      "number": 1036,
+      "original": "slot"
+    },
+    {
+      "number": 1039,
+      "original": "snack"
+    },
+    {
+      "number": 1040,
+      "original": "snowy"
+    },
+    {
+      "number": 1041,
+      "original": "soap"
+    },
+    {
+      "number": 1042,
+      "original": "soar"
+    },
+    {
+      "number": 1043,
+      "original": "soccer"
+    },
+    {
+      "number": 1044,
+      "original": "sock"
+    },
+    {
+      "number": 1045,
+      "original": "sofa"
+    },
+    {
+      "number": 1046,
+      "original": "someday"
+    },
+    {
+      "number": 1047,
+      "original": "sometime"
+    },
+    {
+      "number": 1048,
+      "original": "soup"
+    },
+    {
+      "number": 1050,
+      "original": "spacious"
+    },
+    {
+      "number": 1053,
+      "original": "specialty"
+    },
+    {
+      "number": 1054,
+      "original": "specification"
+    },
+    {
+      "number": 1055,
+      "original": "spectator"
+    },
+    {
+      "number": 1056,
+      "original": "spill"
+    },
+    {
+      "number": 1057,
+      "original": "spite"
+    },
+    {
+      "number": 1058,
+      "original": "spokesperson"
+    },
+    {
+      "number": 1059,
+      "original": "spouse"
+    },
+    {
+      "number": 1060,
+      "original": "spray"
+    },
+    {
+      "number": 1062,
+      "original": "stack"
+    },
+    {
+      "number": 1063,
+      "original": "stadium"
+    },
+    {
+      "number": 1064,
+      "original": "staple"
+    },
+    {
+      "number": 1066,
+      "original": "stationery"
+    },
+    {
+      "number": 1067,
+      "original": "statistics"
+    },
+    {
+      "number": 1068,
+      "original": "statue"
+    },
+    {
+      "number": 1070,
+      "original": "steak"
+    },
+    {
+      "number": 1071,
+      "original": "steer"
+    },
+    {
+      "number": 1072,
+      "original": "stereo"
+    },
+    {
+      "number": 1074,
+      "original": "stimulus"
+    },
+    {
+      "number": 1078,
+      "original": "strategic"
+    },
+    {
+      "number": 1080,
+      "original": "strictly"
+    },
+    {
+      "number": 1081,
+      "original": "stripe"
+    },
+    {
+      "number": 1083,
+      "original": "subscribe"
+    },
+    {
+      "number": 1085,
+      "original": "subscription"
+    },
+    {
+      "number": 1086,
+      "original": "subsidize"
+    },
+    {
+      "number": 1088,
+      "original": "subtract"
+    },
+    {
+      "number": 1089,
+      "original": "suburb"
+    },
+    {
+      "number": 1090,
+      "original": "subway"
+    },
+    {
+      "number": 1091,
+      "original": "sue"
+    },
+    {
+      "number": 1092,
+      "original": "suitcase"
+    },
+    {
+      "number": 1093,
+      "original": "suite"
+    },
+    {
+      "number": 1094,
+      "original": "sunny"
+    },
+    {
+      "number": 1097,
+      "original": "superb"
+    },
+    {
+      "number": 1098,
+      "original": "superior"
+    },
+    {
+      "number": 1099,
+      "original": "supermarket"
+    },
+    {
+      "number": 1100,
+      "original": "supervise"
+    },
+    {
+      "number": 1101,
+      "original": "supervisor"
+    },
+    {
+      "number": 1102,
+      "original": "surf"
+    },
+    {
+      "number": 1103,
+      "original": "suspicious"
+    },
+    {
+      "number": 1104,
+      "original": "sweater"
+    },
+    {
+      "number": 1106,
+      "original": "tablet"
+    },
+    {
+      "number": 1107,
+      "original": "tactic"
+    },
+    {
+      "number": 1108,
+      "original": "tag"
+    },
+    {
+      "number": 1109,
+      "original": "tailor"
+    },
+    {
+      "number": 1112,
+      "original": "tasty"
+    },
+    {
+      "number": 1113,
+      "original": "tech"
+    },
+    {
+      "number": 1114,
+      "original": "technician"
+    },
+    {
+      "number": 1117,
+      "original": "teller"
+    },
+    {
+      "number": 1119,
+      "original": "tempt"
+    },
+    {
+      "number": 1120,
+      "original": "tenant"
+    },
+    {
+      "number": 1121,
+      "original": "terminal"
+    },
+    {
+      "number": 1124,
+      "original": "terrific"
+    },
+    {
+      "number": 1125,
+      "original": "textbook"
+    },
+    {
+      "number": 1126,
+      "original": "theft"
+    },
+    {
+      "number": 1127,
+      "original": "thirsty"
+    },
+    {
+      "number": 1128,
+      "original": "thorough"
+    },
+    {
+      "number": 1130,
+      "original": "thrill"
+    },
+    {
+      "number": 1132,
+      "original": "tidy"
+    },
+    {
+      "number": 1133,
+      "original": "tile"
+    },
+    {
+      "number": 1137,
+      "original": "timetable"
+    },
+    {
+      "number": 1139,
+      "original": "toll"
+    },
+    {
+      "number": 1140,
+      "original": "tomato"
+    },
+    {
+      "number": 1141,
+      "original": "ton"
+    },
+    {
+      "number": 1143,
+      "original": "tow"
+    },
+    {
+      "number": 1144,
+      "original": "towel"
+    },
+    {
+      "number": 1145,
+      "original": "trademark"
+    },
+    {
+      "number": 1146,
+      "original": "traditionally"
+    },
+    {
+      "number": 1149,
+      "original": "transaction"
+    },
+    {
+      "number": 1150,
+      "original": "transit"
+    },
+    {
+      "number": 1151,
+      "original": "translation"
+    },
+    {
+      "number": 1152,
+      "original": "translator"
+    },
+    {
+      "number": 1153,
+      "original": "transmission"
+    },
+    {
+      "number": 1154,
+      "original": "transmit"
+    },
+    {
+      "number": 1155,
+      "original": "trash"
+    },
+    {
+      "number": 1156,
+      "original": "traveler"
+    },
+    {
+      "number": 1157,
+      "original": "tray"
+    },
+    {
+      "number": 1158,
+      "original": "tremendous"
+    },
+    {
+      "number": 1159,
+      "original": "tropical"
+    },
+    {
+      "number": 1160,
+      "original": "tuition"
+    },
+    {
+      "number": 1161,
+      "original": "tuna"
+    },
+    {
+      "number": 1162,
+      "original": "tunnel"
+    },
+    {
+      "number": 1164,
+      "original": "umbrella"
+    },
+    {
+      "number": 1170,
+      "original": "underline"
+    },
+    {
+      "number": 1171,
+      "original": "underway"
+    },
+    {
+      "number": 1172,
+      "original": "unemployed"
+    },
+    {
+      "number": 1175,
+      "original": "unhappy"
+    },
+    {
+      "number": 1189,
+      "original": "upgrade"
+    },
+    {
+      "number": 1190,
+      "original": "upstairs"
+    },
+    {
+      "number": 1191,
+      "original": "urgent"
+    },
+    {
+      "number": 1193,
+      "original": "usage"
+    },
+    {
+      "number": 1194,
+      "original": "utility"
+    },
+    {
+      "number": 1195,
+      "original": "vacancy"
+    },
+    {
+      "number": 1196,
+      "original": "vacant"
+    },
+    {
+      "number": 1198,
+      "original": "vacation"
+    },
+    {
+      "number": 1199,
+      "original": "vacuum"
+    },
+    {
+      "number": 1200,
+      "original": "valid"
+    },
+    {
+      "number": 1202,
+      "original": "vanilla"
+    },
+    {
+      "number": 1203,
+      "original": "vase"
+    },
+    {
+      "number": 1204,
+      "original": "vegetarian"
+    },
+    {
+      "number": 1206,
+      "original": "vendor"
+    },
+    {
+      "number": 1207,
+      "original": "venue"
+    },
+    {
+      "number": 1208,
+      "original": "verbal"
+    },
+    {
+      "number": 1211,
+      "original": "violate"
+    },
+    {
+      "number": 1212,
+      "original": "violation"
+    },
+    {
+      "number": 1213,
+      "original": "violin"
+    },
+    {
+      "number": 1214,
+      "original": "visa"
+    },
+    {
+      "number": 1215,
+      "original": "vitamin"
+    },
+    {
+      "number": 1216,
+      "original": "volleyball"
+    },
+    {
+      "number": 1217,
+      "original": "voucher"
+    },
+    {
+      "number": 1218,
+      "original": "waiter"
+    },
+    {
+      "number": 1219,
+      "original": "waitress"
+    },
+    {
+      "number": 1222,
+      "original": "wallet"
+    },
+    {
+      "number": 1223,
+      "original": "ward"
+    },
+    {
+      "number": 1224,
+      "original": "warehouse"
+    },
+    {
+      "number": 1225,
+      "original": "warranty"
+    },
+    {
+      "number": 1227,
+      "original": "weekday"
+    },
+    {
+      "number": 1229,
+      "original": "whale"
+    },
+    {
+      "number": 1230,
+      "original": "wheelchair"
+    },
+    {
+      "number": 1231,
+      "original": "whoever"
+    },
+    {
+      "number": 1232,
+      "original": "wildlife"
+    },
+    {
+      "number": 1234,
+      "original": "windy"
+    },
+    {
+      "number": 1238,
+      "original": "wool"
+    },
+    {
+      "number": 1239,
+      "original": "workbook"
+    },
+    {
+      "number": 1240,
+      "original": "workforce"
+    },
+    {
+      "number": 1241,
+      "original": "workplace"
+    },
+    {
+      "number": 1242,
+      "original": "workshop"
+    },
+    {
+      "number": 1244,
+      "original": "worthwhile"
+    },
+    {
+      "number": 1245,
+      "original": "wrinkle"
+    },
+    {
+      "number": 1247,
+      "original": "yearly"
+    },
+    {
+      "number": 1249,
+      "original": "yoga"
+    },
+    {
+      "number": 1250,
+      "original": "zoo"
+    }
+  ],
+  "words": [
+    {
+      "word": "adapter",
+      "number": 21,
+      "original": "adapter"
+    },
+    {
+      "word": "additionally",
+      "number": 22,
+      "original": "additionally"
+    },
+    {
+      "word": "adhere",
+      "number": 23,
+      "original": "adhere"
+    },
+    {
+      "word": "advancement",
+      "number": 29,
+      "original": "advancement"
+    },
+    {
+      "word": "advertiser",
+      "number": 30,
+      "original": "advertiser"
+    },
+    {
+      "word": "advisable",
+      "number": 31,
+      "original": "advisable"
+    },
+    {
+      "word": "affirmative",
+      "number": 34,
+      "original": "affirmative"
+    },
+    {
+      "word": "affordable",
+      "number": 35,
+      "original": "affordable"
+    },
+    {
+      "word": "airfare",
+      "number": 37,
+      "original": "airfare"
+    },
+    {
+      "word": "alternatively",
+      "number": 46,
+      "original": "alternatively"
+    },
+    {
+      "word": "amenity",
+      "number": 50,
+      "original": "amenity"
+    },
+    {
+      "word": "anew",
+      "number": 53,
+      "original": "anew"
+    },
+    {
+      "word": "announcer",
+      "number": 55,
+      "original": "announcer"
+    },
+    {
+      "word": "annually",
+      "number": 57,
+      "original": "annually"
+    },
+    {
+      "word": "appetizer",
+      "number": 63,
+      "original": "appetizer"
+    },
+    {
+      "word": "appraisal",
+      "number": 68,
+      "original": "appraisal"
+    },
+    {
+      "word": "apprehensive",
+      "number": 70,
+      "original": "apprehensive"
+    },
+    {
+      "word": "arc",
+      "number": 73,
+      "original": "arc"
+    },
+    {
+      "word": "architectural",
+      "number": 75,
+      "original": "architectural"
+    },
+    {
+      "word": "attendee",
+      "number": 87,
+      "original": "attendee"
+    },
+    {
+      "word": "attire",
+      "number": 88,
+      "original": "attire"
+    },
+    {
+      "word": "audition",
+      "number": 92,
+      "original": "audition"
+    },
+    {
+      "word": "auditor",
+      "number": 93,
+      "original": "auditor"
+    },
+    {
+      "word": "authorization",
+      "number": 97,
+      "original": "authorization"
+    },
+    {
+      "word": "auto",
+      "number": 99,
+      "original": "auto"
+    },
+    {
+      "word": "automate",
+      "number": 100,
+      "original": "automate"
+    },
+    {
+      "word": "automotive",
+      "number": 103,
+      "original": "automotive"
+    },
+    {
+      "word": "baker",
+      "number": 111,
+      "original": "baker"
+    },
+    {
+      "word": "ballroom",
+      "number": 115,
+      "original": "ballroom"
+    },
+    {
+      "word": "bankruptcy",
+      "number": 118,
+      "original": "bankruptcy"
+    },
+    {
+      "word": "blueprint",
+      "number": 140,
+      "original": "blueprint"
+    },
+    {
+      "word": "boardroom",
+      "number": 141,
+      "original": "boardroom"
+    },
+    {
+      "word": "brainstorm",
+      "number": 148,
+      "original": "brainstorm"
+    },
+    {
+      "word": "broker",
+      "number": 153,
+      "original": "broker"
+    },
+    {
+      "word": "businessperson",
+      "number": 162,
+      "original": "businessperson"
+    },
+    {
+      "word": "bye",
+      "number": 164,
+      "original": "bye"
+    },
+    {
+      "word": "by-law",
+      "number": 165,
+      "original": "by-law"
+    },
+    {
+      "word": "cab",
+      "number": 166,
+      "original": "cab"
+    },
+    {
+      "word": "caller",
+      "number": 175,
+      "original": "caller"
+    },
+    {
+      "word": "cancellation",
+      "number": 177,
+      "original": "cancellation"
+    },
+    {
+      "word": "cartridge",
+      "number": 186,
+      "original": "cartridge"
+    },
+    {
+      "word": "caterer",
+      "number": 190,
+      "original": "caterer"
+    },
+    {
+      "word": "certification",
+      "number": 198,
+      "original": "certification"
+    },
+    {
+      "word": "checkout",
+      "number": 202,
+      "original": "checkout"
+    },
+    {
+      "word": "cheeseburger",
+      "number": 205,
+      "original": "cheeseburger"
+    },
+    {
+      "word": "cleanliness",
+      "number": 220,
+      "original": "cleanliness"
+    },
+    {
+      "word": "comfortably",
+      "number": 234,
+      "original": "comfortably"
+    },
+    {
+      "word": "compartment",
+      "number": 240,
+      "original": "compartment"
+    },
+    {
+      "word": "completion",
+      "number": 244,
+      "original": "completion"
+    },
+    {
+      "word": "complimentary",
+      "number": 248,
+      "original": "complimentary"
+    },
+    {
+      "word": "concierge",
+      "number": 251,
+      "original": "concierge"
+    },
+    {
+      "word": "conditioner",
+      "number": 252,
+      "original": "conditioner"
+    },
+    {
+      "word": "condominium",
+      "number": 253,
+      "original": "condominium"
+    },
+    {
+      "word": "confirmation",
+      "number": 256,
+      "original": "confirmation"
+    },
+    {
+      "word": "congestion",
+      "number": 258,
+      "original": "congestion"
+    },
+    {
+      "word": "considerably",
+      "number": 263,
+      "original": "considerably"
+    },
+    {
+      "word": "consignment",
+      "number": 265,
+      "original": "consignment"
+    },
+    {
+      "word": "consistently",
+      "number": 266,
+      "original": "consistently"
+    },
+    {
+      "word": "contraction",
+      "number": 272,
+      "original": "contraction"
+    },
+    {
+      "word": "conveniently",
+      "number": 279,
+      "original": "conveniently"
+    },
+    {
+      "word": "cookbook",
+      "number": 281,
+      "original": "cookbook"
+    },
+    {
+      "word": "cooler",
+      "number": 283,
+      "original": "cooler"
+    },
+    {
+      "word": "coordinator",
+      "number": 286,
+      "original": "coordinator"
+    },
+    {
+      "word": "copier",
+      "number": 287,
+      "original": "copier"
+    },
+    {
+      "word": "cordless",
+      "number": 290,
+      "original": "cordless"
+    },
+    {
+      "word": "courier",
+      "number": 300,
+      "original": "courier"
+    },
+    {
+      "word": "coworker",
+      "number": 302,
+      "original": "coworker"
+    },
+    {
+      "word": "culinary",
+      "number": 306,
+      "original": "culinary"
+    },
+    {
+      "word": "customize",
+      "number": 309,
+      "original": "customize"
+    },
+    {
+      "word": "daytime",
+      "number": 310,
+      "original": "daytime"
+    },
+    {
+      "word": "dealership",
+      "number": 312,
+      "original": "dealership"
+    },
+    {
+      "word": "debit",
+      "number": 313,
+      "original": "debit"
+    },
+    {
+      "word": "deduction",
+      "number": 319,
+      "original": "deduction"
+    },
+    {
+      "word": "defective",
+      "number": 321,
+      "original": "defective"
+    },
+    {
+      "word": "delete",
+      "number": 324,
+      "original": "delete"
+    },
+    {
+      "word": "deluxe",
+      "number": 327,
+      "original": "deluxe"
+    },
+    {
+      "word": "demolish",
+      "number": 328,
+      "original": "demolish"
+    },
+    {
+      "word": "departmental",
+      "number": 332,
+      "original": "departmental"
+    },
+    {
+      "word": "dependable",
+      "number": 334,
+      "original": "dependable"
+    },
+    {
+      "word": "designate",
+      "number": 337,
+      "original": "designate"
+    },
+    {
+      "word": "desktop",
+      "number": 339,
+      "original": "desktop"
+    },
+    {
+      "word": "deteriorate",
+      "number": 344,
+      "original": "deteriorate"
+    },
+    {
+      "word": "devastate",
+      "number": 345,
+      "original": "devastate"
+    },
+    {
+      "word": "developer",
+      "number": 346,
+      "original": "developer"
+    },
+    {
+      "word": "diner",
+      "number": 353,
+      "original": "diner"
+    },
+    {
+      "word": "discontinue",
+      "number": 361,
+      "original": "discontinue"
+    },
+    {
+      "word": "discrepancy",
+      "number": 362,
+      "original": "discrepancy"
+    },
+    {
+      "word": "dishwasher",
+      "number": 364,
+      "original": "dishwasher"
+    },
+    {
+      "word": "dispatch",
+      "number": 366,
+      "original": "dispatch"
+    },
+    {
+      "word": "disruption",
+      "number": 370,
+      "original": "disruption"
+    },
+    {
+      "word": "dissatisfy",
+      "number": 371,
+      "original": "dissatisfy"
+    },
+    {
+      "word": "distractor",
+      "number": 374,
+      "original": "distractor"
+    },
+    {
+      "word": "distributor",
+      "number": 376,
+      "original": "distributor"
+    },
+    {
+      "word": "documentation",
+      "number": 381,
+      "original": "documentation"
+    },
+    {
+      "word": "doorman",
+      "number": 385,
+      "original": "doorman"
+    },
+    {
+      "word": "downsize",
+      "number": 388,
+      "original": "downsize"
+    },
+    {
+      "word": "downturn",
+      "number": 391,
+      "original": "downturn"
+    },
+    {
+      "word": "drastically",
+      "number": 392,
+      "original": "drastically"
+    },
+    {
+      "word": "drawback",
+      "number": 393,
+      "original": "drawback"
+    },
+    {
+      "word": "duplicate",
+      "number": 399,
+      "original": "duplicate"
+    },
+    {
+      "word": "e-book",
+      "number": 405,
+      "original": "e-book"
+    },
+    {
+      "word": "economize",
+      "number": 409,
+      "original": "economize"
+    },
+    {
+      "word": "efficiently",
+      "number": 412,
+      "original": "efficiently"
+    },
+    {
+      "word": "electronically",
+      "number": 415,
+      "original": "electronically"
+    },
+    {
+      "word": "enthusiast",
+      "number": 430,
+      "original": "enthusiast"
+    },
+    {
+      "word": "enthusiastically",
+      "number": 432,
+      "original": "enthusiastically"
+    },
+    {
+      "word": "entree",
+      "number": 433,
+      "original": "entrée"
+    },
+    {
+      "word": "environmentally",
+      "number": 435,
+      "original": "environmentally"
+    },
+    {
+      "word": "euro",
+      "number": 441,
+      "original": "euro"
+    },
+    {
+      "word": "evenly",
+      "number": 443,
+      "original": "evenly"
+    },
+    {
+      "word": "exclusively",
+      "number": 449,
+      "original": "exclusively"
+    },
+    {
+      "word": "excursion",
+      "number": 450,
+      "original": "excursion"
+    },
+    {
+      "word": "exemption",
+      "number": 451,
+      "original": "exemption"
+    },
+    {
+      "word": "expedite",
+      "number": 454,
+      "original": "expedite"
+    },
+    {
+      "word": "explanatory",
+      "number": 458,
+      "original": "explanatory"
+    },
+    {
+      "word": "explorer",
+      "number": 459,
+      "original": "explorer"
+    },
+    {
+      "word": "extinguisher",
+      "number": 460,
+      "original": "extinguisher"
+    },
+    {
+      "word": "factual",
+      "number": 463,
+      "original": "factual"
+    },
+    {
+      "word": "familiarize",
+      "number": 466,
+      "original": "familiarize"
+    },
+    {
+      "word": "faulty",
+      "number": 471,
+      "original": "faulty"
+    },
+    {
+      "word": "finalize",
+      "number": 476,
+      "original": "finalize"
+    },
+    {
+      "word": "firefighter",
+      "number": 477,
+      "original": "firefighter"
+    },
+    {
+      "word": "fitness",
+      "number": 480,
+      "original": "fitness"
+    },
+    {
+      "word": "fixture",
+      "number": 481,
+      "original": "fixture"
+    },
+    {
+      "word": "flextime",
+      "number": 486,
+      "original": "flextime"
+    },
+    {
+      "word": "fluctuate",
+      "number": 489,
+      "original": "fluctuate"
+    },
+    {
+      "word": "flyer",
+      "number": 491,
+      "original": "flyer"
+    },
+    {
+      "word": "folder",
+      "number": 493,
+      "original": "folder"
+    },
+    {
+      "word": "footwear",
+      "number": 494,
+      "original": "footwear"
+    },
+    {
+      "word": "foreman",
+      "number": 496,
+      "original": "foreman"
+    },
+    {
+      "word": "fortunately",
+      "number": 499,
+      "original": "fortunately"
+    },
+    {
+      "word": "freelance",
+      "number": 505,
+      "original": "freelance"
+    },
+    {
+      "word": "freighter",
+      "number": 507,
+      "original": "freighter"
+    },
+    {
+      "word": "fundraise",
+      "number": 510,
+      "original": "fundraise"
+    },
+    {
+      "word": "generic",
+      "number": 520,
+      "original": "generic"
+    },
+    {
+      "word": "getaway",
+      "number": 523,
+      "original": "getaway"
+    },
+    {
+      "word": "graphics",
+      "number": 531,
+      "original": "graphics"
+    },
+    {
+      "word": "handbook",
+      "number": 542,
+      "original": "handbook"
+    },
+    {
+      "word": "hazardous",
+      "number": 548,
+      "original": "hazardous"
+    },
+    {
+      "word": "healthcare",
+      "number": 552,
+      "original": "healthcare"
+    },
+    {
+      "word": "hereby",
+      "number": 556,
+      "original": "hereby"
+    },
+    {
+      "word": "hesitant",
+      "number": 557,
+      "original": "hesitant"
+    },
+    {
+      "word": "hiker",
+      "number": 561,
+      "original": "hiker"
+    },
+    {
+      "word": "homeless",
+      "number": 563,
+      "original": "homeless"
+    },
+    {
+      "word": "homemade",
+      "number": 564,
+      "original": "homemade"
+    },
+    {
+      "word": "homeowner",
+      "number": 565,
+      "original": "homeowner"
+    },
+    {
+      "word": "honestly",
+      "number": 567,
+      "original": "honestly"
+    },
+    {
+      "word": "hotline",
+      "number": 569,
+      "original": "hotline"
+    },
+    {
+      "word": "housekeep",
+      "number": 571,
+      "original": "housekeep"
+    },
+    {
+      "word": "ideally",
+      "number": 579,
+      "original": "ideally"
+    },
+    {
+      "word": "illogical",
+      "number": 581,
+      "original": "illogical"
+    },
+    {
+      "word": "impatient",
+      "number": 583,
+      "original": "impatient"
+    },
+    {
+      "word": "inappropriate",
+      "number": 585,
+      "original": "inappropriate"
+    },
+    {
+      "word": "incoming",
+      "number": 587,
+      "original": "incoming"
+    },
+    {
+      "word": "incomplete",
+      "number": 588,
+      "original": "incomplete"
+    },
+    {
+      "word": "inconvenience",
+      "number": 589,
+      "original": "inconvenience"
+    },
+    {
+      "word": "inefficient",
+      "number": 596,
+      "original": "inefficient"
+    },
+    {
+      "word": "inexpensive",
+      "number": 597,
+      "original": "inexpensive"
+    },
+    {
+      "word": "inexperience",
+      "number": 598,
+      "original": "inexperience"
+    },
+    {
+      "word": "inflate",
+      "number": 601,
+      "original": "inflate"
+    },
+    {
+      "word": "insufficient",
+      "number": 618,
+      "original": "insufficient"
+    },
+    {
+      "word": "intently",
+      "number": 620,
+      "original": "intently"
+    },
+    {
+      "word": "interactive",
+      "number": 621,
+      "original": "interactive"
+    },
+    {
+      "word": "intern",
+      "number": 623,
+      "original": "intern"
+    },
+    {
+      "word": "internationally",
+      "number": 624,
+      "original": "internationally"
+    },
+    {
+      "word": "internship",
+      "number": 626,
+      "original": "internship"
+    },
+    {
+      "word": "introductory",
+      "number": 631,
+      "original": "introductory"
+    },
+    {
+      "word": "invoice",
+      "number": 635,
+      "original": "invoice"
+    },
+    {
+      "word": "irregular",
+      "number": 636,
+      "original": "irregular"
+    },
+    {
+      "word": "itinerary",
+      "number": 639,
+      "original": "itinerary"
+    },
+    {
+      "word": "laptop",
+      "number": 660,
+      "original": "laptop"
+    },
+    {
+      "word": "layoff",
+      "number": 664,
+      "original": "layoff"
+    },
+    {
+      "word": "letterhead",
+      "number": 671,
+      "original": "letterhead"
+    },
+    {
+      "word": "lighter",
+      "number": 676,
+      "original": "lighter"
+    },
+    {
+      "word": "lightweight",
+      "number": 677,
+      "original": "lightweight"
+    },
+    {
+      "word": "login",
+      "number": 684,
+      "original": "login"
+    },
+    {
+      "word": "loudly",
+      "number": 686,
+      "original": "loudly"
+    },
+    {
+      "word": "luncheon",
+      "number": 691,
+      "original": "luncheon"
+    },
+    {
+      "word": "lunchtime",
+      "number": 692,
+      "original": "lunchtime"
+    },
+    {
+      "word": "malfunction",
+      "number": 695,
+      "original": "malfunction"
+    },
+    {
+      "word": "managerial",
+      "number": 697,
+      "original": "managerial"
+    },
+    {
+      "word": "mandatory",
+      "number": 698,
+      "original": "mandatory"
+    },
+    {
+      "word": "memo",
+      "number": 709,
+      "original": "memo"
+    },
+    {
+      "word": "memorandum",
+      "number": 710,
+      "original": "memorandum"
+    },
+    {
+      "word": "merger",
+      "number": 716,
+      "original": "merger"
+    },
+    {
+      "word": "mileage",
+      "number": 724,
+      "original": "mileage"
+    },
+    {
+      "word": "mini",
+      "number": 726,
+      "original": "mini"
+    },
+    {
+      "word": "misidentify",
+      "number": 728,
+      "original": "misidentify"
+    },
+    {
+      "word": "misplace",
+      "number": 730,
+      "original": "misplace"
+    },
+    {
+      "word": "mister",
+      "number": 731,
+      "original": "mister"
+    },
+    {
+      "word": "modem",
+      "number": 732,
+      "original": "modem"
+    },
+    {
+      "word": "mower",
+      "number": 738,
+      "original": "mower"
+    },
+    {
+      "word": "nationwide",
+      "number": 741,
+      "original": "nationwide"
+    },
+    {
+      "word": "newsletter",
+      "number": 746,
+      "original": "newsletter"
+    },
+    {
+      "word": "newsstand",
+      "number": 747,
+      "original": "newsstand"
+    },
+    {
+      "word": "obligate",
+      "number": 754,
+      "original": "obligate"
+    },
+    {
+      "word": "occupancy",
+      "number": 757,
+      "original": "occupancy"
+    },
+    {
+      "word": "occupant",
+      "number": 758,
+      "original": "occupant"
+    },
+    {
+      "word": "officially",
+      "number": 762,
+      "original": "officially"
+    },
+    {
+      "word": "organizational",
+      "number": 770,
+      "original": "organizational"
+    },
+    {
+      "word": "outage",
+      "number": 773,
+      "original": "outage"
+    },
+    {
+      "word": "outdate",
+      "number": 774,
+      "original": "outdate"
+    },
+    {
+      "word": "overcharge",
+      "number": 782,
+      "original": "overcharge"
+    },
+    {
+      "word": "overcrowd",
+      "number": 783,
+      "original": "overcrowd"
+    },
+    {
+      "word": "overdue",
+      "number": 784,
+      "original": "overdue"
+    },
+    {
+      "word": "overpay",
+      "number": 788,
+      "original": "overpay"
+    },
+    {
+      "word": "overtime",
+      "number": 790,
+      "original": "overtime"
+    },
+    {
+      "word": "pamphlet",
+      "number": 795,
+      "original": "pamphlet"
+    },
+    {
+      "word": "pant",
+      "number": 797,
+      "original": "pant"
+    },
+    {
+      "word": "paperwork",
+      "number": 799,
+      "original": "paperwork"
+    },
+    {
+      "word": "paralegal",
+      "number": 801,
+      "original": "paralegal"
+    },
+    {
+      "word": "paraphrase",
+      "number": 802,
+      "original": "paraphrase"
+    },
+    {
+      "word": "payable",
+      "number": 813,
+      "original": "payable"
+    },
+    {
+      "word": "paycheck",
+      "number": 814,
+      "original": "paycheck"
+    },
+    {
+      "word": "payroll",
+      "number": 815,
+      "original": "payroll"
+    },
+    {
+      "word": "penalize",
+      "number": 817,
+      "original": "penalize"
+    },
+    {
+      "word": "periodical",
+      "number": 820,
+      "original": "periodical"
+    },
+    {
+      "word": "periodically",
+      "number": 821,
+      "original": "periodically"
+    },
+    {
+      "word": "permanently",
+      "number": 822,
+      "original": "permanently"
+    },
+    {
+      "word": "personalize",
+      "number": 823,
+      "original": "personalize"
+    },
+    {
+      "word": "pharmaceutical",
+      "number": 826,
+      "original": "pharmaceutical"
+    },
+    {
+      "word": "photocopier",
+      "number": 829,
+      "original": "photocopier"
+    },
+    {
+      "word": "photocopy",
+      "number": 830,
+      "original": "photocopy"
+    },
+    {
+      "word": "poorly",
+      "number": 850,
+      "original": "poorly"
+    },
+    {
+      "word": "postal",
+      "number": 856,
+      "original": "postal"
+    },
+    {
+      "word": "presenter",
+      "number": 867,
+      "original": "presenter"
+    },
+    {
+      "word": "prestigious",
+      "number": 868,
+      "original": "prestigious"
+    },
+    {
+      "word": "professionally",
+      "number": 873,
+      "original": "professionally"
+    },
+    {
+      "word": "programmer",
+      "number": 876,
+      "original": "programmer"
+    },
+    {
+      "word": "projector",
+      "number": 879,
+      "original": "projector"
+    },
+    {
+      "word": "promotional",
+      "number": 881,
+      "original": "promotional"
+    },
+    {
+      "word": "promptly",
+      "number": 882,
+      "original": "promptly"
+    },
+    {
+      "word": "proofread",
+      "number": 883,
+      "original": "proofread"
+    },
+    {
+      "word": "provider",
+      "number": 886,
+      "original": "provider"
+    },
+    {
+      "word": "purchaser",
+      "number": 891,
+      "original": "purchaser"
+    },
+    {
+      "word": "purser",
+      "number": 893,
+      "original": "purser"
+    },
+    {
+      "word": "quarterly",
+      "number": 895,
+      "original": "quarterly"
+    },
+    {
+      "word": "query",
+      "number": 896,
+      "original": "query"
+    },
+    {
+      "word": "realtor",
+      "number": 906,
+      "original": "realtor"
+    },
+    {
+      "word": "rearrange",
+      "number": 907,
+      "original": "rearrange"
+    },
+    {
+      "word": "rebate",
+      "number": 909,
+      "original": "rebate"
+    },
+    {
+      "word": "receptionist",
+      "number": 912,
+      "original": "receptionist"
+    },
+    {
+      "word": "reconsider",
+      "number": 916,
+      "original": "reconsider"
+    },
+    {
+      "word": "recruiter",
+      "number": 919,
+      "original": "recruiter"
+    },
+    {
+      "word": "recruitment",
+      "number": 920,
+      "original": "recruitment"
+    },
+    {
+      "word": "recur",
+      "number": 921,
+      "original": "recur"
+    },
+    {
+      "word": "redecorate",
+      "number": 923,
+      "original": "redecorate"
+    },
+    {
+      "word": "redesign",
+      "number": 924,
+      "original": "redesign"
+    },
+    {
+      "word": "referral",
+      "number": 926,
+      "original": "referral"
+    },
+    {
+      "word": "refinery",
+      "number": 927,
+      "original": "refinery"
+    },
+    {
+      "word": "reflexive",
+      "number": 928,
+      "original": "reflexive"
+    },
+    {
+      "word": "refundable",
+      "number": 933,
+      "original": "refundable"
+    },
+    {
+      "word": "reimburse",
+      "number": 936,
+      "original": "reimburse"
+    },
+    {
+      "word": "reimbursement",
+      "number": 937,
+      "original": "reimbursement"
+    },
+    {
+      "word": "relocate",
+      "number": 942,
+      "original": "relocate"
+    },
+    {
+      "word": "relocation",
+      "number": 943,
+      "original": "relocation"
+    },
+    {
+      "word": "remodel",
+      "number": 947,
+      "original": "remodel"
+    },
+    {
+      "word": "renewal",
+      "number": 950,
+      "original": "renewal"
+    },
+    {
+      "word": "renovate",
+      "number": 951,
+      "original": "renovate"
+    },
+    {
+      "word": "renovation",
+      "number": 952,
+      "original": "renovation"
+    },
+    {
+      "word": "renown",
+      "number": 953,
+      "original": "renown"
+    },
+    {
+      "word": "renter",
+      "number": 955,
+      "original": "renter"
+    },
+    {
+      "word": "reopen",
+      "number": 956,
+      "original": "reopen"
+    },
+    {
+      "word": "repairperson",
+      "number": 957,
+      "original": "repairperson"
+    },
+    {
+      "word": "repeatedly",
+      "number": 958,
+      "original": "repeatedly"
+    },
+    {
+      "word": "reschedule",
+      "number": 962,
+      "original": "reschedule"
+    },
+    {
+      "word": "restatement",
+      "number": 969,
+      "original": "restatement"
+    },
+    {
+      "word": "retailer",
+      "number": 973,
+      "original": "retailer"
+    },
+    {
+      "word": "reviewer",
+      "number": 977,
+      "original": "reviewer"
+    },
+    {
+      "word": "revolutionize",
+      "number": 979,
+      "original": "revolutionize"
+    },
+    {
+      "word": "rider",
+      "number": 981,
+      "original": "rider"
+    },
+    {
+      "word": "safely",
+      "number": 986,
+      "original": "safely"
+    },
+    {
+      "word": "salespeople",
+      "number": 989,
+      "original": "salespeople"
+    },
+    {
+      "word": "sauna",
+      "number": 995,
+      "original": "sauna"
+    },
+    {
+      "word": "seaside",
+      "number": 1001,
+      "original": "seaside"
+    },
+    {
+      "word": "seasonal",
+      "number": 1002,
+      "original": "seasonal"
+    },
+    {
+      "word": "sedan",
+      "number": 1003,
+      "original": "sedan"
+    },
+    {
+      "word": "seeker",
+      "number": 1004,
+      "original": "seeker"
+    },
+    {
+      "word": "seller",
+      "number": 1006,
+      "original": "seller"
+    },
+    {
+      "word": "sender",
+      "number": 1009,
+      "original": "sender"
+    },
+    {
+      "word": "sewer",
+      "number": 1013,
+      "original": "sewer"
+    },
+    {
+      "word": "sharply",
+      "number": 1014,
+      "original": "sharply"
+    },
+    {
+      "word": "shipment",
+      "number": 1015,
+      "original": "shipment"
+    },
+    {
+      "word": "shopper",
+      "number": 1016,
+      "original": "shopper"
+    },
+    {
+      "word": "showroom",
+      "number": 1020,
+      "original": "showroom"
+    },
+    {
+      "word": "sightsee",
+      "number": 1023,
+      "original": "sightsee"
+    },
+    {
+      "word": "signify",
+      "number": 1025,
+      "original": "signify"
+    },
+    {
+      "word": "silently",
+      "number": 1026,
+      "original": "silently"
+    },
+    {
+      "word": "sincerely",
+      "number": 1029,
+      "original": "sincerely"
+    },
+    {
+      "word": "skateboard",
+      "number": 1031,
+      "original": "skateboard"
+    },
+    {
+      "word": "smartphone",
+      "number": 1037,
+      "original": "smartphone"
+    },
+    {
+      "word": "smoothly",
+      "number": 1038,
+      "original": "smoothly"
+    },
+    {
+      "word": "spa",
+      "number": 1049,
+      "original": "spa"
+    },
+    {
+      "word": "spam",
+      "number": 1051,
+      "original": "spam"
+    },
+    {
+      "word": "specially",
+      "number": 1052,
+      "original": "specially"
+    },
+    {
+      "word": "spreadsheet",
+      "number": 1061,
+      "original": "spreadsheet"
+    },
+    {
+      "word": "stapler",
+      "number": 1065,
+      "original": "stapler"
+    },
+    {
+      "word": "steadily",
+      "number": 1069,
+      "original": "steadily"
+    },
+    {
+      "word": "sticker",
+      "number": 1073,
+      "original": "sticker"
+    },
+    {
+      "word": "stockbroker",
+      "number": 1075,
+      "original": "stockbroker"
+    },
+    {
+      "word": "stockholder",
+      "number": 1076,
+      "original": "stockholder"
+    },
+    {
+      "word": "storeroom",
+      "number": 1077,
+      "original": "storeroom"
+    },
+    {
+      "word": "streamline",
+      "number": 1079,
+      "original": "streamline"
+    },
+    {
+      "word": "submission",
+      "number": 1082,
+      "original": "submission"
+    },
+    {
+      "word": "subscriber",
+      "number": 1084,
+      "original": "subscriber"
+    },
+    {
+      "word": "substantially",
+      "number": 1087,
+      "original": "substantially"
+    },
+    {
+      "word": "sunscreen",
+      "number": 1095,
+      "original": "sunscreen"
+    },
+    {
+      "word": "sunshine",
+      "number": 1096,
+      "original": "sunshine"
+    },
+    {
+      "word": "tablecloth",
+      "number": 1105,
+      "original": "tablecloth"
+    },
+    {
+      "word": "takeover",
+      "number": 1110,
+      "original": "takeover"
+    },
+    {
+      "word": "taker",
+      "number": 1111,
+      "original": "taker"
+    },
+    {
+      "word": "teen",
+      "number": 1115,
+      "original": "teen"
+    },
+    {
+      "word": "telecommunication",
+      "number": 1116,
+      "original": "telecommunication"
+    },
+    {
+      "word": "temporarily",
+      "number": 1118,
+      "original": "temporarily"
+    },
+    {
+      "word": "terminate",
+      "number": 1122,
+      "original": "terminate"
+    },
+    {
+      "word": "termination",
+      "number": 1123,
+      "original": "termination"
+    },
+    {
+      "word": "thoroughly",
+      "number": 1129,
+      "original": "thoroughly"
+    },
+    {
+      "word": "thunderstorm",
+      "number": 1131,
+      "original": "thunderstorm"
+    },
+    {
+      "word": "timeline",
+      "number": 1134,
+      "original": "timeline"
+    },
+    {
+      "word": "timely",
+      "number": 1135,
+      "original": "timely"
+    },
+    {
+      "word": "timer",
+      "number": 1136,
+      "original": "timer"
+    },
+    {
+      "word": "toiletry",
+      "number": 1138,
+      "original": "toiletry"
+    },
+    {
+      "word": "toner",
+      "number": 1142,
+      "original": "toner"
+    },
+    {
+      "word": "trainee",
+      "number": 1147,
+      "original": "trainee"
+    },
+    {
+      "word": "trainer",
+      "number": 1148,
+      "original": "trainer"
+    },
+    {
+      "word": "turnover",
+      "number": 1163,
+      "original": "turnover"
+    },
+    {
+      "word": "unattended",
+      "number": 1165,
+      "original": "unattended"
+    },
+    {
+      "word": "unauthorize",
+      "number": 1166,
+      "original": "unauthorize"
+    },
+    {
+      "word": "unavailable",
+      "number": 1167,
+      "original": "unavailable"
+    },
+    {
+      "word": "uncomfortable",
+      "number": 1168,
+      "original": "uncomfortable"
+    },
+    {
+      "word": "underground",
+      "number": 1169,
+      "original": "underground"
+    },
+    {
+      "word": "unexpected",
+      "number": 1173,
+      "original": "unexpected"
+    },
+    {
+      "word": "unfamiliar",
+      "number": 1174,
+      "original": "unfamiliar"
+    },
+    {
+      "word": "unlimited",
+      "number": 1176,
+      "original": "unlimited"
+    },
+    {
+      "word": "unload",
+      "number": 1177,
+      "original": "unload"
+    },
+    {
+      "word": "unnecessary",
+      "number": 1178,
+      "original": "unnecessary"
+    },
+    {
+      "word": "unpaid",
+      "number": 1179,
+      "original": "unpaid"
+    },
+    {
+      "word": "unpleasant",
+      "number": 1180,
+      "original": "unpleasant"
+    },
+    {
+      "word": "unplug",
+      "number": 1181,
+      "original": "unplug"
+    },
+    {
+      "word": "unreal",
+      "number": 1182,
+      "original": "unreal"
+    },
+    {
+      "word": "unreliable",
+      "number": 1183,
+      "original": "unreliable"
+    },
+    {
+      "word": "unspecified",
+      "number": 1184,
+      "original": "unspecified"
+    },
+    {
+      "word": "unsure",
+      "number": 1185,
+      "original": "unsure"
+    },
+    {
+      "word": "unused",
+      "number": 1186,
+      "original": "unused"
+    },
+    {
+      "word": "unusually",
+      "number": 1187,
+      "original": "unusually"
+    },
+    {
+      "word": "upcoming",
+      "number": 1188,
+      "original": "upcoming"
+    },
+    {
+      "word": "urgently",
+      "number": 1192,
+      "original": "urgently"
+    },
+    {
+      "word": "vacate",
+      "number": 1197,
+      "original": "vacate"
+    },
+    {
+      "word": "validate",
+      "number": 1201,
+      "original": "validate"
+    },
+    {
+      "word": "vend",
+      "number": 1205,
+      "original": "vend"
+    },
+    {
+      "word": "verify",
+      "number": 1209,
+      "original": "verify"
+    },
+    {
+      "word": "videoconference",
+      "number": 1210,
+      "original": "videoconference"
+    },
+    {
+      "word": "waive",
+      "number": 1220,
+      "original": "waive"
+    },
+    {
+      "word": "walkway",
+      "number": 1221,
+      "original": "walkway"
+    },
+    {
+      "word": "webpage",
+      "number": 1226,
+      "original": "webpage"
+    },
+    {
+      "word": "wellness",
+      "number": 1228,
+      "original": "wellness"
+    },
+    {
+      "word": "willingness",
+      "number": 1233,
+      "original": "willingness"
+    },
+    {
+      "word": "wireless",
+      "number": 1235,
+      "original": "wireless"
+    },
+    {
+      "word": "wisely",
+      "number": 1236,
+      "original": "wisely"
+    },
+    {
+      "word": "withdrawal",
+      "number": 1237,
+      "original": "withdrawal"
+    },
+    {
+      "word": "worldwide",
+      "number": 1243,
+      "original": "worldwide"
+    },
+    {
+      "word": "wristwatch",
+      "number": 1246,
+      "original": "wristwatch"
+    },
+    {
+      "word": "yen",
+      "number": 1248,
+      "original": "yen"
+    }
+  ]
+}

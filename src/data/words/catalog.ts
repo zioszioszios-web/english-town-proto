@@ -9,7 +9,6 @@ export async function loadWords(level: Level): Promise<readonly WordEntry[] | nu
   if (!wordsReady(level)) return null;
   const previous = cache.get(level); if (previous) return previous;
   // Additional levels are registered only after their source and enrichment checks pass.
-  if (level !== 1 && level !== 2 && level !== 3) return null;
-  const data: unknown = level === 1 ? (await import('./lv1.json')).default : level === 2 ? (await import('./lv2.json')).default : (await import('./lv3.json')).default;
+  const data: unknown = level === 1 ? (await import('./lv1.json')).default : level === 2 ? (await import('./lv2.json')).default : level === 3 ? (await import('./lv3.json')).default : (await import('./lv4.json')).default;
   validateWords(data); cache.set(level, data); return data;
 }

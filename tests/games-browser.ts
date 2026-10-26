@@ -13,10 +13,10 @@ const speech = new Speech();
 const root = element('main','ui-overlay'), shell = element('div','ui-shell'), host = element('div','ui-body');
 root.append(shell); shell.append(element('h1','ui-title','小遊戲互動測試頁'),host); document.body.append(root);
 const ui = new MiniGameUI(host,practice,scores,speech,()=>menu());
-let level: 1|2|3 = 1;
+let level: 1|2|3|4 = 1;
 function menu(): void {
   ui.stop(); const panel = element('div','menu-panel');
-  panel.append(action('切換測試等級（目前 Lv'+level+'）',()=>{level=level===1?2:level===2?3:1;menu();}));
+  panel.append(action('切換測試等級（目前 Lv'+level+'）',()=>{level=level===1?2:level===2?3:level===3?4:1;menu();}));
   for (const factory of GAME_FACTORIES) { const game = factory(); panel.append(action(game.name,()=>{void ui.open(game,level);})); }
   host.replaceChildren(panel);
 }

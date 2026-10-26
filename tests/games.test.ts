@@ -100,7 +100,7 @@ test('every published game level has forty usable words after approved lower-lev
   const {GAME_FACTORIES}=await import('../src/games/registry');
   const {practicePool}=await import('../src/games/rules');
   const banks: (readonly WordEntry[])[]=[];
-  for(const level of [1,2,3] as const) {
+  for(const level of [1,2,3,4] as const) {
     const entries=await loadWords(level);assert.ok(entries);
     for(const factory of GAME_FACTORIES){const game=factory();const pool=practicePool(entries,game.topics,[...banks].reverse(),w=>game.eligible?.(w)??true);assert.ok(pool.words.length>=40,'Lv'+level+' '+game.id);}
     banks.push(entries);
