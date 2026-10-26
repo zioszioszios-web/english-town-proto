@@ -24,12 +24,12 @@ test('empty or invalid thresholds do not silently unlock levels', () => {
 });
 test('school and office follow level availability, including entrance range', () => {
   assert.ok(availableBuildings(1).some(b => b.name === 'School'));
-  assert.ok(!availableBuildings(1).some(b => b.name === 'Office'));
+  assert.ok(availableBuildings(1).some(b => b.name === 'Office'));
   assert.ok(!availableBuildings(3).some(b => b.name === 'School'));
   assert.ok(availableBuildings(4).some(b => b.name === 'Office'));
   assert.ok(!availableBuildings(4).some(b => b.name === 'School'));
   const office = BUILDINGS.find(b => b.name === 'Office')!;
-  assert.equal(nearbyEntrance(office.door, 1), undefined);
+  assert.equal(nearbyEntrance(office.door, 1)?.name, 'Office');
   assert.equal(nearbyEntrance(office.door, 4)?.name, 'Office');
   assert.equal(nearbyEntrance({ x: office.door.x, y: office.door.y + ENTRY_DISTANCE + 1 }, 4), undefined);
 });

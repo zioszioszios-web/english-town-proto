@@ -53,3 +53,20 @@
 .medicine-box:disabled { opacity: .55; }
 .medicine-shelves { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .5rem; }
 .ui-overlay .medicine-shelf { min-block-size: 7rem; padding: .75rem .35rem; background: #e4ddc8; border: .1875rem solid #9a8d70; border-block-end-width: .6rem; border-radius: .5rem; font-weight: 700; }
+
+.email-paper { background: #fffdf7; border: .0625rem solid #c6cfb8; border-radius: .7rem; padding: .9rem; }
+.email-subject { border-block-end: .0625rem solid #d8decd; padding-block-end: .6rem; font-weight: 700; }
+.email-row { padding-block: .65rem; border-block-end: .0625rem dashed #d8decd; }
+.email-gap { min-inline-size: 5rem; padding: .35rem; font: inherit; border: .0625rem solid #a8b89d; background: #f0f2e6; border-radius: .3rem; }
+.email-gap.active { outline: .125rem solid #946329; }
+.email-options { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .3rem; }
+.email-options [aria-pressed="true"] { background: #d1dfbc; border-color: #325c45; }
+.answer-wrong { border-inline-start: .25rem solid #943f2f; padding-inline-start: .5rem; }
+.answer-correct { border-inline-start: .25rem solid #325c45; padding-inline-start: .5rem; }
+.answer-correction { color: #943f2f; font-size: .875rem; margin-block-start: .5rem !important; }
+.runner-road { position: relative; block-size: clamp(13rem,42vh,22rem); border: .25rem solid #b6baad; border-radius: .7rem; overflow: hidden; background: repeating-linear-gradient(90deg,#626f68 0 32.5%,#e8e6d8 32.5% 33.33%); touch-action: pan-y; }
+.road-gates { position: absolute; inset-inline: 0; inset-block-start: 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .25rem; padding: .25rem; }
+.road-word { display: grid; align-items: center; text-align: center; min-block-size: 3.25rem; padding: .35rem; border-radius: .4rem; background: #fff2cb; color: #233e36; overflow-wrap: anywhere; font-size: .875rem; }
+.road-player { position: absolute; inset-block-end: .5rem; inset-inline-start: 50%; transform: translateX(-50%); color: #f3bd61; font-size: 2rem; transition: inset-inline-start .12s ease-out; }
+.lane-controls { display: flex; gap: .75rem; }
+.lane-controls > button { flex: 1; border: .0625rem solid #a8b89d; background: #fffdf7; border-radius: .65rem; padding: .7rem; }

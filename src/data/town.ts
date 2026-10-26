@@ -24,7 +24,7 @@ export const BUILDINGS: readonly Building[] = [
   { name: 'School', subtitle: '學校', x: 5 * TILE, y: 20 * TILE, width: 7 * TILE, height: 5 * TILE,
     door: center(8, 25), color: 0xb29a63, levels: [1, 2] },
   { name: 'Office', subtitle: '辦公室', x: 13 * TILE, y: 1 * TILE, width: 7 * TILE, height: 5 * TILE,
-    door: center(16, 6), color: 0x8b819e, levels: [4] },
+    door: center(16, 6), color: 0x8b819e, levels: [1, 2, 3, 4] },
 ];
 export const START = center(19, 17);
 export interface InteriorData { location: LocationName }

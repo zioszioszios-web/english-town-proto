@@ -68,3 +68,12 @@ test('cafe orders use one word, one sentence, then two ordered items by level', 
   for(const wordText of ['cafeteria','tradition','freezer','cash']) assert.equal(game.eligible({...coffee,word:wordText}),false);
   assert.equal(game.eligible({...coffee,pos:'adv.',word:'without'}),false);
 });
+
+test('email cloze removes exact whole headwords and keeps punctuation and sentence case', async () => {
+  const {clozeExample}=await import('../src/games/OfficeEmail');
+  assert.deepEqual(clozeExample({word:'report',example:'My report is ready.'}),{before:'My ',after:' is ready.'});
+  assert.deepEqual(clozeExample({word:'I',example:'I work here.'}),{before:'',after:' work here.'});
+  assert.deepEqual(clozeExample({word:'post office',example:'The post office is closed.'}),{before:'The ',after:' is closed.'});
+  assert.deepEqual(clozeExample({word:'a',example:'A car is here.'}),{before:'',after:' car is here.'});
+  assert.throws(()=>clozeExample({word:'port',example:'The report is ready.'}),/does not contain/);
+});
