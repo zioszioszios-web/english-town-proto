@@ -6,7 +6,7 @@ import type { WordEntry } from '../data/words/types';
 import type { MiniGame, GameResult } from '../games/types';
 import type { ScoreRepository } from '../games/scores';
 import { PracticeStore } from '../games/storage';
-import { ScoreCounter, topicPool, selectQuestions } from '../games/rules';
+import { ScoreCounter, practicePool, MIN_PRACTICE_WORDS, selectQuestions } from '../games/rules';
 import type { Speech } from './Speech';
 
 export class MiniGameUI {
@@ -22,10 +22,21 @@ export class MiniGameUI {
       const words = await loadWords(level);
       if (generation !== this.generation) return;
       if (!words) { this.host.replaceChildren(element('p', '', '這個等級單字準備中。'), action('回到小鎮', this.leave)); return; }
-      const pool = topicPool(words, game.topics).filter(word => game.eligible?.(word) ?? true);
+      const lowerBanks: (readonly WordEntry[])[] = [];
+      const eligible = (word: WordEntry): boolean => game.eligible?.(word) ?? true;
+      let prepared = practicePool(words,game.topics,lowerBanks,eligible);
+      for (let lower = level - 1; lower >= 1 && prepared.words.length < MIN_PRACTICE_WORDS; lower--) {
+        const bank = await loadWords(lower as Level);
+        if (generation !== this.generation) return;
+        if (bank) lowerBanks.push(bank);
+        prepared = practicePool(words,game.topics,lowerBanks,eligible);
+      }
+      const pool = prepared.words;
       if (pool.length < 20) { this.host.replaceChildren(element('p', '', '可用單字不足，正在準備中。'), action('回到小鎮', this.leave)); return; }
       const intro = element('div', 'game-intro');
       intro.append(element('h2', '', game.name), element('p', '', `Lv${level} · 可用單字 ${pool.length} 個`));
+      if (prepared.supplementalCount) intro.append(element('p','muted',
+        '本級 '+prepared.ownCount+' 字，補入較低等級同主題 '+prepared.supplementalCount+' 字；排行榜仍按 Lv'+level+' 計算。'));
       const label = element('label', '', '排行榜暱稱（最多 20 字）');
       const nickname = element('input', 'nickname-input'); nickname.type = 'text'; nickname.maxLength = 20; nickname.value = this.store.nickname;
       nickname.setAttribute('autocomplete', 'nickname'); nickname.id = 'game-nickname'; label.htmlFor = nickname.id;

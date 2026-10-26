@@ -12,7 +12,10 @@
     "reviewCount": 314
   },
   "3": {
-    "ready": false
+    "ready": true,
+    "expectedCount": 374,
+    "wordCount": 374,
+    "reviewCount": 59
   },
   "4": {
     "ready": false

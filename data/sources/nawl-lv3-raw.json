@@ -1,0 +1,2091 @@
+{
+  "source": "NAWL-1.2",
+  "sha256": "88a99099e10010ea40992cca4a5119102d05a0f2888ee5d43d4c8b4afd597fef",
+  "sourceWordCount": 957,
+  "excludedCount": 583,
+  "uniqueWordCount": 374,
+  "excluded": [
+    "absorb",
+    "accelerate",
+    "accent",
+    "accumulate",
+    "accumulation",
+    "accuracy",
+    "acid",
+    "acute",
+    "adaptation",
+    "admission",
+    "adolescent",
+    "adverse",
+    "aesthetic",
+    "affirm",
+    "afterward",
+    "agriculture",
+    "airplane",
+    "algebra",
+    "alien",
+    "alliance",
+    "allocate",
+    "altitude",
+    "aluminum",
+    "analogy",
+    "ancestor",
+    "antibiotic",
+    "applause",
+    "apple",
+    "approximate",
+    "archaeology",
+    "architect",
+    "array",
+    "arrow",
+    "articulate",
+    "artificial",
+    "artistic",
+    "aspect",
+    "assembly",
+    "assert",
+    "assignment",
+    "athletic",
+    "atom",
+    "atomic",
+    "auction",
+    "audio",
+    "audit",
+    "authority",
+    "autonomy",
+    "backward",
+    "bacteria",
+    "bang",
+    "bargain",
+    "barrel",
+    "basin",
+    "bat",
+    "beam",
+    "biology",
+    "bizarre",
+    "blank",
+    "bleed",
+    "bodily",
+    "bonus",
+    "bound",
+    "breakdown",
+    "bubble",
+    "bucket",
+    "bulk",
+    "bullet",
+    "bundle",
+    "calcium",
+    "calculation",
+    "calculator",
+    "campus",
+    "capitalism",
+    "capitalist",
+    "carrier",
+    "cattle",
+    "cheat",
+    "cheer",
+    "chemistry",
+    "chess",
+    "chronic",
+    "chunk",
+    "cinema",
+    "circulate",
+    "circulation",
+    "civilization",
+    "clarify",
+    "classification",
+    "classify",
+    "classroom",
+    "clay",
+    "clever",
+    "client",
+    "clinic",
+    "clip",
+    "clone",
+    "closure",
+    "clue",
+    "cognitive",
+    "coherent",
+    "collective",
+    "colonial",
+    "colony",
+    "comma",
+    "commentary",
+    "commodity",
+    "communicative",
+    "communist",
+    "compact",
+    "comparable",
+    "comparative",
+    "compensate",
+    "competence",
+    "competent",
+    "complement",
+    "complication",
+    "comply",
+    "composer",
+    "comprehension",
+    "conceive",
+    "conception",
+    "cone",
+    "confine",
+    "conscious",
+    "consensus",
+    "consent",
+    "conservation",
+    "conserve",
+    "consonant",
+    "constitution",
+    "consultation",
+    "consumption",
+    "container",
+    "continent",
+    "continuity",
+    "contradict",
+    "contradiction",
+    "contrary",
+    "controversy",
+    "coordinate",
+    "cord",
+    "correlation",
+    "correspondence",
+    "corruption",
+    "credibility",
+    "crude",
+    "crystal",
+    "cue",
+    "cure",
+    "curriculum",
+    "damp",
+    "deadline",
+    "decay",
+    "deceive",
+    "defect",
+    "definite",
+    "dense",
+    "depict",
+    "destination",
+    "diagnose",
+    "diagnosis",
+    "diagram",
+    "dialect",
+    "diameter",
+    "diary",
+    "dictate",
+    "dictionary",
+    "differentiate",
+    "dilemma",
+    "directive",
+    "disability",
+    "disadvantage",
+    "discharge",
+    "discourse",
+    "discrimination",
+    "dissolve",
+    "distribution",
+    "disturbance",
+    "diverse",
+    "domain",
+    "dominant",
+    "donor",
+    "dose",
+    "drain",
+    "drift",
+    "duration",
+    "dye",
+    "dynamic",
+    "ecological",
+    "ecology",
+    "economist",
+    "elaborate",
+    "elastic",
+    "elementary",
+    "elevate",
+    "emission",
+    "emperor",
+    "enforcement",
+    "entity",
+    "epidemic",
+    "equality",
+    "erase",
+    "essence",
+    "ethical",
+    "evident",
+    "execute",
+    "execution",
+    "exit",
+    "expertise",
+    "explicit",
+    "exploit",
+    "fabric",
+    "facilitate",
+    "faculty",
+    "fatigue",
+    "feedback",
+    "fertility",
+    "fever",
+    "fiber",
+    "fin",
+    "finite",
+    "flesh",
+    "flexibility",
+    "flip",
+    "fluid",
+    "forum",
+    "fossil",
+    "fraction",
+    "fracture",
+    "friction",
+    "gauge",
+    "genetics",
+    "ghost",
+    "goat",
+    "goodness",
+    "goods",
+    "gram",
+    "grammatical",
+    "graph",
+    "grasp",
+    "gravity",
+    "gross",
+    "gut",
+    "habitat",
+    "harvest",
+    "hawk",
+    "hedge",
+    "hierarchy",
+    "hip",
+    "homework",
+    "horizon",
+    "horizontal",
+    "hormone",
+    "hydrogen",
+    "identical",
+    "identification",
+    "ideology",
+    "illusion",
+    "immune",
+    "impact",
+    "implicit",
+    "impulse",
+    "incline",
+    "incredible",
+    "indifference",
+    "indigenous",
+    "induce",
+    "industrialize",
+    "infect",
+    "infectious",
+    "inferior",
+    "infinite",
+    "influential",
+    "initiate",
+    "inject",
+    "injection",
+    "insect",
+    "insert",
+    "instinct",
+    "integration",
+    "intensity",
+    "intensive",
+    "interact",
+    "interfere",
+    "intermediate",
+    "interrupt",
+    "interval",
+    "intervene",
+    "invade",
+    "invasion",
+    "jazz",
+    "junior",
+    "kidney",
+    "kilometer",
+    "layout",
+    "leaf",
+    "lecturer",
+    "legend",
+    "legitimate",
+    "leisure",
+    "liable",
+    "lifetime",
+    "likelihood",
+    "likewise",
+    "limb",
+    "liter",
+    "liver",
+    "logical",
+    "loop",
+    "lump",
+    "lung",
+    "machinery",
+    "magnetic",
+    "mall",
+    "manipulate",
+    "manual",
+    "manuscript",
+    "marble",
+    "marginal",
+    "marker",
+    "mathematical",
+    "meaningful",
+    "mechanic",
+    "mechanical",
+    "media",
+    "mediate",
+    "memorize",
+    "mentor",
+    "merge",
+    "messenger",
+    "metaphor",
+    "migration",
+    "mineral",
+    "minimal",
+    "minimize",
+    "minus",
+    "missile",
+    "molecule",
+    "momentum",
+    "monetary",
+    "monkey",
+    "monopoly",
+    "morality",
+    "mortality",
+    "motive",
+    "multiply",
+    "myth",
+    "naked",
+    "namely",
+    "nasty",
+    "nationalism",
+    "neat",
+    "necessity",
+    "nest",
+    "neutral",
+    "noble",
+    "noisy",
+    "norm",
+    "novice",
+    "nucleus",
+    "nutrient",
+    "objection",
+    "obscure",
+    "observer",
+    "obtain",
+    "occupation",
+    "occurrence",
+    "offspring",
+    "oral",
+    "organ",
+    "organism",
+    "orient",
+    "orientation",
+    "outer",
+    "outlet",
+    "overhead",
+    "overlap",
+    "oxygen",
+    "painful",
+    "paradox",
+    "parcel",
+    "pardon",
+    "partial",
+    "particle",
+    "peasant",
+    "pest",
+    "philosopher",
+    "philosophical",
+    "photographic",
+    "physician",
+    "physics",
+    "plantation",
+    "plug",
+    "plural",
+    "polar",
+    "pole",
+    "portfolio",
+    "portray",
+    "poster",
+    "powder",
+    "practitioner",
+    "precede",
+    "predator",
+    "prediction",
+    "prejudice",
+    "preliminary",
+    "presume",
+    "prey",
+    "primitive",
+    "probe",
+    "productive",
+    "productivity",
+    "profound",
+    "progressive",
+    "projection",
+    "prominent",
+    "pronounce",
+    "psychologist",
+    "psychology",
+    "publish",
+    "pulse",
+    "punch",
+    "punish",
+    "punishment",
+    "puzzle",
+    "questionnaire",
+    "quiz",
+    "quotation",
+    "rack",
+    "radar",
+    "radiation",
+    "radius",
+    "rainfall",
+    "rational",
+    "ray",
+    "realism",
+    "realistic",
+    "realm",
+    "recipe",
+    "regime",
+    "reinforce",
+    "rejection",
+    "render",
+    "replacement",
+    "reproduce",
+    "republic",
+    "resemble",
+    "reservoir",
+    "resistant",
+    "retrieve",
+    "revolutionary",
+    "rhetoric",
+    "rhythm",
+    "ridiculous",
+    "ritual",
+    "robot",
+    "rope",
+    "rotate",
+    "rotation",
+    "rub",
+    "ruler",
+    "scatter",
+    "scenario",
+    "scholarship",
+    "scroll",
+    "selective",
+    "semester",
+    "seminar",
+    "sensation",
+    "sensible",
+    "sensitivity",
+    "separation",
+    "shallow",
+    "shortly",
+    "shuttle",
+    "similarity",
+    "simplify",
+    "sin",
+    "singular",
+    "sketch",
+    "skip",
+    "slash",
+    "slavery",
+    "slot",
+    "snake",
+    "sneeze",
+    "sniff",
+    "socialize",
+    "sometime",
+    "span",
+    "specialty",
+    "specimen",
+    "spectrum",
+    "sphere",
+    "sponsorship",
+    "spontaneous",
+    "spray",
+    "stabilize",
+    "stack",
+    "stadium",
+    "stance",
+    "statistical",
+    "stereotype",
+    "stimulus",
+    "straightforward",
+    "strand",
+    "strategic",
+    "stripe",
+    "subjective",
+    "subtle",
+    "subtract",
+    "suicide",
+    "super",
+    "superior",
+    "supposedly",
+    "surgeon",
+    "surgical",
+    "surplus",
+    "sustainable",
+    "swap",
+    "swell",
+    "sword",
+    "syllable",
+    "symbolic",
+    "syndrome",
+    "synthetic",
+    "systematic",
+    "tempt",
+    "tense",
+    "terminal",
+    "textbook",
+    "thereby",
+    "thesis",
+    "thread",
+    "threshold",
+    "thumb",
+    "tolerance",
+    "ton",
+    "toxic",
+    "trait",
+    "transaction",
+    "transformation",
+    "translation",
+    "transmission",
+    "transmit",
+    "transplant",
+    "trauma",
+    "treaty",
+    "tremendous",
+    "triangle",
+    "tribe",
+    "tricky",
+    "trivial",
+    "tropical",
+    "tumor",
+    "tutor",
+    "ultimate",
+    "undergraduate",
+    "undermine",
+    "underneath",
+    "unify",
+    "unity",
+    "upward",
+    "usage",
+    "utility",
+    "utilize",
+    "vague",
+    "valid",
+    "vein",
+    "verbal",
+    "vertical",
+    "viable",
+    "virtue",
+    "vitamin",
+    "vocabulary",
+    "vowel",
+    "weave",
+    "wheat",
+    "whoever",
+    "widespread",
+    "wisdom",
+    "workshop"
+  ],
+  "normalization": "Case, apostrophe and hyphen variants share identity; deduct lower-level headwords, not synonyms. Original prefixes remain in the list.",
+  "words": [
+    {
+      "word": "abdominal",
+      "line": 7
+    },
+    {
+      "word": "absorption",
+      "line": 9
+    },
+    {
+      "word": "acceleration",
+      "line": 11
+    },
+    {
+      "word": "accurately",
+      "line": 16
+    },
+    {
+      "word": "acidic",
+      "line": 18
+    },
+    {
+      "word": "activate",
+      "line": 19
+    },
+    {
+      "word": "actively",
+      "line": 20
+    },
+    {
+      "word": "adaptive",
+      "line": 23
+    },
+    {
+      "word": "adjacent",
+      "line": 24
+    },
+    {
+      "word": "aerosol",
+      "line": 28
+    },
+    {
+      "word": "aggregate",
+      "line": 32
+    },
+    {
+      "word": "algorithm",
+      "line": 36
+    },
+    {
+      "word": "allocation",
+      "line": 40
+    },
+    {
+      "word": "amino",
+      "line": 43
+    },
+    {
+      "word": "amongst",
+      "line": 44
+    },
+    {
+      "word": "amplitude",
+      "line": 45
+    },
+    {
+      "word": "anthropology",
+      "line": 48
+    },
+    {
+      "word": "anti",
+      "line": 49
+    },
+    {
+      "word": "antibody",
+      "line": 51
+    },
+    {
+      "word": "antiquity",
+      "line": 52
+    },
+    {
+      "word": "appendix",
+      "line": 53
+    },
+    {
+      "word": "approximation",
+      "line": 57
+    },
+    {
+      "word": "arbitrary",
+      "line": 58
+    },
+    {
+      "word": "artifact",
+      "line": 64
+    },
+    {
+      "word": "artwork",
+      "line": 67
+    },
+    {
+      "word": "availability",
+      "line": 80
+    },
+    {
+      "word": "axiom",
+      "line": 81
+    },
+    {
+      "word": "axis",
+      "line": 82
+    },
+    {
+      "word": "bacterial",
+      "line": 85
+    },
+    {
+      "word": "behavioral",
+      "line": 92
+    },
+    {
+      "word": "bilingual",
+      "line": 93
+    },
+    {
+      "word": "binary",
+      "line": 94
+    },
+    {
+      "word": "biodiversity",
+      "line": 95
+    },
+    {
+      "word": "biologist",
+      "line": 96
+    },
+    {
+      "word": "bracket",
+      "line": 104
+    },
+    {
+      "word": "broadly",
+      "line": 106
+    },
+    {
+      "word": "calculus",
+      "line": 115
+    },
+    {
+      "word": "capillary",
+      "line": 117
+    },
+    {
+      "word": "censor",
+      "line": 122
+    },
+    {
+      "word": "characterization",
+      "line": 123
+    },
+    {
+      "word": "chemotherapy",
+      "line": 127
+    },
+    {
+      "word": "chloride",
+      "line": 129
+    },
+    {
+      "word": "chromosome",
+      "line": 130
+    },
+    {
+      "word": "circa",
+      "line": 134
+    },
+    {
+      "word": "coefficient",
+      "line": 150
+    },
+    {
+      "word": "commonly",
+      "line": 159
+    },
+    {
+      "word": "composite",
+      "line": 172
+    },
+    {
+      "word": "computation",
+      "line": 174
+    },
+    {
+      "word": "conceptual",
+      "line": 177
+    },
+    {
+      "word": "conditional",
+      "line": 178
+    },
+    {
+      "word": "conduction",
+      "line": 179
+    },
+    {
+      "word": "configuration",
+      "line": 181
+    },
+    {
+      "word": "confound",
+      "line": 183
+    },
+    {
+      "word": "congruent",
+      "line": 184
+    },
+    {
+      "word": "connector",
+      "line": 185
+    },
+    {
+      "word": "connotation",
+      "line": 186
+    },
+    {
+      "word": "consciousness",
+      "line": 188
+    },
+    {
+      "word": "constrain",
+      "line": 195
+    },
+    {
+      "word": "contour",
+      "line": 201
+    },
+    {
+      "word": "contradictory",
+      "line": 204
+    },
+    {
+      "word": "converge",
+      "line": 207
+    },
+    {
+      "word": "convergence",
+      "line": 208
+    },
+    {
+      "word": "coordination",
+      "line": 210
+    },
+    {
+      "word": "coronary",
+      "line": 212
+    },
+    {
+      "word": "corpus",
+      "line": 213
+    },
+    {
+      "word": "correction",
+      "line": 214
+    },
+    {
+      "word": "correctly",
+      "line": 215
+    },
+    {
+      "word": "correlate",
+      "line": 216
+    },
+    {
+      "word": "cortex",
+      "line": 220
+    },
+    {
+      "word": "critically",
+      "line": 222
+    },
+    {
+      "word": "critique",
+      "line": 223
+    },
+    {
+      "word": "cyclic",
+      "line": 229
+    },
+    {
+      "word": "cylinder",
+      "line": 230
+    },
+    {
+      "word": "deficiency",
+      "line": 236
+    },
+    {
+      "word": "deflection",
+      "line": 238
+    },
+    {
+      "word": "degrade",
+      "line": 239
+    },
+    {
+      "word": "deliberately",
+      "line": 240
+    },
+    {
+      "word": "delta",
+      "line": 241
+    },
+    {
+      "word": "demonstrator",
+      "line": 242
+    },
+    {
+      "word": "denominator",
+      "line": 243
+    },
+    {
+      "word": "denote",
+      "line": 244
+    },
+    {
+      "word": "dependence",
+      "line": 246
+    },
+    {
+      "word": "derivative",
+      "line": 248
+    },
+    {
+      "word": "descendent",
+      "line": 249
+    },
+    {
+      "word": "descriptor",
+      "line": 250
+    },
+    {
+      "word": "detection",
+      "line": 252
+    },
+    {
+      "word": "developmental",
+      "line": 253
+    },
+    {
+      "word": "deviation",
+      "line": 254
+    },
+    {
+      "word": "diagnostic",
+      "line": 257
+    },
+    {
+      "word": "differential",
+      "line": 264
+    },
+    {
+      "word": "differentiation",
+      "line": 266
+    },
+    {
+      "word": "diffusion",
+      "line": 267
+    },
+    {
+      "word": "dilute",
+      "line": 269
+    },
+    {
+      "word": "dimensional",
+      "line": 270
+    },
+    {
+      "word": "dioxide",
+      "line": 271
+    },
+    {
+      "word": "discrete",
+      "line": 277
+    },
+    {
+      "word": "displacement",
+      "line": 279
+    },
+    {
+      "word": "dissection",
+      "line": 280
+    },
+    {
+      "word": "dissertation",
+      "line": 281
+    },
+    {
+      "word": "dominance",
+      "line": 287
+    },
+    {
+      "word": "domination",
+      "line": 289
+    },
+    {
+      "word": "economically",
+      "line": 299
+    },
+    {
+      "word": "effectiveness",
+      "line": 301
+    },
+    {
+      "word": "elasticity",
+      "line": 304
+    },
+    {
+      "word": "electron",
+      "line": 305
+    },
+    {
+      "word": "elevation",
+      "line": 308
+    },
+    {
+      "word": "elimination",
+      "line": 309
+    },
+    {
+      "word": "elite",
+      "line": 310
+    },
+    {
+      "word": "embed",
+      "line": 311
+    },
+    {
+      "word": "emergence",
+      "line": 312
+    },
+    {
+      "word": "emit",
+      "line": 314
+    },
+    {
+      "word": "empirical",
+      "line": 316
+    },
+    {
+      "word": "encode",
+      "line": 317
+    },
+    {
+      "word": "enormously",
+      "line": 319
+    },
+    {
+      "word": "entrant",
+      "line": 321
+    },
+    {
+      "word": "enzyme",
+      "line": 322
+    },
+    {
+      "word": "epidemiology",
+      "line": 324
+    },
+    {
+      "word": "equilibrium",
+      "line": 326
+    },
+    {
+      "word": "equivalence",
+      "line": 327
+    },
+    {
+      "word": "essentially",
+      "line": 330
+    },
+    {
+      "word": "estimation",
+      "line": 331
+    },
+    {
+      "word": "ethics",
+      "line": 333
+    },
+    {
+      "word": "evolutionary",
+      "line": 335
+    },
+    {
+      "word": "ex",
+      "line": 336
+    },
+    {
+      "word": "explicitly",
+      "line": 342
+    },
+    {
+      "word": "exponential",
+      "line": 344
+    },
+    {
+      "word": "facet",
+      "line": 346
+    },
+    {
+      "word": "factorial",
+      "line": 348
+    },
+    {
+      "word": "fetal",
+      "line": 353
+    },
+    {
+      "word": "flux",
+      "line": 362
+    },
+    {
+      "word": "footnote",
+      "line": 363
+    },
+    {
+      "word": "formally",
+      "line": 364
+    },
+    {
+      "word": "formulation",
+      "line": 365
+    },
+    {
+      "word": "freely",
+      "line": 370
+    },
+    {
+      "word": "fringe",
+      "line": 372
+    },
+    {
+      "word": "fundamentally",
+      "line": 373
+    },
+    {
+      "word": "fungus",
+      "line": 374
+    },
+    {
+      "word": "fusion",
+      "line": 375
+    },
+    {
+      "word": "generalization",
+      "line": 377
+    },
+    {
+      "word": "generalize",
+      "line": 378
+    },
+    {
+      "word": "genetically",
+      "line": 379
+    },
+    {
+      "word": "globalization",
+      "line": 382
+    },
+    {
+      "word": "gradient",
+      "line": 386
+    },
+    {
+      "word": "grid",
+      "line": 392
+    },
+    {
+      "word": "halfway",
+      "line": 396
+    },
+    {
+      "word": "handout",
+      "line": 397
+    },
+    {
+      "word": "headquarter",
+      "line": 400
+    },
+    {
+      "word": "helix",
+      "line": 402
+    },
+    {
+      "word": "hepatitis",
+      "line": 403
+    },
+    {
+      "word": "herbicide",
+      "line": 404
+    },
+    {
+      "word": "historically",
+      "line": 407
+    },
+    {
+      "word": "importantly",
+      "line": 420
+    },
+    {
+      "word": "incidence",
+      "line": 422
+    },
+    {
+      "word": "inclusion",
+      "line": 424
+    },
+    {
+      "word": "incredibly",
+      "line": 426
+    },
+    {
+      "word": "incumbent",
+      "line": 427
+    },
+    {
+      "word": "independently",
+      "line": 428
+    },
+    {
+      "word": "indicator",
+      "line": 429
+    },
+    {
+      "word": "indirect",
+      "line": 432
+    },
+    {
+      "word": "individually",
+      "line": 433
+    },
+    {
+      "word": "induction",
+      "line": 435
+    },
+    {
+      "word": "industrialization",
+      "line": 436
+    },
+    {
+      "word": "inequality",
+      "line": 438
+    },
+    {
+      "word": "inevitably",
+      "line": 439
+    },
+    {
+      "word": "inference",
+      "line": 442
+    },
+    {
+      "word": "infinity",
+      "line": 445
+    },
+    {
+      "word": "informal",
+      "line": 447
+    },
+    {
+      "word": "inhibit",
+      "line": 448
+    },
+    {
+      "word": "inhibition",
+      "line": 449
+    },
+    {
+      "word": "initiation",
+      "line": 451
+    },
+    {
+      "word": "innate",
+      "line": 454
+    },
+    {
+      "word": "instability",
+      "line": 457
+    },
+    {
+      "word": "integral",
+      "line": 459
+    },
+    {
+      "word": "interestingly",
+      "line": 464
+    },
+    {
+      "word": "interface",
+      "line": 465
+    },
+    {
+      "word": "interviewer",
+      "line": 471
+    },
+    {
+      "word": "inversion",
+      "line": 474
+    },
+    {
+      "word": "invert",
+      "line": 475
+    },
+    {
+      "word": "ion",
+      "line": 476
+    },
+    {
+      "word": "irrelevant",
+      "line": 477
+    },
+    {
+      "word": "irrigation",
+      "line": 478
+    },
+    {
+      "word": "justification",
+      "line": 481
+    },
+    {
+      "word": "lab",
+      "line": 484
+    },
+    {
+      "word": "lateral",
+      "line": 485
+    },
+    {
+      "word": "lever",
+      "line": 492
+    },
+    {
+      "word": "lexical",
+      "line": 493
+    },
+    {
+      "word": "lifestyle",
+      "line": 495
+    },
+    {
+      "word": "linear",
+      "line": 500
+    },
+    {
+      "word": "linguistic",
+      "line": 501
+    },
+    {
+      "word": "linguistics",
+      "line": 502
+    },
+    {
+      "word": "locally",
+      "line": 505
+    },
+    {
+      "word": "locus",
+      "line": 506
+    },
+    {
+      "word": "longitudinal",
+      "line": 508
+    },
+    {
+      "word": "magnitude",
+      "line": 514
+    },
+    {
+      "word": "manipulation",
+      "line": 517
+    },
+    {
+      "word": "marrow",
+      "line": 523
+    },
+    {
+      "word": "maternal",
+      "line": 524
+    },
+    {
+      "word": "matrix",
+      "line": 526
+    },
+    {
+      "word": "maximize",
+      "line": 527
+    },
+    {
+      "word": "membrane",
+      "line": 533
+    },
+    {
+      "word": "mercury",
+      "line": 536
+    },
+    {
+      "word": "metabolism",
+      "line": 539
+    },
+    {
+      "word": "methodology",
+      "line": 541
+    },
+    {
+      "word": "micro",
+      "line": 542
+    },
+    {
+      "word": "mid",
+      "line": 543
+    },
+    {
+      "word": "migrate",
+      "line": 544
+    },
+    {
+      "word": "millimeter",
+      "line": 546
+    },
+    {
+      "word": "mobility",
+      "line": 552
+    },
+    {
+      "word": "modification",
+      "line": 553
+    },
+    {
+      "word": "mole",
+      "line": 554
+    },
+    {
+      "word": "molecular",
+      "line": 555
+    },
+    {
+      "word": "morphological",
+      "line": 562
+    },
+    {
+      "word": "morphology",
+      "line": 563
+    },
+    {
+      "word": "motif",
+      "line": 565
+    },
+    {
+      "word": "multi",
+      "line": 567
+    },
+    {
+      "word": "multinational",
+      "line": 568
+    },
+    {
+      "word": "mutation",
+      "line": 570
+    },
+    {
+      "word": "neo",
+      "line": 578
+    },
+    {
+      "word": "neural",
+      "line": 580
+    },
+    {
+      "word": "neuron",
+      "line": 581
+    },
+    {
+      "word": "nicely",
+      "line": 583
+    },
+    {
+      "word": "niche",
+      "line": 584
+    },
+    {
+      "word": "nitrogen",
+      "line": 585
+    },
+    {
+      "word": "node",
+      "line": 587
+    },
+    {
+      "word": "nominal",
+      "line": 589
+    },
+    {
+      "word": "non",
+      "line": 590
+    },
+    {
+      "word": "nonetheless",
+      "line": 591
+    },
+    {
+      "word": "nonlinear",
+      "line": 592
+    },
+    {
+      "word": "notation",
+      "line": 594
+    },
+    {
+      "word": "null",
+      "line": 597
+    },
+    {
+      "word": "numerical",
+      "line": 598
+    },
+    {
+      "word": "onset",
+      "line": 607
+    },
+    {
+      "word": "onwards",
+      "line": 608
+    },
+    {
+      "word": "optical",
+      "line": 609
+    },
+    {
+      "word": "optimal",
+      "line": 610
+    },
+    {
+      "word": "optimum",
+      "line": 611
+    },
+    {
+      "word": "oscillation",
+      "line": 617
+    },
+    {
+      "word": "overview",
+      "line": 622
+    },
+    {
+      "word": "oxidize",
+      "line": 623
+    },
+    {
+      "word": "par",
+      "line": 626
+    },
+    {
+      "word": "paradigm",
+      "line": 627
+    },
+    {
+      "word": "parameter",
+      "line": 629
+    },
+    {
+      "word": "parental",
+      "line": 632
+    },
+    {
+      "word": "parenthesis",
+      "line": 633
+    },
+    {
+      "word": "partially",
+      "line": 635
+    },
+    {
+      "word": "partition",
+      "line": 637
+    },
+    {
+      "word": "pathway",
+      "line": 638
+    },
+    {
+      "word": "periodic",
+      "line": 640
+    },
+    {
+      "word": "peripheral",
+      "line": 641
+    },
+    {
+      "word": "pesticide",
+      "line": 643
+    },
+    {
+      "word": "phenomenal",
+      "line": 644
+    },
+    {
+      "word": "phonological",
+      "line": 647
+    },
+    {
+      "word": "phosphate",
+      "line": 648
+    },
+    {
+      "word": "physically",
+      "line": 650
+    },
+    {
+      "word": "physiological",
+      "line": 653
+    },
+    {
+      "word": "pi",
+      "line": 654
+    },
+    {
+      "word": "planner",
+      "line": 655
+    },
+    {
+      "word": "plausible",
+      "line": 657
+    },
+    {
+      "word": "politically",
+      "line": 662
+    },
+    {
+      "word": "portrayal",
+      "line": 665
+    },
+    {
+      "word": "positively",
+      "line": 666
+    },
+    {
+      "word": "postgraduate",
+      "line": 668
+    },
+    {
+      "word": "potassium",
+      "line": 669
+    },
+    {
+      "word": "pragmatic",
+      "line": 672
+    },
+    {
+      "word": "pre",
+      "line": 673
+    },
+    {
+      "word": "precipitate",
+      "line": 675
+    },
+    {
+      "word": "precipitation",
+      "line": 676
+    },
+    {
+      "word": "predominantly",
+      "line": 679
+    },
+    {
+      "word": "prevalence",
+      "line": 683
+    },
+    {
+      "word": "primer",
+      "line": 685
+    },
+    {
+      "word": "problematic",
+      "line": 688
+    },
+    {
+      "word": "processor",
+      "line": 689
+    },
+    {
+      "word": "progression",
+      "line": 693
+    },
+    {
+      "word": "proposition",
+      "line": 698
+    },
+    {
+      "word": "protocol",
+      "line": 699
+    },
+    {
+      "word": "proton",
+      "line": 700
+    },
+    {
+      "word": "psychiatric",
+      "line": 701
+    },
+    {
+      "word": "purely",
+      "line": 709
+    },
+    {
+      "word": "qualitative",
+      "line": 711
+    },
+    {
+      "word": "quantitative",
+      "line": 712
+    },
+    {
+      "word": "quantum",
+      "line": 713
+    },
+    {
+      "word": "randomize",
+      "line": 722
+    },
+    {
+      "word": "randomly",
+      "line": 723
+    },
+    {
+      "word": "rationality",
+      "line": 725
+    },
+    {
+      "word": "reactive",
+      "line": 727
+    },
+    {
+      "word": "reactor",
+      "line": 728
+    },
+    {
+      "word": "readily",
+      "line": 729
+    },
+    {
+      "word": "receptor",
+      "line": 733
+    },
+    {
+      "word": "reconstruct",
+      "line": 735
+    },
+    {
+      "word": "regression",
+      "line": 737
+    },
+    {
+      "word": "rehabilitation",
+      "line": 738
+    },
+    {
+      "word": "reliability",
+      "line": 741
+    },
+    {
+      "word": "repertoire",
+      "line": 743
+    },
+    {
+      "word": "replicate",
+      "line": 745
+    },
+    {
+      "word": "replication",
+      "line": 746
+    },
+    {
+      "word": "reproduction",
+      "line": 748
+    },
+    {
+      "word": "residual",
+      "line": 752
+    },
+    {
+      "word": "residue",
+      "line": 753
+    },
+    {
+      "word": "respiratory",
+      "line": 755
+    },
+    {
+      "word": "rewrite",
+      "line": 758
+    },
+    {
+      "word": "scripture",
+      "line": 772
+    },
+    {
+      "word": "secrete",
+      "line": 774
+    },
+    {
+      "word": "sediment",
+      "line": 775
+    },
+    {
+      "word": "semantic",
+      "line": 777
+    },
+    {
+      "word": "semi",
+      "line": 779
+    },
+    {
+      "word": "sensory",
+      "line": 784
+    },
+    {
+      "word": "separately",
+      "line": 785
+    },
+    {
+      "word": "sexuality",
+      "line": 787
+    },
+    {
+      "word": "simulate",
+      "line": 793
+    },
+    {
+      "word": "simulation",
+      "line": 794
+    },
+    {
+      "word": "simultaneously",
+      "line": 795
+    },
+    {
+      "word": "slab",
+      "line": 800
+    },
+    {
+      "word": "socially",
+      "line": 808
+    },
+    {
+      "word": "sodium",
+      "line": 809
+    },
+    {
+      "word": "soluble",
+      "line": 810
+    },
+    {
+      "word": "solute",
+      "line": 811
+    },
+    {
+      "word": "solvent",
+      "line": 812
+    },
+    {
+      "word": "sophisticate",
+      "line": 814
+    },
+    {
+      "word": "spatial",
+      "line": 816
+    },
+    {
+      "word": "specification",
+      "line": 818
+    },
+    {
+      "word": "sperm",
+      "line": 821
+    },
+    {
+      "word": "splice",
+      "line": 823
+    },
+    {
+      "word": "standardize",
+      "line": 831
+    },
+    {
+      "word": "static",
+      "line": 832
+    },
+    {
+      "word": "statistically",
+      "line": 834
+    },
+    {
+      "word": "statistics",
+      "line": 835
+    },
+    {
+      "word": "strictly",
+      "line": 841
+    },
+    {
+      "word": "sub",
+      "line": 843
+    },
+    {
+      "word": "subset",
+      "line": 845
+    },
+    {
+      "word": "substitution",
+      "line": 846
+    },
+    {
+      "word": "substrate",
+      "line": 847
+    },
+    {
+      "word": "sufficiently",
+      "line": 850
+    },
+    {
+      "word": "susceptible",
+      "line": 858
+    },
+    {
+      "word": "syllabus",
+      "line": 864
+    },
+    {
+      "word": "syntactic",
+      "line": 867
+    },
+    {
+      "word": "syntax",
+      "line": 868
+    },
+    {
+      "word": "synthesis",
+      "line": 869
+    },
+    {
+      "word": "tech",
+      "line": 872
+    },
+    {
+      "word": "technically",
+      "line": 873
+    },
+    {
+      "word": "temporal",
+      "line": 874
+    },
+    {
+      "word": "terminology",
+      "line": 878
+    },
+    {
+      "word": "terribly",
+      "line": 879
+    },
+    {
+      "word": "theorem",
+      "line": 881
+    },
+    {
+      "word": "theorist",
+      "line": 882
+    },
+    {
+      "word": "thermal",
+      "line": 884
+    },
+    {
+      "word": "thickness",
+      "line": 886
+    },
+    {
+      "word": "tract",
+      "line": 893
+    },
+    {
+      "word": "traditionally",
+      "line": 894
+    },
+    {
+      "word": "trajectory",
+      "line": 896
+    },
+    {
+      "word": "trans",
+      "line": 897
+    },
+    {
+      "word": "transcribe",
+      "line": 899
+    },
+    {
+      "word": "transcription",
+      "line": 900
+    },
+    {
+      "word": "transparency",
+      "line": 905
+    },
+    {
+      "word": "turbulent",
+      "line": 916
+    },
+    {
+      "word": "unemployed",
+      "line": 922
+    },
+    {
+      "word": "unintelligible",
+      "line": 924
+    },
+    {
+      "word": "unstable",
+      "line": 926
+    },
+    {
+      "word": "uplift",
+      "line": 927
+    },
+    {
+      "word": "urine",
+      "line": 929
+    },
+    {
+      "word": "utterance",
+      "line": 933
+    },
+    {
+      "word": "validity",
+      "line": 936
+    },
+    {
+      "word": "valve",
+      "line": 937
+    },
+    {
+      "word": "variability",
+      "line": 938
+    },
+    {
+      "word": "variance",
+      "line": 939
+    },
+    {
+      "word": "variant",
+      "line": 940
+    },
+    {
+      "word": "vector",
+      "line": 941
+    },
+    {
+      "word": "vegetation",
+      "line": 942
+    },
+    {
+      "word": "velocity",
+      "line": 944
+    },
+    {
+      "word": "volition",
+      "line": 951
+    },
+    {
+      "word": "watershed",
+      "line": 953
+    },
+    {
+      "word": "wavelength",
+      "line": 954
+    },
+    {
+      "word": "whereby",
+      "line": 957
+    },
+    {
+      "word": "whichever",
+      "line": 958
+    },
+    {
+      "word": "yeast",
+      "line": 963
+    }
+  ]
+}

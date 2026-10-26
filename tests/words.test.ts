@@ -55,3 +55,24 @@ test('Lv2 matches CEEC source counts, has every place topic and does not overlap
   assert.equal((await loadWords(2))?.length,4203);
   assert.equal(wordBankInfo(2).reviewCount,entries.filter(w=>w.review).length);
 });
+
+
+test('Lv3 matches pinned NAWL minus lower levels and loads independently', async () => {
+  const {default: entries}=await import('../src/data/words/lv3.json');
+  const {default: source}=await import('../data/sources/nawl-lv3-raw.json');
+  const {default: lv2}=await import('../src/data/words/lv2.json');
+  const {createHash}=await import('node:crypto');
+  const {readFile}=await import('node:fs/promises');
+  const {wordsReady,loadWords}=await import('../src/data/words/catalog');
+  validateWords(entries);
+  assert.equal(source.sourceWordCount,957);
+  assert.equal(source.excludedCount,583);
+  assert.equal(source.uniqueWordCount,374);
+  assert.equal(entries.length,374);
+  assert.equal(createHash('sha256').update(await readFile('data/sources/nawl-1.2-alphabetized.txt')).digest('hex'),source.sha256);
+  const lower=new Set([...words,...lv2].map(w=>normalizeWord(w.word)));
+  const official=new Set(source.words.map(w=>normalizeWord(w.word)));
+  for(const w of entries){assert.ok(official.has(normalizeWord(w.word)));assert.ok(!lower.has(normalizeWord(w.word)),w.word);}
+  assert.equal(wordsReady(3),true);
+  assert.equal((await loadWords(3))?.length,374);
+});

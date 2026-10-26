@@ -1,3 +1,4 @@
+import { normalizeWord } from '../data/words/types';
 import type { WordEntry, WordTopic } from '../data/words/types';
 import type { WordStats } from './types';
 export const SPELL_HINT_MODE: SpellHintMode = 'first_last';
@@ -35,4 +36,24 @@ export class ScoreCounter {
     if (correct) { this.streak++; this.correct++; this.maxStreak = Math.max(this.streak, this.maxStreak); this.score += correctPoints(this.streak, timeBonus); }
     else { this.wrong++; this.streak = 0; }
   }
+}
+
+
+export const MIN_PRACTICE_WORDS = 40;
+export interface PracticePool { words: WordEntry[]; ownCount: number; supplementalCount: number }
+/** Lower banks are ordered nearest level first; whole banks keep random sampling unbiased. */
+export function practicePool(current: readonly WordEntry[], topics: readonly WordTopic[],
+  lowerBanks: readonly (readonly WordEntry[])[] = [], eligible: (word: WordEntry) => boolean = () => true): PracticePool {
+  const words = topicPool(current, topics).filter(eligible);
+  const ownCount = words.length, seen = new Set(words.map(word => normalizeWord(word.word)));
+  for (const bank of lowerBanks) {
+    if (words.length >= MIN_PRACTICE_WORDS) break;
+    for (const word of bank) {
+      if (topics.length && !topics.some(topic => word.topics.includes(topic))) continue;
+      const key = normalizeWord(word.word);
+      if (seen.has(key) || !eligible(word)) continue;
+      seen.add(key); words.push(word);
+    }
+  }
+  return {words, ownCount, supplementalCount: words.length - ownCount};
 }

@@ -77,3 +77,32 @@ test('email cloze removes exact whole headwords and keeps punctuation and senten
   assert.deepEqual(clozeExample({word:'a',example:'A car is here.'}),{before:'',after:' car is here.'});
   assert.throws(()=>clozeExample({word:'port',example:'The report is ready.'}),/does not contain/);
 });
+
+
+test('sparse practice pools supplement the nearest lower topic bank without changing word levels', async () => {
+  const {practicePool}=await import('../src/games/rules');
+  const own=[{...word(1,'food_drink'),word:'yeast',level:3 as const}];
+  const near=Array.from({length:40},(_,i)=>({...word(i+2,'food_drink'),word:'food'+i,level:2 as const}));
+  const far=[{...word(100,'food_drink'),word:'coffee'}];
+  const result=practicePool(own,['food_drink'],[near,far]);
+  assert.equal(result.ownCount,1);assert.equal(result.supplementalCount,40);
+  assert.equal(result.words.length,41);assert.ok(result.words.some(w=>w.level===3));
+  assert.ok(!result.words.some(w=>w.word==='coffee'));
+  assert.equal(practicePool(near,['food_drink'],[far]).supplementalCount,0);
+  const duplicate={...far[0],id:'another-id',word:'YEAST'};
+  assert.equal(practicePool(own,['food_drink'],[[duplicate]]).words.length,1);
+  const eligible=practicePool(own,['food_drink'],[[...far,word(101,'health_body')]],w=>w.word==='coffee');
+  assert.deepEqual(eligible.words.map(w=>w.word),['coffee']);
+});
+
+test('every published game level has forty usable words after approved lower-level supplementation', async () => {
+  const {loadWords}=await import('../src/data/words/catalog');
+  const {GAME_FACTORIES}=await import('../src/games/registry');
+  const {practicePool}=await import('../src/games/rules');
+  const banks: (readonly WordEntry[])[]=[];
+  for(const level of [1,2,3] as const) {
+    const entries=await loadWords(level);assert.ok(entries);
+    for(const factory of GAME_FACTORIES){const game=factory();const pool=practicePool(entries,game.topics,[...banks].reverse(),w=>game.eligible?.(w)??true);assert.ok(pool.words.length>=40,'Lv'+level+' '+game.id);}
+    banks.push(entries);
+  }
+});

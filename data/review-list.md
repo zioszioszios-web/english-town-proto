@@ -400,3 +400,62 @@
 | Lv2 | whip | 鞭子；鞭打；打發 | Whip the cream until it thickens. |
 | Lv2 | woe | 悲痛；災禍 | The poem tells a tale of woe. |
 | Lv2 | yam | 薯蕷；山藥 | We added yam to the soup. |
+| Lv3 | adaptive | 適應性的 | The device uses adaptive controls. |
+| Lv3 | aerosol | 氣膠；噴霧的 | The lab measured aerosol particles. |
+| Lv3 | amino | 胺基的 | An amino acid is part of a protein. |
+| Lv3 | anti | 反；抗 | The prefix anti means against. |
+| Lv3 | confound | 使困惑；混淆 | These results confound our expectations. |
+| Lv3 | coronary | 冠狀動脈的；冠心病 | The doctor studies coronary disease. |
+| Lv3 | correlate | 相關；對應物 | The study asks whether the two measures correlate. |
+| Lv3 | critically | 批判地；嚴重地；極其重要地 | Read the article critically. |
+| Lv3 | deflection | 偏轉；轉移 | We measured the beam's deflection. |
+| Lv3 | demonstrator | 示威者；示範者 | A demonstrator showed us the equipment. |
+| Lv3 | derivative | 衍生物；導數；衍生的 | We calculated the derivative. |
+| Lv3 | descendent | 後代；下降的 | She is a descendent of the founder. |
+| Lv3 | descriptor | 描述語；描述子 | Choose a clear descriptor for the image. |
+| Lv3 | differential | 差異的；差額；微分 | The study examines differential effects. |
+| Lv3 | differentiation | 區別；分化；微分 | The course introduces differentiation. |
+| Lv3 | dimensional | 維度的；空間的 | We measured the object's dimensional changes. |
+| Lv3 | displacement | 位移；取代；流離失所 | The graph shows the car's displacement. |
+| Lv3 | ex | 前任的；前任 | The prefix ex can mean former. |
+| Lv3 | flux | 流動；變動；通量 | The schedule is in constant flux. |
+| Lv3 | fringe | 邊緣；流蘇；邊緣的 | The village lies on the fringe of the forest. |
+| Lv3 | headquarter | 設立總部 | They plan to headquarter the company here. |
+| Lv3 | incumbent | 現任的；現任者 | The incumbent mayor attended the event. |
+| Lv3 | induction | 歸納；感應；入職訓練 | New staff attend an induction session. |
+| Lv3 | inhibition | 抑制；拘束 | The experiment measured enzyme inhibition. |
+| Lv3 | initiation | 開始；入會儀式 | The report describes the initiation of the project. |
+| Lv3 | locus | 所在地；軌跡；基因座 | Find the locus of these points. |
+| Lv3 | longitudinal | 縱向的；長期追蹤的 | The team conducted a longitudinal study. |
+| Lv3 | matrix | 矩陣；基質 | Enter the numbers into the matrix. |
+| Lv3 | micro | 微小的；微型的 | The prefix micro can mean very small. |
+| Lv3 | mid | 中間的 | The prefix mid refers to the middle. |
+| Lv3 | mole | 莫耳；痣；鼴鼠 | The class learned how to calculate a mole of gas. |
+| Lv3 | morphological | 形態的；構詞的 | The study examines morphological differences. |
+| Lv3 | morphology | 形態學；構詞學 | The course introduces word morphology. |
+| Lv3 | multi | 多；多重 | The prefix multi means many. |
+| Lv3 | neo | 新；復興的 | The prefix neo means new. |
+| Lv3 | niche | 生態棲位；利基 | The business found a niche in the market. |
+| Lv3 | nominal | 名義上的；少量的；名詞的 | The museum charges a nominal fee. |
+| Lv3 | non | 非；不 | The prefix non can express absence. |
+| Lv3 | null | 無效的；空值 | The old agreement is null and void. |
+| Lv3 | par | 標準；標準桿 | Her work is on a par with his. |
+| Lv3 | peripheral | 周邊的；次要的；周邊設備 | The issue is peripheral to our main goal. |
+| Lv3 | pre | 在前；預先 | The prefix pre can mean before. |
+| Lv3 | precipitate | 促使發生；沉澱物；倉促的 | A white precipitate formed in the liquid. |
+| Lv3 | primer | 入門書；底漆；引子 | This book is a primer on statistics. |
+| Lv3 | proposition | 命題；提議 | The class discussed a logical proposition. |
+| Lv3 | reactive | 反應性的；被動回應的 | The chemical is highly reactive. |
+| Lv3 | regression | 迴歸；退步 | The study uses regression analysis. |
+| Lv3 | residual | 殘留的；殘差 | The test measures residual chemicals in water. |
+| Lv3 | semi | 半；部分 | The prefix semi can mean half. |
+| Lv3 | sexuality | 性；性傾向；性認同 | The course discusses human sexuality. |
+| Lv3 | solvent | 溶劑；有償債能力的 | Water acts as a solvent here. |
+| Lv3 | sophisticate | 世故的人；使複雜 | The novel portrays a young sophisticate. |
+| Lv3 | sub | 下；次級；替補者 | The prefix sub can mean under. |
+| Lv3 | substrate | 基質；受質 | The enzyme reacts with its substrate. |
+| Lv3 | temporal | 時間的；顳部的 | The study examines temporal patterns. |
+| Lv3 | tract | 大片土地；管道；短文 | The diagram shows the digestive tract. |
+| Lv3 | trans | 跨；越過；轉變 | The prefix trans can mean across. |
+| Lv3 | vector | 向量；傳播媒介 | The diagram shows a velocity vector. |
+| Lv3 | volition | 意志；自願 | She acted of her own volition. |

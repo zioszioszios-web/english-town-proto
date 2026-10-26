@@ -1,0 +1,6644 @@
+[
+  {
+    "id": "lv3-0001",
+    "word": "abdominal",
+    "pos": "adj.",
+    "zh": [
+      "腹部的"
+    ],
+    "example": "She reported abdominal pain.",
+    "exampleZh": "她表示腹部疼痛。",
+    "level": 3,
+    "topics": [
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0002",
+    "word": "absorption",
+    "pos": "n.",
+    "zh": [
+      "吸收"
+    ],
+    "example": "The study measures water absorption.",
+    "exampleZh": "這項研究測量吸水程度。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0003",
+    "word": "acceleration",
+    "pos": "n.",
+    "zh": [
+      "加速度",
+      "加速"
+    ],
+    "example": "We measured the car's acceleration.",
+    "exampleZh": "我們測量了汽車的加速度。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0004",
+    "word": "accurately",
+    "pos": "adv.",
+    "zh": [
+      "準確地"
+    ],
+    "example": "Record the results accurately.",
+    "exampleZh": "準確記錄結果。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0005",
+    "word": "acidic",
+    "pos": "adj.",
+    "zh": [
+      "酸性的"
+    ],
+    "example": "Lemon juice is acidic.",
+    "exampleZh": "檸檬汁是酸性的。",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0006",
+    "word": "activate",
+    "pos": "v.",
+    "zh": [
+      "啟用",
+      "活化"
+    ],
+    "example": "Press here to activate the device.",
+    "exampleZh": "按這裡啟用裝置。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0007",
+    "word": "actively",
+    "pos": "adv.",
+    "zh": [
+      "積極地",
+      "活躍地"
+    ],
+    "example": "Students actively discussed the topic.",
+    "exampleZh": "學生積極討論這個主題。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0008",
+    "word": "adaptive",
+    "pos": "adj.",
+    "zh": [
+      "適應性的"
+    ],
+    "example": "The device uses adaptive controls.",
+    "exampleZh": "這個裝置使用適應性控制。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0009",
+    "word": "adjacent",
+    "pos": "adj.",
+    "zh": [
+      "相鄰的"
+    ],
+    "example": "The cafe is adjacent to the hotel.",
+    "exampleZh": "咖啡廳就在飯店旁邊。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0010",
+    "word": "aerosol",
+    "pos": "n.;adj.",
+    "zh": [
+      "氣膠",
+      "噴霧的"
+    ],
+    "example": "The lab measured aerosol particles.",
+    "exampleZh": "實驗室測量氣膠微粒。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0011",
+    "word": "aggregate",
+    "pos": "n.;v.;adj.",
+    "zh": [
+      "總量",
+      "合計",
+      "總計的"
+    ],
+    "example": "The report shows aggregate sales.",
+    "exampleZh": "報告顯示總銷售額。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0012",
+    "word": "algorithm",
+    "pos": "n.",
+    "zh": [
+      "演算法"
+    ],
+    "example": "The algorithm finds the shortest route.",
+    "exampleZh": "這個演算法找出最短路線。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0013",
+    "word": "allocation",
+    "pos": "n.",
+    "zh": [
+      "分配",
+      "配置"
+    ],
+    "example": "We discussed the allocation of funds.",
+    "exampleZh": "我們討論了資金分配。",
+    "level": 3,
+    "topics": [
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0014",
+    "word": "amino",
+    "pos": "adj.",
+    "zh": [
+      "胺基的"
+    ],
+    "example": "An amino acid is part of a protein.",
+    "exampleZh": "胺基酸是蛋白質的組成部分。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body",
+      "food_drink"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0015",
+    "word": "amongst",
+    "pos": "prep.",
+    "zh": [
+      "在之中"
+    ],
+    "example": "She sat amongst her friends.",
+    "exampleZh": "她坐在朋友之間。",
+    "level": 3,
+    "topics": [
+      "people_feelings",
+      "daily_life"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0016",
+    "word": "amplitude",
+    "pos": "n.",
+    "zh": [
+      "振幅"
+    ],
+    "example": "We measured the wave's amplitude.",
+    "exampleZh": "我們測量了波的振幅。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0017",
+    "word": "anthropology",
+    "pos": "n.",
+    "zh": [
+      "人類學"
+    ],
+    "example": "She studies anthropology.",
+    "exampleZh": "她研讀人類學。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0018",
+    "word": "anti",
+    "pos": "prefix",
+    "zh": [
+      "反",
+      "抗"
+    ],
+    "example": "The prefix anti means against.",
+    "exampleZh": "字首 anti 表示反對或抵抗。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0019",
+    "word": "antibody",
+    "pos": "n.",
+    "zh": [
+      "抗體"
+    ],
+    "example": "The test detects an antibody.",
+    "exampleZh": "這項檢測偵測一種抗體。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0020",
+    "word": "antiquity",
+    "pos": "n.",
+    "zh": [
+      "古代",
+      "古物"
+    ],
+    "example": "The course explores life in antiquity.",
+    "exampleZh": "這門課探索古代生活。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0021",
+    "word": "appendix",
+    "pos": "n.",
+    "zh": [
+      "附錄",
+      "闌尾"
+    ],
+    "example": "Read the appendix for more details.",
+    "exampleZh": "更多細節請閱讀附錄。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0022",
+    "word": "approximation",
+    "pos": "n.",
+    "zh": [
+      "近似值",
+      "估計"
+    ],
+    "example": "This number is only an approximation.",
+    "exampleZh": "這個數字只是近似值。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0023",
+    "word": "arbitrary",
+    "pos": "adj.",
+    "zh": [
+      "任意的",
+      "武斷的"
+    ],
+    "example": "The limit seems arbitrary.",
+    "exampleZh": "這個限制似乎是任意訂的。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0024",
+    "word": "artifact",
+    "pos": "n.",
+    "zh": [
+      "人工製品",
+      "文物"
+    ],
+    "example": "The museum displays a stone artifact.",
+    "exampleZh": "博物館展示一件石製文物。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0025",
+    "word": "artwork",
+    "pos": "n.",
+    "zh": [
+      "藝術作品",
+      "美術設計"
+    ],
+    "example": "The artwork is on display.",
+    "exampleZh": "這件藝術作品正在展出。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0026",
+    "word": "availability",
+    "pos": "n.",
+    "zh": [
+      "可用性",
+      "空缺情況"
+    ],
+    "example": "Please check room availability.",
+    "exampleZh": "請確認是否有空房。",
+    "level": 3,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0027",
+    "word": "axiom",
+    "pos": "n.",
+    "zh": [
+      "公理"
+    ],
+    "example": "The proof begins with an axiom.",
+    "exampleZh": "這個證明從一條公理開始。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0028",
+    "word": "axis",
+    "pos": "n.",
+    "zh": [
+      "軸",
+      "座標軸"
+    ],
+    "example": "Label each axis on the graph.",
+    "exampleZh": "標示圖上的每條座標軸。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0029",
+    "word": "bacterial",
+    "pos": "adj.",
+    "zh": [
+      "細菌的"
+    ],
+    "example": "The lab studies bacterial growth.",
+    "exampleZh": "實驗室研究細菌生長。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0030",
+    "word": "behavioral",
+    "pos": "adj.",
+    "zh": [
+      "行為的"
+    ],
+    "example": "The study examines behavioral changes.",
+    "exampleZh": "這項研究探討行為變化。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0031",
+    "word": "bilingual",
+    "pos": "adj.",
+    "zh": [
+      "雙語的"
+    ],
+    "example": "The hotel has bilingual signs.",
+    "exampleZh": "飯店有雙語標示。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "travel_lodging",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0032",
+    "word": "binary",
+    "pos": "adj.;n.",
+    "zh": [
+      "二進位的",
+      "二元的",
+      "二進位"
+    ],
+    "example": "Computers use binary numbers.",
+    "exampleZh": "電腦使用二進位數字。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0033",
+    "word": "biodiversity",
+    "pos": "n.",
+    "zh": [
+      "生物多樣性"
+    ],
+    "example": "The park protects biodiversity.",
+    "exampleZh": "這座公園保護生物多樣性。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0034",
+    "word": "biologist",
+    "pos": "n.",
+    "zh": [
+      "生物學家"
+    ],
+    "example": "The biologist studied river fish.",
+    "exampleZh": "生物學家研究河魚。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0035",
+    "word": "bracket",
+    "pos": "n.;v.",
+    "zh": [
+      "括號",
+      "支架",
+      "括在一起"
+    ],
+    "example": "Put the note in a bracket.",
+    "exampleZh": "把註記放在括號內。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0036",
+    "word": "broadly",
+    "pos": "adv.",
+    "zh": [
+      "廣泛地",
+      "大致上"
+    ],
+    "example": "We broadly agree on the plan.",
+    "exampleZh": "我們大致同意這個計畫。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0037",
+    "word": "calculus",
+    "pos": "n.",
+    "zh": [
+      "微積分"
+    ],
+    "example": "I take a calculus course.",
+    "exampleZh": "我修微積分課。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0038",
+    "word": "capillary",
+    "pos": "n.;adj.",
+    "zh": [
+      "微血管",
+      "毛細管",
+      "毛細管的"
+    ],
+    "example": "Blood flows through a tiny capillary.",
+    "exampleZh": "血液流經細小的微血管。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0039",
+    "word": "censor",
+    "pos": "v.;n.",
+    "zh": [
+      "審查刪改",
+      "審查員"
+    ],
+    "example": "The editor refused to censor the article.",
+    "exampleZh": "編輯拒絕刪改這篇文章。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0040",
+    "word": "characterization",
+    "pos": "n.",
+    "zh": [
+      "特性描述",
+      "人物塑造"
+    ],
+    "example": "The novel has strong characterization.",
+    "exampleZh": "這部小說的人物塑造鮮明。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0041",
+    "word": "chemotherapy",
+    "pos": "n.",
+    "zh": [
+      "化學治療"
+    ],
+    "example": "The patient discussed chemotherapy with her doctor.",
+    "exampleZh": "病人與醫師討論化學治療。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0042",
+    "word": "chloride",
+    "pos": "n.",
+    "zh": [
+      "氯化物"
+    ],
+    "example": "The sample contains sodium chloride.",
+    "exampleZh": "樣本含有氯化鈉。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "food_drink"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0043",
+    "word": "chromosome",
+    "pos": "n.",
+    "zh": [
+      "染色體"
+    ],
+    "example": "The diagram shows a chromosome.",
+    "exampleZh": "圖中顯示一條染色體。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0044",
+    "word": "circa",
+    "pos": "prep.;adv.",
+    "zh": [
+      "約於",
+      "大約"
+    ],
+    "example": "The painting dates from circa 1800.",
+    "exampleZh": "這幅畫大約作於一八〇〇年。",
+    "level": 3,
+    "topics": [
+      "time_numbers",
+      "school_sports",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0045",
+    "word": "coefficient",
+    "pos": "n.",
+    "zh": [
+      "係數"
+    ],
+    "example": "Find the coefficient of this term.",
+    "exampleZh": "找出這一項的係數。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0046",
+    "word": "commonly",
+    "pos": "adv.",
+    "zh": [
+      "通常",
+      "普遍地"
+    ],
+    "example": "This herb is commonly used in soup.",
+    "exampleZh": "這種香草常用來煮湯。",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0047",
+    "word": "composite",
+    "pos": "adj.;n.",
+    "zh": [
+      "複合的",
+      "複合物"
+    ],
+    "example": "The bridge uses a composite material.",
+    "exampleZh": "這座橋使用複合材料。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0048",
+    "word": "computation",
+    "pos": "n.",
+    "zh": [
+      "計算"
+    ],
+    "example": "The computation took several minutes.",
+    "exampleZh": "計算花了好幾分鐘。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0049",
+    "word": "conceptual",
+    "pos": "adj.",
+    "zh": [
+      "概念的"
+    ],
+    "example": "We need a conceptual framework.",
+    "exampleZh": "我們需要概念架構。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0050",
+    "word": "conditional",
+    "pos": "adj.",
+    "zh": [
+      "有條件的",
+      "條件式的"
+    ],
+    "example": "The offer is conditional on approval.",
+    "exampleZh": "這項提議以獲得核准為條件。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0051",
+    "word": "conduction",
+    "pos": "n.",
+    "zh": [
+      "傳導"
+    ],
+    "example": "The experiment demonstrates heat conduction.",
+    "exampleZh": "這個實驗展示熱傳導。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0052",
+    "word": "configuration",
+    "pos": "n.",
+    "zh": [
+      "配置",
+      "設定"
+    ],
+    "example": "Check the system configuration.",
+    "exampleZh": "檢查系統設定。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0053",
+    "word": "confound",
+    "pos": "v.",
+    "zh": [
+      "使困惑",
+      "混淆"
+    ],
+    "example": "These results confound our expectations.",
+    "exampleZh": "這些結果出乎我們預料。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0054",
+    "word": "congruent",
+    "pos": "adj.",
+    "zh": [
+      "全等的",
+      "一致的"
+    ],
+    "example": "These two triangles are congruent.",
+    "exampleZh": "這兩個三角形全等。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0055",
+    "word": "connector",
+    "pos": "n.",
+    "zh": [
+      "連接器",
+      "連接物"
+    ],
+    "example": "The cable needs a new connector.",
+    "exampleZh": "這條纜線需要新的接頭。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0056",
+    "word": "connotation",
+    "pos": "n.",
+    "zh": [
+      "言外之意",
+      "隱含意義"
+    ],
+    "example": "The word has a negative connotation.",
+    "exampleZh": "這個字有負面的隱含意義。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0057",
+    "word": "consciousness",
+    "pos": "n.",
+    "zh": [
+      "意識",
+      "知覺"
+    ],
+    "example": "She regained consciousness.",
+    "exampleZh": "她恢復了意識。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0058",
+    "word": "constrain",
+    "pos": "v.",
+    "zh": [
+      "限制",
+      "約束"
+    ],
+    "example": "Limited funds constrain our choices.",
+    "exampleZh": "有限的資金限制了我們的選擇。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0059",
+    "word": "contour",
+    "pos": "n.;v.",
+    "zh": [
+      "輪廓",
+      "等高線",
+      "塑形"
+    ],
+    "example": "The map shows each contour clearly.",
+    "exampleZh": "地圖清楚標示每條等高線。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0060",
+    "word": "contradictory",
+    "pos": "adj.",
+    "zh": [
+      "互相矛盾的"
+    ],
+    "example": "We received contradictory instructions.",
+    "exampleZh": "我們收到互相矛盾的指示。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0061",
+    "word": "converge",
+    "pos": "v.",
+    "zh": [
+      "匯合",
+      "趨同"
+    ],
+    "example": "The roads converge near the station.",
+    "exampleZh": "道路在車站附近匯合。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0062",
+    "word": "convergence",
+    "pos": "n.",
+    "zh": [
+      "匯合",
+      "收斂"
+    ],
+    "example": "The map shows the convergence of two rivers.",
+    "exampleZh": "地圖顯示兩條河流的匯合處。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0063",
+    "word": "coordination",
+    "pos": "n.",
+    "zh": [
+      "協調"
+    ],
+    "example": "The event requires careful coordination.",
+    "exampleZh": "這個活動需要仔細協調。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0064",
+    "word": "coronary",
+    "pos": "adj.;n.",
+    "zh": [
+      "冠狀動脈的",
+      "冠心病"
+    ],
+    "example": "The doctor studies coronary disease.",
+    "exampleZh": "這位醫師研究冠狀動脈疾病。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0065",
+    "word": "corpus",
+    "pos": "n.",
+    "zh": [
+      "語料庫",
+      "文集"
+    ],
+    "example": "The researcher built a language corpus.",
+    "exampleZh": "研究人員建立了語言語料庫。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0066",
+    "word": "correction",
+    "pos": "n.",
+    "zh": [
+      "修正",
+      "訂正"
+    ],
+    "example": "I made a correction to the report.",
+    "exampleZh": "我修正了報告。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0067",
+    "word": "correctly",
+    "pos": "adv.",
+    "zh": [
+      "正確地"
+    ],
+    "example": "Did I pronounce it correctly?",
+    "exampleZh": "我的發音正確嗎？",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0068",
+    "word": "correlate",
+    "pos": "v.;n.",
+    "zh": [
+      "相關",
+      "對應物"
+    ],
+    "example": "The study asks whether the two measures correlate.",
+    "exampleZh": "這項研究探討兩項測量結果是否相關。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0069",
+    "word": "cortex",
+    "pos": "n.",
+    "zh": [
+      "皮質",
+      "大腦皮質"
+    ],
+    "example": "The diagram shows the brain's cortex.",
+    "exampleZh": "圖中顯示大腦皮質。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0070",
+    "word": "critically",
+    "pos": "adv.",
+    "zh": [
+      "批判地",
+      "嚴重地",
+      "極其重要地"
+    ],
+    "example": "Read the article critically.",
+    "exampleZh": "以批判思考閱讀文章。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0071",
+    "word": "critique",
+    "pos": "n.;v.",
+    "zh": [
+      "評論",
+      "評析"
+    ],
+    "example": "She wrote a critique of the film.",
+    "exampleZh": "她寫了一篇電影評論。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0072",
+    "word": "cyclic",
+    "pos": "adj.",
+    "zh": [
+      "週期性的",
+      "循環的"
+    ],
+    "example": "The diagram shows a cyclic process.",
+    "exampleZh": "圖中顯示一個循環過程。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0073",
+    "word": "cylinder",
+    "pos": "n.",
+    "zh": [
+      "圓柱體",
+      "汽缸"
+    ],
+    "example": "The container is shaped like a cylinder.",
+    "exampleZh": "這個容器的形狀像圓柱體。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0074",
+    "word": "deficiency",
+    "pos": "n.",
+    "zh": [
+      "不足",
+      "缺乏症"
+    ],
+    "example": "The test checks for a vitamin deficiency.",
+    "exampleZh": "這項檢測檢查是否缺乏維生素。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "food_drink"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0075",
+    "word": "deflection",
+    "pos": "n.",
+    "zh": [
+      "偏轉",
+      "轉移"
+    ],
+    "example": "We measured the beam's deflection.",
+    "exampleZh": "我們測量了光束的偏轉。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0076",
+    "word": "degrade",
+    "pos": "v.",
+    "zh": [
+      "分解",
+      "降低品質",
+      "貶低"
+    ],
+    "example": "Sunlight can degrade this material.",
+    "exampleZh": "陽光可能使這種材料劣化。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0077",
+    "word": "deliberately",
+    "pos": "adv.",
+    "zh": [
+      "故意地",
+      "審慎地"
+    ],
+    "example": "He deliberately left early.",
+    "exampleZh": "他刻意提早離開。",
+    "level": 3,
+    "topics": [
+      "people_feelings",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0078",
+    "word": "delta",
+    "pos": "n.",
+    "zh": [
+      "三角洲",
+      "希臘字母第四字"
+    ],
+    "example": "The river forms a wide delta.",
+    "exampleZh": "這條河形成寬廣的三角洲。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0079",
+    "word": "demonstrator",
+    "pos": "n.",
+    "zh": [
+      "示威者",
+      "示範者"
+    ],
+    "example": "A demonstrator showed us the equipment.",
+    "exampleZh": "一位示範者向我們展示設備。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0080",
+    "word": "denominator",
+    "pos": "n.",
+    "zh": [
+      "分母"
+    ],
+    "example": "The denominator is below the line.",
+    "exampleZh": "分母在橫線下方。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0081",
+    "word": "denote",
+    "pos": "v.",
+    "zh": [
+      "表示",
+      "指稱"
+    ],
+    "example": "The symbol can denote temperature.",
+    "exampleZh": "這個符號可以表示溫度。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0082",
+    "word": "dependence",
+    "pos": "n.",
+    "zh": [
+      "依賴"
+    ],
+    "example": "The town's dependence on cars is growing.",
+    "exampleZh": "這座小鎮對汽車的依賴日益增加。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0083",
+    "word": "derivative",
+    "pos": "n.;adj.",
+    "zh": [
+      "衍生物",
+      "導數",
+      "衍生的"
+    ],
+    "example": "We calculated the derivative.",
+    "exampleZh": "我們計算了導數。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0084",
+    "word": "descendent",
+    "pos": "n.;adj.",
+    "zh": [
+      "後代",
+      "下降的"
+    ],
+    "example": "She is a descendent of the founder.",
+    "exampleZh": "她是創辦人的後代。",
+    "level": 3,
+    "topics": [
+      "people_feelings",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0085",
+    "word": "descriptor",
+    "pos": "n.",
+    "zh": [
+      "描述語",
+      "描述子"
+    ],
+    "example": "Choose a clear descriptor for the image.",
+    "exampleZh": "為這張圖片選擇明確的描述語。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0086",
+    "word": "detection",
+    "pos": "n.",
+    "zh": [
+      "偵測",
+      "發現"
+    ],
+    "example": "Early detection is important.",
+    "exampleZh": "及早發現很重要。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0087",
+    "word": "developmental",
+    "pos": "adj.",
+    "zh": [
+      "發展的"
+    ],
+    "example": "The course covers developmental psychology.",
+    "exampleZh": "這門課涵蓋發展心理學。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0088",
+    "word": "deviation",
+    "pos": "n.",
+    "zh": [
+      "偏差",
+      "偏離"
+    ],
+    "example": "We found a deviation from the planned route.",
+    "exampleZh": "我們發現行程偏離了預定路線。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0089",
+    "word": "diagnostic",
+    "pos": "adj.",
+    "zh": [
+      "診斷的"
+    ],
+    "example": "The clinic offers diagnostic tests.",
+    "exampleZh": "這間診所提供診斷檢查。",
+    "level": 3,
+    "topics": [
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0090",
+    "word": "differential",
+    "pos": "adj.;n.",
+    "zh": [
+      "差異的",
+      "差額",
+      "微分"
+    ],
+    "example": "The study examines differential effects.",
+    "exampleZh": "這項研究探討不同的影響。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0091",
+    "word": "differentiation",
+    "pos": "n.",
+    "zh": [
+      "區別",
+      "分化",
+      "微分"
+    ],
+    "example": "The course introduces differentiation.",
+    "exampleZh": "這門課介紹微分。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0092",
+    "word": "diffusion",
+    "pos": "n.",
+    "zh": [
+      "擴散"
+    ],
+    "example": "The experiment shows diffusion in water.",
+    "exampleZh": "這個實驗展示水中的擴散。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0093",
+    "word": "dilute",
+    "pos": "v.;adj.",
+    "zh": [
+      "稀釋",
+      "稀的"
+    ],
+    "example": "Dilute the juice with water.",
+    "exampleZh": "用水稀釋果汁。",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0094",
+    "word": "dimensional",
+    "pos": "adj.",
+    "zh": [
+      "維度的",
+      "空間的"
+    ],
+    "example": "We measured the object's dimensional changes.",
+    "exampleZh": "我們測量物體的尺寸變化。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0095",
+    "word": "dioxide",
+    "pos": "n.",
+    "zh": [
+      "二氧化物"
+    ],
+    "example": "Plants take in carbon dioxide.",
+    "exampleZh": "植物吸收二氧化碳。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0096",
+    "word": "discrete",
+    "pos": "adj.",
+    "zh": [
+      "分開的",
+      "離散的"
+    ],
+    "example": "We divided the task into discrete steps.",
+    "exampleZh": "我們把任務分成獨立步驟。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0097",
+    "word": "displacement",
+    "pos": "n.",
+    "zh": [
+      "位移",
+      "取代",
+      "流離失所"
+    ],
+    "example": "The graph shows the car's displacement.",
+    "exampleZh": "圖表顯示汽車的位移。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0098",
+    "word": "dissection",
+    "pos": "n.",
+    "zh": [
+      "解剖",
+      "剖析"
+    ],
+    "example": "The class discussed animal dissection.",
+    "exampleZh": "課堂上討論了動物解剖。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0099",
+    "word": "dissertation",
+    "pos": "n.",
+    "zh": [
+      "學位論文"
+    ],
+    "example": "She completed her dissertation.",
+    "exampleZh": "她完成了學位論文。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0100",
+    "word": "dominance",
+    "pos": "n.",
+    "zh": [
+      "優勢",
+      "支配地位"
+    ],
+    "example": "The team maintained its dominance.",
+    "exampleZh": "這個隊伍保持優勢。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0101",
+    "word": "domination",
+    "pos": "n.",
+    "zh": [
+      "支配",
+      "統治"
+    ],
+    "example": "The story explores the domination of one group by another.",
+    "exampleZh": "這個故事探討一個群體對另一群體的支配。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0102",
+    "word": "economically",
+    "pos": "adv.",
+    "zh": [
+      "在經濟上",
+      "節省地"
+    ],
+    "example": "The town depends economically on tourism.",
+    "exampleZh": "這座小鎮的經濟仰賴觀光。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0103",
+    "word": "effectiveness",
+    "pos": "n.",
+    "zh": [
+      "成效",
+      "有效性"
+    ],
+    "example": "The study measures the treatment's effectiveness.",
+    "exampleZh": "這項研究衡量治療成效。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0104",
+    "word": "elasticity",
+    "pos": "n.",
+    "zh": [
+      "彈性"
+    ],
+    "example": "We tested the material's elasticity.",
+    "exampleZh": "我們測試材料的彈性。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0105",
+    "word": "electron",
+    "pos": "n.",
+    "zh": [
+      "電子"
+    ],
+    "example": "An electron has a negative charge.",
+    "exampleZh": "電子帶負電。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0106",
+    "word": "elevation",
+    "pos": "n.",
+    "zh": [
+      "海拔",
+      "升高"
+    ],
+    "example": "What is the elevation of this campsite?",
+    "exampleZh": "這個營地的海拔是多少？",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "travel_lodging",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0107",
+    "word": "elimination",
+    "pos": "n.",
+    "zh": [
+      "消除",
+      "淘汰"
+    ],
+    "example": "The plan aims at the elimination of waste.",
+    "exampleZh": "這個計畫旨在消除浪費。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0108",
+    "word": "elite",
+    "pos": "n.;adj.",
+    "zh": [
+      "菁英",
+      "頂尖的"
+    ],
+    "example": "She joined an elite running team.",
+    "exampleZh": "她加入了頂尖跑步隊。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0109",
+    "word": "embed",
+    "pos": "v.",
+    "zh": [
+      "嵌入"
+    ],
+    "example": "You can embed an image in the document.",
+    "exampleZh": "你可以在文件中嵌入圖片。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0110",
+    "word": "emergence",
+    "pos": "n.",
+    "zh": [
+      "出現",
+      "興起"
+    ],
+    "example": "We studied the emergence of new industries.",
+    "exampleZh": "我們研究新興產業的出現。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0111",
+    "word": "emit",
+    "pos": "v.",
+    "zh": [
+      "排放",
+      "發出"
+    ],
+    "example": "The device can emit light.",
+    "exampleZh": "這個裝置可以發光。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0112",
+    "word": "empirical",
+    "pos": "adj.",
+    "zh": [
+      "實證的"
+    ],
+    "example": "We need empirical evidence.",
+    "exampleZh": "我們需要實證證據。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0113",
+    "word": "encode",
+    "pos": "v.",
+    "zh": [
+      "編碼"
+    ],
+    "example": "The software can encode the message.",
+    "exampleZh": "這個軟體可以對訊息編碼。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0114",
+    "word": "enormously",
+    "pos": "adv.",
+    "zh": [
+      "極大地"
+    ],
+    "example": "Your advice helped enormously.",
+    "exampleZh": "你的建議幫了很大的忙。",
+    "level": 3,
+    "topics": [
+      "people_feelings",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0115",
+    "word": "entrant",
+    "pos": "n.",
+    "zh": [
+      "參賽者",
+      "新加入者"
+    ],
+    "example": "Each entrant must register.",
+    "exampleZh": "每位參賽者都必須報名。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0116",
+    "word": "enzyme",
+    "pos": "n.",
+    "zh": [
+      "酵素"
+    ],
+    "example": "The enzyme helps break down food.",
+    "exampleZh": "這種酵素有助於分解食物。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports",
+      "food_drink"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0117",
+    "word": "epidemiology",
+    "pos": "n.",
+    "zh": [
+      "流行病學"
+    ],
+    "example": "She studies epidemiology.",
+    "exampleZh": "她研讀流行病學。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0118",
+    "word": "equilibrium",
+    "pos": "n.",
+    "zh": [
+      "平衡"
+    ],
+    "example": "The system reached equilibrium.",
+    "exampleZh": "系統達到平衡。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0119",
+    "word": "equivalence",
+    "pos": "n.",
+    "zh": [
+      "等值",
+      "相等"
+    ],
+    "example": "The proof establishes equivalence.",
+    "exampleZh": "這個證明確立了等值關係。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0120",
+    "word": "essentially",
+    "pos": "adv.",
+    "zh": [
+      "本質上",
+      "基本上"
+    ],
+    "example": "The two plans are essentially similar.",
+    "exampleZh": "這兩個計畫基本上很相似。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0121",
+    "word": "estimation",
+    "pos": "n.",
+    "zh": [
+      "估計",
+      "評價"
+    ],
+    "example": "The estimation may change.",
+    "exampleZh": "這個估計可能會變動。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0122",
+    "word": "ethics",
+    "pos": "n.",
+    "zh": [
+      "倫理",
+      "道德規範"
+    ],
+    "example": "We discussed research ethics.",
+    "exampleZh": "我們討論研究倫理。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0123",
+    "word": "evolutionary",
+    "pos": "adj.",
+    "zh": [
+      "演化的"
+    ],
+    "example": "The course explores evolutionary change.",
+    "exampleZh": "這門課探討演化變遷。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0124",
+    "word": "ex",
+    "pos": "prefix;n.",
+    "zh": [
+      "前任的",
+      "前任"
+    ],
+    "example": "The prefix ex can mean former.",
+    "exampleZh": "字首 ex 可表示前任的。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0125",
+    "word": "explicitly",
+    "pos": "adv.",
+    "zh": [
+      "明確地"
+    ],
+    "example": "State your purpose explicitly.",
+    "exampleZh": "明確說明你的目的。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0126",
+    "word": "exponential",
+    "pos": "adj.",
+    "zh": [
+      "指數的",
+      "急遽增長的"
+    ],
+    "example": "The graph shows exponential growth.",
+    "exampleZh": "這張圖顯示指數成長。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0127",
+    "word": "facet",
+    "pos": "n.",
+    "zh": [
+      "面向",
+      "切面"
+    ],
+    "example": "We examined each facet of the problem.",
+    "exampleZh": "我們檢視問題的每個面向。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0128",
+    "word": "factorial",
+    "pos": "n.;adj.",
+    "zh": [
+      "階乘",
+      "階乘的"
+    ],
+    "example": "We calculated the factorial of five.",
+    "exampleZh": "我們計算五的階乘。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0129",
+    "word": "fetal",
+    "pos": "adj.",
+    "zh": [
+      "胎兒的"
+    ],
+    "example": "The doctor monitored fetal growth.",
+    "exampleZh": "醫師追蹤胎兒生長。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0130",
+    "word": "flux",
+    "pos": "n.",
+    "zh": [
+      "流動",
+      "變動",
+      "通量"
+    ],
+    "example": "The schedule is in constant flux.",
+    "exampleZh": "行程持續在變動。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0131",
+    "word": "footnote",
+    "pos": "n.",
+    "zh": [
+      "註腳"
+    ],
+    "example": "Read the footnote at the bottom.",
+    "exampleZh": "閱讀底部的註腳。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0132",
+    "word": "formally",
+    "pos": "adv.",
+    "zh": [
+      "正式地"
+    ],
+    "example": "We formally accepted the invitation.",
+    "exampleZh": "我們正式接受了邀請。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0133",
+    "word": "formulation",
+    "pos": "n.",
+    "zh": [
+      "制定",
+      "配方",
+      "表述"
+    ],
+    "example": "The formulation of the plan took time.",
+    "exampleZh": "制定計畫花了時間。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0134",
+    "word": "freely",
+    "pos": "adv.",
+    "zh": [
+      "自由地",
+      "不受限制地"
+    ],
+    "example": "Students can speak freely here.",
+    "exampleZh": "學生在這裡可以自由發言。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0135",
+    "word": "fringe",
+    "pos": "n.;adj.",
+    "zh": [
+      "邊緣",
+      "流蘇",
+      "邊緣的"
+    ],
+    "example": "The village lies on the fringe of the forest.",
+    "exampleZh": "村莊位於森林邊緣。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0136",
+    "word": "fundamentally",
+    "pos": "adv.",
+    "zh": [
+      "根本地"
+    ],
+    "example": "The new design is fundamentally different.",
+    "exampleZh": "新設計有根本上的不同。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0137",
+    "word": "fungus",
+    "pos": "n.",
+    "zh": [
+      "真菌"
+    ],
+    "example": "A fungus grew on the old wood.",
+    "exampleZh": "舊木頭上長了真菌。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0138",
+    "word": "fusion",
+    "pos": "n.",
+    "zh": [
+      "融合",
+      "核融合"
+    ],
+    "example": "The dish is a fusion of local flavors.",
+    "exampleZh": "這道菜融合了在地風味。",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0139",
+    "word": "generalization",
+    "pos": "n.",
+    "zh": [
+      "概括",
+      "一概而論"
+    ],
+    "example": "That statement is a broad generalization.",
+    "exampleZh": "那個說法過於一概而論。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0140",
+    "word": "generalize",
+    "pos": "v.",
+    "zh": [
+      "概括",
+      "推廣"
+    ],
+    "example": "We should not generalize from one example.",
+    "exampleZh": "我們不該用一個例子概括全部。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0141",
+    "word": "genetically",
+    "pos": "adv.",
+    "zh": [
+      "在基因上",
+      "以基因方式"
+    ],
+    "example": "The plants are genetically similar.",
+    "exampleZh": "這些植物在基因上很相似。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0142",
+    "word": "globalization",
+    "pos": "n.",
+    "zh": [
+      "全球化"
+    ],
+    "example": "The course examines globalization.",
+    "exampleZh": "這門課探討全球化。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0143",
+    "word": "gradient",
+    "pos": "n.",
+    "zh": [
+      "坡度",
+      "梯度"
+    ],
+    "example": "The path has a gentle gradient.",
+    "exampleZh": "這條小徑坡度平緩。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "transport_city",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0144",
+    "word": "grid",
+    "pos": "n.",
+    "zh": [
+      "網格",
+      "電網"
+    ],
+    "example": "Draw a grid on the paper.",
+    "exampleZh": "在紙上畫網格。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0145",
+    "word": "halfway",
+    "pos": "adv.;adj.",
+    "zh": [
+      "半途",
+      "中途的"
+    ],
+    "example": "We stopped halfway up the hill.",
+    "exampleZh": "我們在半山腰停了下來。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "travel_lodging",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0146",
+    "word": "handout",
+    "pos": "n.",
+    "zh": [
+      "講義",
+      "救濟物"
+    ],
+    "example": "Please read the class handout.",
+    "exampleZh": "請閱讀課堂講義。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0147",
+    "word": "headquarter",
+    "pos": "v.",
+    "zh": [
+      "設立總部"
+    ],
+    "example": "They plan to headquarter the company here.",
+    "exampleZh": "他們打算在這裡設立公司總部。",
+    "level": 3,
+    "topics": [
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0148",
+    "word": "helix",
+    "pos": "n.",
+    "zh": [
+      "螺旋"
+    ],
+    "example": "The model has the shape of a helix.",
+    "exampleZh": "這個模型的形狀是螺旋。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0149",
+    "word": "hepatitis",
+    "pos": "n.",
+    "zh": [
+      "肝炎"
+    ],
+    "example": "The lecture discussed hepatitis.",
+    "exampleZh": "這場演講討論肝炎。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0150",
+    "word": "herbicide",
+    "pos": "n.",
+    "zh": [
+      "除草劑"
+    ],
+    "example": "The farm avoids this herbicide.",
+    "exampleZh": "這座農場避免使用這種除草劑。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0151",
+    "word": "historically",
+    "pos": "adv.",
+    "zh": [
+      "從歷史上看"
+    ],
+    "example": "Historically, this town was a port.",
+    "exampleZh": "從歷史上看，這座小鎮曾是港口。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city",
+      "travel_lodging",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0152",
+    "word": "importantly",
+    "pos": "adv.",
+    "zh": [
+      "重要的是"
+    ],
+    "example": "More importantly, everyone is safe.",
+    "exampleZh": "更重要的是，每個人都平安。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0153",
+    "word": "incidence",
+    "pos": "n.",
+    "zh": [
+      "發生率"
+    ],
+    "example": "The study measures the incidence of disease.",
+    "exampleZh": "這項研究測量疾病發生率。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0154",
+    "word": "inclusion",
+    "pos": "n.",
+    "zh": [
+      "納入",
+      "包容"
+    ],
+    "example": "The school promotes inclusion.",
+    "exampleZh": "學校提倡包容。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0155",
+    "word": "incredibly",
+    "pos": "adv.",
+    "zh": [
+      "難以置信地",
+      "極為"
+    ],
+    "example": "The view is incredibly beautiful.",
+    "exampleZh": "景色美得令人難以置信。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "travel_lodging",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0156",
+    "word": "incumbent",
+    "pos": "adj.;n.",
+    "zh": [
+      "現任的",
+      "現任者"
+    ],
+    "example": "The incumbent mayor attended the event.",
+    "exampleZh": "現任市長出席了活動。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0157",
+    "word": "independently",
+    "pos": "adv.",
+    "zh": [
+      "獨立地"
+    ],
+    "example": "She completed the work independently.",
+    "exampleZh": "她獨立完成了工作。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0158",
+    "word": "indicator",
+    "pos": "n.",
+    "zh": [
+      "指標",
+      "指示器"
+    ],
+    "example": "The light is a warning indicator.",
+    "exampleZh": "這盞燈是警告指示器。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0159",
+    "word": "indirect",
+    "pos": "adj.",
+    "zh": [
+      "間接的",
+      "迂迴的"
+    ],
+    "example": "We took an indirect route.",
+    "exampleZh": "我們走了迂迴的路線。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0160",
+    "word": "individually",
+    "pos": "adv.",
+    "zh": [
+      "個別地"
+    ],
+    "example": "Wrap each item individually.",
+    "exampleZh": "把每個物品分別包裝。",
+    "level": 3,
+    "topics": [
+      "daily_life",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0161",
+    "word": "induction",
+    "pos": "n.",
+    "zh": [
+      "歸納",
+      "感應",
+      "入職訓練"
+    ],
+    "example": "New staff attend an induction session.",
+    "exampleZh": "新員工參加入職訓練。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0162",
+    "word": "industrialization",
+    "pos": "n.",
+    "zh": [
+      "工業化"
+    ],
+    "example": "Industrialization changed the town.",
+    "exampleZh": "工業化改變了這座小鎮。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0163",
+    "word": "inequality",
+    "pos": "n.",
+    "zh": [
+      "不平等",
+      "不等式"
+    ],
+    "example": "The report examines income inequality.",
+    "exampleZh": "這份報告探討所得不平等。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0164",
+    "word": "inevitably",
+    "pos": "adv.",
+    "zh": [
+      "不可避免地"
+    ],
+    "example": "Delays inevitably affect the schedule.",
+    "exampleZh": "延誤不可避免地影響行程。",
+    "level": 3,
+    "topics": [
+      "time_numbers",
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0165",
+    "word": "inference",
+    "pos": "n.",
+    "zh": [
+      "推論"
+    ],
+    "example": "What evidence supports your inference?",
+    "exampleZh": "什麼證據支持你的推論？",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0166",
+    "word": "infinity",
+    "pos": "n.",
+    "zh": [
+      "無限"
+    ],
+    "example": "The symbol represents infinity.",
+    "exampleZh": "這個符號表示無限。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0167",
+    "word": "informal",
+    "pos": "adj.",
+    "zh": [
+      "非正式的",
+      "口語的"
+    ],
+    "example": "We had an informal meeting.",
+    "exampleZh": "我們開了一場非正式會議。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "people_feelings",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0168",
+    "word": "inhibit",
+    "pos": "v.",
+    "zh": [
+      "抑制",
+      "阻礙"
+    ],
+    "example": "Fear can inhibit learning.",
+    "exampleZh": "恐懼可能阻礙學習。",
+    "level": 3,
+    "topics": [
+      "people_feelings",
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0169",
+    "word": "inhibition",
+    "pos": "n.",
+    "zh": [
+      "抑制",
+      "拘束"
+    ],
+    "example": "The experiment measured enzyme inhibition.",
+    "exampleZh": "這個實驗測量酵素抑制作用。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0170",
+    "word": "initiation",
+    "pos": "n.",
+    "zh": [
+      "開始",
+      "入會儀式"
+    ],
+    "example": "The report describes the initiation of the project.",
+    "exampleZh": "報告描述專案的啟動。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0171",
+    "word": "innate",
+    "pos": "adj.",
+    "zh": [
+      "天生的"
+    ],
+    "example": "Children have an innate curiosity.",
+    "exampleZh": "孩子有天生的好奇心。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0172",
+    "word": "instability",
+    "pos": "n.",
+    "zh": [
+      "不穩定"
+    ],
+    "example": "The storm caused instability in the power supply.",
+    "exampleZh": "暴風雨造成供電不穩。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "work_business",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0173",
+    "word": "integral",
+    "pos": "adj.;n.",
+    "zh": [
+      "不可或缺的",
+      "積分"
+    ],
+    "example": "Safety is an integral part of the plan.",
+    "exampleZh": "安全是計畫不可或缺的一部分。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0174",
+    "word": "interestingly",
+    "pos": "adv.",
+    "zh": [
+      "有趣的是"
+    ],
+    "example": "Interestingly, both teams chose the same answer.",
+    "exampleZh": "有趣的是，兩隊選了同一個答案。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0175",
+    "word": "interface",
+    "pos": "n.;v.",
+    "zh": [
+      "介面",
+      "互相連接"
+    ],
+    "example": "The app has a simple interface.",
+    "exampleZh": "這個應用程式的介面很簡單。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0176",
+    "word": "interviewer",
+    "pos": "n.",
+    "zh": [
+      "面試官",
+      "訪問者"
+    ],
+    "example": "The interviewer asked about my experience.",
+    "exampleZh": "面試官詢問我的經驗。",
+    "level": 3,
+    "topics": [
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0177",
+    "word": "inversion",
+    "pos": "n.",
+    "zh": [
+      "倒置",
+      "逆轉"
+    ],
+    "example": "The lesson explains word order inversion.",
+    "exampleZh": "這堂課解釋語序倒裝。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0178",
+    "word": "invert",
+    "pos": "v.",
+    "zh": [
+      "倒轉",
+      "顛倒"
+    ],
+    "example": "Invert the container carefully.",
+    "exampleZh": "小心把容器倒轉。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "daily_life"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0179",
+    "word": "ion",
+    "pos": "n.",
+    "zh": [
+      "離子"
+    ],
+    "example": "The diagram shows a charged ion.",
+    "exampleZh": "圖中顯示帶電的離子。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0180",
+    "word": "irrelevant",
+    "pos": "adj.",
+    "zh": [
+      "不相關的"
+    ],
+    "example": "That detail is irrelevant to the question.",
+    "exampleZh": "那個細節與問題無關。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0181",
+    "word": "irrigation",
+    "pos": "n.",
+    "zh": [
+      "灌溉"
+    ],
+    "example": "The farm uses a new irrigation system.",
+    "exampleZh": "這座農場使用新的灌溉系統。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0182",
+    "word": "justification",
+    "pos": "n.",
+    "zh": [
+      "正當理由",
+      "論證"
+    ],
+    "example": "What is the justification for the change?",
+    "exampleZh": "這項變更的正當理由是什麼？",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0183",
+    "word": "lab",
+    "pos": "n.",
+    "zh": [
+      "實驗室"
+    ],
+    "example": "The samples are in the lab.",
+    "exampleZh": "樣本在實驗室裡。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0184",
+    "word": "lateral",
+    "pos": "adj.",
+    "zh": [
+      "側面的",
+      "側向的"
+    ],
+    "example": "The diagram shows lateral movement.",
+    "exampleZh": "圖中顯示側向移動。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0185",
+    "word": "lever",
+    "pos": "n.;v.",
+    "zh": [
+      "槓桿",
+      "用槓桿移動"
+    ],
+    "example": "Pull the lever to open the gate.",
+    "exampleZh": "拉動控制桿開門。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0186",
+    "word": "lexical",
+    "pos": "adj.",
+    "zh": [
+      "詞彙的"
+    ],
+    "example": "The study examines lexical choices.",
+    "exampleZh": "這項研究探討詞彙選擇。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0187",
+    "word": "lifestyle",
+    "pos": "n.",
+    "zh": [
+      "生活方式"
+    ],
+    "example": "She enjoys an active lifestyle.",
+    "exampleZh": "她喜歡活躍的生活方式。",
+    "level": 3,
+    "topics": [
+      "daily_life",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0188",
+    "word": "linear",
+    "pos": "adj.",
+    "zh": [
+      "線性的",
+      "直線的"
+    ],
+    "example": "The graph shows a linear relationship.",
+    "exampleZh": "圖表顯示線性關係。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0189",
+    "word": "linguistic",
+    "pos": "adj.",
+    "zh": [
+      "語言的",
+      "語言學的"
+    ],
+    "example": "The region has linguistic diversity.",
+    "exampleZh": "這個地區有多樣的語言。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0190",
+    "word": "linguistics",
+    "pos": "n.",
+    "zh": [
+      "語言學"
+    ],
+    "example": "He studies linguistics.",
+    "exampleZh": "他研讀語言學。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0191",
+    "word": "locally",
+    "pos": "adv.",
+    "zh": [
+      "在當地",
+      "局部地"
+    ],
+    "example": "The hotel buys food locally.",
+    "exampleZh": "飯店在當地採購食物。",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0192",
+    "word": "locus",
+    "pos": "n.",
+    "zh": [
+      "所在地",
+      "軌跡",
+      "基因座"
+    ],
+    "example": "Find the locus of these points.",
+    "exampleZh": "找出這些點的軌跡。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0193",
+    "word": "longitudinal",
+    "pos": "adj.",
+    "zh": [
+      "縱向的",
+      "長期追蹤的"
+    ],
+    "example": "The team conducted a longitudinal study.",
+    "exampleZh": "團隊進行了一項長期追蹤研究。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0194",
+    "word": "magnitude",
+    "pos": "n.",
+    "zh": [
+      "大小",
+      "量級",
+      "震級"
+    ],
+    "example": "The graph shows the magnitude of the change.",
+    "exampleZh": "圖表顯示變化的幅度。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0195",
+    "word": "manipulation",
+    "pos": "n.",
+    "zh": [
+      "操控",
+      "操作"
+    ],
+    "example": "The task requires careful manipulation of the tool.",
+    "exampleZh": "這項任務需要小心操作工具。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0196",
+    "word": "marrow",
+    "pos": "n.",
+    "zh": [
+      "骨髓",
+      "髓"
+    ],
+    "example": "The diagram shows bone marrow.",
+    "exampleZh": "圖中顯示骨髓。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0197",
+    "word": "maternal",
+    "pos": "adj.",
+    "zh": [
+      "母親的",
+      "孕產婦的"
+    ],
+    "example": "The clinic provides maternal care.",
+    "exampleZh": "這間診所提供孕產婦照護。",
+    "level": 3,
+    "topics": [
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0198",
+    "word": "matrix",
+    "pos": "n.",
+    "zh": [
+      "矩陣",
+      "基質"
+    ],
+    "example": "Enter the numbers into the matrix.",
+    "exampleZh": "把數字填入矩陣。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0199",
+    "word": "maximize",
+    "pos": "v.",
+    "zh": [
+      "使最大化"
+    ],
+    "example": "We want to maximize learning time.",
+    "exampleZh": "我們希望盡量增加學習時間。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0200",
+    "word": "membrane",
+    "pos": "n.",
+    "zh": [
+      "膜"
+    ],
+    "example": "A membrane surrounds the cell.",
+    "exampleZh": "細胞外圍有一層膜。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0201",
+    "word": "mercury",
+    "pos": "n.",
+    "zh": [
+      "汞"
+    ],
+    "example": "The old instrument contains mercury.",
+    "exampleZh": "這個舊儀器含汞。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0202",
+    "word": "metabolism",
+    "pos": "n.",
+    "zh": [
+      "新陳代謝"
+    ],
+    "example": "The course explains human metabolism.",
+    "exampleZh": "這門課解釋人體新陳代謝。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0203",
+    "word": "methodology",
+    "pos": "n.",
+    "zh": [
+      "研究方法",
+      "方法論"
+    ],
+    "example": "Describe your research methodology.",
+    "exampleZh": "說明你的研究方法。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0204",
+    "word": "micro",
+    "pos": "prefix;adj.",
+    "zh": [
+      "微小的",
+      "微型的"
+    ],
+    "example": "The prefix micro can mean very small.",
+    "exampleZh": "字首 micro 可表示非常小。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0205",
+    "word": "mid",
+    "pos": "prefix;adj.",
+    "zh": [
+      "中間的"
+    ],
+    "example": "The prefix mid refers to the middle.",
+    "exampleZh": "字首 mid 指中間。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0206",
+    "word": "migrate",
+    "pos": "v.",
+    "zh": [
+      "遷移",
+      "移動資料"
+    ],
+    "example": "These birds migrate in winter.",
+    "exampleZh": "這些鳥在冬天遷徙。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0207",
+    "word": "millimeter",
+    "pos": "n.",
+    "zh": [
+      "毫米"
+    ],
+    "example": "The line is one millimeter wide.",
+    "exampleZh": "這條線寬一毫米。",
+    "level": 3,
+    "topics": [
+      "time_numbers",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0208",
+    "word": "mobility",
+    "pos": "n.",
+    "zh": [
+      "移動能力",
+      "流動性"
+    ],
+    "example": "The project improves urban mobility.",
+    "exampleZh": "這項計畫改善都市移動便利性。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "health_body",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0209",
+    "word": "modification",
+    "pos": "n.",
+    "zh": [
+      "修改",
+      "改造"
+    ],
+    "example": "The plan needs a minor modification.",
+    "exampleZh": "計畫需要小幅修改。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0210",
+    "word": "mole",
+    "pos": "n.",
+    "zh": [
+      "莫耳",
+      "痣",
+      "鼴鼠"
+    ],
+    "example": "The class learned how to calculate a mole of gas.",
+    "exampleZh": "課堂上學習如何計算一莫耳氣體。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0211",
+    "word": "molecular",
+    "pos": "adj.",
+    "zh": [
+      "分子的"
+    ],
+    "example": "We examined the molecular structure.",
+    "exampleZh": "我們檢視分子結構。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0212",
+    "word": "morphological",
+    "pos": "adj.",
+    "zh": [
+      "形態的",
+      "構詞的"
+    ],
+    "example": "The study examines morphological differences.",
+    "exampleZh": "這項研究探討形態差異。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0213",
+    "word": "morphology",
+    "pos": "n.",
+    "zh": [
+      "形態學",
+      "構詞學"
+    ],
+    "example": "The course introduces word morphology.",
+    "exampleZh": "這門課介紹詞的構詞學。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0214",
+    "word": "motif",
+    "pos": "n.",
+    "zh": [
+      "主題",
+      "圖案"
+    ],
+    "example": "The artwork repeats a floral motif.",
+    "exampleZh": "這件藝術作品重複使用花卉圖案。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0215",
+    "word": "multi",
+    "pos": "prefix",
+    "zh": [
+      "多",
+      "多重"
+    ],
+    "example": "The prefix multi means many.",
+    "exampleZh": "字首 multi 表示多個。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0216",
+    "word": "multinational",
+    "pos": "adj.;n.",
+    "zh": [
+      "跨國的",
+      "跨國企業"
+    ],
+    "example": "She works for a multinational company.",
+    "exampleZh": "她在跨國公司工作。",
+    "level": 3,
+    "topics": [
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0217",
+    "word": "mutation",
+    "pos": "n.",
+    "zh": [
+      "突變"
+    ],
+    "example": "The study identified a genetic mutation.",
+    "exampleZh": "這項研究找出一種基因突變。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0218",
+    "word": "neo",
+    "pos": "prefix",
+    "zh": [
+      "新",
+      "復興的"
+    ],
+    "example": "The prefix neo means new.",
+    "exampleZh": "字首 neo 表示新的。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0219",
+    "word": "neural",
+    "pos": "adj.",
+    "zh": [
+      "神經的"
+    ],
+    "example": "The diagram shows neural pathways.",
+    "exampleZh": "圖中顯示神經路徑。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0220",
+    "word": "neuron",
+    "pos": "n.",
+    "zh": [
+      "神經元"
+    ],
+    "example": "A neuron can transmit a signal.",
+    "exampleZh": "神經元可以傳遞訊號。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0221",
+    "word": "nicely",
+    "pos": "adv.",
+    "zh": [
+      "很好地",
+      "友善地"
+    ],
+    "example": "The colors work nicely together.",
+    "exampleZh": "這些顏色搭配得很好。",
+    "level": 3,
+    "topics": [
+      "daily_life",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0222",
+    "word": "niche",
+    "pos": "n.",
+    "zh": [
+      "生態棲位",
+      "利基"
+    ],
+    "example": "The business found a niche in the market.",
+    "exampleZh": "這家企業在市場找到利基。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0223",
+    "word": "nitrogen",
+    "pos": "n.",
+    "zh": [
+      "氮"
+    ],
+    "example": "The sample contains nitrogen.",
+    "exampleZh": "樣本含有氮。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0224",
+    "word": "node",
+    "pos": "n.",
+    "zh": [
+      "節點",
+      "淋巴結"
+    ],
+    "example": "Each node connects to two others.",
+    "exampleZh": "每個節點連接另外兩個。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0225",
+    "word": "nominal",
+    "pos": "adj.",
+    "zh": [
+      "名義上的",
+      "少量的",
+      "名詞的"
+    ],
+    "example": "The museum charges a nominal fee.",
+    "exampleZh": "博物館收取少許費用。",
+    "level": 3,
+    "topics": [
+      "travel_lodging",
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0226",
+    "word": "non",
+    "pos": "prefix",
+    "zh": [
+      "非",
+      "不"
+    ],
+    "example": "The prefix non can express absence.",
+    "exampleZh": "字首 non 可表達不存在。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0227",
+    "word": "nonetheless",
+    "pos": "adv.",
+    "zh": [
+      "然而",
+      "儘管如此"
+    ],
+    "example": "It rained; nonetheless, we enjoyed the trip.",
+    "exampleZh": "雖然下雨，我們仍然享受這趟旅行。",
+    "level": 3,
+    "topics": [
+      "travel_lodging",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0228",
+    "word": "nonlinear",
+    "pos": "adj.",
+    "zh": [
+      "非線性的"
+    ],
+    "example": "The graph shows a nonlinear pattern.",
+    "exampleZh": "圖表顯示非線性模式。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0229",
+    "word": "notation",
+    "pos": "n.",
+    "zh": [
+      "記號",
+      "符號系統"
+    ],
+    "example": "Learn the notation before solving the problem.",
+    "exampleZh": "解題前先學會符號表示法。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0230",
+    "word": "null",
+    "pos": "adj.;n.",
+    "zh": [
+      "無效的",
+      "空值"
+    ],
+    "example": "The old agreement is null and void.",
+    "exampleZh": "舊協議已失效。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0231",
+    "word": "numerical",
+    "pos": "adj.",
+    "zh": [
+      "數值的"
+    ],
+    "example": "Please enter a numerical value.",
+    "exampleZh": "請輸入一個數值。",
+    "level": 3,
+    "topics": [
+      "time_numbers",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0232",
+    "word": "onset",
+    "pos": "n.",
+    "zh": [
+      "開始",
+      "發作"
+    ],
+    "example": "Record the onset of symptoms.",
+    "exampleZh": "記錄症狀開始的時間。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0233",
+    "word": "onwards",
+    "pos": "adv.",
+    "zh": [
+      "向前",
+      "從此以後"
+    ],
+    "example": "We traveled onwards to the coast.",
+    "exampleZh": "我們繼續前往海岸。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "travel_lodging",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0234",
+    "word": "optical",
+    "pos": "adj.",
+    "zh": [
+      "光學的",
+      "視覺的"
+    ],
+    "example": "The lab has optical equipment.",
+    "exampleZh": "實驗室有光學設備。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0235",
+    "word": "optimal",
+    "pos": "adj.",
+    "zh": [
+      "最佳的"
+    ],
+    "example": "What is the optimal temperature?",
+    "exampleZh": "最佳溫度是多少？",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0236",
+    "word": "optimum",
+    "pos": "adj.;n.",
+    "zh": [
+      "最佳的",
+      "最佳狀態"
+    ],
+    "example": "We seek the optimum balance.",
+    "exampleZh": "我們尋求最佳平衡。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0237",
+    "word": "oscillation",
+    "pos": "n.",
+    "zh": [
+      "振盪",
+      "擺動"
+    ],
+    "example": "The graph shows one complete oscillation.",
+    "exampleZh": "圖表顯示一次完整振盪。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0238",
+    "word": "overview",
+    "pos": "n.",
+    "zh": [
+      "概述",
+      "全貌"
+    ],
+    "example": "Give a brief overview of the project.",
+    "exampleZh": "簡短概述這個專案。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0239",
+    "word": "oxidize",
+    "pos": "v.",
+    "zh": [
+      "氧化"
+    ],
+    "example": "Iron can oxidize in moist air.",
+    "exampleZh": "鐵在潮濕空氣中會氧化。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0240",
+    "word": "par",
+    "pos": "n.",
+    "zh": [
+      "標準",
+      "標準桿"
+    ],
+    "example": "Her work is on a par with his.",
+    "exampleZh": "她的工作水準與他相當。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0241",
+    "word": "paradigm",
+    "pos": "n.",
+    "zh": [
+      "典範",
+      "範式"
+    ],
+    "example": "The research challenges the current paradigm.",
+    "exampleZh": "這項研究挑戰現有典範。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0242",
+    "word": "parameter",
+    "pos": "n.",
+    "zh": [
+      "參數",
+      "界限"
+    ],
+    "example": "Change one parameter at a time.",
+    "exampleZh": "一次變更一個參數。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0243",
+    "word": "parental",
+    "pos": "adj.",
+    "zh": [
+      "父母的"
+    ],
+    "example": "The trip requires parental permission.",
+    "exampleZh": "這趟旅行需要家長同意。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0244",
+    "word": "parenthesis",
+    "pos": "n.",
+    "zh": [
+      "括號",
+      "插入語"
+    ],
+    "example": "This note belongs inside a parenthesis.",
+    "exampleZh": "這則註記應放在括號內。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0245",
+    "word": "partially",
+    "pos": "adv.",
+    "zh": [
+      "部分地"
+    ],
+    "example": "The road is partially closed.",
+    "exampleZh": "這條路部分封閉。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0246",
+    "word": "partition",
+    "pos": "n.;v.",
+    "zh": [
+      "隔間",
+      "分割"
+    ],
+    "example": "A partition separates the office areas.",
+    "exampleZh": "隔板把辦公區分開。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0247",
+    "word": "pathway",
+    "pos": "n.",
+    "zh": [
+      "小徑",
+      "途徑"
+    ],
+    "example": "The pathway leads to the lake.",
+    "exampleZh": "這條小徑通往湖邊。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0248",
+    "word": "periodic",
+    "pos": "adj.",
+    "zh": [
+      "定期的",
+      "週期性的"
+    ],
+    "example": "The equipment needs periodic checks.",
+    "exampleZh": "設備需要定期檢查。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "time_numbers",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0249",
+    "word": "peripheral",
+    "pos": "adj.;n.",
+    "zh": [
+      "周邊的",
+      "次要的",
+      "周邊設備"
+    ],
+    "example": "The issue is peripheral to our main goal.",
+    "exampleZh": "這個議題對我們的主要目標而言是次要的。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0250",
+    "word": "pesticide",
+    "pos": "n.",
+    "zh": [
+      "殺蟲劑",
+      "農藥"
+    ],
+    "example": "The farm avoids chemical pesticide use.",
+    "exampleZh": "這座農場避免使用化學農藥。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0251",
+    "word": "phenomenal",
+    "pos": "adj.",
+    "zh": [
+      "非凡的",
+      "驚人的"
+    ],
+    "example": "The team achieved phenomenal results.",
+    "exampleZh": "團隊達成了驚人的成果。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0252",
+    "word": "phonological",
+    "pos": "adj.",
+    "zh": [
+      "音韻的"
+    ],
+    "example": "The study examines phonological patterns.",
+    "exampleZh": "這項研究探討音韻模式。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0253",
+    "word": "phosphate",
+    "pos": "n.",
+    "zh": [
+      "磷酸鹽"
+    ],
+    "example": "The sample contains phosphate.",
+    "exampleZh": "樣本含有磷酸鹽。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0254",
+    "word": "physically",
+    "pos": "adv.",
+    "zh": [
+      "在身體上",
+      "實際地"
+    ],
+    "example": "The job is physically demanding.",
+    "exampleZh": "這份工作很耗體力。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0255",
+    "word": "physiological",
+    "pos": "adj.",
+    "zh": [
+      "生理的"
+    ],
+    "example": "The study measures physiological responses.",
+    "exampleZh": "這項研究測量生理反應。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0256",
+    "word": "pi",
+    "pos": "n.",
+    "zh": [
+      "圓周率"
+    ],
+    "example": "Use pi to calculate the area.",
+    "exampleZh": "用圓周率計算面積。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0257",
+    "word": "planner",
+    "pos": "n.",
+    "zh": [
+      "規劃者",
+      "記事手冊"
+    ],
+    "example": "The city planner reviewed the route.",
+    "exampleZh": "都市規劃師檢視了路線。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0258",
+    "word": "plausible",
+    "pos": "adj.",
+    "zh": [
+      "合理可信的"
+    ],
+    "example": "That is a plausible explanation.",
+    "exampleZh": "那是合理可信的解釋。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0259",
+    "word": "politically",
+    "pos": "adv.",
+    "zh": [
+      "在政治上"
+    ],
+    "example": "The issue is politically sensitive.",
+    "exampleZh": "這個議題在政治上很敏感。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0260",
+    "word": "portrayal",
+    "pos": "n.",
+    "zh": [
+      "描繪",
+      "演繹"
+    ],
+    "example": "The film offers a realistic portrayal of work.",
+    "exampleZh": "這部電影真實描繪工作生活。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0261",
+    "word": "positively",
+    "pos": "adv.",
+    "zh": [
+      "正面地",
+      "肯定地"
+    ],
+    "example": "She responded positively to the suggestion.",
+    "exampleZh": "她正面回應這個建議。",
+    "level": 3,
+    "topics": [
+      "people_feelings",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0262",
+    "word": "postgraduate",
+    "pos": "n.;adj.",
+    "zh": [
+      "研究生",
+      "研究所的"
+    ],
+    "example": "She is a postgraduate student.",
+    "exampleZh": "她是研究生。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0263",
+    "word": "potassium",
+    "pos": "n.",
+    "zh": [
+      "鉀"
+    ],
+    "example": "Bananas contain potassium.",
+    "exampleZh": "香蕉含鉀。",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0264",
+    "word": "pragmatic",
+    "pos": "adj.",
+    "zh": [
+      "務實的",
+      "語用的"
+    ],
+    "example": "We need a pragmatic solution.",
+    "exampleZh": "我們需要務實的解決辦法。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0265",
+    "word": "pre",
+    "pos": "prefix",
+    "zh": [
+      "在前",
+      "預先"
+    ],
+    "example": "The prefix pre can mean before.",
+    "exampleZh": "字首 pre 可表示在之前。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0266",
+    "word": "precipitate",
+    "pos": "v.;n.;adj.",
+    "zh": [
+      "促使發生",
+      "沉澱物",
+      "倉促的"
+    ],
+    "example": "A white precipitate formed in the liquid.",
+    "exampleZh": "液體中形成白色沉澱物。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0267",
+    "word": "precipitation",
+    "pos": "n.",
+    "zh": [
+      "降水",
+      "沉澱"
+    ],
+    "example": "The region has low annual precipitation.",
+    "exampleZh": "這個地區的年降水量很低。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0268",
+    "word": "predominantly",
+    "pos": "adv.",
+    "zh": [
+      "主要地",
+      "大多數地"
+    ],
+    "example": "The area is predominantly residential.",
+    "exampleZh": "這個地區以住宅為主。",
+    "level": 3,
+    "topics": [
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0269",
+    "word": "prevalence",
+    "pos": "n.",
+    "zh": [
+      "盛行率",
+      "普遍程度"
+    ],
+    "example": "The report tracks the prevalence of disease.",
+    "exampleZh": "這份報告追蹤疾病盛行率。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0270",
+    "word": "primer",
+    "pos": "n.",
+    "zh": [
+      "入門書",
+      "底漆",
+      "引子"
+    ],
+    "example": "This book is a primer on statistics.",
+    "exampleZh": "這本書是統計學入門。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0271",
+    "word": "problematic",
+    "pos": "adj.",
+    "zh": [
+      "有問題的",
+      "難以處理的"
+    ],
+    "example": "The proposed route is problematic.",
+    "exampleZh": "提議的路線有問題。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0272",
+    "word": "processor",
+    "pos": "n.",
+    "zh": [
+      "處理器",
+      "加工機"
+    ],
+    "example": "The computer needs a faster processor.",
+    "exampleZh": "這台電腦需要更快的處理器。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0273",
+    "word": "progression",
+    "pos": "n.",
+    "zh": [
+      "進展",
+      "進行"
+    ],
+    "example": "The chart shows the progression of the disease.",
+    "exampleZh": "圖表顯示疾病的進程。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0274",
+    "word": "proposition",
+    "pos": "n.",
+    "zh": [
+      "命題",
+      "提議"
+    ],
+    "example": "The class discussed a logical proposition.",
+    "exampleZh": "課堂上討論一個邏輯命題。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0275",
+    "word": "protocol",
+    "pos": "n.",
+    "zh": [
+      "規程",
+      "通訊協定",
+      "禮儀"
+    ],
+    "example": "Follow the safety protocol.",
+    "exampleZh": "請遵守安全規程。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0276",
+    "word": "proton",
+    "pos": "n.",
+    "zh": [
+      "質子"
+    ],
+    "example": "A proton has a positive charge.",
+    "exampleZh": "質子帶正電。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0277",
+    "word": "psychiatric",
+    "pos": "adj.",
+    "zh": [
+      "精神醫學的"
+    ],
+    "example": "The hospital provides psychiatric care.",
+    "exampleZh": "醫院提供精神醫療照護。",
+    "level": 3,
+    "topics": [
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0278",
+    "word": "purely",
+    "pos": "adv.",
+    "zh": [
+      "純粹地"
+    ],
+    "example": "The decision was purely practical.",
+    "exampleZh": "這個決定純粹出於實際考量。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0279",
+    "word": "qualitative",
+    "pos": "adj.",
+    "zh": [
+      "質性的"
+    ],
+    "example": "The study uses qualitative interviews.",
+    "exampleZh": "這項研究使用質性訪談。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0280",
+    "word": "quantitative",
+    "pos": "adj.",
+    "zh": [
+      "量化的"
+    ],
+    "example": "We collected quantitative data.",
+    "exampleZh": "我們收集了量化資料。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0281",
+    "word": "quantum",
+    "pos": "n.;adj.",
+    "zh": [
+      "量子",
+      "量子的"
+    ],
+    "example": "The lecture introduces quantum theory.",
+    "exampleZh": "這場演講介紹量子理論。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0282",
+    "word": "randomize",
+    "pos": "v.",
+    "zh": [
+      "隨機分配",
+      "隨機排列"
+    ],
+    "example": "The software can randomize the questions.",
+    "exampleZh": "這個軟體可以隨機排列題目。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0283",
+    "word": "randomly",
+    "pos": "adv.",
+    "zh": [
+      "隨機地"
+    ],
+    "example": "Choose a number randomly.",
+    "exampleZh": "隨機選一個數字。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0284",
+    "word": "rationality",
+    "pos": "n.",
+    "zh": [
+      "理性",
+      "合理性"
+    ],
+    "example": "The essay discusses human rationality.",
+    "exampleZh": "這篇文章討論人類的理性。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0285",
+    "word": "reactive",
+    "pos": "adj.",
+    "zh": [
+      "反應性的",
+      "被動回應的"
+    ],
+    "example": "The chemical is highly reactive.",
+    "exampleZh": "這種化學物質反應性很高。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0286",
+    "word": "reactor",
+    "pos": "n.",
+    "zh": [
+      "反應爐",
+      "反應器"
+    ],
+    "example": "The diagram shows a nuclear reactor.",
+    "exampleZh": "圖中顯示核反應爐。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0287",
+    "word": "readily",
+    "pos": "adv.",
+    "zh": [
+      "容易地",
+      "樂意地"
+    ],
+    "example": "Tickets are readily available.",
+    "exampleZh": "門票很容易買到。",
+    "level": 3,
+    "topics": [
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0288",
+    "word": "receptor",
+    "pos": "n.",
+    "zh": [
+      "受體",
+      "感受器"
+    ],
+    "example": "The diagram shows a cell receptor.",
+    "exampleZh": "圖中顯示細胞受體。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0289",
+    "word": "reconstruct",
+    "pos": "v.",
+    "zh": [
+      "重建",
+      "重現"
+    ],
+    "example": "They plan to reconstruct the bridge.",
+    "exampleZh": "他們計畫重建橋梁。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0290",
+    "word": "regression",
+    "pos": "n.",
+    "zh": [
+      "迴歸",
+      "退步"
+    ],
+    "example": "The study uses regression analysis.",
+    "exampleZh": "這項研究使用迴歸分析。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0291",
+    "word": "rehabilitation",
+    "pos": "n.",
+    "zh": [
+      "復健",
+      "復原"
+    ],
+    "example": "She attends rehabilitation after the injury.",
+    "exampleZh": "她受傷後接受復健。",
+    "level": 3,
+    "topics": [
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0292",
+    "word": "reliability",
+    "pos": "n.",
+    "zh": [
+      "可靠性"
+    ],
+    "example": "We tested the system's reliability.",
+    "exampleZh": "我們測試系統的可靠性。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0293",
+    "word": "repertoire",
+    "pos": "n.",
+    "zh": [
+      "表演曲目",
+      "技能範圍"
+    ],
+    "example": "The singer expanded her repertoire.",
+    "exampleZh": "歌手擴充了演唱曲目。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0294",
+    "word": "replicate",
+    "pos": "v.",
+    "zh": [
+      "複製",
+      "重做"
+    ],
+    "example": "Another team will replicate the experiment.",
+    "exampleZh": "另一個團隊將重做這個實驗。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0295",
+    "word": "replication",
+    "pos": "n.",
+    "zh": [
+      "複製",
+      "重複驗證"
+    ],
+    "example": "The study needs independent replication.",
+    "exampleZh": "這項研究需要獨立重複驗證。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0296",
+    "word": "reproduction",
+    "pos": "n.",
+    "zh": [
+      "繁殖",
+      "複製品"
+    ],
+    "example": "The lesson explains plant reproduction.",
+    "exampleZh": "這堂課解釋植物繁殖。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0297",
+    "word": "residual",
+    "pos": "adj.;n.",
+    "zh": [
+      "殘留的",
+      "殘差"
+    ],
+    "example": "The test measures residual chemicals in water.",
+    "exampleZh": "這項檢測測量水中殘留的化學物質。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0298",
+    "word": "residue",
+    "pos": "n.",
+    "zh": [
+      "殘留物"
+    ],
+    "example": "Wash away the soap residue.",
+    "exampleZh": "洗掉肥皂殘留物。",
+    "level": 3,
+    "topics": [
+      "daily_life",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0299",
+    "word": "respiratory",
+    "pos": "adj.",
+    "zh": [
+      "呼吸的"
+    ],
+    "example": "The doctor examined the respiratory system.",
+    "exampleZh": "醫師檢查呼吸系統。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0300",
+    "word": "rewrite",
+    "pos": "v.;n.",
+    "zh": [
+      "改寫",
+      "重寫的版本"
+    ],
+    "example": "Please rewrite the final paragraph.",
+    "exampleZh": "請重寫最後一段。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0301",
+    "word": "scripture",
+    "pos": "n.",
+    "zh": [
+      "經文",
+      "聖典"
+    ],
+    "example": "The class compared passages of scripture.",
+    "exampleZh": "課堂上比較不同段落的經文。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0302",
+    "word": "secrete",
+    "pos": "v.",
+    "zh": [
+      "分泌",
+      "藏匿"
+    ],
+    "example": "These cells secrete a liquid.",
+    "exampleZh": "這些細胞分泌液體。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0303",
+    "word": "sediment",
+    "pos": "n.",
+    "zh": [
+      "沉積物"
+    ],
+    "example": "The river carries sediment.",
+    "exampleZh": "河流攜帶沉積物。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0304",
+    "word": "semantic",
+    "pos": "adj.",
+    "zh": [
+      "語義的"
+    ],
+    "example": "The words have a semantic connection.",
+    "exampleZh": "這些字在語義上有關聯。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0305",
+    "word": "semi",
+    "pos": "prefix",
+    "zh": [
+      "半",
+      "部分"
+    ],
+    "example": "The prefix semi can mean half.",
+    "exampleZh": "字首 semi 可表示一半。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0306",
+    "word": "sensory",
+    "pos": "adj.",
+    "zh": [
+      "感官的"
+    ],
+    "example": "The lesson uses sensory activities.",
+    "exampleZh": "這堂課使用感官活動。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0307",
+    "word": "separately",
+    "pos": "adv.",
+    "zh": [
+      "分開地",
+      "個別地"
+    ],
+    "example": "Please pack the food separately.",
+    "exampleZh": "請把食物分開包裝。",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "daily_life"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0308",
+    "word": "sexuality",
+    "pos": "n.",
+    "zh": [
+      "性",
+      "性傾向",
+      "性認同"
+    ],
+    "example": "The course discusses human sexuality.",
+    "exampleZh": "這門課討論人類的性。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0309",
+    "word": "simulate",
+    "pos": "v.",
+    "zh": [
+      "模擬"
+    ],
+    "example": "The program can simulate traffic.",
+    "exampleZh": "這個程式能模擬交通。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0310",
+    "word": "simulation",
+    "pos": "n.",
+    "zh": [
+      "模擬"
+    ],
+    "example": "The pilot practiced in a flight simulation.",
+    "exampleZh": "飛行員使用飛行模擬練習。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0311",
+    "word": "simultaneously",
+    "pos": "adv.",
+    "zh": [
+      "同時地"
+    ],
+    "example": "Both alarms rang simultaneously.",
+    "exampleZh": "兩個警報同時響起。",
+    "level": 3,
+    "topics": [
+      "time_numbers",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0312",
+    "word": "slab",
+    "pos": "n.",
+    "zh": [
+      "厚板",
+      "厚片"
+    ],
+    "example": "The path is made from a stone slab.",
+    "exampleZh": "這條小徑由一塊厚石板鋪成。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0313",
+    "word": "socially",
+    "pos": "adv.",
+    "zh": [
+      "在社交上",
+      "在社會上"
+    ],
+    "example": "The club helps students connect socially.",
+    "exampleZh": "社團幫助學生建立社交連結。",
+    "level": 3,
+    "topics": [
+      "people_feelings",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0314",
+    "word": "sodium",
+    "pos": "n.",
+    "zh": [
+      "鈉"
+    ],
+    "example": "The label lists the sodium content.",
+    "exampleZh": "標籤列出鈉含量。",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0315",
+    "word": "soluble",
+    "pos": "adj.",
+    "zh": [
+      "可溶的"
+    ],
+    "example": "This powder is soluble in water.",
+    "exampleZh": "這種粉末可以溶於水。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0316",
+    "word": "solute",
+    "pos": "n.",
+    "zh": [
+      "溶質"
+    ],
+    "example": "Salt is the solute in this solution.",
+    "exampleZh": "鹽是這份溶液中的溶質。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0317",
+    "word": "solvent",
+    "pos": "n.;adj.",
+    "zh": [
+      "溶劑",
+      "有償債能力的"
+    ],
+    "example": "Water acts as a solvent here.",
+    "exampleZh": "水在這裡作為溶劑。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0318",
+    "word": "sophisticate",
+    "pos": "n.;v.",
+    "zh": [
+      "世故的人",
+      "使複雜"
+    ],
+    "example": "The novel portrays a young sophisticate.",
+    "exampleZh": "這部小說描繪一位年輕的世故者。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0319",
+    "word": "spatial",
+    "pos": "adj.",
+    "zh": [
+      "空間的"
+    ],
+    "example": "The map shows spatial relationships.",
+    "exampleZh": "地圖顯示空間關係。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0320",
+    "word": "specification",
+    "pos": "n.",
+    "zh": [
+      "規格",
+      "詳細說明"
+    ],
+    "example": "Check the product specification.",
+    "exampleZh": "查看產品規格。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0321",
+    "word": "sperm",
+    "pos": "n.",
+    "zh": [
+      "精子"
+    ],
+    "example": "The diagram shows a sperm cell.",
+    "exampleZh": "圖中顯示精細胞。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0322",
+    "word": "splice",
+    "pos": "v.;n.",
+    "zh": [
+      "接合",
+      "接合處"
+    ],
+    "example": "The technician will splice the cables.",
+    "exampleZh": "技術人員會接合纜線。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0323",
+    "word": "standardize",
+    "pos": "v.",
+    "zh": [
+      "標準化"
+    ],
+    "example": "We need to standardize the process.",
+    "exampleZh": "我們需要將流程標準化。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0324",
+    "word": "static",
+    "pos": "adj.;n.",
+    "zh": [
+      "靜止的",
+      "靜電雜音"
+    ],
+    "example": "The image is static.",
+    "exampleZh": "這張影像是靜態的。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0325",
+    "word": "statistically",
+    "pos": "adv.",
+    "zh": [
+      "在統計上"
+    ],
+    "example": "The difference is statistically significant.",
+    "exampleZh": "這個差異在統計上顯著。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0326",
+    "word": "statistics",
+    "pos": "n.",
+    "zh": [
+      "統計學",
+      "統計資料"
+    ],
+    "example": "She studies statistics.",
+    "exampleZh": "她研讀統計學。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0327",
+    "word": "strictly",
+    "pos": "adv.",
+    "zh": [
+      "嚴格地",
+      "僅限地"
+    ],
+    "example": "Parking is strictly prohibited.",
+    "exampleZh": "嚴禁停車。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0328",
+    "word": "sub",
+    "pos": "prefix;n.",
+    "zh": [
+      "下",
+      "次級",
+      "替補者"
+    ],
+    "example": "The prefix sub can mean under.",
+    "exampleZh": "字首 sub 可表示在下方。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0329",
+    "word": "subset",
+    "pos": "n.",
+    "zh": [
+      "子集合"
+    ],
+    "example": "This group is a subset of the larger set.",
+    "exampleZh": "這個群組是較大集合的子集合。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0330",
+    "word": "substitution",
+    "pos": "n.",
+    "zh": [
+      "替換",
+      "代入"
+    ],
+    "example": "Is milk substitution available?",
+    "exampleZh": "可以更換牛奶嗎？",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0331",
+    "word": "substrate",
+    "pos": "n.",
+    "zh": [
+      "基質",
+      "受質"
+    ],
+    "example": "The enzyme reacts with its substrate.",
+    "exampleZh": "酵素與其受質反應。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0332",
+    "word": "sufficiently",
+    "pos": "adv.",
+    "zh": [
+      "足夠地"
+    ],
+    "example": "The room is sufficiently large.",
+    "exampleZh": "這個房間夠大。",
+    "level": 3,
+    "topics": [
+      "travel_lodging",
+      "daily_life"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0333",
+    "word": "susceptible",
+    "pos": "adj.",
+    "zh": [
+      "易受影響的",
+      "易患的"
+    ],
+    "example": "Young plants are susceptible to frost.",
+    "exampleZh": "幼苗容易受到霜害。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0334",
+    "word": "syllabus",
+    "pos": "n.",
+    "zh": [
+      "課程大綱"
+    ],
+    "example": "Read the syllabus before class.",
+    "exampleZh": "上課前閱讀課程大綱。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0335",
+    "word": "syntactic",
+    "pos": "adj.",
+    "zh": [
+      "句法的"
+    ],
+    "example": "The lesson explains syntactic patterns.",
+    "exampleZh": "這堂課解釋句法模式。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0336",
+    "word": "syntax",
+    "pos": "n.",
+    "zh": [
+      "句法",
+      "語法規則"
+    ],
+    "example": "The program checks syntax.",
+    "exampleZh": "這個程式檢查語法。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0337",
+    "word": "synthesis",
+    "pos": "n.",
+    "zh": [
+      "綜合",
+      "合成"
+    ],
+    "example": "The report offers a synthesis of the findings.",
+    "exampleZh": "報告綜合了各項研究發現。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0338",
+    "word": "tech",
+    "pos": "n.;adj.",
+    "zh": [
+      "科技",
+      "技術的"
+    ],
+    "example": "She works in tech.",
+    "exampleZh": "她在科技業工作。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0339",
+    "word": "technically",
+    "pos": "adv.",
+    "zh": [
+      "技術上",
+      "嚴格說來"
+    ],
+    "example": "The plan is technically possible.",
+    "exampleZh": "這個計畫在技術上可行。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0340",
+    "word": "temporal",
+    "pos": "adj.",
+    "zh": [
+      "時間的",
+      "顳部的"
+    ],
+    "example": "The study examines temporal patterns.",
+    "exampleZh": "這項研究探討時間模式。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0341",
+    "word": "terminology",
+    "pos": "n.",
+    "zh": [
+      "專業術語"
+    ],
+    "example": "The guide explains medical terminology.",
+    "exampleZh": "這份指南解釋醫學術語。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0342",
+    "word": "terribly",
+    "pos": "adv.",
+    "zh": [
+      "非常",
+      "很糟地"
+    ],
+    "example": "I am terribly sorry for the delay.",
+    "exampleZh": "非常抱歉讓你久等。",
+    "level": 3,
+    "topics": [
+      "people_feelings",
+      "travel_lodging",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0343",
+    "word": "theorem",
+    "pos": "n.",
+    "zh": [
+      "定理"
+    ],
+    "example": "The teacher explained the theorem.",
+    "exampleZh": "老師解釋了這條定理。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0344",
+    "word": "theorist",
+    "pos": "n.",
+    "zh": [
+      "理論家"
+    ],
+    "example": "The theorist proposed a new model.",
+    "exampleZh": "理論家提出新模型。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0345",
+    "word": "thermal",
+    "pos": "adj.",
+    "zh": [
+      "熱的",
+      "保溫的"
+    ],
+    "example": "Wear thermal clothing for the hike.",
+    "exampleZh": "健行時穿保暖衣物。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "travel_lodging",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0346",
+    "word": "thickness",
+    "pos": "n.",
+    "zh": [
+      "厚度"
+    ],
+    "example": "Measure the thickness of the wood.",
+    "exampleZh": "測量木頭的厚度。",
+    "level": 3,
+    "topics": [
+      "time_numbers",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0347",
+    "word": "tract",
+    "pos": "n.",
+    "zh": [
+      "大片土地",
+      "管道",
+      "短文"
+    ],
+    "example": "The diagram shows the digestive tract.",
+    "exampleZh": "圖中顯示消化道。",
+    "level": 3,
+    "topics": [
+      "health_body",
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0348",
+    "word": "traditionally",
+    "pos": "adv.",
+    "zh": [
+      "傳統上"
+    ],
+    "example": "This dish is traditionally served cold.",
+    "exampleZh": "這道菜傳統上是冷食。",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "travel_lodging",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0349",
+    "word": "trajectory",
+    "pos": "n.",
+    "zh": [
+      "軌跡",
+      "發展路徑"
+    ],
+    "example": "We calculated the ball's trajectory.",
+    "exampleZh": "我們計算了球的軌跡。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0350",
+    "word": "trans",
+    "pos": "prefix",
+    "zh": [
+      "跨",
+      "越過",
+      "轉變"
+    ],
+    "example": "The prefix trans can mean across.",
+    "exampleZh": "字首 trans 可表示橫跨。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "other"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0351",
+    "word": "transcribe",
+    "pos": "v.",
+    "zh": [
+      "轉寫",
+      "謄寫"
+    ],
+    "example": "Please transcribe the interview.",
+    "exampleZh": "請將訪談轉寫成文字。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0352",
+    "word": "transcription",
+    "pos": "n.",
+    "zh": [
+      "轉寫",
+      "逐字稿",
+      "轉錄"
+    ],
+    "example": "The transcription contains several errors.",
+    "exampleZh": "這份逐字稿有幾個錯誤。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0353",
+    "word": "transparency",
+    "pos": "n.",
+    "zh": [
+      "透明度",
+      "公開透明"
+    ],
+    "example": "We value transparency in decision making.",
+    "exampleZh": "我們重視決策過程的公開透明。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0354",
+    "word": "turbulent",
+    "pos": "adj.",
+    "zh": [
+      "動盪的",
+      "湍急的"
+    ],
+    "example": "The river is turbulent after rain.",
+    "exampleZh": "下雨後河水湍急。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0355",
+    "word": "unemployed",
+    "pos": "adj.",
+    "zh": [
+      "失業的"
+    ],
+    "example": "He is currently unemployed.",
+    "exampleZh": "他目前失業。",
+    "level": 3,
+    "topics": [
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0356",
+    "word": "unintelligible",
+    "pos": "adj.",
+    "zh": [
+      "無法理解的"
+    ],
+    "example": "The recording was almost unintelligible.",
+    "exampleZh": "這段錄音幾乎聽不懂。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0357",
+    "word": "unstable",
+    "pos": "adj.",
+    "zh": [
+      "不穩定的"
+    ],
+    "example": "The chair is unstable.",
+    "exampleZh": "這張椅子不穩。",
+    "level": 3,
+    "topics": [
+      "daily_life",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0358",
+    "word": "uplift",
+    "pos": "v.;n.",
+    "zh": [
+      "振奮",
+      "抬升",
+      "隆起"
+    ],
+    "example": "Music can uplift our spirits.",
+    "exampleZh": "音樂能振奮精神。",
+    "level": 3,
+    "topics": [
+      "people_feelings",
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0359",
+    "word": "urine",
+    "pos": "n.",
+    "zh": [
+      "尿液"
+    ],
+    "example": "The clinic collected a urine sample.",
+    "exampleZh": "診所採集了尿液檢體。",
+    "level": 3,
+    "topics": [
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0360",
+    "word": "utterance",
+    "pos": "n.",
+    "zh": [
+      "話語",
+      "發言"
+    ],
+    "example": "The researcher analyzed each utterance.",
+    "exampleZh": "研究人員分析每句話語。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0361",
+    "word": "validity",
+    "pos": "n.",
+    "zh": [
+      "有效性",
+      "效度"
+    ],
+    "example": "The team tested the measure's validity.",
+    "exampleZh": "團隊測試了這項測量的效度。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0362",
+    "word": "valve",
+    "pos": "n.",
+    "zh": [
+      "閥門",
+      "瓣膜"
+    ],
+    "example": "Turn the valve slowly.",
+    "exampleZh": "慢慢轉動閥門。",
+    "level": 3,
+    "topics": [
+      "work_business",
+      "school_sports",
+      "health_body"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0363",
+    "word": "variability",
+    "pos": "n.",
+    "zh": [
+      "變異性"
+    ],
+    "example": "The data show considerable variability.",
+    "exampleZh": "資料顯示相當大的變異。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0364",
+    "word": "variance",
+    "pos": "n.",
+    "zh": [
+      "變異數",
+      "差異"
+    ],
+    "example": "Calculate the variance of the data.",
+    "exampleZh": "計算資料的變異數。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "time_numbers"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0365",
+    "word": "variant",
+    "pos": "n.;adj.",
+    "zh": [
+      "變體",
+      "不同的"
+    ],
+    "example": "This word has a spelling variant.",
+    "exampleZh": "這個字有另一種拼法。",
+    "level": 3,
+    "topics": [
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0366",
+    "word": "vector",
+    "pos": "n.",
+    "zh": [
+      "向量",
+      "傳播媒介"
+    ],
+    "example": "The diagram shows a velocity vector.",
+    "exampleZh": "圖中顯示速度向量。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "health_body",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0367",
+    "word": "vegetation",
+    "pos": "n.",
+    "zh": [
+      "植被"
+    ],
+    "example": "Dense vegetation covers the hillside.",
+    "exampleZh": "茂密的植被覆蓋山坡。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0368",
+    "word": "velocity",
+    "pos": "n.",
+    "zh": [
+      "速度",
+      "速率"
+    ],
+    "example": "We measured the vehicle's velocity.",
+    "exampleZh": "我們測量了車輛的速度。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "transport_city"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0369",
+    "word": "volition",
+    "pos": "n.",
+    "zh": [
+      "意志",
+      "自願"
+    ],
+    "example": "She acted of her own volition.",
+    "exampleZh": "她是出於自願而行動。",
+    "level": 3,
+    "topics": [
+      "people_feelings"
+    ],
+    "source": "NAWL-1.2",
+    "review": true
+  },
+  {
+    "id": "lv3-0370",
+    "word": "watershed",
+    "pos": "n.",
+    "zh": [
+      "集水區",
+      "分水嶺",
+      "轉捩點"
+    ],
+    "example": "The project protects the local watershed.",
+    "exampleZh": "這個計畫保護當地集水區。",
+    "level": 3,
+    "topics": [
+      "nature_outdoor",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0371",
+    "word": "wavelength",
+    "pos": "n.",
+    "zh": [
+      "波長"
+    ],
+    "example": "The color depends on the wavelength.",
+    "exampleZh": "顏色取決於波長。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "nature_outdoor"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0372",
+    "word": "whereby",
+    "pos": "adv.;conj.",
+    "zh": [
+      "藉此",
+      "透過的方法"
+    ],
+    "example": "We designed a system whereby users can share files.",
+    "exampleZh": "我們設計了一個讓使用者可以分享檔案的系統。",
+    "level": 3,
+    "topics": [
+      "school_sports",
+      "work_business"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0373",
+    "word": "whichever",
+    "pos": "det.;pron.",
+    "zh": [
+      "無論哪個"
+    ],
+    "example": "Choose whichever route you prefer.",
+    "exampleZh": "選你喜歡的任何一條路線。",
+    "level": 3,
+    "topics": [
+      "transport_city",
+      "travel_lodging"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  },
+  {
+    "id": "lv3-0374",
+    "word": "yeast",
+    "pos": "n.",
+    "zh": [
+      "酵母"
+    ],
+    "example": "Add yeast to the dough.",
+    "exampleZh": "在麵團裡加入酵母。",
+    "level": 3,
+    "topics": [
+      "food_drink",
+      "school_sports"
+    ],
+    "source": "NAWL-1.2",
+    "review": false
+  }
+]
