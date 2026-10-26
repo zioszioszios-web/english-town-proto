@@ -42,3 +42,14 @@
 @keyframes escape { to { transform: translateX(7rem); opacity: 0; } }
 @keyframes shake { 25% { transform: translateX(-.4rem); } 75% { transform: translateX(.4rem); } }
 @media (prefers-reduced-motion: reduce) { .mini-game *, .mini-game *::before { animation: none !important; transition: none !important; } }
+
+.customer-avatar { display: grid; place-items: center; block-size: 4rem; border-radius: 1rem; background: #e8d7bc; font-size: 2.5rem; color: #946329; }
+.order-item { min-block-size: 4rem !important; }
+.order-transcript { background: #e8eedd; border-radius: .5rem; padding: .75rem; }
+.medicine-boxes { display: flex; flex-wrap: wrap; gap: .5rem; padding-block: 1rem; }
+.ui-overlay .medicine-box { flex: 1; min-inline-size: 25%; min-block-size: 4rem; border-block-start: .5rem solid #c57c57; touch-action: none; user-select: none; position: relative; }
+.medicine-box.selected { background: #d1dfbc; outline: .125rem solid #325c45; }
+.medicine-box.dragging { z-index: 2; pointer-events: none; }
+.medicine-box:disabled { opacity: .55; }
+.medicine-shelves { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .5rem; }
+.ui-overlay .medicine-shelf { min-block-size: 7rem; padding: .75rem .35rem; background: #e4ddc8; border: .1875rem solid #9a8d70; border-block-end-width: .6rem; border-radius: .5rem; font-weight: 700; }

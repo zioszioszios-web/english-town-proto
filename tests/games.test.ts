@@ -55,3 +55,16 @@ test('park and street entrances remain reachable and lake is solid', () => {
   assert.equal(canStand(LAKE.x+TILE,LAKE.y+TILE),false);
   for (const entry of ACTIVITIES) { assert.ok(findPath(START,entry.point).length>0); assert.equal(nearbyTownEntrance(entry.point,1)?.location,entry.location); assert.equal(nearbyTownEntrance({x:entry.point.x,y:entry.point.y+49},1),undefined); }
 });
+
+test('cafe orders use one word, one sentence, then two ordered items by level', async () => {
+  const { cafeOrderText, CafeOrder } = await import('../src/games/CafeOrder');
+  const coffee={...word(1,'food_drink'),word:'coffee'},cake={...word(2,'food_drink'),word:'cake'};
+  assert.equal(cafeOrderText([coffee],1),'coffee');
+  assert.match(cafeOrderText([coffee],2),/Can I get the coffee/);
+  for(const level of [3,4] as const) assert.match(cafeOrderText([coffee,cake],level),/coffee and the cake/);
+  assert.throws(()=>cafeOrderText([coffee],3),/enough items/);
+  const game=new CafeOrder();
+  assert.equal(game.eligible(coffee),true);
+  for(const wordText of ['cafeteria','tradition','freezer','cash']) assert.equal(game.eligible({...coffee,word:wordText}),false);
+  assert.equal(game.eligible({...coffee,pos:'adv.',word:'without'}),false);
+});

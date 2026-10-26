@@ -11,6 +11,7 @@ export interface MiniGameContext {
 export interface MiniGame {
   readonly id: string; readonly name: string; readonly location: GameLocation;
   readonly topics: readonly WordTopic[];
+  eligible?(word: WordEntry): boolean;
   start(context: MiniGameContext): void;
   end(): void;
 }

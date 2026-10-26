@@ -22,8 +22,8 @@ export class MiniGameUI {
       const words = await loadWords(level);
       if (generation !== this.generation) return;
       if (!words) { this.host.replaceChildren(element('p', '', '這個等級單字準備中。'), action('回到小鎮', this.leave)); return; }
-      const pool = topicPool(words, game.topics);
-      if (pool.length < 4) { this.host.replaceChildren(element('p', '', '可用單字不足，正在準備中。'), action('回到小鎮', this.leave)); return; }
+      const pool = topicPool(words, game.topics).filter(word => game.eligible?.(word) ?? true);
+      if (pool.length < 20) { this.host.replaceChildren(element('p', '', '可用單字不足，正在準備中。'), action('回到小鎮', this.leave)); return; }
       const intro = element('div', 'game-intro');
       intro.append(element('h2', '', game.name), element('p', '', `Lv${level} · 可用單字 ${pool.length} 個`));
       const label = element('label', '', '排行榜暱稱（最多 20 字）');
