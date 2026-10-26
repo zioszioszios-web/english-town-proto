@@ -33,3 +33,16 @@ export function nearbyEntrance(position: Point, level: Level): Building | undefi
   return availableBuildings(level).filter(b => Math.hypot(position.x - b.door.x, position.y - b.door.y) <= ENTRY_DISTANCE)
     .sort((a, b) => Math.hypot(position.x - a.door.x, position.y - a.door.y) - Math.hypot(position.x - b.door.x, position.y - b.door.y))[0];
 }
+
+// Lakes remain solid; activity entrances use the same proximity contract as buildings.
+export type TownDestination = LocationName | 'Park' | 'Street';
+export const LAKE = { x: 2 * TILE, y: 2 * TILE, width: 5 * TILE, height: 4 * TILE };
+export const ACTIVITIES = [
+  { location: 'Park', nameZh: '公園', point: center(6, 8) },
+  { location: 'Street', nameZh: '跑酷', point: center(23, 17) },
+] as const;
+export function nearbyTownEntrance(position: Point, level: Level): { location: TownDestination; nameZh: string; point: Point } | undefined {
+  const buildings = availableBuildings(level).map(b => ({ location: b.name, nameZh: b.subtitle, point: b.door }));
+  return [...buildings, ...ACTIVITIES].filter(e => Math.hypot(position.x-e.point.x, position.y-e.point.y) <= ENTRY_DISTANCE)
+    .sort((a,b) => Math.hypot(position.x-a.point.x,position.y-a.point.y)-Math.hypot(position.x-b.point.x,position.y-b.point.y))[0];
+}

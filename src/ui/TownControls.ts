@@ -38,7 +38,7 @@ export class TownControls {
     this.unsubscribers = [
       gameEvents.on('entrance:nearby', building => {
         this.enter.hidden = !building;
-        this.enter.textContent = building ? `進入 ${building.nameZh} →` : '';
+        this.enter.textContent = building ? building.location === 'Street' ? '開始跑酷 →' : `進入 ${building.nameZh} →` : '';
       }),
       gameEvents.on('ui:active', active => { this.stop(); this.root.hidden = active; }),
       gameEvents.on('progress:changed', () => this.refresh()),

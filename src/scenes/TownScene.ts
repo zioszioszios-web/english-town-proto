@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { Player } from '../entities/Player';
-import { BUILDINGS, START, TILE, COLS, ROWS, WORLD_WIDTH, WORLD_HEIGHT, nearbyEntrance, type Point, type InteriorData, type Building } from '../data/town';
+import { BUILDINGS, START, TILE, COLS, ROWS, WORLD_WIDTH, WORLD_HEIGHT, nearbyTownEntrance, LAKE, ACTIVITIES, type Point, type InteriorData, type TownDestination } from '../data/town';
 import type { Level } from '../data/levels';
 import { gameEvents } from '../events';
 import { FONT } from './ui';
@@ -16,7 +16,7 @@ export class TownScene extends Phaser.Scene {
   private townArt!: Phaser.GameObjects.Container;
   private entering = false;
   private level: Level = 1;
-  private nearby?: Building;
+  private nearby?: TownDestination;
 
   constructor() { super('TownScene'); }
   create(): void {
@@ -55,13 +55,18 @@ export class TownScene extends Phaser.Scene {
   }
   private enter(): void {
     if (this.entering || this.registry.get('uiActive')) return;
-    const entrance = nearbyEntrance(this.player, this.level);
+    const entrance = nearbyTownEntrance(this.player, this.level);
     if (!entrance) return;
+    if (entrance.location === 'Park' || entrance.location === 'Street') {
+      this.nearby = undefined; this.joystick = { x: 0, y: 0 }; this.input.keyboard?.resetKeys();
+      gameEvents.emit('entrance:nearby', null);
+      gameEvents.emit('minigame:open', { id: entrance.location === 'Park' ? 'fishing' : 'runner' }); return;
+    }
     this.entering = true; this.nearby = undefined; this.joystick = { x: 0, y: 0 };
     this.input.keyboard?.resetKeys(); gameEvents.emit('entrance:nearby', null);
     // Pause before opening the overlay so returning cannot race a later pause.
     this.scene.pause();
-    this.scene.launch('InteriorScene', { location: entrance.name } satisfies InteriorData);
+    this.scene.launch('InteriorScene', { location: entrance.location } satisfies InteriorData);
   }
   update(_time: number, frameDelta: number): void {
     if (this.entering || this.registry.get('uiActive')) return;
@@ -72,10 +77,10 @@ export class TownScene extends Phaser.Scene {
     const x = length ? dx / length : this.joystick.x, y = length ? dy / length : this.joystick.y;
     this.player.move(x * 150 * delta / 1000, y * 150 * delta / 1000, delta);
     this.minimapDot.setPosition(264 + this.player.x * .078, 130 + this.player.y * .078);
-    const entrance = nearbyEntrance(this.player, this.level);
-    if (entrance?.name !== this.nearby?.name) {
-      this.nearby = entrance;
-      gameEvents.emit('entrance:nearby', entrance ? { location: entrance.name, nameZh: entrance.subtitle } : null);
+    const entrance = nearbyTownEntrance(this.player, this.level);
+    if (entrance?.location !== this.nearby) {
+      this.nearby = entrance?.location;
+      gameEvents.emit('entrance:nearby', entrance ? { location: entrance.location, nameZh: entrance.nameZh } : null);
     }
     if ((this.keys && Phaser.Input.Keyboard.JustDown(this.keys.ENTER)) || (this.keys && Phaser.Input.Keyboard.JustDown(this.keys.SPACE))) this.enter();
   }
@@ -85,6 +90,8 @@ export class TownScene extends Phaser.Scene {
     g.fillStyle(0xa9bf91).fillRect(264, 130, WORLD_WIDTH * .078, WORLD_HEIGHT * .078);
     g.fillStyle(0xded2b8).fillRect(264 + 18 * TILE * .078, 130, 4 * TILE * .078, WORLD_HEIGHT * .078)
       .fillRect(264, 130 + 15 * TILE * .078, WORLD_WIDTH * .078, 4 * TILE * .078);
+    g.fillStyle(0x78aabb).fillRect(264 + LAKE.x * .078, 130 + LAKE.y * .078, LAKE.width * .078, LAKE.height * .078);
+    ACTIVITIES.forEach(e => g.fillStyle(e.location === 'Park' ? 0x325c45 : 0xc57c57).fillCircle(264+e.point.x*.078,130+e.point.y*.078,3));
     BUILDINGS.forEach(b => g.fillStyle(b.levels.includes(this.level) ? b.color : 0x969d91).fillRect(264 + b.x * .078, 130 + b.y * .078, b.width * .078, b.height * .078));
   }
   private drawTown(): void {
@@ -105,6 +112,14 @@ export class TownScene extends Phaser.Scene {
         g.fillRect(b.door.x - 24, b.door.y - 16, 48, 26 * TILE - b.door.y + 48);
         g.fillRect(Math.min(b.door.x, 20 * TILE), 26 * TILE - 24, Math.abs(20 * TILE - b.door.x) + 24, 48);
       }
+    }
+    // Park is northwest of Cafe; its path joins the central east-west road.
+    g.fillStyle(0xded2b8).fillRect(6*TILE, 6*TILE, TILE, 11*TILE);
+    g.fillStyle(0x7babba).fillRoundedRect(LAKE.x, LAKE.y, LAKE.width, LAKE.height, 20);
+    g.lineStyle(3,0xc9e0dd).strokeRoundedRect(LAKE.x+6,LAKE.y+6,LAKE.width-12,LAKE.height-12,16);
+    for (const e of ACTIVITIES) {
+      g.fillStyle(0xf0cb75).fillRoundedRect(e.point.x-17,e.point.y-13,34,26,5);
+      this.townArt.add(this.add.text(e.point.x,e.point.y-42,e.location==='Park'?'Park · 公園':'START · 跑酷', {fontFamily:FONT,fontSize:17,color:'#233e36',backgroundColor:'#f7f3e8',padding:{x:6,y:4}}).setOrigin(.5));
     }
     // Draw buildings after paths so roads never cover their walls.
     for (const b of BUILDINGS) {

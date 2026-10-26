@@ -10,6 +10,12 @@ import { Speech } from './Speech';
 import { TownControls } from './TownControls';
 import { element, action } from './dom';
 import './ui.css';
+import { MiniGameUI } from './MiniGameUI';
+import { PracticeStore } from '../games/storage';
+import { LocalScoreRepository, type ScoreRepository } from '../games/scores';
+import { GAME_FACTORIES, createGame } from '../games/registry';
+import { wordsReady } from '../data/words/catalog';
+import type { MiniGame } from '../games/types';
 import { sourcesPanel } from './SourcesPanel';
 
 export class AppUI {
@@ -23,6 +29,10 @@ export class AppUI {
   private readonly speech = new Speech();
   private readonly engine: DialogueEngine;
   private readonly controls: TownControls;
+  private readonly practice = new PracticeStore();
+  private readonly games: MiniGameUI;
+  private readonly scores: ScoreRepository;
+  private readonly unsubscribeGame: () => void;
   private history = element('div', 'dialogue-history');
   private counter = element('p');
   private location: LocationName = 'Cafe';
@@ -34,7 +44,10 @@ export class AppUI {
   private count = 0;
   private readonly unsubscribe: () => void;
 
-  constructor(private readonly progress: ProgressStore) {
+  constructor(private readonly progress: ProgressStore, scores: ScoreRepository = new LocalScoreRepository()) {
+    this.scores = scores;
+    this.games = new MiniGameUI(this.body, this.practice, scores, this.speech, () => this.leave());
+    this.unsubscribeGame = gameEvents.on('minigame:open', ({ id }) => { this.activate(); const game = createGame(id); if (game) this.playGame(game); else { this.title('小遊戲準備中', '這個入口將在後續步驟開放。'); const panel = element('div', 'menu-panel'); panel.append(action('回到小鎮', () => this.leave())); this.show(panel); } });
     this.heading.id = 'dialogue-title'; this.root.hidden = true;
     this.root.setAttribute('role', 'dialog'); this.root.setAttribute('aria-modal', 'true'); this.root.setAttribute('aria-labelledby', this.heading.id);
     const header = element('header', 'ui-header');
@@ -100,22 +113,41 @@ export class AppUI {
     this.activate(); this.title('設定', '你的選擇與進度，保存在這個瀏覽器。');
     const panel = element('div', 'menu-panel scroll-panel');
     panel.append(element('p', '', `目前模式：${this.progress.mode === 'direct' ? '直接第四級模式' : '破關模式'}`), element('p', '', `目前等級：Lv${this.progress.currentLevel} ${LEVEL_INFO[this.progress.currentLevel].title}`), element('p', 'muted', this.progress.isPersistent ? '儲存狀態：可保存' : '儲存狀態：暫時無法保存，重新整理可能遺失進度。'));
+    const nicknameLabel = element('label', '', '排行榜暱稱');
+    const nickname = element('input', 'nickname-input'); nickname.id = 'settings-nickname'; nicknameLabel.htmlFor = nickname.id; nickname.maxLength = 20; nickname.value = this.practice.nickname;
+    panel.append(nicknameLabel, nickname, action('儲存暱稱', () => { this.practice.nickname = nickname.value; nickname.value = this.practice.nickname; }));
+    const sound = action(this.practice.sound ? '小遊戲發音：開啟' : '小遊戲發音：關閉', () => { this.practice.sound = !this.practice.sound; sound.textContent = this.practice.sound ? '小遊戲發音：開啟' : '小遊戲發音：關閉'; sound.setAttribute('aria-pressed', String(this.practice.sound)); if (!this.practice.sound) this.speech.cancel(); });
+    sound.setAttribute('aria-pressed', String(this.practice.sound)); panel.append(sound);
     panel.append(action('資料來源', () => { this.title('資料來源', '官方詞目與衍生學習內容的出處'); this.show(sourcesPanel(() => this.settings())); }), action('切換等級', () => this.levels()), action('重置所有進度', () => this.confirmReset(), 'ui-button danger'), action('回到小鎮', () => this.leave(), 'ui-button quiet'));
     this.show(panel);
   }
   private confirmReset(): void {
-    this.title('確定重置所有進度？', '這會清除模式選擇、已解鎖等級與所有情境紀錄。');
+    this.title('確定重置所有進度？', '這會清除模式、等級、情境、單字練習與本機排行榜。');
     const panel = element('div', 'menu-panel scroll-panel');
     panel.append(element('p', '', '重置後會回到開場選擇，無法復原。'), action('取消，保留進度', () => this.settings()), action('確認重置', () => {
-      this.engine.stop(); this.speech.cancel(); this.progress.reset(); gameEvents.emit('level:changed', 1); this.publishProgress(); this.modeMenu();
+      this.engine.stop(); this.speech.cancel(); this.progress.reset(); this.practice.reset(); void this.scores.clear(); gameEvents.emit('level:changed', 1); this.publishProgress(); this.modeMenu();
     }, 'ui-button danger'));
     this.show(panel);
   }
-  private menu(): void {
+  private playGame(game: MiniGame): void {
+    this.engine.stop(); this.speech.cancel(); this.title(`${game.location === 'School' ? '操場' : game.location} · ${game.name}`, `Lv${this.progress.currentLevel} 單字練習`);
+    void this.games.open(game, this.progress.currentLevel);
+  }
+  private menu(gamesTab = false): void {
+    this.games.stop();
     this.engine.stop(); this.speech.cancel(); this.scenario = undefined;
     const level = this.progress.currentLevel;
     this.title(`${this.location} · Lv${level}`, `${this.file.npcName} · ${this.file.npcRoleZh}，陪你練習。`);
     const panel = element('div', 'menu-panel scroll-panel');
+    const tabs = element('div', 'menu-tabs'); tabs.setAttribute('role', 'tablist');
+    for (const [name, selected] of [['情境對話', false], ['小遊戲', true]] as const) { const tab = action(name, () => this.menu(selected)); tab.setAttribute('role', 'tab'); tab.setAttribute('aria-selected', String(gamesTab === selected)); tabs.append(tab); }
+    panel.append(tabs);
+    if (gamesTab) {
+      const games = GAME_FACTORIES.map(factory => factory()).filter(game => game.location === this.location);
+      if (!games.length) panel.append(element('p', '', '此地點的小遊戲將在後續步驟開放。'));
+      for (const game of games) { const ready = wordsReady(level); const button = action(`${this.location === 'School' ? '操場 · ' : ''}${game.name}${ready ? ' →' : ' · 單字準備中'}`, () => this.playGame(game), 'scenario-card'); button.disabled = !ready; panel.append(button); }
+      panel.append(action('回到小鎮', () => this.leave(), 'ui-button quiet')); this.show(panel); return;
+    }
     const scenarios = this.file.scenarios.filter(s => s.level === level);
     if (!scenarios.length) panel.append(element('p', '', '這個地點的本級情境正在準備中，先去咖啡廳練習吧！'));
     for (const scenario of scenarios) {
@@ -173,16 +205,18 @@ export class AppUI {
     panel.append(action('再玩一次', () => this.start(scenario), 'ui-button primary'), action('選其他情境', () => this.menu()), action('回到小鎮', () => this.leave(), 'ui-button quiet')); this.show(panel);
   }
   private leave(): void {
+    this.games.stop();
     this.engine.stop(); this.speech.cancel(); this.root.hidden = true; document.body.classList.remove('dialogue-open'); gameEvents.emit('ui:active', false);
     if (this.inside) { this.inside = false; gameEvents.emit('interior:leave', { location: this.location }); }
     document.querySelector<HTMLCanvasElement>('#game canvas')?.focus({ preventScroll: true });
   }
   private trapFocus(event: KeyboardEvent): void {
-    event.stopPropagation(); if (event.key !== 'Tab') return;
-    const targets = [...this.root.querySelectorAll<HTMLElement>('button:not(:disabled), a[href]')].filter(button => button.getClientRects().length > 0);
+    if (event.key !== 'Tab') { if (!this.body.querySelector('.game-stage')) event.stopPropagation(); return; }
+    event.stopPropagation();
+    const targets = [...this.root.querySelectorAll<HTMLElement>('button:not(:disabled), a[href], input')].filter(button => button.getClientRects().length > 0);
     const first = targets[0], last = targets.at(-1);
     if (event.shiftKey && (document.activeElement === first || !this.root.contains(document.activeElement))) { event.preventDefault(); last?.focus(); }
     else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
   }
-  destroy(): void { this.unsubscribe(); this.engine.stop(); this.speech.destroy(); this.controls.destroy(); this.root.remove(); }
+  destroy(): void { this.games.stop(); this.unsubscribeGame(); this.unsubscribe(); this.engine.stop(); this.speech.destroy(); this.controls.destroy(); this.root.remove(); }
 }

@@ -1,9 +1,9 @@
-import { BUILDINGS, COLS, ROWS, TILE, PLAYER_RADIUS, WORLD_WIDTH, WORLD_HEIGHT, center, type Point } from './town';
+import { BUILDINGS, LAKE, COLS, ROWS, TILE, PLAYER_RADIUS, WORLD_WIDTH, WORLD_HEIGHT, center, type Point } from './town';
 
 export function canStand(x: number, y: number): boolean {
   const r = PLAYER_RADIUS;
   return x >= r && y >= r && x <= WORLD_WIDTH - r && y <= WORLD_HEIGHT - r &&
-    !BUILDINGS.some(b => x + r > b.x && x - r < b.x + b.width && y + r > b.y && y - r < b.y + b.height);
+    ![...BUILDINGS, LAKE].some(b => x + r > b.x && x - r < b.x + b.width && y + r > b.y && y - r < b.y + b.height);
 }
 
 /** Four-way breadth-first search; every edge stays on a collision-free tile corridor. */

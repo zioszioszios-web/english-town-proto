@@ -1,4 +1,4 @@
-import type { LocationName, Point } from './data/town';
+import type { LocationName, TownDestination, Point } from './data/town';
 import type { Level } from './data/levels';
 interface Events {
   'interior:open': { location: LocationName };
@@ -6,7 +6,8 @@ interface Events {
   'ui:active': boolean;
   'controls:move': Point;
   'controls:enter': undefined;
-  'entrance:nearby': { location: LocationName; nameZh: string } | null;
+  'minigame:open': { id: string };
+  'entrance:nearby': { location: TownDestination; nameZh: string } | null;
   'level:changed': Level;
   'progress:changed': { completed: number; total: number };
 }

@@ -1,0 +1,44 @@
+.mini-game { flex: 1; min-block-size: 0; padding: clamp(.75rem,3vw,1.25rem); }
+.game-intro, .game-results, .game-stage { display: flex; flex-direction: column; gap: .75rem; }
+.game-intro h2, .game-results h2, .game-stage h2 { margin: 0; }
+.nickname-input { font: inherit; font-size: 1rem; min-block-size: 2.75rem; inline-size: 100%; padding: .65rem; border: .0625rem solid #a8b89d; border-radius: .5rem; background: #fffdf7; color: #233e36; }
+.menu-tabs { display: flex; gap: .5rem; }
+.menu-tabs > button { flex: 1; }
+.menu-tabs [aria-selected="true"] { background: #325c45; color: #fffdf7; }
+.game-toolbar { display: flex; justify-content: space-between; align-items: center; gap: .5rem; border-block-end: .0625rem solid #c6cfb8; padding-block-end: .5rem; margin-block-end: .75rem; }
+.live-score, .game-progress, .game-feedback { font-size: .875rem; }
+.game-word, .game-question { font-size: clamp(1.3rem,5vw,1.9rem); overflow-wrap: anywhere; }
+.game-timer { font-weight: 700; color: #85552d; }
+.game-choices { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .65rem; }
+.game-choices > button { padding: .7rem; background: #fffdf7; border: .0625rem solid #a8b89d; border-radius: .65rem; }
+.game-choices > button:disabled { opacity: .7; }
+.fishing-pond { position: relative; block-size: clamp(5rem,20vh,9rem); background: #7babba; border-radius: 1rem; overflow: hidden; }
+.fishing-rod { position: absolute; inset-inline-start: 10%; inset-block-start: 10%; font-size: 2.5rem; transform-origin: bottom left; }
+.fish { position: absolute; inset-inline-start: 65%; inset-block-start: 60%; color: #f3bd61; font-size: 2rem; animation: bob 1s infinite alternate; }
+.cast .fishing-rod { animation: cast .6s ease-out; }
+.reel .fish { animation: reel .65s forwards; }
+.escaped .fish { animation: escape .65s forwards; }
+.running-track { position: relative; block-size: 3.5rem; background: repeating-linear-gradient(90deg,#d7b593 0 9%,#fffdf7 9% 10%); border-radius: .5rem; }
+.runner { position: absolute; inset-block-start: 25%; color: #325c45; font-size: 1.5rem; transition: inset-inline-start .3s; }
+.finish-line { position: absolute; inset-inline-end: 0; inset-block-start: 20%; font-size: 1.5rem; }
+.spelling-hint { font: 700 clamp(1rem,4vw,1.5rem)/1.6 monospace; overflow-wrap: anywhere; }
+.spelling-output { min-block-size: 3rem; padding: .5rem; border: .125rem solid #a8b89d; border-radius: .5rem; background: #fffdf7; font-size: 1.25rem; white-space: pre-wrap; overflow-wrap: anywhere; }
+.shake { animation: shake .3s; }
+.screen-keyboard { display: flex; flex-direction: column; gap: .3rem; touch-action: manipulation; }
+.keyboard-row { display: flex; gap: .15rem; justify-content: center; }
+.ui-overlay .key { flex: 1; min-inline-size: 0; min-block-size: 2.75rem; padding: .2rem 0; border: .0625rem solid #a8b89d; border-radius: .35rem; background: #fffdf7; font-size: .9375rem; }
+.key.wide { flex: 1; max-inline-size: 40%; }
+.memory-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: .5rem; }
+.ui-overlay .memory-card { min-block-size: clamp(5rem,17vh,8rem); padding: .3rem; border: .125rem solid #325c45; border-radius: .65rem; background: #325c45; color: #fffdf7; font-size: .8125rem; overflow-wrap: anywhere; }
+.ui-overlay .memory-card.flipped { background: #fffdf7; color: #233e36; }
+.ui-overlay .memory-card.matched { background: #d1dfbc; color: #233e36; border-color: #80996b; opacity: 1; }
+.result-score { font-size: 2rem; font-weight: 700; color: #325c45; }
+.wrong-word { text-align: start; }
+.leaderboard { padding-inline-start: 1.75rem; margin: 0; }
+.leaderboard li { padding-block: .35rem; overflow-wrap: anywhere; }
+@keyframes cast { from { transform: rotate(-60deg); } to { transform: rotate(0); } }
+@keyframes bob { to { transform: translateY(-.4rem); } }
+@keyframes reel { to { transform: translate(-7rem,-6rem); opacity: 0; } }
+@keyframes escape { to { transform: translateX(7rem); opacity: 0; } }
+@keyframes shake { 25% { transform: translateX(-.4rem); } 75% { transform: translateX(.4rem); } }
+@media (prefers-reduced-motion: reduce) { .mini-game *, .mini-game *::before { animation: none !important; transition: none !important; } }
