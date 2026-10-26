@@ -43,3 +43,5 @@
 執行 python scripts/build_word_batches.py 3 可重建四批共 374 筆資料，59 筆待複核。原生主題 food_drink 15、travel_lodging 32、transport_city 39，未達原先每級 40 字要求。使用者已明確同意：字庫仍按來源去重；遊戲題庫不足 40 字時，依序補入較近的低等級同主題字，以補字後題庫檢查 40 字門檻。原有不足 20 字補入本級 daily_life 的規則保留。
 
 補字不更改 WordEntry.level、id 或來源，排行榜仍按玩家選擇的等級分開。本級詞不刪除，低級整個主題字集加入後隨機取題，避免只取前幾個字造成字母順序偏差。畫面列出本級與補入字數；只有需要補字時才載入較低級字庫。程式與檢查腳本共用 practicePool 函式，亦額外檢查每個遊戲的品項篩選後題庫至少 40 字。
+
+原始 NAWL、TSL 文字檔保留官方 CRLF 位元組；.gitattributes 停用這兩檔的文字換行轉換，確保 Windows、Linux 與 Git 提交的 SHA-256 一致，不能以忽略雜湊測試代替保留原檔。

@@ -1,0 +1,4 @@
+
+# Preserve downloaded official text files byte-for-byte for SHA-256 validation.
+data/sources/nawl-1.2-alphabetized.txt -text
+data/sources/tsl-1.2-alphabetized.txt -text
