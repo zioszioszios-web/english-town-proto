@@ -1,10 +1,15 @@
 {
   "1": {
     "ready": true,
-    "expectedCount": 2003
+    "expectedCount": 2003,
+    "wordCount": 2003,
+    "reviewCount": 82
   },
   "2": {
-    "ready": false
+    "ready": true,
+    "expectedCount": 4203,
+    "wordCount": 4203,
+    "reviewCount": 314
   },
   "3": {
     "ready": false

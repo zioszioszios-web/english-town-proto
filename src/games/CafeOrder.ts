@@ -4,6 +4,7 @@ import type { MiniGameContext } from './types';
 import type { WordEntry } from '../data/words/types';
 import { shuffle } from './rules';
 import { action, element } from '../ui/dom';
+const MENU_ITEMS = new Set(["almond", "apple", "bacon", "banana", "barbecue", "bass", "batter", "bean", "beef", "beer", "berry", "beverage", "biscuit", "bread", "broth", "brunch", "buffet", "bun", "burger", "butter", "cabbage", "cake", "candy", "carrot", "celery", "cereal", "champagne", "cheese", "cherry", "chestnut", "chicken", "chili", "chip", "chocolate", "clam", "cocktail", "cocoa", "coconut", "coffee", "cola", "cookie", "corn", "crab", "cracker", "cream", "cucumber", "curry", "dessert", "dough", "doughnut", "dressing", "drink", "duck", "dumpling", "egg", "fish", "flour", "food", "fowl", "fries", "fruit", "garlic", "ginger", "grain", "grape", "grapefruit", "guava", "gum", "ham", "hamburger", "herb", "honey", "hot dog", "ice", "ice cream", "jam", "jasmine", "jelly", "juice", "ketchup", "lamb", "lemon", "lemonade", "lettuce", "liquor", "liver", "lobster", "lollipop", "mango", "meat", "melon", "milk", "mint", "mushroom", "mustard", "noodle", "nut", "oatmeal", "octopus", "oil", "olive", "onion", "orange", "oyster", "pancake", "papaya", "pasta", "pastry", "pea", "peach", "peanut", "pear", "pepper", "pickle", "pie", "pineapple", "pizza", "plum", "popcorn", "pork", "potato", "poultry", "powder", "pudding", "pumpkin", "radish", "raisin", "rib", "rice", "salad", "salmon", "salt", "sandwich", "sauce", "sausage", "seafood", "shrimp", "snack", "soda", "soft drink", "soup", "soy-sauce", "soybean", "spaghetti", "spice", "spinach", "squash", "steak", "stew", "strawberry", "sugar", "syrup", "tangerine", "tea", "toast", "tofu", "tomato", "trifle", "trout", "tuna", "turkey", "vanilla", "vegetable", "vinegar", "walnut", "water", "watermelon", "wheat", "whiskey", "wine", "yam", "yogurt", "yolk"]);
 export function cafeOrderText(targets: readonly WordEntry[], level: Level): string {
   if (!targets[0] || (level >= 3 && !targets[1])) throw new Error('Order needs enough items for its level');
   if (level === 1) return targets[0].word;
@@ -12,8 +13,8 @@ export function cafeOrderText(targets: readonly WordEntry[], level: Level): stri
 }
 export class CafeOrder extends BaseGame {
   readonly id = 'cafe-order'; readonly name = '聽單點餐'; readonly location = 'Cafe'; readonly topics = ['food_drink'] as const;
-  // Items must be nouns; quantity/grammar words tagged for ordering are not menu items.
-  eligible(word: WordEntry): boolean { return /^n\./.test(word.pos) && !["appetite", "amount", "bag", "bakery", "basket", "bill", "bottle", "bowl", "breakfast", "lunch", "dinner", "supper", "meal", "taste", "price", "sale", "order", "service", "restaurant", "cafe", "cafeteria", "menu", "tip", "check", "customer", "waiter", "waitress", "shopkeeper", "sample", "piece", "loaf", "pair", "kind", "size", "half", "total", "noise", "card", "cash", "change", "cup", "diet", "dish", "dozen", "farm", "fork", "freezer", "glass", "gram", "hen", "hunger", "jazz", "kitchen", "knife", "lid", "liter", "machine", "magazine", "market", "microwave", "napkin", "oven", "pan", "party", "picnic", "plate", "pot", "production", "refrigerator", "saucer", "sink", "slice", "spoon", "steam", "stove", "straw", "supermarket", "table", "teapot", "tradition", "wok", "chopsticks", "convenience store", "credit card", "dining room"].includes(word.word.toLowerCase()); }
+  // Only curated food/drink headwords can appear on the menu.
+  eligible(word: WordEntry): boolean { return MENU_ITEMS.has(word.word.toLowerCase()); }
   private customer = 0;
   start(context: MiniGameContext): void { this.begin(context); this.customer = 0; this.question(); }
   private question(): void {

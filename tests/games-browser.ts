@@ -13,9 +13,11 @@ const speech = new Speech();
 const root = element('main','ui-overlay'), shell = element('div','ui-shell'), host = element('div','ui-body');
 root.append(shell); shell.append(element('h1','ui-title','小遊戲互動測試頁'),host); document.body.append(root);
 const ui = new MiniGameUI(host,practice,scores,speech,()=>menu());
+let level: 1|2 = 1;
 function menu(): void {
   ui.stop(); const panel = element('div','menu-panel');
-  for (const factory of GAME_FACTORIES) { const game = factory(); panel.append(action(game.name,()=>{void ui.open(game,1);})); }
+  panel.append(action('切換測試等級（目前 Lv'+level+'）',()=>{level=level===1?2:1;menu();}));
+  for (const factory of GAME_FACTORIES) { const game = factory(); panel.append(action(game.name,()=>{void ui.open(game,level);})); }
   host.replaceChildren(panel);
 }
 menu();

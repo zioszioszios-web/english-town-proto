@@ -5,22 +5,24 @@ import { WORD_TOPICS, PLACE_TOPICS, normalizeWord, type WordEntry } from '../src
 const batchOnly = process.argv.includes('--batch');
 const all: WordEntry[] = [];
 const failures: string[] = [];
-const source = JSON.parse(await readFile(resolve('data/sources/moe-lv1-raw.json'), 'utf8')) as { uniqueWordCount: number; words: { word: string }[] };
-const expected = new Set(source.words.map(entry => normalizeWord(entry.word)));
+const sourceFiles: Record<number,string> = {1:'moe-lv1-raw.json',2:'ceec-lv2-raw.json',3:'nawl-lv3-raw.json',4:'tsl-lv4-raw.json'};
 const seen = new Map<string, number>();
 for (const level of [1, 2, 3, 4]) {
   let text: string;
   try { text = await readFile(resolve(`src/data/words/lv${level}.json`), 'utf8'); }
   catch (error) { if ((error as NodeJS.ErrnoException).code === 'ENOENT' && level > 1) { console.log(`Lv${level}: 單字準備中`); continue; } throw error; }
+  const source = JSON.parse(await readFile(resolve('data/sources/'+sourceFiles[level]),'utf8')) as {source:string;uniqueWordCount:number;words:{word:string}[]};
+  const expected = new Set(source.words.map(entry=>normalizeWord(entry.word)));
   const words: unknown = JSON.parse(text); validateWords(words);
   for (const word of words) {
     if (word.level !== level) failures.push(`${word.id}: level 與檔名不符`);
+    if (word.source !== source.source) failures.push(`${word.id}: 來源名稱與原始字表不符`);
     const key = normalizeWord(word.word);
     if (seen.has(key)) failures.push(`${key}: Lv${seen.get(key)} 與 Lv${level} 重複`);
     seen.set(key, level);
-    if (level === 1 && !expected.has(key)) failures.push(`${key}: 不在官方原始字表`);
+    if (!expected.has(key)) failures.push(`${key}: 不在官方原始字表`);
   }
-  if (level === 1 && !batchOnly && words.length !== source.uniqueWordCount) failures.push(`Lv1: ${words.length}/${source.uniqueWordCount}，尚未完成原始字表`);
+  if (!batchOnly && words.length !== source.uniqueWordCount) failures.push(`Lv${level}: ${words.length}/${source.uniqueWordCount}，尚未完成原始字表`);
   const counts = Object.fromEntries(WORD_TOPICS.map(topic => [topic, words.filter(word => word.topics.includes(topic)).length]));
   console.log(`Lv${level}: ${words.length} 字；review=${words.filter(word => word.review).length}`);
   console.log(JSON.stringify(counts));

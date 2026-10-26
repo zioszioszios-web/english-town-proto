@@ -28,3 +28,30 @@ test('downloaded MOE source and extracted wordlist stay pinned to the recorded o
   assert.equal(raw.uniqueWordCount, 2003);
   assert.deepEqual(Object.keys(raw.duplicates).sort(), ['may', 'miss']);
 });
+
+test('word identity treats a hyphenated spelling and its joined spelling as the same word', () => {
+  assert.equal(normalizeWord('E-mail'),normalizeWord('email'));
+  assert.throws(()=>validateWords([{...words[0],word:'e-mail'},{...words[1],word:'email'}]),/Duplicate/);
+});
+
+
+test('Lv2 matches CEEC source counts, has every place topic and does not overlap Lv1', async () => {
+  const {default: entries}=await import('../src/data/words/lv2.json');
+  const {default: source}=await import('../data/sources/ceec-lv2-raw.json');
+  const {createHash}=await import('node:crypto');
+  const {readFile}=await import('node:fs/promises');
+  validateWords(entries);
+  assert.equal(entries.length,4203);
+  assert.equal(entries.length,source.uniqueWordCount);
+  assert.equal(source.sourceWordCount-source.excludedCount,entries.length);
+  assert.equal(createHash('sha256').update(await readFile('data/sources/ceec-111-vocabulary.pdf')).digest('hex'),source.sha256);
+  const lower=new Set(words.map(w=>normalizeWord(w.word)));
+  const official=new Set(source.words.map(w=>normalizeWord(w.word)));
+  for(const w of entries) {assert.ok(official.has(normalizeWord(w.word)));assert.ok(!lower.has(normalizeWord(w.word)),w.word);}
+  for(const topic of PLACE_TOPICS) assert.ok(entries.filter(w=>w.topics.includes(topic)).length>=40,topic);
+  assert.ok(entries.some(w=>w.word==='chairperson'));
+  assert.ok(!entries.some(w=>w.word==='email'));
+  const {loadWords,wordBankInfo}=await import('../src/data/words/catalog');
+  assert.equal((await loadWords(2))?.length,4203);
+  assert.equal(wordBankInfo(2).reviewCount,entries.filter(w=>w.review).length);
+});

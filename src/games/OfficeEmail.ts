@@ -1,3 +1,4 @@
+import { normalizeWord } from '../data/words/types';
 import { BaseGame } from './BaseGame';
 import type { MiniGameContext } from './types';
 import type { WordEntry } from '../data/words/types';
@@ -51,7 +52,7 @@ export class OfficeEmail extends BaseGame {
       if(this.values.some(value=>!value.trim())){this.feedback.textContent='還有空格沒填，請先完成所有空格。';return;}
       this.submitted=true;submit.disabled=true;
       this.batch.forEach((word,index)=>{
-        const correct=this.values[index].trim().toLowerCase()===word.word.toLowerCase();this.context.answer(word,correct);
+        const correct=normalizeWord(this.values[index])===normalizeWord(word.word);this.context.answer(word,correct);
         rows[index].classList.add(correct?'answer-correct':'answer-wrong');
         if(!correct)rows[index].append(element('p','answer-correction','正確答案：'+word.word+' · '+word.zh.join('、')));
         rows[index].querySelectorAll('button').forEach(b=>{b.disabled=true;});

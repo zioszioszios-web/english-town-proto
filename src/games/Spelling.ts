@@ -1,3 +1,4 @@
+import { normalizeWord } from '../data/words/types';
 import { BaseGame } from './BaseGame';
 import type { MiniGameContext } from './types';
 import type { WordEntry } from '../data/words/types';
@@ -36,7 +37,7 @@ export class Spelling extends BaseGame {
     const word = this.queue[0]; if (!word) return;
     if (key === 'Enter') {
       if (!this.input.trim()) return;
-      const correct = this.input.trim().toLowerCase() === word.word.toLowerCase();
+      const correct = normalizeWord(this.input) === normalizeWord(word.word);
       this.context.answer(word, correct);
       if (correct) { this.steps++; this.queue.shift(); this.context.speak(word.word); this.question(); }
       else { this.feedback.textContent = '再試一次，或點「看答案」。'; this.output.classList.remove('shake'); void this.output.offsetWidth; this.output.classList.add('shake'); this.input = ''; this.output.textContent = '再試一次'; }

@@ -65,7 +65,7 @@ test('cafe orders use one word, one sentence, then two ordered items by level', 
   assert.throws(()=>cafeOrderText([coffee],3),/enough items/);
   const game=new CafeOrder();
   assert.equal(game.eligible(coffee),true);
-  for(const wordText of ['cafeteria','tradition','freezer','cash']) assert.equal(game.eligible({...coffee,word:wordText}),false);
+  for(const wordText of ['cafeteria','tradition','freezer','cash','patron','calcium','chef','offering','apprentice']) assert.equal(game.eligible({...coffee,word:wordText}),false);
   assert.equal(game.eligible({...coffee,pos:'adv.',word:'without'}),false);
 });
 

@@ -1,15 +1,15 @@
 import { WORD_SOURCES } from '../data/words/sources';
-import { loadWords, wordsReady } from '../data/words/catalog';
+import { wordBankInfo } from '../data/words/catalog';
 import { LEVELS } from '../data/levels';
 import { element, action } from './dom';
 
 export function sourcesPanel(back: () => void): HTMLElement {
   const panel = element('div', 'menu-panel scroll-panel sources-panel');
-  const status = element('p', 'muted', LEVELS.map(level => `Lv${level}：${wordsReady(level) ? '已完成' : '單字準備中'}`).join(' · '));
+  const status = element('p', 'muted', LEVELS.map(level => {
+    const info = wordBankInfo(level);
+    return 'Lv'+level+'：'+(info.ready ? info.wordCount+' 字，'+info.reviewCount+' 筆待複核' : '單字準備中');
+  }).join(' · '));
   panel.append(status);
-  void loadWords(1).then(words => {
-    if (words) status.textContent = `Lv1：${words.length} 字，${words.filter(word => word.review).length} 筆待複核。Lv2～Lv4：單字準備中。`;
-  }).catch(() => { status.textContent = '字庫暫時載入失敗，請重新整理後再試。'; });
   panel.append(element('p', '', '英文詞目依官方字表整理；中文、例句與主題由 AI 輔助產生。不確定內容標為待複核。重複字歸入最低等級。'));
   for (const source of WORD_SOURCES) {
     const card = element('article', 'source-card');

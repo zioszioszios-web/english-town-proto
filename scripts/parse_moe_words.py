@@ -47,6 +47,7 @@ def parse():
             slash_forms = headword.split('/')
             word = slash_forms[0].replace('’', "'").casefold()
             aliases.extend(slash_forms[1:])
+            aliases = [word + 's' if alias == 's' else alias for alias in aliases]
             if not re.fullmatch(r"[a-z]+(?:[ .'-][a-z]*)*\.?", word): raise ValueError(f'Unexpected headword: {source_entry}')
             entries.append({'word': word, 'raw': source_entry, 'section': section, 'aliases': aliases})
     grouped = defaultdict(list)
