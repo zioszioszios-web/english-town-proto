@@ -24,6 +24,7 @@
   "include": [
     "src",
     "vite.config.ts",
-    "tests"
+    "tests",
+    "scripts/check-words.ts"
   ]
 }

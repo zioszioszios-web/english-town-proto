@@ -67,3 +67,6 @@
 .control-hint { font-size: .8125rem; color: #233e36; background: rgb(247 243 232 / 85%); padding: .15rem .3rem; border-radius: .3rem; margin: 0; }
 .enter-button { pointer-events: auto; margin-block-end: 2rem; max-inline-size: 45%; }
 @media (max-height: 35rem) { .ui-header { padding-block: .4rem; } .ui-title { margin-block: .2rem; } .ui-subtitle { display: none; } .reply-panel { max-block-size: 40dvh; } .joystick { inline-size: 5.5rem; } }
+
+.source-card { padding: .85rem; border: .0625rem solid #a8b89d; border-radius: .75rem; overflow-wrap: anywhere; }
+.source-card a { display: inline-flex; align-items: center; min-block-size: 2.75rem; color: #325c45; font-weight: 700; }

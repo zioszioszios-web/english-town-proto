@@ -10,6 +10,7 @@ import { Speech } from './Speech';
 import { TownControls } from './TownControls';
 import { element, action } from './dom';
 import './ui.css';
+import { sourcesPanel } from './SourcesPanel';
 
 export class AppUI {
   private readonly root = element('section', 'ui-overlay');
@@ -99,7 +100,7 @@ export class AppUI {
     this.activate(); this.title('設定', '你的選擇與進度，保存在這個瀏覽器。');
     const panel = element('div', 'menu-panel scroll-panel');
     panel.append(element('p', '', `目前模式：${this.progress.mode === 'direct' ? '直接第四級模式' : '破關模式'}`), element('p', '', `目前等級：Lv${this.progress.currentLevel} ${LEVEL_INFO[this.progress.currentLevel].title}`), element('p', 'muted', this.progress.isPersistent ? '儲存狀態：可保存' : '儲存狀態：暫時無法保存，重新整理可能遺失進度。'));
-    panel.append(action('切換等級', () => this.levels()), action('重置所有進度', () => this.confirmReset(), 'ui-button danger'), action('回到小鎮', () => this.leave(), 'ui-button quiet'));
+    panel.append(action('資料來源', () => { this.title('資料來源', '官方詞目與衍生學習內容的出處'); this.show(sourcesPanel(() => this.settings())); }), action('切換等級', () => this.levels()), action('重置所有進度', () => this.confirmReset(), 'ui-button danger'), action('回到小鎮', () => this.leave(), 'ui-button quiet'));
     this.show(panel);
   }
   private confirmReset(): void {
@@ -178,7 +179,7 @@ export class AppUI {
   }
   private trapFocus(event: KeyboardEvent): void {
     event.stopPropagation(); if (event.key !== 'Tab') return;
-    const targets = [...this.root.querySelectorAll<HTMLButtonElement>('button:not(:disabled)')].filter(button => button.getClientRects().length > 0);
+    const targets = [...this.root.querySelectorAll<HTMLElement>('button:not(:disabled), a[href]')].filter(button => button.getClientRects().length > 0);
     const first = targets[0], last = targets.at(-1);
     if (event.shiftKey && (document.activeElement === first || !this.root.contains(document.activeElement))) { event.preventDefault(); last?.focus(); }
     else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }

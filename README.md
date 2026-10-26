@@ -115,3 +115,13 @@ Remove-Item Env:VITE_BASE_PATH
 - 測試瀏海安全區域、網址列收合、直橫轉換與較短畫面。HTML 控制介面等比例寬度與 Phaser.Scale.FIT（畫布等比適應）分開管理。
 
 正式網址：https://zioszioszios-web.github.io/english-town-proto/ 。實際 iPhone 操作與出聲仍需實機驗收。
+
+## 階段 3：步驟 1
+
+Lv1 已依教育部原表完成 2,003 個去重詞目，含中文、詞性、例句、主題與待複核標記。Lv2～Lv4 尚未開放。設定頁可查看四份資料來源與授權；字庫按需載入，不塞進遊戲入口封包。
+
+- `npm run check:words`：完整字庫檢查、主題統計與待複核清單。
+- `npm run check:words -- --batch`：編寫期間的批次檢查，不代表完整字庫通過。
+- 來源、解析方式、字數差異及授權：[data/sources/README.md](data/sources/README.md)。
+- 待教學人員複核：[data/review-list.md](data/review-list.md)。
+- 原始字表解析需 Python + pdfplumber；一般開發、測試、部署僅需 Node.js。

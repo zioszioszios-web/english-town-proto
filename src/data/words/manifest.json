@@ -1,0 +1,15 @@
+{
+  "1": {
+    "ready": true,
+    "expectedCount": 2003
+  },
+  "2": {
+    "ready": false
+  },
+  "3": {
+    "ready": false
+  },
+  "4": {
+    "ready": false
+  }
+}
