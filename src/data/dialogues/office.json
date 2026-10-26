@@ -1,0 +1,106 @@
+{
+  "location": "Office",
+  "npcName": "Jordan",
+  "npcRole": "Team lead",
+  "npcRoleZh": "組長",
+  "scenarios": [
+    {
+      "id": "office-lv4-firstday",
+      "location": "Office",
+      "level": 4,
+      "title": "Your first day",
+      "titleZh": "到職介紹與確認會議",
+      "nodes": [
+        {
+          "id": "hello",
+          "npc": "Welcome to the team! I'm Jordan, your team lead. Could you tell us a little about yourself?",
+          "npcZh": "歡迎加入！我是你的組長 Jordan。可以簡單自我介紹嗎？",
+          "replies": [
+            {
+              "en": "Hi, I'm Taylor. I'll be supporting the sales team, and I'm looking forward to working with everyone.",
+              "zh": "大家好，我是 Taylor，會協助業務團隊，很期待和大家合作。",
+              "next": "role"
+            }
+          ]
+        },
+        {
+          "id": "role",
+          "npc": "It's great to have you here. Would you prefer to start with the project overview or the office tour?",
+          "npcZh": "很高興你加入。你想先了解專案，還是先參觀辦公室？",
+          "replies": [
+            {
+              "en": "The project overview would help me get up to speed.",
+              "zh": "我想先了解專案，方便盡快進入狀況。",
+              "next": "project"
+            },
+            {
+              "en": "An office tour would be great. I'd like to know where everything is.",
+              "zh": "先參觀辦公室很棒，我想知道各個空間在哪裡。",
+              "next": "tour"
+            }
+          ]
+        },
+        {
+          "id": "project",
+          "npc": "We're preparing a proposal for a new client. You'll help organize the customer feedback.",
+          "npcZh": "我們正準備新客戶的提案，你會協助整理客戶回饋。",
+          "replies": [
+            {
+              "en": "That sounds good. When is the next team meeting?",
+              "zh": "聽起來不錯，下次團隊會議是什麼時候？",
+              "next": "meeting"
+            }
+          ]
+        },
+        {
+          "id": "tour",
+          "npc": "Let's start with the shared workspace. The meeting rooms are just down the hall.",
+          "npcZh": "先從共用工作區開始，會議室就在走廊另一頭。",
+          "replies": [
+            {
+              "en": "Thanks for showing me around. When is the next team meeting?",
+              "zh": "謝謝你帶我參觀，下次團隊會議是什麼時候？",
+              "next": "meeting"
+            }
+          ]
+        },
+        {
+          "id": "meeting",
+          "npc": "It's at ten thirty in Meeting Room B. The calendar invitation should already be in your inbox.",
+          "npcZh": "十點半在 B 會議室，行事曆邀請應該已經寄到你的信箱。",
+          "replies": [
+            {
+              "en": "I'll check my inbox. Is there anything I should prepare beforehand?",
+              "zh": "我會查看信箱，會前有什麼需要準備的嗎？",
+              "next": "prepare"
+            }
+          ]
+        },
+        {
+          "id": "prepare",
+          "npc": "Please read the project summary and note any questions. We don't expect you to know everything on day one.",
+          "npcZh": "請先讀專案摘要，記下問題。我們不會期待你第一天就了解所有事情。",
+          "replies": [
+            {
+              "en": "Understood. I'll review the summary and bring my questions to the meeting.",
+              "zh": "了解，我會先讀摘要，並在會議上提出問題。",
+              "next": "bye"
+            }
+          ]
+        },
+        {
+          "id": "bye",
+          "npc": "Perfect. Let me know if you have any trouble accessing the shared folder.",
+          "npcZh": "很好，共用資料夾如果有存取問題，隨時告訴我。",
+          "replies": [
+            {
+              "en": "Will do. Thanks for helping me settle in.",
+              "zh": "好的，謝謝你幫我適應新環境。",
+              "next": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

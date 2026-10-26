@@ -1,0 +1,106 @@
+{
+  "location": "Hotel",
+  "npcName": "Alex",
+  "npcRole": "Receptionist",
+  "npcRoleZh": "櫃檯接待員",
+  "scenarios": [
+    {
+      "id": "hotel-lv1-checkin",
+      "title": "Checking in",
+      "titleZh": "辦理入住",
+      "level": 1,
+      "nodes": [
+        {
+          "id": "hello",
+          "npc": "Hello! Do you have a room here?",
+          "npcZh": "你好！你有訂房嗎？",
+          "replies": [
+            {
+              "en": "Yes. My name is Taylor Chen.",
+              "zh": "有，我叫 Taylor Chen。",
+              "next": "room"
+            }
+          ]
+        },
+        {
+          "id": "room",
+          "npc": "A room for two nights. Is that right?",
+          "npcZh": "一間房，住兩晚，對嗎？",
+          "replies": [
+            {
+              "en": "Yes, that is right.",
+              "zh": "對，沒錯。",
+              "next": "bed"
+            }
+          ]
+        },
+        {
+          "id": "bed",
+          "npc": "Would you like one big bed or two small beds?",
+          "npcZh": "你想要一張大床，還是兩張小床？",
+          "replies": [
+            {
+              "en": "One big bed, please.",
+              "zh": "一張大床，謝謝。",
+              "next": "big"
+            },
+            {
+              "en": "Two small beds, please.",
+              "zh": "兩張小床，謝謝。",
+              "next": "two"
+            }
+          ]
+        },
+        {
+          "id": "big",
+          "npc": "Your room has one big bed. It is room 201.",
+          "npcZh": "你的房間是一張大床，房號是 201。",
+          "replies": [
+            {
+              "en": "Thank you. Where can I eat in the morning?",
+              "zh": "謝謝。早上可以在哪裡吃東西？",
+              "next": "food"
+            }
+          ]
+        },
+        {
+          "id": "two",
+          "npc": "Your room has two small beds. It is room 202.",
+          "npcZh": "你的房間是兩張小床，房號是 202。",
+          "replies": [
+            {
+              "en": "Thank you. Where can I eat in the morning?",
+              "zh": "謝謝。早上可以在哪裡吃東西？",
+              "next": "food"
+            }
+          ]
+        },
+        {
+          "id": "food",
+          "npc": "You can eat here from seven to ten.",
+          "npcZh": "七點到十點可以在這裡用餐。",
+          "replies": [
+            {
+              "en": "Great. When do I need to leave?",
+              "zh": "太好了，我幾點前要退房？",
+              "next": "bye"
+            }
+          ]
+        },
+        {
+          "id": "bye",
+          "npc": "Please leave the room by eleven. Here is your key.",
+          "npcZh": "請在十一點前退房。這是你的鑰匙。",
+          "replies": [
+            {
+              "en": "Thank you for your help.",
+              "zh": "謝謝你的幫忙。",
+              "next": null
+            }
+          ]
+        }
+      ],
+      "location": "Hotel"
+    }
+  ]
+}

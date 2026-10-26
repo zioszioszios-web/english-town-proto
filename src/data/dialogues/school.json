@@ -1,0 +1,106 @@
+{
+  "location": "School",
+  "npcName": "Ms. Lee",
+  "npcRole": "Teacher",
+  "npcRoleZh": "老師",
+  "scenarios": [
+    {
+      "id": "school-lv1-homework",
+      "location": "School",
+      "level": 1,
+      "title": "Homework and a pencil",
+      "titleZh": "問作業與借文具",
+      "nodes": [
+        {
+          "id": "hello",
+          "npc": "Hi! Do you have a question?",
+          "npcZh": "嗨！你有問題想問嗎？",
+          "replies": [
+            {
+              "en": "Yes. What is our homework?",
+              "zh": "有，請問我們的作業是什麼？",
+              "next": "homework"
+            }
+          ]
+        },
+        {
+          "id": "homework",
+          "npc": "Please read page ten and write five words.",
+          "npcZh": "請讀第十頁，寫五個單字。",
+          "replies": [
+            {
+              "en": "When do we need to give it to you?",
+              "zh": "我們什麼時候要交給你？",
+              "next": "when"
+            }
+          ]
+        },
+        {
+          "id": "when",
+          "npc": "Please bring it on Friday. Do you need anything else?",
+          "npcZh": "星期五帶來就好。還需要什麼嗎？",
+          "replies": [
+            {
+              "en": "May I borrow a pencil?",
+              "zh": "我可以借一支鉛筆嗎？",
+              "next": "pencil"
+            },
+            {
+              "en": "May I borrow a pen?",
+              "zh": "我可以借一支筆嗎？",
+              "next": "pen"
+            }
+          ]
+        },
+        {
+          "id": "pencil",
+          "npc": "Sure. Here is a pencil.",
+          "npcZh": "可以，這裡有一支鉛筆。",
+          "replies": [
+            {
+              "en": "Thank you. Can I give it back after class?",
+              "zh": "謝謝，我可以下課後還你嗎？",
+              "next": "return"
+            }
+          ]
+        },
+        {
+          "id": "pen",
+          "npc": "Sure. Here is a pen.",
+          "npcZh": "可以，這裡有一支筆。",
+          "replies": [
+            {
+              "en": "Thank you. Can I give it back after class?",
+              "zh": "謝謝，我可以下課後還你嗎？",
+              "next": "return"
+            }
+          ]
+        },
+        {
+          "id": "return",
+          "npc": "Yes, that is fine. Do you know what to do now?",
+          "npcZh": "可以，沒問題。現在知道要做什麼了嗎？",
+          "replies": [
+            {
+              "en": "Yes. Read page ten and write five words.",
+              "zh": "知道，讀第十頁、寫五個單字。",
+              "next": "bye"
+            }
+          ]
+        },
+        {
+          "id": "bye",
+          "npc": "That is right. See you in class!",
+          "npcZh": "沒錯，課堂上見！",
+          "replies": [
+            {
+              "en": "Thank you, Ms. Lee!",
+              "zh": "謝謝李老師！",
+              "next": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

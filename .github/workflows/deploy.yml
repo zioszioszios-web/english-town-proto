@@ -20,6 +20,7 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm test
       - name: Configure Pages
         id: pages
         uses: actions/configure-pages@v5

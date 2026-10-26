@@ -1,0 +1,111 @@
+{
+  "location": "Pharmacy",
+  "npcName": "Morgan",
+  "npcRole": "Pharmacist",
+  "npcRoleZh": "藥師",
+  "scenarios": [
+    {
+      "id": "pharmacy-lv1-essentials",
+      "title": "A toothbrush, please",
+      "titleZh": "購買旅行用品",
+      "level": 1,
+      "nodes": [
+        {
+          "id": "hello",
+          "npc": "Hi! Can I help you?",
+          "npcZh": "嗨！需要幫忙嗎？",
+          "replies": [
+            {
+              "en": "I need a toothbrush, please.",
+              "zh": "我需要一支牙刷。",
+              "next": "color"
+            }
+          ]
+        },
+        {
+          "id": "color",
+          "npc": "Would you like a blue one or a green one?",
+          "npcZh": "你要藍色的，還是綠色的？",
+          "replies": [
+            {
+              "en": "The blue one, please.",
+              "zh": "藍色的，謝謝。",
+              "next": "blue"
+            },
+            {
+              "en": "The green one, please.",
+              "zh": "綠色的，謝謝。",
+              "next": "green"
+            }
+          ]
+        },
+        {
+          "id": "blue",
+          "npc": "Here is the blue one. It is three dollars.",
+          "npcZh": "這是藍色的，三元。",
+          "replies": [
+            {
+              "en": "OK. I will take it.",
+              "zh": "好，我要買這支。",
+              "next": "pay"
+            }
+          ]
+        },
+        {
+          "id": "green",
+          "npc": "Here is the green one. It is three dollars.",
+          "npcZh": "這是綠色的，三元。",
+          "replies": [
+            {
+              "en": "OK. I will take it.",
+              "zh": "好，我要買這支。",
+              "next": "pay"
+            }
+          ]
+        },
+        {
+          "id": "pay",
+          "npc": "Would you like to pay by card?",
+          "npcZh": "你要刷卡嗎？",
+          "replies": [
+            {
+              "en": "Yes. Here is my card.",
+              "zh": "好，這是我的卡。",
+              "next": "bag"
+            },
+            {
+              "en": "No. Here is the money.",
+              "zh": "不用，這是現金。",
+              "next": "bag"
+            }
+          ]
+        },
+        {
+          "id": "bag",
+          "npc": "Thank you. Do you need a bag?",
+          "npcZh": "謝謝，需要袋子嗎？",
+          "replies": [
+            {
+              "en": "No, thank you. I have a bag.",
+              "zh": "不用，謝謝，我有袋子。",
+              "next": "bye"
+            }
+          ]
+        },
+        {
+          "id": "bye",
+          "npc": "Here you are. Have a good trip!",
+          "npcZh": "這是你的東西。祝你旅途愉快！",
+          "replies": [
+            {
+              "en": "Thanks. Have a nice day!",
+              "zh": "謝謝，祝你有美好的一天！",
+              "next": null
+            }
+          ]
+        }
+      ],
+      "location": "Pharmacy"
+    }
+  ]
+}
