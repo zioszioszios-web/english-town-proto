@@ -3,6 +3,7 @@ export class Speech {
   private readonly synth: SpeechSynthesis | undefined;
   private voices: SpeechSynthesisVoice[] = [];
   private current?: SpeechSynthesisUtterance;
+  private volume = .8;
   private status: (message: string) => void = () => {};
   constructor() {
     this.synth = 'speechSynthesis' in window ? window.speechSynthesis : undefined;
@@ -11,6 +12,7 @@ export class Speech {
     document.addEventListener('visibilitychange', this.visibility);
   }
   onStatus(callback: (message: string) => void): void { this.status = callback; }
+  setVolume(volume: number): void { this.volume = volume; }
   private refreshVoices = (): void => { this.voices = this.synth?.getVoices() ?? []; };
   private visibility = (): void => { if (document.hidden) this.cancel(); };
   /** The first real NPC sentence unlocks Safari; no timer or await before speak(). */
@@ -27,6 +29,7 @@ export class Speech {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = 'en-US';
       utterance.rate = 0.9;
+      utterance.volume = this.volume;
       const english = this.voices.filter(voice => /^en[-_]US$/i.test(voice.lang));
       const preferred = english.find(voice => /Samantha|Google US English/i.test(voice.name));
       const voice = preferred ?? english.find(voice => voice.default) ?? english[0];

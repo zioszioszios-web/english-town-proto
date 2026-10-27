@@ -8,6 +8,8 @@ export class InteriorScene extends Phaser.Scene {
   create(): void {
     const b = this.building;
     this.cameras.main.setBackgroundColor('#ece4d3');
+    const key = 'town-interior';
+    if (this.textures.exists(key)) this.textures.remove(key);
     const g = this.add.graphics();
     g.fillStyle(b.color).fillRect(0, 0, 390, 198);
     g.fillStyle(0xd4c6ab).fillRect(16, 214, 358, 366);
@@ -21,11 +23,16 @@ export class InteriorScene extends Phaser.Scene {
     g.fillStyle(0xf5e4bd).fillRect(78, 426, 234, 9);
     g.fillStyle(0xf3bd61).fillRect(185, 515, 20, 25);
     g.fillStyle(0xf0cda6).fillRect(187, 501, 16, 15);
+    g.generateTexture(key, 390, 581); g.destroy();
+    const art = this.add.image(0, 0, key).setOrigin(0);
     const unsubscribe = gameEvents.on('interior:leave', ({ location }) => {
       if (location !== b.name) return;
       this.scene.resume('TownScene', { location } satisfies InteriorData); this.scene.stop();
     });
-    this.events.once(Phaser.Scenes.Events.SHUTDOWN, unsubscribe);
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => {
+      unsubscribe(); art.destroy();
+      if (this.textures.exists(key)) this.textures.remove(key);
+    });
     gameEvents.emit('interior:open', { location: b.name });
   }
 }

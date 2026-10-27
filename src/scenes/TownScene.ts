@@ -12,7 +12,7 @@ export class TownScene extends Phaser.Scene {
   private keys?: MovementKeys;
   private joystick: Point = { x: 0, y: 0 };
   private minimapDot!: Phaser.GameObjects.Arc;
-  private minimap!: Phaser.GameObjects.Graphics;
+  private minimap?: Phaser.GameObjects.Image;
   private townArt!: Phaser.GameObjects.Container;
   private entering = false;
   private level: Level = 1;
@@ -30,7 +30,6 @@ export class TownScene extends Phaser.Scene {
     this.cursors = this.input.keyboard?.createCursorKeys();
     this.keys = this.input.keyboard?.addKeys('W,A,S,D,ENTER,SPACE') as MovementKeys | undefined;
     this.input.keyboard?.addCapture('W,A,S,D,UP,DOWN,LEFT,RIGHT,ENTER,SPACE');
-    this.minimap = this.add.graphics().setScrollFactor(0).setDepth(90);
     this.drawMinimap();
     this.minimapDot = this.add.circle(0, 0, 3, 0x233e36).setStrokeStyle(1, 0xffffff).setScrollFactor(0).setDepth(91);
     const unsubscribers = [
@@ -51,6 +50,8 @@ export class TownScene extends Phaser.Scene {
     this.game.events.on(Phaser.Core.Events.BLUR, resetKeys);
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => {
       unsubscribers.forEach(unsubscribe => unsubscribe()); this.game.events.off(Phaser.Core.Events.BLUR, resetKeys);
+      this.townArt.removeAll(true); this.minimap?.destroy(); this.minimap = undefined;
+      for (const key of ['town-map', 'town-minimap']) if (this.textures.exists(key)) this.textures.remove(key);
     });
   }
   private enter(): void {
@@ -85,19 +86,25 @@ export class TownScene extends Phaser.Scene {
     if ((this.keys && Phaser.Input.Keyboard.JustDown(this.keys.ENTER)) || (this.keys && Phaser.Input.Keyboard.JustDown(this.keys.SPACE))) this.enter();
   }
   private drawMinimap(): void {
-    const g = this.minimap; g.clear();
-    g.fillStyle(0xf7f3e8, .92).fillRoundedRect(257, 108, 126, 108, 8);
-    g.fillStyle(0xa9bf91).fillRect(264, 130, WORLD_WIDTH * .078, WORLD_HEIGHT * .078);
-    g.fillStyle(0xded2b8).fillRect(264 + 18 * TILE * .078, 130, 4 * TILE * .078, WORLD_HEIGHT * .078)
-      .fillRect(264, 130 + 15 * TILE * .078, WORLD_WIDTH * .078, 4 * TILE * .078);
-    g.fillStyle(0x78aabb).fillRect(264 + LAKE.x * .078, 130 + LAKE.y * .078, LAKE.width * .078, LAKE.height * .078);
-    ACTIVITIES.forEach(e => g.fillStyle(e.location === 'Park' ? 0x325c45 : 0xc57c57).fillCircle(264+e.point.x*.078,130+e.point.y*.078,3));
-    BUILDINGS.forEach(b => g.fillStyle(b.levels.includes(this.level) ? b.color : 0x969d91).fillRect(264 + b.x * .078, 130 + b.y * .078, b.width * .078, b.height * .078));
+    this.minimap?.destroy();
+    const key = 'town-minimap';
+    if (this.textures.exists(key)) this.textures.remove(key);
+    const g = this.add.graphics();
+    g.fillStyle(0xf7f3e8, .92).fillRoundedRect(0, 0, 126, 108, 8);
+    g.fillStyle(0xa9bf91).fillRect(7, 22, WORLD_WIDTH * .078, WORLD_HEIGHT * .078);
+    g.fillStyle(0xded2b8).fillRect(7 + 18 * TILE * .078, 22, 4 * TILE * .078, WORLD_HEIGHT * .078)
+      .fillRect(7, 22 + 15 * TILE * .078, WORLD_WIDTH * .078, 4 * TILE * .078);
+    g.fillStyle(0x78aabb).fillRect(7 + LAKE.x * .078, 22 + LAKE.y * .078, LAKE.width * .078, LAKE.height * .078);
+    ACTIVITIES.forEach(e => g.fillStyle(e.location === 'Park' ? 0x325c45 : 0xc57c57).fillCircle(7+e.point.x*.078,22+e.point.y*.078,3));
+    BUILDINGS.forEach(b => g.fillStyle(b.levels.includes(this.level) ? b.color : 0x969d91).fillRect(7 + b.x * .078, 22 + b.y * .078, b.width * .078, b.height * .078));
+    g.generateTexture(key, 126, 108); g.destroy();
+    this.minimap = this.add.image(257, 108, key).setOrigin(0).setScrollFactor(0).setDepth(90);
   }
   private drawTown(): void {
     this.townArt.removeAll(true);
+    const key = 'town-map';
+    if (this.textures.exists(key)) this.textures.remove(key);
     const g = this.add.graphics();
-    this.townArt.add(g);
     g.fillStyle(0xa9bf91).fillRect(0, 0, WORLD_WIDTH, WORLD_HEIGHT);
     for (let row = 0; row < ROWS; row++) for (let col = 0; col < COLS; col++) {
       if ((col * 7 + row * 11) % 9 === 0) g.fillStyle(0x99b381, 0.6).fillRect(col * TILE + 8, row * TILE + 13, 5, 3);
@@ -141,5 +148,7 @@ export class TownScene extends Phaser.Scene {
       g.fillStyle(0x63876b).fillCircle(x * TILE, y * TILE, 20);
       g.fillStyle(0x789d78).fillCircle(x * TILE - 5, y * TILE - 5, 14);
     }
+    g.generateTexture(key, WORLD_WIDTH, WORLD_HEIGHT); g.destroy();
+    this.townArt.addAt(this.add.image(0, 0, key).setOrigin(0), 0);
   }
 }

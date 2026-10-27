@@ -48,6 +48,7 @@ export class AppUI {
 
   constructor(private readonly progress: ProgressStore, scores: ScoreRepository = new LocalScoreRepository()) {
     this.scores = scores;
+    this.sfx.setVolume(this.practice.volume); this.speech.setVolume(this.practice.volume);
     this.games = new MiniGameUI(this.body, this.practice, scores, this.speech, this.sfx, () => this.leave());
     this.unsubscribeGame = gameEvents.on('minigame:open', ({ id }) => { this.activate(); const game = createGame(id); if (game) this.playGame(game); else { this.title('小遊戲準備中', '這個入口將在後續步驟開放。'); const panel = element('div', 'menu-panel'); panel.append(action('回到小鎮', () => this.leave())); this.show(panel); } });
     this.heading.id = 'dialogue-title'; this.root.hidden = true;
@@ -123,6 +124,18 @@ export class AppUI {
     panel.append(nicknameLabel, nickname, action('儲存暱稱', () => { this.practice.nickname = nickname.value; nickname.value = this.practice.nickname; }));
     const sound = action(this.practice.sound ? '小遊戲聲音：開啟' : '小遊戲聲音：關閉', () => { this.practice.sound = !this.practice.sound; sound.textContent = this.practice.sound ? '小遊戲聲音：開啟' : '小遊戲聲音：關閉'; sound.setAttribute('aria-pressed', String(this.practice.sound)); if (!this.practice.sound) this.speech.cancel(); });
     sound.setAttribute('aria-pressed', String(this.practice.sound)); panel.append(sound);
+    const volumeLabel = element('label', '', '音量');
+    const volume = element('input', 'volume-input'); volume.type = 'range'; volume.id = 'settings-volume'; volumeLabel.htmlFor = volume.id;
+    volume.min = '0'; volume.max = '100'; volume.step = '10'; volume.value = String(this.practice.volume * 100);
+    const percentage = element('span', 'volume-percentage', `${Math.round(this.practice.volume * 100)}%`);
+    const volumeRow = element('div', 'volume-row'); volumeRow.append(volume, percentage);
+    volume.addEventListener('input', () => {
+      this.practice.volume = Number(volume.value) / 100;
+      this.sfx.setVolume(this.practice.volume); this.speech.setVolume(this.practice.volume);
+      percentage.textContent = `${Math.round(this.practice.volume * 100)}%`;
+    });
+    volume.addEventListener('change', () => { this.sfx.unlock(); this.sfx.play('correct'); });
+    panel.append(volumeLabel, volumeRow, element('p', 'muted', '音效與朗讀共用此音量；iPhone 的朗讀音量請用手機音量鍵調整。'));
     panel.append(action('資料來源', () => { this.title('資料來源', '官方詞目與衍生學習內容的出處'); this.show(sourcesPanel(() => this.settings())); }), action('切換等級', () => this.levels()), action('重置所有進度', () => this.confirmReset(), 'ui-button danger'), action('回到小鎮', () => this.leave(), 'ui-button quiet'));
     this.show(panel);
   }
@@ -131,6 +144,7 @@ export class AppUI {
     const panel = element('div', 'menu-panel scroll-panel');
     panel.append(element('p', '', '重置後會回到開場選擇，無法復原。'), action('取消，保留進度', () => this.settings()), action('確認重置', () => {
       this.engine.stop(); this.speech.cancel(); this.progress.reset(); this.practice.reset(); void this.scores.clear(); gameEvents.emit('level:changed', 1); this.publishProgress(); this.modeMenu();
+      this.sfx.setVolume(this.practice.volume); this.speech.setVolume(this.practice.volume);
     }, 'ui-button danger'));
     this.show(panel);
   }

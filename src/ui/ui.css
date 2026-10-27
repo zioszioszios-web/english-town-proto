@@ -28,6 +28,9 @@
 .scenario-zh { font-size: .9375rem; }
 .scenario-cta { font-size: .875rem; color: #54674f; margin-block-start: .3rem; }
 .level-description, .muted { color: #54674f; font-size: .8125rem; }
+.volume-row { display: flex; align-items: center; gap: .75rem; }
+.volume-input { inline-size: 100%; min-inline-size: 0; min-block-size: 2.75rem; accent-color: #325c45; }
+.volume-percentage { flex-shrink: 0; min-inline-size: 3rem; text-align: end; }
 .speech-status { font-size: .8125rem; padding: .5rem 1rem; color: #814423; background: #faecd3; flex: none; }
 .speech-status:empty { display: none; }
 .conversation { display: grid; grid-template-rows: auto minmax(0, 1fr) auto; flex: 1; min-block-size: 0; }

@@ -1,6 +1,8 @@
 export type SfxKind = 'correct' | 'wrong' | 'complete';
 export class Sfx {
   private context?: AudioContext;
+  private volume = .8;
+  setVolume(volume: number): void { this.volume = volume; }
   unlock(): void {
     try {
       if (typeof window === 'undefined') return;
@@ -13,12 +15,12 @@ export class Sfx {
   play(kind: SfxKind): void {
     try {
       const context = this.context;
-      if (!context || context.state !== 'running') return;
+      if (!context || context.state !== 'running' || this.volume === 0) return;
       const tone = (frequency: number, delay: number, duration: number, type: OscillatorType = 'sine', end?: number): void => {
         const start = context.currentTime + delay, oscillator = context.createOscillator(), gain = context.createGain();
         oscillator.type = type; oscillator.frequency.setValueAtTime(frequency, start);
         if (end) oscillator.frequency.exponentialRampToValueAtTime(end, start + duration);
-        gain.gain.setValueAtTime(.0001, start); gain.gain.exponentialRampToValueAtTime(.12, start + .008);
+        gain.gain.setValueAtTime(.0001, start); gain.gain.exponentialRampToValueAtTime(.15 * this.volume, start + .008);
         gain.gain.exponentialRampToValueAtTime(.0001, start + duration);
         oscillator.connect(gain); gain.connect(context.destination);
         oscillator.onended = () => { try { oscillator.disconnect(); gain.disconnect(); } catch {} };

@@ -3,7 +3,7 @@ import type { ProgressStorage } from '../ui/ProgressStore';
 export const DEFAULT_NICKNAME = '玩家';
 export const GAME_SAVE_KEY = 'little-town:word-practice';
 export class PracticeStore {
-  private data: { version: 1; nickname: string; sound: boolean; words: Record<string, WordStats> } = { version: 1, nickname: '', sound: true, words: {} };
+  private data: { version: 1; nickname: string; sound: boolean; volume: number; words: Record<string, WordStats> } = { version: 1, nickname: '', sound: true, volume: .8, words: {} };
   persistent = true;
   constructor(private readonly storage: () => ProgressStorage = () => window.localStorage) {
     try {
@@ -12,6 +12,7 @@ export class PracticeStore {
         const value = raw as Record<string, unknown>;
         if (typeof value.nickname === 'string') this.data.nickname = value.nickname.trim().slice(0, 20);
         if (typeof value.sound === 'boolean') this.data.sound = value.sound;
+        if (typeof value.volume === 'number' && Number.isFinite(value.volume) && value.volume >= 0 && value.volume <= 1) this.data.volume = value.volume;
         if (value.words && typeof value.words === 'object') for (const [id, entry] of Object.entries(value.words)) {
           if (!entry || typeof entry !== 'object') continue;
           const item = entry as Record<string, unknown>;
@@ -28,10 +29,12 @@ export class PracticeStore {
   set nickname(value: string) { this.data.nickname = value.trim().slice(0, 20); this.save(); }
   get sound(): boolean { return this.data.sound; }
   set sound(value: boolean) { this.data.sound = value; this.save(); }
+  get volume(): number { return this.data.volume; }
+  set volume(value: number) { this.data.volume = Number.isNaN(value) ? .8 : Math.max(0, Math.min(1, value)); this.save(); }
   get stats(): Readonly<Record<string, WordStats>> { return structuredClone(this.data.words); }
   record(id: string, correct: boolean, now = new Date()): void {
     const previous = this.data.words[id] ?? { correct: 0, wrong: 0, lastPracticed: '' };
     this.data.words[id] = { correct: previous.correct + Number(correct), wrong: previous.wrong + Number(!correct), lastPracticed: now.toISOString() }; this.save();
   }
-  reset(): void { this.data = { version: 1, nickname: '', sound: true, words: {} }; this.save(); }
+  reset(): void { this.data = { version: 1, nickname: '', sound: true, volume: .8, words: {} }; this.save(); }
 }

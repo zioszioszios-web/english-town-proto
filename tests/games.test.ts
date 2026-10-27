@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { topicPool, selectQuestions, ScoreCounter, correctPoints, spellingHint, runnerDirection, runnerReward } from '../src/games/rules';
 import { LocalScoreRepository } from '../src/games/scores';
-import { PracticeStore } from '../src/games/storage';
+import { GAME_SAVE_KEY, PracticeStore } from '../src/games/storage';
 import type { WordEntry, WordTopic } from '../src/data/words/types';
 import { ACTIVITIES, LAKE, START, nearbyTownEntrance, TILE } from '../src/data/town';
 import { canStand, findPath } from '../src/data/navigation';
@@ -13,6 +13,30 @@ test('sound effects tolerate Node without AudioContext', () => {
   assert.doesNotThrow(() => { sfx.unlock(); sfx.play('correct'); });
 });
 function memoryStorage() { const data = new Map<string,string>(); return {getItem:(key:string) => data.get(key)??null,setItem:(key:string,value:string) => {data.set(key,value);}}; }
+
+test('practice volume defaults, clamps, persists and resets', () => {
+  const storage = memoryStorage(), store = new PracticeStore(()=>storage);
+  assert.equal(store.volume,.8);
+  store.volume = 1.5; assert.equal(store.volume,1);
+  store.volume = -1; assert.equal(store.volume,0);
+  store.volume = .3; assert.equal(new PracticeStore(()=>storage).volume,.3);
+  store.reset(); assert.equal(store.volume,.8); assert.equal(new PracticeStore(()=>storage).volume,.8);
+});
+
+test('practice volume falls back for old saves and corrupt values', () => {
+  const storage = memoryStorage();
+  for (const volume of [undefined, '0.5', NaN, Infinity, -1, 1.5]) {
+    storage.setItem(GAME_SAVE_KEY,JSON.stringify({version:1,volume}));
+    assert.equal(new PracticeStore(()=>storage).volume,.8);
+  }
+  // JSON serializes NaN as null; a literal NaN is invalid saved JSON.
+  storage.setItem(GAME_SAVE_KEY,'{"version":1,"volume":NaN}');
+  assert.equal(new PracticeStore(()=>storage).volume,.8);
+  for (const volume of [0,1]) {
+    storage.setItem(GAME_SAVE_KEY,JSON.stringify({version:1,volume}));
+    assert.equal(new PracticeStore(()=>storage).volume,volume);
+  }
+});
 test('display name defaults to 玩家 and follows nickname and reset', () => {
   const storage = memoryStorage(), store = new PracticeStore(()=>storage);
   assert.equal(store.displayName,'玩家');
