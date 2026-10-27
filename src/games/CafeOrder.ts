@@ -34,17 +34,20 @@ export class CafeOrder extends BaseGame {
     const end = (correct:boolean): void => {
       done = true; replay.disabled = true; cards.querySelectorAll('button').forEach(b=>{b.disabled=true;});
       feedback.textContent = `${correct ? '訂單完成！' : '這次訂單是：'}${targets.map(w=>w.word+'（'+w.zh.join('、')+'）').join(' → ')}`;
+      this.context.sfx(correct?'correct':'wrong');
+      if(correct){this.timer(()=>{this.customer++;this.question();},900);return;}
       const next = action(this.customer===9?'查看結算':'下一位客人 →',()=>{this.customer++;this.question();});
       feedback.after(next);next.focus({preventScroll:true});
     };
-    for (const item of items) cards.append(action(item.word,()=>{
+    for (const item of items) { const button=action(item.word,()=>{
       if(done)return;
       const target=targets[index],correct=item.id===target.id;
       if (!revealed) this.context.answer(target,correct,Math.max(0,10-(performance.now()-started)/1000));
-      if(!correct){end(false);return;}
+      if(!correct){button.classList.add('choice-wrong');cards.querySelectorAll<HTMLButtonElement>('button').forEach(b=>{if(b.dataset.word===target.id)b.classList.add('choice-correct');});end(false);return;}
+      button.classList.add('choice-correct');button.disabled=true;
       index++; feedback.textContent=`已完成 ${index}／${targets.length} 樣`;
       if(index===targets.length)end(true);
-    },'ui-button order-item'));
+    },'ui-button order-item');button.dataset.word=item.id;cards.append(button); }
     const transcript=element('p','order-transcript');transcript.hidden=true;
     const help=action('語音無法播放？查看文字（本題不計分）',()=>{
       if(revealed||done)return;revealed=true;this.context.answer(targets[index],false);transcript.hidden=false;transcript.textContent=order;help.disabled=true;

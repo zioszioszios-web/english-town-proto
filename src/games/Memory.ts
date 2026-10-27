@@ -25,6 +25,7 @@ export class Memory extends BaseGame {
         if (open.length === 2) {
           moves++; movesLabel.textContent = `翻牌 ${moves} 次 · 已配對 ${matches}／${pairs.length}`;
           const [a,b] = open, correct = cards[a].word.id === cards[b].word.id;
+          context.sfx(correct ? 'correct' : 'wrong');
           if (correct) {
             matched = true; buttons[a].disabled = true; buttons[b].disabled = true; matches++;
             buttons[a].classList.add('matched'); buttons[b].classList.add('matched');

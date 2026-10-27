@@ -7,6 +7,7 @@ import type { MiniGame, GameResult } from '../games/types';
 import type { ScoreRepository } from '../games/scores';
 import { PracticeStore } from '../games/storage';
 import { ScoreCounter, practicePool, MIN_PRACTICE_WORDS, selectQuestions } from '../games/rules';
+import type { Sfx } from '../games/sfx';
 import type { Speech } from './Speech';
 
 export class MiniGameUI {
@@ -14,7 +15,7 @@ export class MiniGameUI {
   private game?: MiniGame;
   private finished = false;
   private readonly host = element('div', 'mini-game scroll-panel');
-  constructor(private readonly shell: HTMLElement, private readonly store: PracticeStore, private readonly scores: ScoreRepository, private readonly speech: Speech, private readonly leave: () => void) {}
+  constructor(private readonly shell: HTMLElement, private readonly store: PracticeStore, private readonly scores: ScoreRepository, private readonly speech: Speech, private readonly sfx: Sfx, private readonly leave: () => void) {}
   async open(game: MiniGame, level: Level): Promise<void> {
     this.stop(); const generation = this.generation; this.game = game;
     this.shell.replaceChildren(this.host); this.host.replaceChildren(element('p', '', '正在準備單字……'));
@@ -42,7 +43,7 @@ export class MiniGameUI {
       intro.append(warning, element('p', 'muted', '排行榜與練習紀錄只保存在這個瀏覽器。聲音可在設定關閉。'));
       if (!this.store.persistent) warning.textContent = '目前無法永久保存紀錄，本次仍可遊玩。';
       intro.append(action('開始遊戲', () => {
-        this.start(game, level, pool);
+        this.sfx.unlock(); this.start(game, level, pool);
       }, 'ui-button primary'), action('回到小鎮', this.leave, 'ui-button quiet'));
       this.host.replaceChildren(intro);
       intro.querySelector('button')?.focus({preventScroll:true});
@@ -63,6 +64,7 @@ export class MiniGameUI {
     speak("Let's practice English!");
     game.start({
       host: gameHost, words: selectQuestions(pool, Math.min(20, pool.length), this.store.stats), level, speak,
+      sfx: kind => { if (this.store.sound) this.sfx.play(kind); },
       answer: (word, correct, timeBonus = 0) => {
         if (generation !== this.generation || this.finished) return;
         counter.answer(correct, timeBonus); this.store.record(word.id,correct);
@@ -71,6 +73,7 @@ export class MiniGameUI {
       },
       finish: (bonus = 0) => {
         if (generation !== this.generation || this.finished) return; this.finished = true; game.end(); this.speech.cancel();
+        if (this.store.sound) this.sfx.play('complete');
         const result: GameResult = { score: counter.score + Math.max(0, Math.floor(bonus)), correct: counter.correct, wrong: counter.wrong, maxStreak: counter.maxStreak, mistakes: [...mistakes.values()], elapsedSeconds: (performance.now() - started) / 1000 };
         void this.results(game, level, pool, result, generation);
       },
@@ -87,7 +90,7 @@ export class MiniGameUI {
     for (const word of result.mistakes) panel.append(action(`▶ ${word.word} · ${word.zh.join('、')}`, () => { if (this.store.sound) this.speech.speak(word.word); }, 'ui-button wrong-word'));
     const rank = element('p', '', '正在更新排行榜……'), board = element('ol', 'leaderboard');
     panel.append(element('h3','','Lv'+level+' 本機排行榜'),rank,board,
-      action('再玩一次', () => this.start(game,level,pool), 'ui-button primary'),action('回到小鎮', this.leave, 'ui-button quiet'));
+      action('再玩一次', () => { this.sfx.unlock(); this.start(game,level,pool); }, 'ui-button primary'),action('回到小鎮', this.leave, 'ui-button quiet'));
     this.host.replaceChildren(panel);
     panel.querySelector<HTMLButtonElement>('button')?.focus({preventScroll:true});
     try {

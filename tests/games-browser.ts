@@ -4,6 +4,7 @@ import { MiniGameUI } from '../src/ui/MiniGameUI';
 import { PracticeStore } from '../src/games/storage';
 import { LocalScoreRepository } from '../src/games/scores';
 import { GAME_FACTORIES } from '../src/games/registry';
+import { Sfx } from '../src/games/sfx';
 import { Speech } from '../src/ui/Speech';
 import '../src/ui/ui.css';
 const data = new Map<string,string>();
@@ -12,7 +13,7 @@ const practice = new PracticeStore(()=>storage), scores = new LocalScoreReposito
 const speech = new Speech();
 const root = element('main','ui-overlay'), shell = element('div','ui-shell'), host = element('div','ui-body');
 root.append(shell); shell.append(element('h1','ui-title','小遊戲互動測試頁'),host); document.body.append(root);
-const ui = new MiniGameUI(host,practice,scores,speech,()=>menu());
+const ui = new MiniGameUI(host,practice,scores,speech,new Sfx(),()=>menu());
 let level: 1|2|3|4 = 1;
 function menu(): void {
   ui.stop(); const panel = element('div','menu-panel');

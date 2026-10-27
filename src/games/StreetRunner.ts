@@ -91,6 +91,7 @@ export class StreetRunner extends BaseGame {
         this.road.classList.remove('shake');void this.road.offsetWidth;this.road.classList.add('shake');this.feedback.textContent='正確跑道是 '+word.word+'（'+word.zh.join('、')+'）';
       }
       this.pass(gates);
+      this.context.sfx(correct?'correct':'wrong');
       if(this.hearts<=0){for(const text of speech)this.context.speak(text);this.context.finish(Math.floor(this.distance/10));return;}this.round++;const nextSpeech=this.question();if(nextSpeech)speech.push(nextSpeech);
     }
     const status='♥'.repeat(this.hearts)+' · '+Math.floor(this.distance)+' 公尺 · 速度 '+this.speed.toFixed(1);

@@ -1,3 +1,4 @@
+import type { SfxKind } from './sfx';
 import type { Level } from '../data/levels';
 import type { LocationName } from '../data/town';
 import type { WordEntry, WordTopic } from '../data/words/types';
@@ -5,6 +6,7 @@ export type GameLocation = LocationName | 'Park' | 'Street';
 export interface MiniGameContext {
   host: HTMLElement; words: readonly WordEntry[]; level: Level;
   speak(text: string): void;
+  sfx(kind: SfxKind): void;
   answer(word: WordEntry, correct: boolean, timeBonus?: number): void;
   finish(bonus?: number): void;
 }

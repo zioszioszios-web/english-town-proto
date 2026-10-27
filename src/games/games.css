@@ -88,3 +88,10 @@
 @keyframes road-pop { to { transform: translateX(-50%) translateY(-2.5rem); opacity: 0; } }
 .lane-controls { display: flex; gap: .75rem; }
 .lane-controls > button { flex: 1; border: .0625rem solid #a8b89d; background: #fffdf7; border-radius: .65rem; padding: .7rem; }
+
+.ui-overlay .choice-correct, .game-choices > button.choice-correct { border-color: #325c45; background: #d1dfbc; color: #233e36; opacity: 1; }
+.ui-overlay .choice-wrong, .game-choices > button.choice-wrong { border-color: #943f2f; background: #f4dcd5; color: #943f2f; opacity: 1; }
+.spelling-output.spell-correct { border-color: #325c45; background: #d1dfbc; color: #325c45; }
+.ui-overlay .medicine-shelf.filled { border-color: #325c45; background: #d1dfbc; }
+.ui-overlay .medicine-shelf.drop-target { outline: .1875rem solid #325c45; outline-offset: .125rem; }
+.shelf-label { display: block; margin-block-start: .5rem; font-size: .875rem; overflow-wrap: anywhere; }

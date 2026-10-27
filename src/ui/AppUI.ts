@@ -6,6 +6,7 @@ import { gameEvents } from '../events';
 import { DialogueEngine, type DialogueSummary } from './DialogueEngine';
 import { TapReplyInput } from './TapReplyInput';
 import { ProgressStore } from './ProgressStore';
+import { Sfx } from '../games/sfx';
 import { Speech } from './Speech';
 import { TownControls } from './TownControls';
 import { element, action } from './dom';
@@ -27,6 +28,7 @@ export class AppUI {
   private readonly speechStatus = element('p', 'speech-status');
   private readonly replyHost = element('div', 'reply-options');
   private readonly speech = new Speech();
+  private readonly sfx = new Sfx();
   private readonly engine: DialogueEngine;
   private readonly controls: TownControls;
   private readonly practice = new PracticeStore();
@@ -46,7 +48,7 @@ export class AppUI {
 
   constructor(private readonly progress: ProgressStore, scores: ScoreRepository = new LocalScoreRepository()) {
     this.scores = scores;
-    this.games = new MiniGameUI(this.body, this.practice, scores, this.speech, () => this.leave());
+    this.games = new MiniGameUI(this.body, this.practice, scores, this.speech, this.sfx, () => this.leave());
     this.unsubscribeGame = gameEvents.on('minigame:open', ({ id }) => { this.activate(); const game = createGame(id); if (game) this.playGame(game); else { this.title('小遊戲準備中', '這個入口將在後續步驟開放。'); const panel = element('div', 'menu-panel'); panel.append(action('回到小鎮', () => this.leave())); this.show(panel); } });
     this.heading.id = 'dialogue-title'; this.root.hidden = true;
     this.root.setAttribute('role', 'dialog'); this.root.setAttribute('aria-modal', 'true'); this.root.setAttribute('aria-labelledby', this.heading.id);
@@ -119,7 +121,7 @@ export class AppUI {
     const nicknameLabel = element('label', '', '排行榜暱稱');
     const nickname = element('input', 'nickname-input'); nickname.id = 'settings-nickname'; nicknameLabel.htmlFor = nickname.id; nickname.maxLength = 20; nickname.value = this.practice.nickname;
     panel.append(nicknameLabel, nickname, action('儲存暱稱', () => { this.practice.nickname = nickname.value; nickname.value = this.practice.nickname; }));
-    const sound = action(this.practice.sound ? '小遊戲發音：開啟' : '小遊戲發音：關閉', () => { this.practice.sound = !this.practice.sound; sound.textContent = this.practice.sound ? '小遊戲發音：開啟' : '小遊戲發音：關閉'; sound.setAttribute('aria-pressed', String(this.practice.sound)); if (!this.practice.sound) this.speech.cancel(); });
+    const sound = action(this.practice.sound ? '小遊戲聲音：開啟' : '小遊戲聲音：關閉', () => { this.practice.sound = !this.practice.sound; sound.textContent = this.practice.sound ? '小遊戲聲音：開啟' : '小遊戲聲音：關閉'; sound.setAttribute('aria-pressed', String(this.practice.sound)); if (!this.practice.sound) this.speech.cancel(); });
     sound.setAttribute('aria-pressed', String(this.practice.sound)); panel.append(sound);
     panel.append(action('資料來源', () => { this.title('資料來源', '官方詞目與衍生學習內容的出處'); this.show(sourcesPanel(() => this.settings())); }), action('切換等級', () => this.levels()), action('重置所有進度', () => this.confirmReset(), 'ui-button danger'), action('回到小鎮', () => this.leave(), 'ui-button quiet'));
     this.show(panel);

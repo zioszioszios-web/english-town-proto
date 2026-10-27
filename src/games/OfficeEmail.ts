@@ -51,12 +51,19 @@ export class OfficeEmail extends BaseGame {
       if(this.submitted)return;
       if(this.values.some(value=>!value.trim())){this.feedback.textContent='還有空格沒填，請先完成所有空格。';return;}
       this.submitted=true;submit.disabled=true;
+      let allCorrect=true;
       this.batch.forEach((word,index)=>{
         const correct=normalizeWord(this.values[index])===normalizeWord(word.word);this.context.answer(word,correct);
+        if(!correct)allCorrect=false;
+        rows[index].querySelectorAll<HTMLButtonElement>('.email-options button').forEach(button=>{
+          if(button.getAttribute('aria-pressed')==='true')button.classList.add(correct?'choice-correct':'choice-wrong');
+          if(!correct&&normalizeWord(button.textContent??'')===normalizeWord(word.word))button.classList.add('choice-correct');
+        });
         rows[index].classList.add(correct?'answer-correct':'answer-wrong');
         if(!correct)rows[index].append(element('p','answer-correction','正確答案：'+word.word+' · '+word.zh.join('、')));
         rows[index].querySelectorAll('button').forEach(b=>{b.disabled=true;});
       });
+      this.context.sfx(allCorrect?'correct':'wrong');
       this.context.speak(this.batch.map(word=>word.word).join(', '));this.feedback.textContent='郵件已檢查，看看標示的正確答案。';
       const next=action(this.mail===2?'查看結算':'下一封郵件 →',()=>{this.mail++;this.question();});this.feedback.after(next);next.focus({preventScroll:true});
     },'ui-button primary email-submit');

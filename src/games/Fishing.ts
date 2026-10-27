@@ -19,18 +19,23 @@ export class Fishing extends BaseGame {
     const used = new Set([word.zh[0]]);
     const distinct = others.filter(w => { if (used.has(w.zh[0])) return false; used.add(w.zh[0]); return true; }).slice(0,3);
     const deadline = performance.now() + 8000;
-    const answer = (correct: boolean): void => {
+    const answer = (correct: boolean, selected?: HTMLButtonElement): void => {
       if (locked || this.stopped) return; locked = true;
       const remaining = Math.max(0, deadline - performance.now());
       const accepted = correct && remaining > 0;
       this.context.answer(word, accepted, remaining / 1000);
       pond.className = accepted ? 'fishing-pond reel' : 'fishing-pond escaped';
       feedback.textContent = accepted ? '收竿成功！' : `魚跑掉了！${word.word}：${word.zh.join('、')}`;
-      choices.querySelectorAll('button').forEach(button => { button.disabled = true; });
+      this.context.sfx(accepted ? 'correct' : 'wrong');
+      choices.querySelectorAll('button').forEach(button => { button.disabled = true; if (button.dataset.correct === 'true') button.classList.add('choice-correct'); else if (button === selected) button.classList.add('choice-wrong'); });
+      if (accepted) { this.timer(() => { this.index++; this.question(); }, 900); return; }
       const next = action(this.index === 9 ? '查看結算' : '下一條魚 →', () => { this.index++; this.question(); });
       feedback.after(next); next.focus({preventScroll:true});
     };
-    for (const choice of shuffle([word, ...distinct])) choices.append(action(choice.zh.join('、'), () => answer(choice.id === word.id)));
+    for (const choice of shuffle([word, ...distinct])) {
+      const button = action(choice.zh.join('、'), () => answer(choice.id === word.id, button));
+      button.dataset.correct = String(choice.id === word.id); choices.append(button);
+    }
     const replay = action('↻ 重播單字', () => this.context.speak(word.word));
     host.replaceChildren(element('p', 'game-progress', `第 ${this.index + 1}／10 題 · 每題 8 秒`), pond, label, clock, replay, choices, feedback);
     this.context.speak(word.word);

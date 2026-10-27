@@ -1,3 +1,4 @@
+import { Sfx } from '../src/games/sfx';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { topicPool, selectQuestions, ScoreCounter, correctPoints, spellingHint, runnerDirection, runnerReward } from '../src/games/rules';
@@ -7,6 +8,10 @@ import type { WordEntry, WordTopic } from '../src/data/words/types';
 import { ACTIVITIES, LAKE, START, nearbyTownEntrance, TILE } from '../src/data/town';
 import { canStand, findPath } from '../src/data/navigation';
 const word = (id: number, topic: WordTopic): WordEntry => ({id: String(id), word:'word'+id,pos:'n.',zh:['字'+id],example:'example',exampleZh:'例句',level:1,topics:[topic],source:'test',review:false});
+test('sound effects tolerate Node without AudioContext', () => {
+  const sfx = new Sfx();
+  assert.doesNotThrow(() => { sfx.unlock(); sfx.play('correct'); });
+});
 function memoryStorage() { const data = new Map<string,string>(); return {getItem:(key:string) => data.get(key)??null,setItem:(key:string,value:string) => {data.set(key,value);}}; }
 test('display name defaults to 玩家 and follows nickname and reset', () => {
   const storage = memoryStorage(), store = new PracticeStore(()=>storage);

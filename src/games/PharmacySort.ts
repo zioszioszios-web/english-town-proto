@@ -32,38 +32,50 @@ export class PharmacySort extends BaseGame {
       this.context.speak(batch[index].word);
     };
     const sort=(target:number):void=>{
-      if(selected===null||roundDone)return;
+      if(selected===null||roundDone||buttons[selected].disabled)return;
       const current=selected,word=batch[current],correct=current===target;
-      this.context.answer(word,correct);
+      this.context.answer(word,correct);this.context.sfx(correct?'correct':'wrong');
       if(correct){
-        buttons[current].disabled=true;buttons[current].classList.remove('selected');buttons[current].textContent='✓ '+word.word;sorted++;selected=null;
+        const box=buttons[current],shelf=shelves.querySelector<HTMLElement>(`[data-shelf="${target}"]`)!;
+        const from=box.getBoundingClientRect(),to=shelf.getBoundingClientRect();
+        const transform=getComputedStyle(box).transform,matrix=transform==='none'?null:new DOMMatrixReadOnly(transform);
+        const x=matrix?.m41??0,y=matrix?.m42??0;
+        box.classList.remove('shake');box.style.transform=`translate(${x}px,${y}px)`;void box.offsetWidth;
+        box.style.transition='transform .35s ease-in, opacity .35s';
+        if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches)box.style.transform=`translate(${x+to.left+to.width/2-from.left-from.width/2}px,${y+to.top+to.height/2-from.top-from.height/2}px) scale(.6)`;
+        box.style.opacity='0';this.timer(()=>{box.style.visibility='hidden';},350);
+        shelf.classList.add('filled');const label=element('span','shelf-label',word.word);label.lang='en';shelf.append(label);
+        buttons[current].disabled=true;buttons[current].classList.remove('selected');sorted++;selected=null;
         feedback.textContent=`放對了！本組 ${sorted}／3`;
         if(sorted===3){roundDone=true;
           if(this.round===4){this.round++;this.question();return;}
-          const next=action('下一組 →',()=>{this.round++;this.question();});feedback.after(next);next.focus({preventScroll:true});
+          this.timer(()=>{this.round++;this.question();},900);
         }else{const next=buttons.find(b=>!b.disabled);if(next)next.focus({preventScroll:true});}
       }else{
         this.deadline-=5000;feedback.textContent='放錯藥櫃了，扣 5 秒，再試一次。';buttons[current].classList.remove('shake');void buttons[current].offsetWidth;buttons[current].classList.add('shake');
       }
     };
+    const clearTargets=():void=>{shelves.querySelectorAll('.drop-target').forEach(shelf=>shelf.classList.remove('drop-target'));};
     batch.forEach((word,index)=>{
       let startX=0,startY=0,dragged=false,ignoreClick=false,pointer:number|null=null;
       const box=action(word.word,()=>{if(ignoreClick){ignoreClick=false;return;}choose(index);},'ui-button medicine-box');
       box.setAttribute('aria-pressed','false');
       box.addEventListener('pointerdown',event=>{
-        if(box.disabled||(event.pointerType==='mouse'&&event.button!==0))return;
+        if(roundDone||box.disabled||(event.pointerType==='mouse'&&event.button!==0))return;
         pointer=event.pointerId;startX=event.clientX;startY=event.clientY;dragged=false;box.setPointerCapture(pointer);choose(index);
       });
       box.addEventListener('pointermove',event=>{
         if(pointer!==event.pointerId)return;
         const dx=event.clientX-startX,dy=event.clientY-startY;
         if(Math.hypot(dx,dy)>8)dragged=true;
-        if(dragged){box.style.transform=`translate(${dx/box.offsetWidth*100}%,${dy/box.offsetHeight*100}%)`;box.classList.add('dragging');}
+        if(dragged){box.style.transform=`translate(${dx/box.offsetWidth*100}%,${dy/box.offsetHeight*100}%)`;box.classList.add('dragging');
+          const target=document.elementFromPoint(event.clientX,event.clientY)?.closest<HTMLElement>('[data-shelf]');
+          clearTargets();if(target&&shelves.contains(target))target.classList.add('drop-target');}
       });
-      const reset=():void=>{box.style.transform='';box.classList.remove('dragging');pointer=null;};
+      const reset=():void=>{if(!box.disabled)box.style.transform='';box.classList.remove('dragging');pointer=null;clearTargets();};
       box.addEventListener('pointerup',event=>{
         if(pointer!==event.pointerId)return;
-        if(dragged){ignoreClick=true;const target=document.elementFromPoint(event.clientX,event.clientY)?.closest<HTMLElement>('[data-shelf]');if(target)sort(Number(target.dataset.shelf));}
+        if(dragged){ignoreClick=true;const target=document.elementFromPoint(event.clientX,event.clientY)?.closest<HTMLElement>('[data-shelf]');if(target&&shelves.contains(target))sort(Number(target.dataset.shelf));}
         reset();if(box.hasPointerCapture(event.pointerId))box.releasePointerCapture(event.pointerId);
       });
       box.addEventListener('pointercancel',reset);box.addEventListener('lostpointercapture',reset);
@@ -72,6 +84,5 @@ export class PharmacySort extends BaseGame {
     for(const index of shuffle([0,1,2]))boxes.append(buttons[index]);
     batch.forEach((word,index)=>{const shelf=action(word.zh.join('、'),()=>{if(selected===null){feedback.textContent='請先選一個英文藥盒。';return;}sort(index);},'medicine-shelf');shelf.dataset.shelf=String(index);shelves.append(shelf);});
     host.replaceChildren(element('p','game-progress',`第 ${this.round+1}／5 組 · 每組 3 個單字`),this.clock,boxes,shelves,feedback);
-    this.context.speak(batch[0].word);
   }
 }
