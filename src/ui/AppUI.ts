@@ -1,9 +1,9 @@
 import { DIALOGUES, ALL_SCENARIOS } from '../data/dialogues';
-import type { DialogueFile, DialogueNode, Reply, Scenario } from '../data/dialogues/types';
+import type { BranchReply, DialogueFile, DialogueNode, MistakeReply, Reply, Scenario, VariantReply } from '../data/dialogues/types';
 import type { LocationName } from '../data/town';
 import { LEVELS, LEVEL_INFO, type PlayMode } from '../data/levels';
 import { gameEvents } from '../events';
-import { DialogueEngine } from './DialogueEngine';
+import { DialogueEngine, type DialogueSummary } from './DialogueEngine';
 import { TapReplyInput } from './TapReplyInput';
 import { ProgressStore } from './ProgressStore';
 import { Speech } from './Speech';
@@ -57,7 +57,7 @@ export class AppUI {
     this.root.addEventListener('keydown', event => this.trapFocus(event));
     for (const name of ['pointerdown', 'pointerup', 'click'] as const) this.root.addEventListener(name, event => event.stopPropagation());
     this.speech.onStatus(message => { this.speechStatus.textContent = message; });
-    this.engine = new DialogueEngine(new TapReplyInput(this.replyHost), { node: node => this.appendNpc(node), reply: reply => this.appendReply(reply), complete: count => this.finish(count) });
+    this.engine = new DialogueEngine(new TapReplyInput(this.replyHost), { node: node => this.appendNpc(node), reply: (reply, node) => this.appendReply(reply, node), mistake: reply => this.appendMistake(reply), complete: summary => this.finish(summary) });
     this.controls = new TownControls(progress, () => this.settings(), () => this.levels());
     this.unsubscribe = gameEvents.on('interior:open', ({ location }) => {
       this.location = location; this.file = DIALOGUES[location]; this.inside = true; this.activate(); this.menu();
@@ -176,12 +176,12 @@ export class AppUI {
     this.history.setAttribute('role', 'log'); this.history.setAttribute('aria-label', '對話紀錄，可向上捲動'); this.history.setAttribute('aria-live', 'polite');
     const replyPanel = element('section', 'reply-panel scroll-panel');
     this.counter = element('p', 'reply-caption', '輪到你了 · 選一句回答');
-    const mic = action('🎙 麥克風 · 階段 3 開放', () => {}, 'ui-button microphone'); mic.disabled = true;
+    const mic = action('🎙 麥克風 · 階段 4 開放', () => {}, 'ui-button microphone'); mic.disabled = true;
     replyPanel.append(this.counter, this.replyHost, mic); conversation.append(toolbar, this.history, replyPanel); this.body.replaceChildren(conversation);
     // First real NPC speech is inside this click, with no await or timer before speak().
     this.engine.start(scenario); translate.focus({ preventScroll: true });
   }
-  private appendNpc(node: DialogueNode): void {
+  private appendNpc(node: Pick<DialogueNode, 'npc' | 'npcZh'>): void {
     const bubble = element('article', 'bubble npc-bubble'); const row = element('div', 'bubble-meta');
     row.append(element('span', '', `${this.file.npcName} · ${this.file.npcRoleZh}`), action('↻ 重播', () => this.speech.speak(node.npc), 'ui-button replay'));
     const en = element('p', 'npc-english', node.npc); en.lang = 'en';
@@ -189,17 +189,33 @@ export class AppUI {
     bubble.append(row, en, zh); this.history.append(bubble); this.history.scrollTop = this.history.scrollHeight;
     if (this.firstSentence) { this.firstSentence = false; this.speech.unlockAndSpeak(node.npc); } else this.speech.speak(node.npc);
   }
-  private appendReply(reply: Reply): void {
-    this.count++; this.counter.textContent = `已回答 ${this.count} 句 · 選一句繼續`;
-    const bubble = element('article', 'bubble player-bubble'); const en = element('p', '', reply.en); en.lang = 'en';
-    bubble.append(element('span', 'bubble-meta', 'YOU · 你'), en, element('p', 'reply-hint', reply.zh)); this.history.append(bubble);
+  private appendPlayer(reply: Reply): void {
+    const bubble = element('article', `bubble player-bubble${reply.type === 'mistake' ? ' mistake-bubble' : ''}`); const en = element('p', '', reply.en); en.lang = 'en';
+    bubble.append(element('span', 'bubble-meta', reply.type === 'mistake' ? '✗ 這樣說不太自然' : 'YOU · 你'), en, element('p', 'reply-hint', reply.zh)); this.history.append(bubble);
   }
-  private finish(count: number): void {
+  private appendReply(reply: BranchReply | VariantReply, node: DialogueNode): void {
+    this.count++; this.counter.textContent = `已回答 ${this.count} 句 · 選一句繼續`;
+    this.appendPlayer(reply);
+    if (reply.type === 'variant') {
+      const card = element('aside', 'feedback-card'); card.append(element('p', 'reply-note', reply.note), element('strong', '', '其他說法'));
+      for (const option of node.replies) if (option.type === 'variant' && option !== reply) {
+        const en = element('p', '', option.en); en.lang = 'en'; card.append(en, element('p', 'reply-hint', option.zh));
+      }
+      this.history.append(card);
+    }
+  }
+  private appendMistake(reply: MistakeReply): void {
+    this.appendPlayer(reply); this.appendNpc({ npc: reply.reaction.en, npcZh: reply.reaction.zh });
+    const card = element('aside', 'feedback-card'), en = element('p', '', reply.correction); en.lang = 'en';
+    card.append(element('strong', '', '正確說法'), en, element('strong', '', '解說'), element('p', '', reply.explain)); this.history.append(card);
+    this.counter.textContent = '再選一次 · 找出比較好的說法'; this.history.scrollTop = this.history.scrollHeight;
+  }
+  private finish(summary: DialogueSummary): void {
     const scenario = this.scenario; if (!scenario) return;
     this.speech.cancel(); const unlocked = this.progress.complete(scenario.id); this.publishProgress();
     this.title('完成！', scenario.titleZh);
     const panel = element('div', 'completion-screen scroll-panel');
-    panel.append(element('div', 'completion-icon', '✦'), element('h2', '', '又多了一點開口的勇氣。'), element('p', 'spoken-count', `本次說了 ${count} 句`), element('p', 'muted', '本階段為點選練習，尚未啟用麥克風。'), element('p', 'completion-detail', `✓ 已完成 ${this.progress.get(scenario.id).count} 次`));
+    panel.append(element('div', 'completion-icon', '✦'), element('h2', '', '又多了一點開口的勇氣。'), element('p', 'spoken-count', `本次說了 ${summary.spoken} 句`), element('p', 'completion-detail', `學到 ${summary.learned} 種說法`), element('p', 'completion-detail', `答錯 ${summary.mistakes} 次`), element('p', 'muted', '本階段為點選練習，尚未啟用麥克風。'), element('p', 'completion-detail', `✓ 已完成 ${this.progress.get(scenario.id).count} 次`));
     for (const level of unlocked) panel.append(element('p', 'unlock-notice', `已解鎖 Lv${level} ${LEVEL_INFO[level].title}！回到小鎮後可從上方切換。`));
     if (!this.progress.isPersistent) panel.append(element('p', 'storage-warning', '瀏覽器無法保存進度，目前只保留在這次遊玩期間。'));
     panel.append(action('再玩一次', () => this.start(scenario), 'ui-button primary'), action('選其他情境', () => this.menu()), action('回到小鎮', () => this.leave(), 'ui-button quiet')); this.show(panel);

@@ -13,90 +13,162 @@
       "nodes": [
         {
           "id": "hello",
-          "npc": "Welcome to the team! I'm Jordan, your team lead. Could you tell us a little about yourself?",
-          "npcZh": "歡迎加入！我是你的組長 Jordan。可以簡單自我介紹嗎？",
+          "npc": "Welcome to the team! I'm Jordan, your team lead. Why don't you tell us a bit about yourself?",
+          "npcZh": "歡迎加入！我是你的組長 Jordan。要不要跟大家簡單介紹一下自己？",
           "replies": [
             {
-              "en": "Hi, I'm Taylor. I'll be supporting the sales team, and I'm looking forward to working with everyone.",
+              "type": "variant",
+              "next": "choice",
+              "en": "Hi everyone, I'm Taylor. I'll be supporting the sales team, and I'm really looking forward to working with you all.",
               "zh": "大家好，我是 Taylor，會協助業務團隊，很期待和大家合作。",
-              "next": "role"
+              "note": "完整介紹姓名與職責，正式又友善。"
+            },
+            {
+              "type": "variant",
+              "next": "choice",
+              "en": "Thanks, Jordan. I'm Taylor, the new sales assistant. I'm excited to be here.",
+              "zh": "謝謝 Jordan。我是 Taylor，新來的業務助理，很高興來到這裡。",
+              "note": "先感謝主管再自我介紹，簡短有活力。"
             }
           ]
         },
         {
-          "id": "role",
-          "npc": "It's great to have you here. Would you prefer to start with the project overview or the office tour?",
-          "npcZh": "很高興你加入。你想先了解專案，還是先參觀辦公室？",
+          "id": "choice",
+          "npc": "Great to have you here. Would you like to start with a project overview or a quick office tour?",
+          "npcZh": "很高興你加入。你想先聽專案簡介，還是先快速參觀辦公室？",
           "replies": [
             {
+              "type": "branch",
+              "next": "project",
               "en": "The project overview would help me get up to speed.",
-              "zh": "我想先了解專案，方便盡快進入狀況。",
-              "next": "project"
+              "zh": "先聽專案簡介，能幫我更快進入狀況。"
             },
             {
-              "en": "An office tour would be great. I'd like to know where everything is.",
-              "zh": "先參觀辦公室很棒，我想知道各個空間在哪裡。",
-              "next": "tour"
+              "type": "branch",
+              "next": "tour",
+              "en": "A quick tour sounds great. I'd like to get my bearings first.",
+              "zh": "先參觀好了，我想先熟悉環境。"
             }
           ]
         },
         {
           "id": "project",
-          "npc": "We're preparing a proposal for a new client. You'll help organize the customer feedback.",
-          "npcZh": "我們正準備新客戶的提案，你會協助整理客戶回饋。",
+          "npc": "We're putting together a proposal for a new client. You'll be organizing their customer feedback.",
+          "npcZh": "我們正在準備新客戶的提案，你會負責整理他們的客戶回饋。",
           "replies": [
             {
-              "en": "That sounds good. When is the next team meeting?",
-              "zh": "聽起來不錯，下次團隊會議是什麼時候？",
-              "next": "meeting"
+              "type": "variant",
+              "next": "meeting",
+              "en": "That sounds like a great way to learn about our clients.",
+              "zh": "聽起來是了解客戶的好方法。",
+              "note": "從正面角度回應，表現學習意願。"
+            },
+            {
+              "type": "variant",
+              "next": "meeting",
+              "en": "Got it. I'm happy to dive right in.",
+              "zh": "了解，我很樂意馬上投入。",
+              "note": "dive right in 表示「馬上投入」，語氣積極。"
             }
           ]
         },
         {
           "id": "tour",
-          "npc": "Let's start with the shared workspace. The meeting rooms are just down the hall.",
-          "npcZh": "先從共用工作區開始，會議室就在走廊另一頭。",
+          "npc": "This is the shared workspace, and the meeting rooms are just down the hall. The printer's by the kitchen.",
+          "npcZh": "這裡是共用工作區，會議室在走廊另一頭，印表機在茶水間旁邊。",
           "replies": [
             {
-              "en": "Thanks for showing me around. When is the next team meeting?",
-              "zh": "謝謝你帶我參觀，下次團隊會議是什麼時候？",
-              "next": "meeting"
+              "type": "branch",
+              "next": "desk",
+              "en": "Thanks for showing me around. Where should I sit?",
+              "zh": "謝謝你帶我參觀。我應該坐哪裡？"
+            }
+          ]
+        },
+        {
+          "id": "desk",
+          "npc": "You'll be right next to Sam from marketing. They can help you with the shared drive.",
+          "npcZh": "你坐在行銷部 Sam 旁邊，共用雲端硬碟的問題可以問他們。",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "meeting",
+              "en": "Great, I'll go introduce myself.",
+              "zh": "好，我去跟他們打聲招呼。"
             }
           ]
         },
         {
           "id": "meeting",
-          "npc": "It's at ten thirty in Meeting Room B. The calendar invitation should already be in your inbox.",
-          "npcZh": "十點半在 B 會議室，行事曆邀請應該已經寄到你的信箱。",
+          "npc": "Our team meeting is at ten thirty in Meeting Room B. The calendar invite should already be in your inbox.",
+          "npcZh": "團隊會議十點半在 B 會議室，行事曆邀請應該已經在你的信箱了。",
           "replies": [
             {
+              "type": "branch",
+              "next": "prepare",
               "en": "I'll check my inbox. Is there anything I should prepare beforehand?",
-              "zh": "我會查看信箱，會前有什麼需要準備的嗎？",
-              "next": "prepare"
+              "zh": "我會查看信箱。會前有什麼需要準備的嗎？"
+            },
+            {
+              "type": "branch",
+              "next": "listen",
+              "en": "Got it. Would it be OK if I just listened in this first time?",
+              "zh": "了解。第一次我可以先旁聽就好嗎？"
             }
           ]
         },
         {
           "id": "prepare",
-          "npc": "Please read the project summary and note any questions. We don't expect you to know everything on day one.",
-          "npcZh": "請先讀專案摘要，記下問題。我們不會期待你第一天就了解所有事情。",
+          "npc": "Just skim the project summary and jot down any questions. No one expects you to know everything on day one.",
+          "npcZh": "快速看一下專案摘要，把問題記下來就好。沒有人會期待你第一天就什麼都懂。",
           "replies": [
             {
-              "en": "Understood. I'll review the summary and bring my questions to the meeting.",
-              "zh": "了解，我會先讀摘要，並在會議上提出問題。",
-              "next": "bye"
+              "type": "variant",
+              "next": "bye",
+              "en": "Understood. I'll review the summary and bring my questions.",
+              "zh": "了解，我會看過摘要並帶著問題去。",
+              "note": "Understood 簡潔表示「了解」，常用於回覆主管。"
+            },
+            {
+              "type": "variant",
+              "next": "bye",
+              "en": "Sounds good. I'll make sure to go through it before the meeting.",
+              "zh": "好的，我會在開會前確實看過。",
+              "note": "make sure to 強調會確實做到，語氣更積極。"
+            }
+          ]
+        },
+        {
+          "id": "listen",
+          "npc": "Of course. Feel free to jump in anytime if you have a question, though.",
+          "npcZh": "當然可以。不過有問題的話隨時可以發言。",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "bye",
+              "en": "Thanks, that takes the pressure off.",
+              "zh": "謝謝，這讓我輕鬆多了。"
             }
           ]
         },
         {
           "id": "bye",
           "npc": "Perfect. Let me know if you have any trouble accessing the shared folder.",
-          "npcZh": "很好，共用資料夾如果有存取問題，隨時告訴我。",
+          "npcZh": "很好。共用資料夾如果有存取問題，再跟我說。",
           "replies": [
             {
+              "type": "variant",
+              "next": null,
               "en": "Will do. Thanks for helping me settle in.",
               "zh": "好的，謝謝你幫我適應新環境。",
-              "next": null
+              "note": "Will do 是「會的」的口語回覆，簡短自然。"
+            },
+            {
+              "type": "variant",
+              "next": null,
+              "en": "I will. I really appreciate the warm welcome.",
+              "zh": "我會的，真的很謝謝大家熱情歡迎。",
+              "note": "表達對歡迎的感謝，語氣溫暖。"
             }
           ]
         }

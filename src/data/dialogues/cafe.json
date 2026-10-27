@@ -13,112 +13,179 @@
       "nodes": [
         {
           "id": "hello",
-          "npc": "Hi! What would you like?",
-          "npcZh": "嗨！你想喝什麼？",
+          "npc": "Hi there! What can I get you?",
+          "npcZh": "嗨！要點什麼呢？",
           "replies": [
             {
-              "en": "A cup of tea, please.",
-              "zh": "一杯茶，謝謝。",
-              "next": "size"
+              "type": "branch",
+              "next": "size",
+              "en": "Can I have a cup of tea, please?",
+              "zh": "可以給我一杯茶嗎？"
+            },
+            {
+              "type": "branch",
+              "next": "choco",
+              "en": "I'd like a hot chocolate, please.",
+              "zh": "我想要一杯熱可可。"
+            },
+            {
+              "type": "mistake",
+              "en": "Give me tea.",
+              "zh": "給我茶。",
+              "reaction": {
+                "en": "Oh… okay. One tea, then.",
+                "zh": "喔……好吧，那就一杯茶。"
+              },
+              "correction": "Can I have a cup of tea, please?",
+              "explain": "「Give me tea.」是命令句，對店員說聽起來很沒禮貌。點餐可以說 Can I have...? 或 I'd like...，最後加上 please。"
             }
           ]
         },
         {
           "id": "size",
-          "npc": "Small or large?",
-          "npcZh": "小杯還是大杯？",
+          "npc": "Sure. Small or large?",
+          "npcZh": "好的，小杯還是大杯？",
           "replies": [
             {
-              "en": "Small, please.",
-              "zh": "小杯，謝謝。",
-              "next": "small"
+              "type": "branch",
+              "next": "small",
+              "en": "A small one is fine.",
+              "zh": "小杯就好。"
             },
             {
-              "en": "Large, please.",
-              "zh": "大杯，謝謝。",
-              "next": "large"
+              "type": "branch",
+              "next": "large",
+              "en": "Large, please. I'm really thirsty.",
+              "zh": "大杯，我好渴。"
             }
           ]
         },
         {
           "id": "small",
-          "npc": "A small tea. That is two dollars.",
-          "npcZh": "小杯茶，兩元。",
+          "npc": "One small tea. That's two dollars.",
+          "npcZh": "一杯小杯茶，兩塊錢。",
           "replies": [
             {
+              "type": "branch",
+              "next": "place",
               "en": "OK, thank you.",
-              "zh": "好，謝謝。",
-              "next": "place"
+              "zh": "好，謝謝。"
             }
           ]
         },
         {
           "id": "large",
-          "npc": "A large tea. That is three dollars.",
-          "npcZh": "大杯茶，三元。",
+          "npc": "One large tea. That's three dollars.",
+          "npcZh": "一杯大杯茶，三塊錢。",
           "replies": [
             {
-              "en": "OK, thank you.",
-              "zh": "好，謝謝。",
-              "next": "place"
+              "type": "branch",
+              "next": "place",
+              "en": "Sounds good. Thanks.",
+              "zh": "好，謝謝。"
+            }
+          ]
+        },
+        {
+          "id": "choco",
+          "npc": "Nice choice! Would you like some cream on top?",
+          "npcZh": "好選擇！上面要加一些奶油嗎？",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "place",
+              "en": "Yes, please. That sounds great.",
+              "zh": "好，聽起來很棒。"
+            },
+            {
+              "type": "mistake",
+              "en": "Yes, I very like cream on my drink.",
+              "zh": "好，我很喜歡飲料加奶油。",
+              "reaction": {
+                "en": "Ha, you like it a lot? OK, cream it is!",
+                "zh": "哈，你很喜歡對吧？好，幫你加奶油！"
+              },
+              "correction": "Yes, please. I really like cream.",
+              "explain": "英文不說 I very like...。very 不能直接修飾動詞，要說 I really like... 或 I like it very much。"
             }
           ]
         },
         {
           "id": "place",
-          "npc": "Would you like to sit here?",
-          "npcZh": "你要坐在這裡喝嗎？",
+          "npc": "Is that for here or to go?",
+          "npcZh": "內用還是外帶？",
           "replies": [
             {
-              "en": "Yes, please.",
-              "zh": "是的，謝謝。",
-              "next": "pay"
+              "type": "branch",
+              "next": "here",
+              "en": "For here. I'll sit by the window.",
+              "zh": "內用，我要坐窗邊。"
             },
             {
-              "en": "No, I will take it with me.",
-              "zh": "不用，我要帶走。",
-              "next": "pay"
+              "type": "branch",
+              "next": "togo",
+              "en": "To go, please. I'm in a hurry.",
+              "zh": "外帶，我在趕時間。"
+            }
+          ]
+        },
+        {
+          "id": "here",
+          "npc": "Sure. I'll bring it to your table.",
+          "npcZh": "好，我會送到你的座位。",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "pay",
+              "en": "Thank you. How much is it?",
+              "zh": "謝謝，多少錢？"
+            }
+          ]
+        },
+        {
+          "id": "togo",
+          "npc": "No problem. I'll put a lid on it for you.",
+          "npcZh": "沒問題，我幫你蓋上杯蓋。",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "pay",
+              "en": "Great, thanks. How much is it?",
+              "zh": "太好了，謝謝。多少錢？"
             }
           ]
         },
         {
           "id": "pay",
-          "npc": "How would you like to pay?",
-          "npcZh": "你想怎麼付款？",
+          "npc": "It's on the screen here. Cash or card?",
+          "npcZh": "金額在螢幕上。付現還是刷卡？",
           "replies": [
             {
-              "en": "Here is my card.",
-              "zh": "這是我的卡。",
-              "next": "wait"
+              "type": "variant",
+              "next": "bye",
+              "en": "Card, please.",
+              "zh": "刷卡，謝謝。",
+              "note": "最簡短的說法，結帳時很常用。"
             },
             {
-              "en": "Here is the money.",
-              "zh": "這是現金。",
-              "next": "wait"
-            }
-          ]
-        },
-        {
-          "id": "wait",
-          "npc": "Thank you. Your tea will be ready soon.",
-          "npcZh": "謝謝。你的茶很快就好。",
-          "replies": [
-            {
-              "en": "Great. I will wait here.",
-              "zh": "好，我在這裡等。",
-              "next": "bye"
+              "type": "variant",
+              "next": "bye",
+              "en": "I'll pay by card.",
+              "zh": "我用卡片付款。",
+              "note": "完整一點的說法，語氣一樣自然。"
             }
           ]
         },
         {
           "id": "bye",
-          "npc": "Here you are. Have a nice day!",
-          "npcZh": "這是你的茶。祝你有美好的一天！",
+          "npc": "Thanks! Here's your drink. Have a nice day!",
+          "npcZh": "謝謝！這是你的飲料，祝你有美好的一天！",
           "replies": [
             {
-              "en": "Thank you. You too!",
-              "zh": "謝謝，你也是！",
-              "next": null
+              "type": "branch",
+              "next": null,
+              "en": "Thanks. You too!",
+              "zh": "謝謝，你也是！"
             }
           ]
         }
@@ -133,111 +200,183 @@
         {
           "id": "welcome",
           "npc": "Hi! What would you like today?",
-          "npcZh": "嗨！今天想點什麼？",
+          "npcZh": "嗨！今天想喝點什麼？",
           "replies": [
             {
+              "type": "branch",
+              "next": "ice",
               "en": "Could I get an iced latte, please?",
-              "zh": "我想要一杯冰拿鐵，謝謝。",
-              "next": "sweetness"
+              "zh": "可以給我一杯冰拿鐵嗎？"
+            },
+            {
+              "type": "branch",
+              "next": "popular",
+              "en": "I'm not sure yet. What's popular here?",
+              "zh": "我還沒決定，這裡什麼比較受歡迎？"
             }
           ]
         },
         {
-          "id": "sweetness",
-          "npc": "Would you like less ice or the usual amount?",
-          "npcZh": "你想要少冰，還是正常冰？",
+          "id": "popular",
+          "npc": "Our honey latte is a big hit. It's sweet, but not too sweet.",
+          "npcZh": "我們的蜂蜜拿鐵很受歡迎，甜但不會太甜。",
           "replies": [
             {
-              "en": "Less ice, please.",
-              "zh": "少冰，謝謝。",
-              "next": "milk"
+              "type": "branch",
+              "next": "milk",
+              "en": "Sounds great. I'll have a hot one, please.",
+              "zh": "聽起來很棒，我要一杯熱的。"
+            }
+          ]
+        },
+        {
+          "id": "ice",
+          "npc": "Sure. Do you want regular ice or less ice?",
+          "npcZh": "好的，要正常冰還是少冰？",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "milk",
+              "en": "Less ice, please. I don't like it too cold.",
+              "zh": "少冰，我不喜歡太冰。"
             },
             {
-              "en": "The usual amount is fine.",
-              "zh": "正常冰就好。",
-              "next": "milk"
+              "type": "mistake",
+              "en": "Fewer ice, please.",
+              "zh": "少冰，謝謝。",
+              "reaction": {
+                "en": "Fewer ice? Oh, you mean less ice. Got it!",
+                "zh": "Fewer ice？喔，你是說少冰吧，了解！"
+              },
+              "correction": "Less ice, please.",
+              "explain": "ice 是不可數名詞，要用 less，不能用 fewer。fewer 只接可數名詞，例如 fewer cups。"
             }
           ]
         },
         {
           "id": "milk",
-          "npc": "No problem. Would you like regular milk or oat milk?",
-          "npcZh": "沒問題。你要一般牛奶還是燕麥奶？",
+          "npc": "Would you like regular milk or oat milk?",
+          "npcZh": "要一般牛奶還是燕麥奶？",
           "replies": [
             {
+              "type": "branch",
+              "next": "oat",
               "en": "Could I have oat milk instead?",
-              "zh": "可以幫我換成燕麥奶嗎？",
-              "next": "oat"
+              "zh": "可以換成燕麥奶嗎？"
             },
             {
+              "type": "branch",
+              "next": "dairy",
               "en": "Regular milk is fine, thanks.",
-              "zh": "一般牛奶就好，謝謝。",
-              "next": "dairy"
+              "zh": "一般牛奶就好，謝謝。"
             }
           ]
         },
         {
           "id": "oat",
-          "npc": "Oat milk it is. There's a small extra charge. Is that okay?",
-          "npcZh": "幫你換燕麥奶，會加收一點費用，可以嗎？",
+          "npc": "Sure. Oat milk is fifteen dollars extra. Is that OK?",
+          "npcZh": "好的，燕麥奶要加十五元，可以嗎？",
           "replies": [
             {
-              "en": "Yes, that's fine.",
-              "zh": "好，沒問題。",
-              "next": "snack"
+              "type": "branch",
+              "next": "snack",
+              "en": "That's fine. It's worth it.",
+              "zh": "沒問題，值得。"
             }
           ]
         },
         {
           "id": "dairy",
-          "npc": "Regular milk, got it. Anything to eat with that?",
-          "npcZh": "一般牛奶，沒問題。要搭配點吃的嗎？",
+          "npc": "Got it. One latte with regular milk.",
+          "npcZh": "了解，一杯一般牛奶的拿鐵。",
           "replies": [
             {
-              "en": "Yes, what do you recommend?",
-              "zh": "好啊，有推薦的嗎？",
-              "next": "snack"
+              "type": "branch",
+              "next": "snack",
+              "en": "Thanks. Do you have anything to eat?",
+              "zh": "謝謝。有什麼吃的嗎？"
             }
           ]
         },
         {
           "id": "snack",
-          "npc": "Our banana bread is really popular. Would you like a slice?",
-          "npcZh": "我們的香蕉蛋糕很受歡迎。要來一片嗎？",
+          "npc": "Our banana bread just came out of the oven. Want a slice?",
+          "npcZh": "香蕉蛋糕剛出爐，要來一片嗎？",
           "replies": [
             {
-              "en": "Yes, I'll have a slice, please.",
-              "zh": "好，請幫我加一片。",
-              "next": "payment"
+              "type": "branch",
+              "next": "bread",
+              "en": "Yes, please! It smells amazing.",
+              "zh": "好啊！聞起來好香。"
             },
             {
-              "en": "Just the latte for now, thanks.",
-              "zh": "先拿鐵就好，謝謝。",
-              "next": "payment"
+              "type": "branch",
+              "next": "nobread",
+              "en": "No, thanks. I just had lunch.",
+              "zh": "不用，謝謝，我剛吃完午餐。"
             }
           ]
         },
         {
-          "id": "payment",
-          "npc": "Great. You can tap your card whenever you're ready.",
-          "npcZh": "好的。準備好了就可以感應付款。",
+          "id": "bread",
+          "npc": "Great. Do you want it warmed up?",
+          "npcZh": "好，要幫你加熱嗎？",
           "replies": [
             {
-              "en": "Here you go. Thank you.",
-              "zh": "好了，謝謝。",
-              "next": "goodbye"
+              "type": "branch",
+              "next": "pay",
+              "en": "Yes, please. I like it warm.",
+              "zh": "好，我喜歡溫熱的。"
+            },
+            {
+              "type": "mistake",
+              "en": "Yes, please warm up it.",
+              "zh": "好，請幫我加熱。",
+              "reaction": {
+                "en": "Warm it up? Sure, no problem.",
+                "zh": "幫你加熱？好，沒問題。"
+              },
+              "correction": "Yes, please warm it up.",
+              "explain": "代名詞 it 當片語動詞的受詞時要放中間：warm it up，不能說 warm up it。"
             }
           ]
         },
         {
-          "id": "goodbye",
-          "npc": "Thanks! We'll call you when your order is ready.",
-          "npcZh": "謝謝！餐點好了會叫你。",
+          "id": "nobread",
+          "npc": "No problem. Maybe next time!",
+          "npcZh": "沒問題，下次再試試！",
           "replies": [
             {
-              "en": "Great, I'll wait over there.",
-              "zh": "好，我去那邊等。",
-              "next": null
+              "type": "branch",
+              "next": "pay",
+              "en": "Sure. I'll try it next time.",
+              "zh": "好，下次試試看。"
+            }
+          ]
+        },
+        {
+          "id": "pay",
+          "npc": "Your total is on the screen. You can tap your card here.",
+          "npcZh": "金額在螢幕上，可以在這裡感應卡片。",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "bye",
+              "en": "Sure. Here you go.",
+              "zh": "好，給你。"
+            }
+          ]
+        },
+        {
+          "id": "bye",
+          "npc": "Thanks! I'll call your name when it's ready.",
+          "npcZh": "謝謝！好了會叫你的名字。",
+          "replies": [
+            {
+              "type": "branch",
+              "next": null,
+              "en": "Great. I'll wait over there.",
+              "zh": "好，我去那邊等。"
             }
           ]
         }
@@ -252,107 +391,162 @@
       "nodes": [
         {
           "id": "welcome",
-          "npc": "Hi! Is everything okay with your order?",
-          "npcZh": "嗨！你的餐點都還好嗎？",
+          "npc": "Hi there! Is everything all right with your order?",
+          "npcZh": "嗨！你的餐點還好嗎？",
           "replies": [
             {
+              "type": "variant",
+              "next": "issue",
+              "en": "Sorry to bother you, but I don't think this is what I ordered.",
+              "zh": "不好意思打擾，但這好像不是我點的。",
+              "note": "先道歉再說明問題，語氣客氣委婉。"
+            },
+            {
+              "type": "variant",
+              "next": "issue",
               "en": "Excuse me, I think I got the wrong drink.",
-              "zh": "不好意思，我好像拿到錯的飲料了。",
-              "next": "issue"
+              "zh": "不好意思，我好像拿錯飲料了。",
+              "note": "直接點出問題，Excuse me 和 I think 讓語氣保持禮貌。"
             }
           ]
         },
         {
           "id": "issue",
-          "npc": "I'm sorry about that. What did you order?",
-          "npcZh": "真不好意思。你原本點的是什麼呢？",
+          "npc": "Oh no, I'm sorry about that. What did you order?",
+          "npcZh": "喔不，真抱歉。你原本點的是什麼？",
           "replies": [
             {
-              "en": "I ordered an iced latte, but this is hot.",
+              "type": "variant",
+              "next": "offer",
+              "en": "I ordered an iced latte, but this one's hot.",
               "zh": "我點的是冰拿鐵，但這杯是熱的。",
-              "next": "offer"
+              "note": "清楚對比點的和拿到的，最常見的說法。"
+            },
+            {
+              "type": "variant",
+              "next": "offer",
+              "en": "It was supposed to be an iced latte.",
+              "zh": "這杯本來應該是冰拿鐵。",
+              "note": "be supposed to 表示「本來應該是」，委婉地說明出錯。"
             }
           ]
         },
         {
           "id": "offer",
-          "npc": "Thanks for letting me know. Would you like a replacement or a refund?",
-          "npcZh": "謝謝你告訴我。你想換一杯，還是辦理退款？",
+          "npc": "Thanks for letting me know. Would you like us to remake it, or would you prefer a refund?",
+          "npcZh": "謝謝你告訴我。要幫你重做，還是你比較想退款？",
           "replies": [
             {
-              "en": "Could you make me an iced one, please?",
-              "zh": "可以幫我重做一杯冰的嗎？",
-              "next": "replace"
+              "type": "branch",
+              "next": "remake",
+              "en": "Could you remake it as an iced one, please?",
+              "zh": "可以幫我重做一杯冰的嗎？"
             },
             {
-              "en": "I'd prefer a refund, please.",
-              "zh": "我想退款，謝謝。",
-              "next": "refund"
+              "type": "branch",
+              "next": "refund",
+              "en": "Actually, I'd rather just get a refund.",
+              "zh": "其實我比較想直接退款。"
             }
           ]
         },
         {
-          "id": "replace",
-          "npc": "Absolutely. We'll remake it right away. Can I help with anything else while you wait?",
-          "npcZh": "當然，我們馬上重做。等待時還有什麼需要幫忙的嗎？",
+          "id": "remake",
+          "npc": "Absolutely. It'll be ready in a few minutes. Anything else I can help you with while you wait?",
+          "npcZh": "當然，幾分鐘就好。等待時還有什麼需要幫忙的嗎？",
           "replies": [
             {
-              "en": "Yes, do you have Wi-Fi?",
-              "zh": "有的，請問這裡有 Wi-Fi 嗎？",
-              "next": "wifi"
+              "type": "branch",
+              "next": "wifi",
+              "en": "Actually, yes. Is there Wi-Fi here?",
+              "zh": "其實有，這裡有 Wi-Fi 嗎？"
             }
           ]
         },
         {
           "id": "refund",
-          "npc": "Of course. I've refunded your payment. Is there anything else I can help with?",
-          "npcZh": "好的，已經幫你退款了。還有什麼需要幫忙的嗎？",
+          "npc": "Of course. The refund should show up on your card in a few days. Is there anything else I can do for you?",
+          "npcZh": "好的，退款幾天內會回到你的卡上。還有什麼需要幫忙的嗎？",
           "replies": [
             {
-              "en": "Yes, could I use the Wi-Fi before I go?",
-              "zh": "有的，我離開前可以用一下 Wi-Fi 嗎？",
-              "next": "wifi"
+              "type": "branch",
+              "next": "wifi",
+              "en": "Yes, actually. Could I use the Wi-Fi before I head out?",
+              "zh": "有，我離開前可以用一下 Wi-Fi 嗎？"
             }
           ]
         },
         {
           "id": "wifi",
-          "npc": "Sure! The network is LittleTown Guest. Do you need the password?",
-          "npcZh": "可以！網路名稱是 LittleTown Guest。需要密碼嗎？",
+          "npc": "Sure! The network is LittleTown Guest, and the password is on your receipt. So, are you new to the neighborhood?",
+          "npcZh": "可以！網路是 LittleTown Guest，密碼在收據上。對了，你是剛來這附近嗎？",
           "replies": [
             {
-              "en": "Yes, what's the password, please?",
-              "zh": "需要，請問密碼是什麼？",
-              "next": "password"
-            }
-          ]
-        },
-        {
-          "id": "password",
-          "npc": "It's coffee2026, all lowercase. Are you visiting the neighborhood?",
-          "npcZh": "密碼是 coffee2026，全部小寫。你是來附近玩的嗎？",
-          "replies": [
-            {
-              "en": "Yes, I'm exploring the area. Any places you'd recommend?",
-              "zh": "對，我正在逛這附近。你有推薦的地方嗎？",
-              "next": "goodbye"
+              "type": "branch",
+              "next": "tourist",
+              "en": "Yes, I'm just exploring the area. Any places you'd recommend?",
+              "zh": "對，我正在逛這一帶。有推薦的地方嗎？"
             },
             {
-              "en": "Actually, I study nearby. This is a nice place to take a break.",
-              "zh": "其實我在附近讀書，這裡很適合休息。",
-              "next": "goodbye"
+              "type": "branch",
+              "next": "local",
+              "en": "Not really. I study nearby, so I come here between classes.",
+              "zh": "不算是，我在附近讀書，常在課堂之間來這裡。"
             }
           ]
         },
         {
-          "id": "goodbye",
-          "npc": "The town park is lovely. And you're always welcome to take a break here!",
-          "npcZh": "小鎮公園很棒，也隨時歡迎你來這裡休息！",
+          "id": "tourist",
+          "npc": "Definitely check out the park by the river. It's beautiful this time of year.",
+          "npcZh": "一定要去河邊的公園看看，這個季節很美。",
           "replies": [
             {
-              "en": "Thanks for the tip, and for sorting out my drink.",
-              "zh": "謝謝你的推薦，也謝謝你幫我處理飲料。",
-              "next": null
+              "type": "variant",
+              "next": "bye",
+              "en": "Thanks, I'll definitely check it out.",
+              "zh": "謝謝，我一定會去看看。",
+              "note": "最常見的回應，表示會去看看。"
+            },
+            {
+              "type": "variant",
+              "next": "bye",
+              "en": "That sounds lovely. I'll put it on my list.",
+              "zh": "聽起來很棒，我會把它列入清單。",
+              "note": "put it on my list 表示「列入清單」，語氣輕鬆友善。"
+            }
+          ]
+        },
+        {
+          "id": "local",
+          "npc": "Oh, nice! Then I'll probably see you around. What are you studying?",
+          "npcZh": "喔，不錯！那之後應該常會見到你。你讀什麼科系？",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "bye",
+              "en": "Environmental science. It keeps me pretty busy.",
+              "zh": "環境科學，讓我滿忙的。"
+            }
+          ]
+        },
+        {
+          "id": "bye",
+          "npc": "Well, it was nice chatting with you. Sorry again about the mix-up!",
+          "npcZh": "很高興跟你聊天，飲料弄錯再次抱歉！",
+          "replies": [
+            {
+              "type": "variant",
+              "next": null,
+              "en": "No worries at all. Thanks for sorting it out.",
+              "zh": "完全沒關係，謝謝你幫忙處理。",
+              "note": "No worries 輕鬆表示「沒關係」，sort out 是「處理好」。"
+            },
+            {
+              "type": "variant",
+              "next": null,
+              "en": "It's totally fine. I appreciate your help.",
+              "zh": "真的沒關係，謝謝你的幫忙。",
+              "note": "比較完整、稍微正式一點的感謝。"
             }
           ]
         }
@@ -368,102 +562,162 @@
       "nodes": [
         {
           "id": "hello",
-          "npc": "Good morning. What can I get started for you?",
-          "npcZh": "早安，今天想點些什麼？",
+          "npc": "Good morning! What can I get started for you?",
+          "npcZh": "早安！今天想點些什麼？",
           "replies": [
             {
+              "type": "variant",
+              "next": "size",
               "en": "I'm picking up drinks for my team: two lattes and two black coffees, all to go.",
               "zh": "我要幫同事外帶：兩杯拿鐵、兩杯黑咖啡。",
-              "next": "details"
+              "note": "先說明用途再列品項，店員容易掌握。"
+            },
+            {
+              "type": "variant",
+              "next": "size",
+              "en": "Could I get four drinks to go? Two lattes and two black coffees.",
+              "zh": "可以外帶四杯嗎？兩杯拿鐵、兩杯黑咖啡。",
+              "note": "先講總數再細分，點大量飲料時很清楚。"
             }
           ]
         },
         {
-          "id": "details",
-          "npc": "Certainly. Should all four drinks be large?",
-          "npcZh": "沒問題，四杯都要大杯嗎？",
+          "id": "size",
+          "npc": "Sure thing. Should I make all four large?",
+          "npcZh": "沒問題。四杯都做大杯嗎？",
           "replies": [
             {
-              "en": "Yes, please. Could you label the cups so we can tell them apart?",
-              "zh": "對，謝謝。可以在杯子上標示，方便我們分辨嗎？",
-              "next": "invoice"
+              "type": "variant",
+              "next": "receipt",
+              "en": "Yes, all large, please. And could you label the cups?",
+              "zh": "對，都大杯。可以在杯子上標示嗎？",
+              "note": "一次提出兩個需求，簡潔有效率。"
+            },
+            {
+              "type": "variant",
+              "next": "receipt",
+              "en": "Large is perfect. Would you mind labeling each cup, too?",
+              "zh": "大杯剛好。可以麻煩也在每個杯子上標示嗎？",
+              "note": "Would you mind...? 是更客氣的請求方式。"
             }
           ]
         },
         {
-          "id": "invoice",
+          "id": "receipt",
           "npc": "Of course. Would you like a regular receipt or a company invoice?",
           "npcZh": "當然。你需要一般收據，還是公司發票？",
           "replies": [
             {
-              "en": "A company invoice, please. Could you include our tax ID, 12345675?",
-              "zh": "公司發票，謝謝。請幫我打統編 12345675。",
-              "next": "company"
+              "type": "branch",
+              "next": "company",
+              "en": "A company invoice, please. Our tax ID is 12345675.",
+              "zh": "公司發票，謝謝。統編是 12345675。"
             },
             {
-              "en": "A regular receipt is fine. This isn't a company expense.",
-              "zh": "一般收據就好，這次不需要報公司費用。",
-              "next": "regular"
+              "type": "branch",
+              "next": "regular",
+              "en": "A regular receipt is fine. This one's on me.",
+              "zh": "一般收據就好，這次我請客。"
             }
           ]
         },
         {
           "id": "company",
-          "npc": "I've added your company tax ID to the invoice. Please check the number before paying.",
-          "npcZh": "已將公司統編打在發票上，付款前請確認號碼。",
+          "npc": "I've added the tax ID. Could you double-check the number on the screen?",
+          "npcZh": "統編已經打上了，可以確認一下螢幕上的號碼嗎？",
           "replies": [
             {
-              "en": "The number is correct. I'll pay by card. How long will the order take?",
-              "zh": "號碼正確，我刷卡。請問要等多久？",
-              "next": "delay"
+              "type": "branch",
+              "next": "delay",
+              "en": "Yes, that's correct. I'll pay by card.",
+              "zh": "對，號碼正確。我刷卡。"
             }
           ]
         },
         {
           "id": "regular",
-          "npc": "No problem. I'll put the receipt in the bag with the drinks.",
-          "npcZh": "沒問題，我會把收據和飲料一起放進袋子。",
+          "npc": "That's very generous of you! I'll put the receipt in the bag.",
+          "npcZh": "你真大方！我會把收據放進袋子裡。",
           "replies": [
             {
-              "en": "Thank you. I'll pay by card. How long will the order take?",
-              "zh": "謝謝，我刷卡。請問要等多久？",
-              "next": "delay"
+              "type": "branch",
+              "next": "delay",
+              "en": "Thanks. I'll pay by card, please.",
+              "zh": "謝謝，我刷卡。"
             }
           ]
         },
         {
           "id": "delay",
-          "npc": "I'm sorry, we're running behind. It'll be about fifteen minutes.",
-          "npcZh": "不好意思，目前出餐比較慢，大約要十五分鐘。",
+          "npc": "I'm sorry, we're a bit backed up right now. It'll be about fifteen minutes.",
+          "npcZh": "不好意思，現在訂單有點多，大約要十五分鐘。",
           "replies": [
             {
-              "en": "We have a meeting soon. Is there any way to have the coffees ready first?",
-              "zh": "我們等一下有會議。可以先做好黑咖啡嗎？",
-              "next": "solution"
+              "type": "branch",
+              "next": "split",
+              "en": "We have a meeting at nine. Could you make the black coffees first?",
+              "zh": "我們九點要開會，可以先做黑咖啡嗎？"
+            },
+            {
+              "type": "branch",
+              "next": "deliver",
+              "en": "That's fine. Could you deliver them to our office next door?",
+              "zh": "沒關係。可以送到隔壁的辦公室嗎？"
             }
           ]
         },
         {
-          "id": "solution",
-          "npc": "Yes. The black coffees can be ready in two minutes, and we'll bring the lattes out as soon as possible.",
-          "npcZh": "可以，黑咖啡兩分鐘內就好，拿鐵也會盡快送出來。",
+          "id": "split",
+          "npc": "Sure. The black coffees will be ready in two minutes, and the lattes will follow shortly.",
+          "npcZh": "可以，黑咖啡兩分鐘就好，拿鐵隨後送上。",
           "replies": [
             {
-              "en": "That works. Please keep all four drinks under the same order.",
-              "zh": "這樣可以，請把四杯保留在同一筆訂單裡。",
-              "next": "bye"
+              "type": "variant",
+              "next": "bye",
+              "en": "That works for us. Thanks for being flexible.",
+              "zh": "這樣可以，謝謝你們彈性配合。",
+              "note": "That works 表示方案可行，簡潔常用。"
+            },
+            {
+              "type": "variant",
+              "next": "bye",
+              "en": "Perfect. I really appreciate you making that happen.",
+              "zh": "太好了，真的很感謝你們幫忙安排。",
+              "note": "語氣更熱情，強調感謝對方配合。"
+            }
+          ]
+        },
+        {
+          "id": "deliver",
+          "npc": "We can do that. Which floor are you on?",
+          "npcZh": "可以。你們在幾樓？",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "bye",
+              "en": "We're on the fifth floor. Just ask for the marketing team at the front desk.",
+              "zh": "我們在五樓，到櫃檯說找行銷部就可以。"
             }
           ]
         },
         {
           "id": "bye",
-          "npc": "Absolutely. Thanks for your patience. We'll call you when the rest is ready.",
-          "npcZh": "當然，謝謝你的耐心。其他飲料好了會叫你。",
+          "npc": "Got it. Thanks for your patience!",
+          "npcZh": "了解，謝謝你的耐心！",
           "replies": [
             {
+              "type": "variant",
+              "next": null,
               "en": "Thanks for helping us work around the delay.",
-              "zh": "謝謝你幫我們協調等候時間。",
-              "next": null
+              "zh": "謝謝你幫我們因應等候的狀況。",
+              "note": "work around 是「設法因應」，職場常用。"
+            },
+            {
+              "type": "variant",
+              "next": null,
+              "en": "No problem. Thanks for accommodating us.",
+              "zh": "沒問題，謝謝你們的配合。",
+              "note": "accommodate 表示「配合、通融」，語氣較正式。"
             }
           ]
         }

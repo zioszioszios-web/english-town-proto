@@ -40,6 +40,9 @@
 .npc-english { font-size: clamp(1.125rem, 4.4vw, 1.4rem); line-height: 1.5; margin-block-start: .35rem !important; }
 .npc-translation, .reply-hint { font-size: .875rem; color: #54674f; }
 .player-bubble { background: #d1dfbc; margin-inline-start: 1.75rem; border-end-end-radius: .25rem; }
+.mistake-bubble { background: #f4dcd5; }
+.reply-note { font-size: .875rem; color: #54674f; }
+.feedback-card { margin-block-end: .875rem; padding: .8rem 1rem; border: .0625rem solid #c6cfb8; border-radius: .75rem; background: #fffdf7; overflow-wrap: anywhere; }
 .reply-panel { max-block-size: 44dvh; padding: .75rem clamp(.875rem, 3vw, 1.4rem); border-block-start: .0625rem solid #d8decd; }
 .reply-caption { font-size: .8125rem; color: #54674f; }
 .reply-options { display: flex; flex-direction: column; gap: .5rem; }

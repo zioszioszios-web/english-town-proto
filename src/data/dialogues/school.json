@@ -14,89 +14,114 @@
         {
           "id": "hello",
           "npc": "Hi! Do you have a question?",
-          "npcZh": "嗨！你有問題想問嗎？",
+          "npcZh": "嗨！有什麼問題嗎？",
           "replies": [
             {
-              "en": "Yes. What is our homework?",
-              "zh": "有，請問我們的作業是什麼？",
-              "next": "homework"
+              "type": "branch",
+              "next": "homework",
+              "en": "Yes. What's our homework for today?",
+              "zh": "有，今天的作業是什麼？"
+            },
+            {
+              "type": "branch",
+              "next": "missed",
+              "en": "Yes. I was sick yesterday. Did I miss anything?",
+              "zh": "有，我昨天生病，有錯過什麼嗎？"
             }
           ]
         },
         {
           "id": "homework",
-          "npc": "Please read page ten and write five words.",
-          "npcZh": "請讀第十頁，寫五個單字。",
+          "npc": "Read page ten and write down five new words.",
+          "npcZh": "讀第十頁，寫下五個新單字。",
           "replies": [
             {
-              "en": "When do we need to give it to you?",
-              "zh": "我們什麼時候要交給你？",
-              "next": "when"
+              "type": "branch",
+              "next": "due",
+              "en": "OK. When is it due?",
+              "zh": "好。什麼時候要交？"
             }
           ]
         },
         {
-          "id": "when",
-          "npc": "Please bring it on Friday. Do you need anything else?",
-          "npcZh": "星期五帶來就好。還需要什麼嗎？",
+          "id": "missed",
+          "npc": "Yes. We learned about animals. Please read page ten and write down five new words.",
+          "npcZh": "有，我們學了動物。請讀第十頁，寫下五個新單字。",
           "replies": [
             {
-              "en": "May I borrow a pencil?",
-              "zh": "我可以借一支鉛筆嗎？",
-              "next": "pencil"
+              "type": "branch",
+              "next": "due",
+              "en": "OK, I'll do that. When is it due?",
+              "zh": "好，我會做。什麼時候要交？"
+            }
+          ]
+        },
+        {
+          "id": "due",
+          "npc": "It's due on Friday. Do you need anything else?",
+          "npcZh": "星期五交。還需要什麼嗎？",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "pencil",
+              "en": "Yes. Could I borrow a pencil, please? I forgot mine.",
+              "zh": "要，可以借我一支鉛筆嗎？我忘了帶。"
             },
             {
-              "en": "May I borrow a pen?",
-              "zh": "我可以借一支筆嗎？",
-              "next": "pen"
+              "type": "branch",
+              "next": "check",
+              "en": "No, thanks. I think I'm OK.",
+              "zh": "不用了，謝謝，應該沒問題了。"
+            },
+            {
+              "type": "mistake",
+              "en": "Can you borrow me a pencil?",
+              "zh": "你可以借我一支鉛筆嗎？",
+              "reaction": {
+                "en": "Borrow you a pencil? Hmm, do you mean you want to borrow one from me?",
+                "zh": "Borrow you 一支鉛筆？嗯，你是想跟我借一支吧？"
+              },
+              "correction": "Can I borrow a pencil?",
+              "explain": "borrow 是「借入」，lend 是「借出」。跟別人借東西要說 Can I borrow...? 或 Can you lend me...?，不能說 Can you borrow me...?"
             }
           ]
         },
         {
           "id": "pencil",
-          "npc": "Sure. Here is a pencil.",
-          "npcZh": "可以，這裡有一支鉛筆。",
+          "npc": "Sure, here you go. Please give it back after class.",
+          "npcZh": "好，給你。下課後請還給我。",
           "replies": [
             {
-              "en": "Thank you. Can I give it back after class?",
-              "zh": "謝謝，我可以下課後還你嗎？",
-              "next": "return"
+              "type": "branch",
+              "next": "bye",
+              "en": "OK, I will. Thank you, Ms. Lee.",
+              "zh": "好，我會的。謝謝李老師。"
             }
           ]
         },
         {
-          "id": "pen",
-          "npc": "Sure. Here is a pen.",
-          "npcZh": "可以，這裡有一支筆。",
+          "id": "check",
+          "npc": "Great. So, what do you need to do for homework?",
+          "npcZh": "很好。那你作業要做什麼？",
           "replies": [
             {
-              "en": "Thank you. Can I give it back after class?",
-              "zh": "謝謝，我可以下課後還你嗎？",
-              "next": "return"
-            }
-          ]
-        },
-        {
-          "id": "return",
-          "npc": "Yes, that is fine. Do you know what to do now?",
-          "npcZh": "可以，沒問題。現在知道要做什麼了嗎？",
-          "replies": [
-            {
-              "en": "Yes. Read page ten and write five words.",
-              "zh": "知道，讀第十頁、寫五個單字。",
-              "next": "bye"
+              "type": "branch",
+              "next": "bye",
+              "en": "Read page ten and write down five new words.",
+              "zh": "讀第十頁，寫下五個新單字。"
             }
           ]
         },
         {
           "id": "bye",
-          "npc": "That is right. See you in class!",
-          "npcZh": "沒錯，課堂上見！",
+          "npc": "Good. See you in class tomorrow!",
+          "npcZh": "很好，明天課堂上見！",
           "replies": [
             {
-              "en": "Thank you, Ms. Lee!",
-              "zh": "謝謝李老師！",
-              "next": null
+              "type": "branch",
+              "next": null,
+              "en": "See you, Ms. Lee!",
+              "zh": "再見，李老師！"
             }
           ]
         }

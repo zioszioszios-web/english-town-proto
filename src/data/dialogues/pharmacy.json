@@ -12,95 +12,128 @@
       "nodes": [
         {
           "id": "hello",
-          "npc": "Hi! Can I help you?",
-          "npcZh": "嗨！需要幫忙嗎？",
+          "npc": "Hi! Can I help you find something?",
+          "npcZh": "嗨！需要幫你找東西嗎？",
           "replies": [
             {
-              "en": "I need a toothbrush, please.",
-              "zh": "我需要一支牙刷。",
-              "next": "color"
+              "type": "branch",
+              "next": "color",
+              "en": "Yes, please. I need a toothbrush.",
+              "zh": "好，謝謝。我需要一支牙刷。"
+            },
+            {
+              "type": "branch",
+              "next": "paste",
+              "en": "I'm looking for toothpaste. Do you have a small one?",
+              "zh": "我在找牙膏，有小條的嗎？"
             }
           ]
         },
         {
           "id": "color",
-          "npc": "Would you like a blue one or a green one?",
-          "npcZh": "你要藍色的，還是綠色的？",
+          "npc": "Sure. We have blue ones and green ones. Which one do you want?",
+          "npcZh": "好的，有藍色和綠色，你要哪一種？",
           "replies": [
             {
+              "type": "branch",
+              "next": "blue",
               "en": "The blue one, please.",
-              "zh": "藍色的，謝謝。",
-              "next": "blue"
+              "zh": "藍色的，謝謝。"
             },
             {
-              "en": "The green one, please.",
-              "zh": "綠色的，謝謝。",
-              "next": "green"
+              "type": "branch",
+              "next": "green",
+              "en": "Green, please. It's my favorite color.",
+              "zh": "綠色，那是我最喜歡的顏色。"
             }
           ]
         },
         {
           "id": "blue",
-          "npc": "Here is the blue one. It is three dollars.",
-          "npcZh": "這是藍色的，三元。",
+          "npc": "Here's a blue one. Do you need toothpaste, too?",
+          "npcZh": "這是藍色的。也需要牙膏嗎？",
           "replies": [
             {
-              "en": "OK. I will take it.",
-              "zh": "好，我要買這支。",
-              "next": "pay"
+              "type": "branch",
+              "next": "pay",
+              "en": "No, thanks. I have some.",
+              "zh": "不用，謝謝，我有。"
             }
           ]
         },
         {
           "id": "green",
-          "npc": "Here is the green one. It is three dollars.",
-          "npcZh": "這是綠色的，三元。",
+          "npc": "Oh, sorry. We don't have any green ones right now. Is blue OK?",
+          "npcZh": "喔，抱歉，綠色的現在沒貨了。藍色可以嗎？",
           "replies": [
             {
-              "en": "OK. I will take it.",
-              "zh": "好，我要買這支。",
-              "next": "pay"
+              "type": "branch",
+              "next": "pay",
+              "en": "Sure, blue is fine.",
+              "zh": "好，藍色也可以。"
+            }
+          ]
+        },
+        {
+          "id": "paste",
+          "npc": "Yes, this small one is great for trips.",
+          "npcZh": "有，這條小的很適合旅行帶。",
+          "replies": [
+            {
+              "type": "branch",
+              "next": "pay",
+              "en": "Perfect. I'm going on a trip tomorrow!",
+              "zh": "太好了，我明天要去旅行！"
             }
           ]
         },
         {
           "id": "pay",
-          "npc": "Would you like to pay by card?",
-          "npcZh": "你要刷卡嗎？",
+          "npc": "Is that everything for today?",
+          "npcZh": "今天就這些嗎？",
           "replies": [
             {
-              "en": "Yes. Here is my card.",
-              "zh": "好，這是我的卡。",
-              "next": "bag"
+              "type": "branch",
+              "next": "price",
+              "en": "Yes, that's all. How much is it?",
+              "zh": "對，就這些。多少錢？"
             },
             {
-              "en": "No. Here is the money.",
-              "zh": "不用，這是現金。",
-              "next": "bag"
+              "type": "mistake",
+              "en": "Yes. It is how much?",
+              "zh": "對。它是多少錢？",
+              "reaction": {
+                "en": "Sorry? Oh, the price? Just a second.",
+                "zh": "抱歉？喔，價錢嗎？請稍等。"
+              },
+              "correction": "How much is it?",
+              "explain": "英文問價錢要把疑問詞放句首：How much is it?，不能照中文語序說 It is how much?"
             }
           ]
         },
         {
-          "id": "bag",
-          "npc": "Thank you. Do you need a bag?",
-          "npcZh": "謝謝，需要袋子嗎？",
+          "id": "price",
+          "npc": "It's three dollars. Do you need a bag?",
+          "npcZh": "三塊錢。需要袋子嗎？",
           "replies": [
             {
-              "en": "No, thank you. I have a bag.",
-              "zh": "不用，謝謝，我有袋子。",
-              "next": "bye"
+              "type": "branch",
+              "next": "bye",
+              "en": "No, thanks. I have a bag with me.",
+              "zh": "不用，謝謝，我有帶袋子。"
             }
           ]
         },
         {
           "id": "bye",
-          "npc": "Here you are. Have a good trip!",
-          "npcZh": "這是你的東西。祝你旅途愉快！",
+          "npc": "Here you go. Have a great trip!",
+          "npcZh": "給你。祝你旅途愉快！",
           "replies": [
             {
-              "en": "Thanks. Have a nice day!",
-              "zh": "謝謝，祝你有美好的一天！",
-              "next": null
+              "type": "branch",
+              "next": null,
+              "en": "Thanks! Have a nice day!",
+              "zh": "謝謝！祝你有美好的一天！"
             }
           ]
         }
