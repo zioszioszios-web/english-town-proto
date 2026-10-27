@@ -6,6 +6,9 @@ export const SPELL_HINT_MODE: SpellHintMode = 'first_last';
 export function runnerDirection(level: Level, random: () => number = Math.random): 'zh-en' | 'en-zh' {
   return level <= 2 || random() < .5 ? 'zh-en' : 'en-zh';
 }
+export function runnerReward(streak: number): number {
+  return 20 + 5 * Math.min(4, streak - 1);
+}
 export type SpellHintMode = 'first_last' | 'first_only' | 'length_only';
 export function spellingHint(word: string, mode: SpellHintMode = SPELL_HINT_MODE): string {
   const letters = [...word];

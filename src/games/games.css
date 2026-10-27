@@ -65,19 +65,26 @@
 .answer-correct { border-inline-start: .25rem solid #325c45; padding-inline-start: .5rem; }
 .answer-correction { color: #943f2f; font-size: .875rem; margin-block-start: .5rem !important; }
 .runner-road { position: relative; block-size: clamp(13rem,42vh,22rem); border: .25rem solid #b6baad; border-radius: .7rem; overflow: hidden; background: #626f68; touch-action: pan-y; }
-.road-lines { position: absolute; inset: 0; pointer-events: none; background-image: repeating-linear-gradient(to bottom,#e8e6d8 0 24px,transparent 24px 48px), repeating-linear-gradient(to bottom,#e8e6d8 0 24px,transparent 24px 48px); background-size: .125rem 48px; background-position-x: 33.33%, 66.67%; background-repeat: repeat-y; }
+.road-lines { position: absolute; inset-inline: 0; inset-block-start: -48px; block-size: calc(100% + 48px); will-change: transform; pointer-events: none; background-image: repeating-linear-gradient(to bottom,#e8e6d8 0 24px,transparent 24px 48px), repeating-linear-gradient(to bottom,#e8e6d8 0 24px,transparent 24px 48px); background-size: .125rem 48px; background-position-x: 33.33%, 66.67%; background-repeat: repeat-y; }
 .road-gates { position: absolute; inset-inline: 0; inset-block-start: 0; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: .25rem; padding: .25rem; will-change: transform; }
 .road-word { display: grid; align-items: center; text-align: center; min-block-size: 3.25rem; padding: .35rem; border-radius: .4rem; background: #fff2cb; color: #233e36; overflow-wrap: anywhere; font-size: .875rem; }
-.road-player { position: absolute; inset-block-end: .5rem; inset-inline-start: 50%; transform: translateX(-50%); color: #f3bd61; font-size: 2rem; transition: inset-inline-start .12s ease-out; }
-.road-player.jump-big { animation: jump-big .55s ease-out; }
-.road-player.jump-huge { animation: jump-huge .55s ease-out; }
-.road-player.jump-small { animation: jump-small .4s ease-out; }
-.road-pop { position: absolute; inset-block-end: 3.5rem; transform: translateX(-50%); white-space: nowrap; pointer-events: none; font-weight: 700; padding: .25rem .5rem; border-radius: .4rem; background: #fffdf7; animation: road-pop .8s forwards; }
+.road-gates.passing { transition: transform .45s ease-in; }
+.road-word.cleared, .road-word.reveal { outline: .1875rem solid #80c890; outline-offset: -.1875rem; }
+.road-word.cleared { background: #d1efcf; }
+.road-player { position: absolute; z-index: 2; will-change: transform; inset-block-end: .5rem; inset-inline-start: 50%; transform: translateX(-50%); color: #f3bd61; font-size: 2rem; transition: inset-inline-start .12s ease-out; }
+.road-player.jump-over { animation: jump-over .55s ease-out; }
+.road-player.jump-over-huge { animation: jump-over-huge .55s ease-out; }
+.road-player.crash { animation: crash .45s ease-out; }
+.road-pop { position: absolute; z-index: 4; will-change: transform; inset-block-start: 38%; transform: translateX(-50%); white-space: nowrap; pointer-events: none; font-weight: 700; padding: .25rem .5rem; border-radius: .4rem; background: #fffdf7; animation: road-pop .8s forwards; }
 .road-pop.correct { color: #325c45; }
 .road-pop.wrong { color: #943f2f; }
-@keyframes jump-big { 0%, 100% { transform: translateX(-50%) translateY(0) scale(1); } 45% { transform: translateX(-50%) translateY(-3.5rem) scale(1.15); } }
-@keyframes jump-huge { 0%, 100% { transform: translateX(-50%) translateY(0) scale(1); } 45% { transform: translateX(-50%) translateY(-5rem) scale(1.15); } }
-@keyframes jump-small { 0%, 100% { transform: translateX(-50%) translateY(0) scale(1); } 35% { transform: translateX(-50%) translateY(-.8rem) scale(1.03); } 65% { transform: translateX(calc(-50% - .3rem)) translateY(0) scale(1); } 80% { transform: translateX(calc(-50% + .3rem)) translateY(0) scale(1); } }
+@keyframes jump-over { 0%, 100% { transform: translateX(-50%) translate3d(0,0,0); } 40%, 75% { transform: translateX(-50%) translate3d(0,calc(0px - var(--jump)),0); } }
+@keyframes jump-over-huge { 0% { transform: translateX(-50%) translate3d(0,0,0) rotate(0); } 40% { transform: translateX(-50%) translate3d(0,calc(0px - var(--jump) - 1.5rem),0) rotate(180deg); } 75% { transform: translateX(-50%) translate3d(0,calc(0px - var(--jump) - 1.5rem),0) rotate(360deg); } 100% { transform: translateX(-50%) translate3d(0,0,0) rotate(360deg); } }
+@keyframes crash { 0%, 100% { transform: translateX(-50%) translate3d(0,0,0); } 20% { transform: translateX(-50%) translate3d(0,-.6rem,0); } 45% { transform: translateX(calc(-50% - .3rem)) translate3d(0,.3rem,0); } 70% { transform: translateX(calc(-50% + .3rem)) translate3d(0,0,0); } }
+.shard { position: absolute; z-index: 3; pointer-events: none; will-change: transform, opacity; animation: shard .5s forwards; }
+@keyframes shard { to { transform: translate3d(var(--shard-x),var(--shard-y),0) rotate(var(--shard-turn)); opacity: 0; } }
+@keyframes shard-fade { to { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .mini-game .shard { animation: shard-fade .5s forwards !important; } }
 @keyframes road-pop { to { transform: translateX(-50%) translateY(-2.5rem); opacity: 0; } }
 .lane-controls { display: flex; gap: .75rem; }
 .lane-controls > button { flex: 1; border: .0625rem solid #a8b89d; background: #fffdf7; border-radius: .65rem; padding: .7rem; }

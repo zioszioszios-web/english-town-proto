@@ -20,11 +20,16 @@ function applyInputLock(active: boolean): void {
   uiActive = active; game.registry?.set('uiActive', active);
   if (game.input) { game.input.enabled = !active; if (game.input.keyboard) game.input.keyboard.enabled = !active; }
   const host = document.getElementById('game'); if (host) host.inert = active;
+  if (game.loop?.started && game.loop.running === active) { if (active) game.loop.sleep(); else game.loop.wake(); }
 }
 gameEvents.on('ui:active', applyInputLock);
 gameEvents.on('level:changed', level => game.registry.set('level', level));
 const ui = new AppUI(progress);
-game.events.once(Phaser.Core.Events.READY, () => { game.canvas.tabIndex = 0; applyInputLock(uiActive); });
+game.events.once(Phaser.Core.Events.READY, () => {
+  game.canvas.tabIndex = 0; applyInputLock(uiActive);
+  // READY precedes loop.start(); apply sleep after the first render so startup cannot overwrite it.
+  game.events.once(Phaser.Core.Events.POST_RENDER, () => applyInputLock(uiActive));
+});
 game.events.once(Phaser.Core.Events.DESTROY, () => ui.destroy());
 // Only the canvas consumes drag gestures; HTML dialogue panels must remain scrollable.
 document.addEventListener('gesturestart', event => event.preventDefault(), { passive: false });

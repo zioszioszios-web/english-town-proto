@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { topicPool, selectQuestions, ScoreCounter, correctPoints, spellingHint, runnerDirection } from '../src/games/rules';
+import { topicPool, selectQuestions, ScoreCounter, correctPoints, spellingHint, runnerDirection, runnerReward } from '../src/games/rules';
 import { LocalScoreRepository } from '../src/games/scores';
 import { PracticeStore } from '../src/games/storage';
 import type { WordEntry, WordTopic } from '../src/data/words/types';
@@ -22,6 +22,9 @@ test('runner directions stay Chinese to English at low levels and mix at high le
     assert.equal(runnerDirection(level,()=>.1),'zh-en');
     assert.equal(runnerDirection(level,()=>.9),'en-zh');
   }
+});
+test('runner rewards grow with streaks and cap at forty meters', () => {
+  for (const [streak, reward] of [[1,20],[3,30],[5,40],[10,40]]) assert.equal(runnerReward(streak),reward);
 });
 test('question pools filter topics and supplement daily life only below twenty', () => {
   const words = [...Array.from({length:20},(_,i)=>word(i,'food_drink')),word(20,'daily_life'),word(21,'other')];
