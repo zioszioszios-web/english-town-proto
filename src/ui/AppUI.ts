@@ -79,11 +79,14 @@ export class AppUI {
     this.activate(); this.title('一座小鎮，四段旅程。', '選擇你的起點，之後可在設定中重置。');
     const panel = element('div', 'menu-panel scroll-panel');
     panel.append(element('p', 'section-intro', '走進生活裡的英文，每次練一小段。'));
+    const nicknameLabel = element('label', '', '你的暱稱（排行榜顯示用，可留空）');
+    const nickname = element('input', 'nickname-input'); nickname.id = 'intro-nickname'; nicknameLabel.htmlFor = nickname.id; nickname.maxLength = 20; nickname.value = this.practice.nickname;
+    nickname.setAttribute('autocomplete', 'nickname'); panel.append(nicknameLabel, nickname);
     for (const [mode, title, description] of [
       ['progression', '從第一級開始破關', '從短句開始，完成目前等級的情境後，逐級解鎖。'],
       ['direct', '直接進入第四級', '從職場英文開始，Lv1～Lv4 全部可自由切換。'],
     ] as const) {
-      const button = action('', () => this.chooseMode(mode), 'scenario-card mode-card');
+      const button = action('', () => { this.practice.nickname = nickname.value; this.chooseMode(mode); }, 'scenario-card mode-card');
       button.append(element('strong', 'scenario-title', title), element('span', 'scenario-zh', description)); panel.append(button);
     }
     for (const level of LEVELS) panel.append(element('p', 'level-description', `Lv${level} ${LEVEL_INFO[level].title} · ${LEVEL_INFO[level].description}`));

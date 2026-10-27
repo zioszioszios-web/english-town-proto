@@ -37,19 +37,15 @@ export class MiniGameUI {
       intro.append(element('h2', '', game.name), element('p', '', `Lv${level} · 可用單字 ${pool.length} 個`));
       if (prepared.supplementalCount) intro.append(element('p','muted',
         '本級 '+prepared.ownCount+' 字，補入較低等級同主題 '+prepared.supplementalCount+' 字；排行榜仍按 Lv'+level+' 計算。'));
-      const label = element('label', '', '排行榜暱稱（最多 20 字）');
-      const nickname = element('input', 'nickname-input'); nickname.type = 'text'; nickname.maxLength = 20; nickname.value = this.store.nickname;
-      nickname.setAttribute('autocomplete', 'nickname'); nickname.id = 'game-nickname'; label.htmlFor = nickname.id;
+      intro.append(element('p', 'muted', `以「${this.store.displayName}」的名義上排行榜 · 可在設定修改`));
       const warning = element('p', 'storage-warning');
-      intro.append(label, nickname, warning, element('p', 'muted', '排行榜與練習紀錄只保存在這個瀏覽器。聲音可在設定關閉。'));
+      intro.append(warning, element('p', 'muted', '排行榜與練習紀錄只保存在這個瀏覽器。聲音可在設定關閉。'));
       if (!this.store.persistent) warning.textContent = '目前無法永久保存紀錄，本次仍可遊玩。';
       intro.append(action('開始遊戲', () => {
-        if (!nickname.value.trim()) { warning.textContent = '請先輸入暱稱。'; nickname.focus(); return; }
-        this.store.nickname = nickname.value;
         this.start(game, level, pool);
       }, 'ui-button primary'), action('回到小鎮', this.leave, 'ui-button quiet'));
       this.host.replaceChildren(intro);
-      (this.store.nickname ? intro.querySelector('button') : nickname)?.focus({preventScroll:true});
+      intro.querySelector('button')?.focus({preventScroll:true});
     } catch {
       if (generation === this.generation) this.host.replaceChildren(element('p', '', '單字載入失敗，請檢查網路後再試。'), action('重試', () => { void this.open(game,level); }), action('回到小鎮',this.leave));
     }
@@ -95,7 +91,7 @@ export class MiniGameUI {
     this.host.replaceChildren(panel);
     panel.querySelector<HTMLButtonElement>('button')?.focus({preventScroll:true});
     try {
-      const saved = await this.scores.submit({ id: crypto.randomUUID(), gameId: game.id, level, nickname: this.store.nickname, score: result.score, playedAt: new Date().toISOString() });
+      const saved = await this.scores.submit({ id: crypto.randomUUID(), gameId: game.id, level, nickname: this.store.displayName, score: result.score, playedAt: new Date().toISOString() });
       if (generation !== this.generation || !this.finished) return;
       rank.textContent = `本次第 ${saved.rank} 名${saved.rank > 10 ? '（未進前 10 名）' : ''}`;
       board.replaceChildren(...saved.entries.map(entry => element('li','',`${entry.nickname} · ${entry.score} 分`)));

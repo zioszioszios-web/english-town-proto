@@ -1,5 +1,6 @@
 import type { WordStats } from './types';
 import type { ProgressStorage } from '../ui/ProgressStore';
+export const DEFAULT_NICKNAME = '玩家';
 export const GAME_SAVE_KEY = 'little-town:word-practice';
 export class PracticeStore {
   private data: { version: 1; nickname: string; sound: boolean; words: Record<string, WordStats> } = { version: 1, nickname: '', sound: true, words: {} };
@@ -22,6 +23,7 @@ export class PracticeStore {
     } catch { this.persistent = false; }
   }
   private save(): void { try { this.storage().setItem(GAME_SAVE_KEY, JSON.stringify(this.data)); this.persistent = true; } catch { this.persistent = false; } }
+  get displayName(): string { return this.data.nickname || DEFAULT_NICKNAME; }
   get nickname(): string { return this.data.nickname; }
   set nickname(value: string) { this.data.nickname = value.trim().slice(0, 20); this.save(); }
   get sound(): boolean { return this.data.sound; }

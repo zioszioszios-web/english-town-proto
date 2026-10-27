@@ -16,7 +16,7 @@ export class Spelling extends BaseGame {
   private question(): void {
     if (this.steps >= 10) { this.context.finish(Math.max(0, 120 - Math.floor((performance.now() - this.started) / 1000))); return; }
     const word = this.queue[0]; if (!word) { this.context.finish(); return; }
-    this.input = ''; this.revealed = false; this.context.speak(word.word);
+    this.input = ''; this.revealed = false;
     const track = element('div', 'running-track'); const runner = element('span', 'runner', '●');
     runner.style.insetInlineStart = `${this.steps * 9}%`; track.append(runner, element('span', 'finish-line', '⚑'));
     this.output = element('output', 'spelling-output', '請用下方鍵盤拼字'); this.output.setAttribute('aria-live','polite');

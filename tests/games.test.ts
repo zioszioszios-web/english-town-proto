@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { topicPool, selectQuestions, ScoreCounter, correctPoints, spellingHint } from '../src/games/rules';
+import { topicPool, selectQuestions, ScoreCounter, correctPoints, spellingHint, runnerDirection } from '../src/games/rules';
 import { LocalScoreRepository } from '../src/games/scores';
 import { PracticeStore } from '../src/games/storage';
 import type { WordEntry, WordTopic } from '../src/data/words/types';
@@ -8,6 +8,21 @@ import { ACTIVITIES, LAKE, START, nearbyTownEntrance, TILE } from '../src/data/t
 import { canStand, findPath } from '../src/data/navigation';
 const word = (id: number, topic: WordTopic): WordEntry => ({id: String(id), word:'word'+id,pos:'n.',zh:['字'+id],example:'example',exampleZh:'例句',level:1,topics:[topic],source:'test',review:false});
 function memoryStorage() { const data = new Map<string,string>(); return {getItem:(key:string) => data.get(key)??null,setItem:(key:string,value:string) => {data.set(key,value);}}; }
+test('display name defaults to 玩家 and follows nickname and reset', () => {
+  const storage = memoryStorage(), store = new PracticeStore(()=>storage);
+  assert.equal(store.displayName,'玩家');
+  store.nickname = '小鎮玩家'; assert.equal(store.displayName,'小鎮玩家');
+  assert.equal(new PracticeStore(()=>storage).displayName,'小鎮玩家');
+  store.nickname = ''; assert.equal(store.displayName,'玩家');
+  store.nickname = 'Town'; store.reset(); assert.equal(store.nickname,''); assert.equal(store.displayName,'玩家');
+});
+test('runner directions stay Chinese to English at low levels and mix at high levels', () => {
+  for (const level of [1,2] as const) for (const random of [.1,.9]) assert.equal(runnerDirection(level,()=>random),'zh-en');
+  for (const level of [3,4] as const) {
+    assert.equal(runnerDirection(level,()=>.1),'zh-en');
+    assert.equal(runnerDirection(level,()=>.9),'en-zh');
+  }
+});
 test('question pools filter topics and supplement daily life only below twenty', () => {
   const words = [...Array.from({length:20},(_,i)=>word(i,'food_drink')),word(20,'daily_life'),word(21,'other')];
   assert.equal(topicPool(words,['food_drink']).length,20);
